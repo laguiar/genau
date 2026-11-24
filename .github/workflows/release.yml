@@ -3,15 +3,24 @@ name: Create Course Release
 on:
   workflow_dispatch:
     inputs:
-      version:
-        description: "Release version tag (e.g. v1.0.0)"
+      bump:
+        description: "Version bump (auto-increments from latest tag; first release is v1.0.0)"
         required: true
-        default: "v1.0.0"
+        default: "patch"
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+      custom_version:
+        description: "Optional custom version tag (leave blank to auto-bump, e.g. v2.0.0)"
+        required: false
+        default: ""
         type: string
       notes:
-        description: "Release notes (optional)"
+        description: "Optional release notes (leave blank to auto-generate from commits)"
         required: false
-        default: "Genau A1 → B1 German grammar course: 65 self-study lessons, reference sheets, AI tutor prompt, and 533 spaced-repetition flashcards."
+        default: ""
         type: string
 
 permissions:
@@ -23,6 +32,34 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compute next version
+        id: version
+        env:
+          BUMP: ${{ inputs.bump }}
+          CUSTOM: ${{ inputs.custom_version }}
+        run: |
+          if [ -n "$CUSTOM" ]; then
+            NEXT="$CUSTOM"
+          else
+            LATEST=$(git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1)
+            if [ -z "$LATEST" ]; then
+              NEXT="v1.0.0"
+            else
+              VER="${LATEST#v}"
+              IFS='.' read -r MAJOR MINOR PATCH <<< "$VER"
+              case "$BUMP" in
+                major) NEXT="v$((MAJOR + 1)).0.0" ;;
+                minor) NEXT="v${MAJOR}.$((MINOR + 1)).0" ;;
+                patch) NEXT="v${MAJOR}.${MINOR}.$((PATCH + 1))" ;;
+                *) echo "Unknown bump type: $BUMP" >&2; exit 1 ;;
+              esac
+            fi
+          fi
+          echo "Next release version: $NEXT"
+          echo "tag=$NEXT" >> "$GITHUB_OUTPUT"
 
       - name: Package clean course ZIP
         run: |
@@ -44,13 +81,23 @@ jobs:
       - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
-          VERSION: ${{ inputs.version }}
+          VERSION: ${{ steps.version.outputs.tag }}
           NOTES: ${{ inputs.notes }}
         run: |
-          gh release create "$VERSION" \
-            dist/genau.zip \
-            review/anki/genau-all-core.tsv \
-            review/anki/genau-complete-all-languages.tsv \
-            --title "Genau $VERSION" \
-            --notes "$NOTES" \
-            --latest
+          if [ -n "$NOTES" ]; then
+            gh release create "$VERSION" \
+              dist/genau.zip \
+              review/anki/genau-all-core.tsv \
+              review/anki/genau-complete-all-languages.tsv \
+              --title "Genau $VERSION" \
+              --notes "$NOTES" \
+              --latest
+          else
+            gh release create "$VERSION" \
+              dist/genau.zip \
+              review/anki/genau-all-core.tsv \
+              review/anki/genau-complete-all-languages.tsv \
+              --title "Genau $VERSION" \
+              --generate-notes \
+              --latest
+          fi
