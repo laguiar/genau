@@ -1,0 +1,56 @@
+name: Create Course Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version tag (e.g. v1.0.0)"
+        required: true
+        default: "v1.0.0"
+        type: string
+      notes:
+        description: "Release notes (optional)"
+        required: false
+        default: "Genau A1 → B1 German grammar course: 65 self-study lessons, reference sheets, AI tutor prompt, and 533 spaced-repetition flashcards."
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Package clean course ZIP
+        run: |
+          mkdir -p dist/genau
+          for item in README.md METHOD.md PLAN.md PROGRESS.md PROMPT.md AGENTS.md A1 A2 B1 shared review writing; do
+            if [ -e "$item" ]; then
+              cp -R "$item" dist/genau/
+            fi
+          done
+          if [ -f LICENSE ]; then
+            cp LICENSE dist/genau/
+          fi
+          find dist/genau -name ".DS_Store" -delete
+          find dist/genau -name "__pycache__" -type d -exec rm -rf {} +
+          rm -f dist/genau/review/anki-export.tsv
+          (cd dist && zip -r -q genau.zip genau)
+          ls -lh dist/genau.zip
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          gh release create "$VERSION" \
+            dist/genau.zip \
+            review/anki/genau-all-core.tsv \
+            review/anki/genau-complete-all-languages.tsv \
+            --title "Genau $VERSION" \
+            --notes "$NOTES" \
+            --latest

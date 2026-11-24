@@ -22,7 +22,7 @@ Open **[https://laguiar.github.io/genau/](https://laguiar.github.io/genau/)** on
 
 ### Option 2 — Read on GitHub or Download as a Digital Notebook (Obsidian / Notion)
 - **Read right here on GitHub:** Open [PLAN.md](PLAN.md) and click any topic in [A1/](A1/README.md), [A2/](A2/README.md), or [B1/](B1/README.md). Every answer key is hidden behind a **"Click to reveal answer key"** toggle.
-- **Download a personal copy (no Git needed):** **[Download Genau ZIP](https://github.com/laguiar/genau/archive/refs/heads/main.zip)** (or click the green **`Code`** button → **`Download ZIP`**), and unzip the folder anywhere on your computer.
+- **Download a personal copy (no Git needed):** **[Download Genau ZIP](https://github.com/laguiar/genau/releases/latest/download/genau.zip)** (or browse all versions under **[Releases](https://github.com/laguiar/genau/releases)**), and unzip the `genau` folder anywhere on your computer.
 - **Best reading experience offline:** Open the unzipped `genau` folder in **[Obsidian](https://obsidian.md/)** (free). It displays tables, collapsible answer keys, and links cleanly, and lets you edit [PROGRESS.md](PROGRESS.md) and save your writing in `writing/submissions/`.
 
 ### Option 3 — Practice live with ChatGPT, Claude, or Gemini (Web / Mobile App)
