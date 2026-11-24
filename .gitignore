@@ -1,0 +1,7 @@
+# Generated exports
+review/anki-export.tsv
+
+# Python & OS artifacts
+__pycache__/
+*.py[cod]
+.DS_Store

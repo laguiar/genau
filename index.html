@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genau — German Grammar A1 → B1</title>
+<meta name="description" content="A free, structured, science-based self-study German grammar course from A1 to B1 (telc Deutsch B1 focus) with multilingual contrast notes and spaced-repetition flashcards.">
+<meta name="theme-color" content="#f5f2eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131518" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Genau">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://laguiar.github.io/genau/">
+<meta property="og:title" content="Genau — German Grammar A1 → B1">
+<meta property="og:description" content="Structured, science-based self-study German grammar course targeting telc Deutsch B1 — 65 lessons, multilingual contrasts (BR/ES/FR/EN), and 533 spaced-repetition flashcards.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Genau — German Grammar A1 → B1">
+<meta name="twitter:description" content="Free self-study German grammar course (A1 → B1) with interactive flashcards and multilingual contrast notes.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* 60% Dominant — Warm archival linen & book paper */
+    --bg: #f5f2eb;
+    --surface: #fcfbf7;
+    --surface-2: #ede9df;
+    --surface-hover: #e6e0d4;
+    --topbar-bg: rgba(252, 251, 247, 0.88);
+
+    /* 30% Structural neutrals — Warm charcoal & stone */
+    --border: #e2dcd0;
+    --border-strong: #cfc8b8;
+    --text: #1c1b18;
+    --text-secondary: #434039;
+    --text-muted: #6e695e;
+    --text-faint: #948e81;
+
+    /* 10% Complementary accents — Prussian Indigo + Warm Ochre */
+    --primary: #1d3c63;
+    --primary-hover: #142b47;
+    --primary-soft: rgba(29, 60, 99, 0.075);
+    --primary-border: rgba(29, 60, 99, 0.22);
+
+    --accent: #b85c1b;
+    --accent-hover: #964912;
+    --accent-soft: #f9ecdf;
+    --accent-border: rgba(184, 92, 27, 0.28);
+
+    /* Semantic & Dual-Coding Case Colors (harmonized, low-glare) */
+    --ok: #1d6f4e;
+    --ok-soft: #e3f2eb;
+    --ok-border: rgba(29, 111, 78, 0.26);
+
+    --case-nom: #2457a6;
+    --case-akk: #bd5d18;
+    --case-dat: #1d704e;
+    --case-gen: #6a3d9a;
+
+    /* Contrast box subtle tints */
+    --c-pt-border: #2a7f62; --c-pt-bg: rgba(42, 127, 98, 0.065);
+    --c-es-border: #c25a2b; --c-es-bg: rgba(194, 90, 43, 0.065);
+    --c-fr-border: #335c9c; --c-fr-bg: rgba(51, 92, 156, 0.065);
+    --c-en-border: #6d4c9c; --c-en-bg: rgba(109, 76, 156, 0.065);
+
+    /* Code & Diagrams */
+    --code-bg: #eeeae0;
+    --code-text: #1c3554;
+    --pre-bg: #1e2126;
+    --pre-border: #2c313a;
+    --pre-text: #eceae4;
+
+    /* Typography */
+    --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+    /* Elevation & Layout */
+    --shadow-xs: 0 1px 2px rgba(28, 27, 24, 0.04);
+    --shadow-sm: 0 2px 8px rgba(28, 27, 24, 0.045), 0 1px 2px rgba(28, 27, 24, 0.03);
+    --shadow-md: 0 10px 28px rgba(28, 27, 24, 0.07), 0 2px 6px rgba(28, 27, 24, 0.04);
+    --shadow-lg: 0 18px 42px rgba(28, 27, 24, 0.12);
+    --sidebar-w: 304px;
+    --header-h: 60px;
+    --radius: 12px;
+  }
+
+  [data-theme="dark"] {
+    --bg: #131518;
+    --surface: #1a1d22;
+    --surface-2: #22262d;
+    --surface-hover: #2a2f38;
+    --topbar-bg: rgba(26, 29, 34, 0.88);
+
+    --border: #2c313a;
+    --border-strong: #3c4350;
+    --text: #eae6dc;
+    --text-secondary: #cbc6ba;
+    --text-muted: #9398a3;
+    --text-faint: #6c727e;
+
+    --primary: #7ca8db;
+    --primary-hover: #9ac0ea;
+    --primary-soft: rgba(124, 168, 219, 0.13);
+    --primary-border: rgba(124, 168, 219, 0.3);
+
+    --accent: #e49250;
+    --accent-hover: #f0aa70;
+    --accent-soft: rgba(228, 146, 80, 0.14);
+    --accent-border: rgba(228, 146, 80, 0.34);
+
+    --ok: #55c493;
+    --ok-soft: rgba(85, 196, 147, 0.13);
+    --ok-border: rgba(85, 196, 147, 0.3);
+
+    --case-nom: #79a9f5;
+    --case-akk: #f0a15c;
+    --case-dat: #56c795;
+    --case-gen: #bc92f0;
+
+    --c-pt-border: #4ab38c; --c-pt-bg: rgba(74, 179, 140, 0.09);
+    --c-es-border: #e28354; --c-es-bg: rgba(226, 131, 84, 0.09);
+    --c-fr-border: #6f9be0; --c-fr-bg: rgba(111, 155, 224, 0.09);
+    --c-en-border: #a784db; --c-en-bg: rgba(167, 132, 219, 0.09);
+
+    --code-bg: #252a33;
+    --code-text: #c9ddf5;
+    --pre-bg: #101216;
+    --pre-border: #252a33;
+    --pre-text: #e6e4de;
+
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.25);
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.28);
+    --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.42);
+    --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.58);
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 15.5px;
+    line-height: 1.72;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Subtle warm scrollbars */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 99px; border: 2px solid transparent; background-clip: content-box; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--text-faint); border: 2px solid transparent; background-clip: content-box; }
+
+  /* Header */
+  header.topbar {
+    position: fixed; top: 0; left: 0; right: 0; height: var(--header-h);
+    background: var(--topbar-bg);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 20px; gap: 12px; z-index: 40;
+  }
+  .read-progress {
+    position: absolute; bottom: -1px; left: 0; height: 2px; width: 0%;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    transition: width .08s linear; pointer-events: none;
+  }
+  .brand-group { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .menu-btn {
+    display: none; background: transparent; border: 1px solid var(--border);
+    color: var(--text); border-radius: 8px; padding: 6px 10px; cursor: pointer; font-size: 15px;
+  }
+  .brand {
+    display: flex; align-items: baseline; gap: 10px; cursor: pointer;
+    text-decoration: none; color: var(--text); white-space: nowrap;
+  }
+  .brand strong {
+    font-family: var(--font-serif); font-size: 24px; font-weight: 600;
+    letter-spacing: -0.025em; line-height: 1; display: inline-flex; align-items: baseline; gap: 3px;
+  }
+  .brand strong::after {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent); display: inline-block; margin-left: 1px;
+  }
+  .brand span {
+    font-size: 12px; color: var(--text-muted); font-weight: 500;
+    letter-spacing: 0.01em; padding-left: 10px; border-left: 1px solid var(--border);
+  }
+
+  .top-controls { display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; overflow-x: auto; }
+  .lang-pills {
+    display: flex; align-items: center; gap: 2px;
+    background: var(--surface-2); padding: 3px; border-radius: 10px; border: 1px solid var(--border);
+  }
+  .lang-pill {
+    border: 1px solid transparent; background: transparent; color: var(--text-muted);
+    font-family: var(--font-sans); font-size: 12px; font-weight: 600;
+    padding: 4px 9px; border-radius: 7px; cursor: pointer;
+    transition: all .15s ease; white-space: nowrap;
+  }
+  .lang-pill:hover { color: var(--text); }
+  .lang-pill.active {
+    background: var(--surface); color: var(--text);
+    border-color: var(--border); box-shadow: var(--shadow-xs);
+  }
+
+  .top-btn {
+    border: 1px solid var(--border); background: var(--surface); color: var(--text-secondary);
+    font-family: var(--font-sans); font-size: 13px; font-weight: 600;
+    padding: 7px 13px; border-radius: 9px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 7px;
+    transition: all .15s ease; white-space: nowrap; box-shadow: var(--shadow-xs);
+  }
+  .top-btn:hover { background: var(--surface-2); color: var(--text); border-color: var(--border-strong); }
+  .top-btn.primary {
+    background: var(--primary); color: #faf9f6; border-color: var(--primary);
+  }
+  [data-theme="dark"] .top-btn.primary { color: #12161c; }
+  .top-btn.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
+  .badge {
+    background: var(--accent); color: #fff;
+    font-family: var(--font-mono); font-size: 11px; padding: 1px 6px;
+    border-radius: 999px; font-weight: 600; line-height: 1.4;
+  }
+  .top-btn:not(.primary) .badge { background: var(--accent-soft); color: var(--accent); }
+  .icon-btn {
+    width: 35px; height: 35px; padding: 0; justify-content: center; font-size: 15px;
+  }
+
+  /* Layout */
+  .layout { display: flex; padding-top: var(--header-h); min-height: 100vh; }
+
+  aside.sidebar {
+    position: fixed; top: var(--header-h); left: 0; bottom: 0; width: var(--sidebar-w);
+    background: var(--bg); border-right: 1px solid var(--border);
+    display: flex; flex-direction: column; z-index: 30;
+    transition: transform .22s cubic-bezier(.22,1,.36,1);
+  }
+  .sidebar-top { padding: 14px 14px 12px; border-bottom: 1px solid var(--border); }
+  .search-wrap { position: relative; }
+  .search-wrap::before {
+    content: "⌕"; position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    color: var(--text-faint); font-size: 15px; pointer-events: none;
+  }
+  .search-input {
+    width: 100%; padding: 8px 10px 8px 28px; border-radius: 9px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text);
+    font-family: var(--font-sans); font-size: 13px; outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .search-input::placeholder { color: var(--text-faint); }
+  .search-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+
+  .progress-mini { margin-top: 12px; font-size: 12px; color: var(--text-muted); }
+  .progress-mini-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+  .progress-mini-row strong { font-family: var(--font-mono); font-size: 11.5px; color: var(--text); }
+  .bar-track { height: 5px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+  .bar-fill {
+    height: 100%; background: linear-gradient(90deg, var(--primary), var(--ok));
+    border-radius: 99px; transition: width .35s ease;
+  }
+
+  .sidebar-nav { flex: 1; overflow-y: auto; padding: 10px 10px 24px; }
+  .nav-group { margin-bottom: 12px; }
+  .nav-group-hdr {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 10px; font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--text-muted); cursor: pointer; user-select: none;
+    border-radius: 7px; transition: background .12s, color .12s;
+  }
+  .nav-group-hdr:hover { background: var(--surface-2); color: var(--text); }
+  .nav-group-count { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-faint); }
+  .nav-list { list-style: none; margin: 3px 0 0; padding: 0; }
+  .nav-group.collapsed .nav-list { display: none; }
+  .nav-item {
+    position: relative; display: flex; align-items: flex-start; gap: 8px;
+    padding: 6.5px 10px; border-radius: 8px; font-size: 13px; line-height: 1.38;
+    color: var(--text-secondary); cursor: pointer; text-decoration: none;
+    transition: background .12s, color .12s;
+  }
+  .nav-item:hover { background: var(--surface-2); color: var(--text); }
+  .nav-item.active {
+    background: var(--surface); color: var(--primary); font-weight: 600;
+    box-shadow: var(--shadow-xs);
+  }
+  .nav-item.active::before {
+    content: ""; position: absolute; left: 0; top: 6px; bottom: 6px; width: 3px;
+    border-radius: 0 3px 3px 0; background: var(--primary);
+  }
+  .nav-status {
+    font-size: 11px; flex-shrink: 0; margin-top: 2px; width: 13px; text-align: center;
+    color: var(--text-faint);
+  }
+  .nav-status[data-st="●"], .nav-status[data-st="✔"] { color: var(--ok); }
+  .nav-status[data-st="◐"] { color: var(--accent); }
+  .nav-id {
+    font-family: var(--font-mono); font-weight: 500; font-size: 11px;
+    color: var(--text-faint); flex-shrink: 0; margin-top: 2px;
+  }
+  .nav-item.active .nav-id { color: var(--primary); }
+  .nav-title { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+  .case-legend {
+    padding: 8px 14px; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted);
+    background: var(--surface-2); letter-spacing: 0.01em;
+  }
+  .case-legend span { display: inline-flex; align-items: center; gap: 3px; font-weight: 500; }
+
+  .sidebar-footer {
+    padding: 8px 12px; border-top: 1px solid var(--border);
+    display: flex; gap: 6px; justify-content: space-between; font-size: 12px;
+    background: var(--bg);
+  }
+  .link-btn {
+    background: none; border: none; color: var(--text-muted); cursor: pointer;
+    font-family: var(--font-sans); font-weight: 500;
+    padding: 5px 8px; border-radius: 7px; font-size: 12px; transition: all .12s;
+  }
+  .link-btn:hover { background: var(--surface-2); color: var(--text); }
+
+  .backdrop {
+    display: none; position: fixed; inset: 0; background: rgba(15, 16, 18, 0.45);
+    backdrop-filter: blur(2px); z-index: 25;
+  }
+
+  /* Main content */
+  main.content {
+    margin-left: var(--sidebar-w); flex: 1; padding: 30px 32px 96px;
+    min-width: 0;
+  }
+  .container { max-width: 810px; margin: 0 auto; }
+
+  /* Lesson toolbar */
+  .lesson-toolbar {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 11px 16px; margin-bottom: 18px; box-shadow: var(--shadow-xs);
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;
+  }
+  .status-group { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+  .status-label {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text-faint); margin-right: 6px;
+  }
+  .status-btn {
+    border: 1px solid transparent; background: transparent; color: var(--text-muted);
+    font-family: var(--font-sans); font-size: 12px; font-weight: 600;
+    padding: 5px 10px; border-radius: 7px; cursor: pointer; transition: all .14s;
+  }
+  .status-btn:hover { background: var(--surface-2); color: var(--text); }
+  .status-btn.active { background: var(--ok-soft); color: var(--ok); border-color: var(--ok-border); }
+  .status-btn.active[data-status="◐"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent-border); }
+  .status-btn.active[data-status="☐"] { background: var(--surface-2); color: var(--text); border-color: var(--border-strong); }
+  .toolbar-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .toolbar-actions .top-btn { padding: 6px 11px; font-size: 12.5px; }
+
+  /* Editorial Reading Sheet */
+  article.md {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 44px 52px; box-shadow: var(--shadow-sm);
+    color: var(--text);
+  }
+  article.md h1 {
+    font-family: var(--font-serif); font-size: 32px; font-weight: 600;
+    line-height: 1.22; margin: 0 0 18px; letter-spacing: -0.025em;
+    color: var(--text);
+  }
+  article.md.is-lesson h1 + p {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 13px 16px; font-size: 13.5px; line-height: 1.65; margin: 0 0 24px;
+    color: var(--text-muted);
+  }
+  article.md h2 {
+    font-family: var(--font-serif); font-size: 22px; font-weight: 600;
+    margin: 38px 0 14px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--border); letter-spacing: -0.015em;
+    color: var(--text);
+  }
+  article.md h3 {
+    font-family: var(--font-sans); font-size: 15.5px; font-weight: 700;
+    margin: 24px 0 9px; color: var(--primary); letter-spacing: -0.005em;
+  }
+  article.md h4 {
+    font-size: 13px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--text-muted); margin: 20px 0 8px;
+  }
+  article.md p { margin: 0 0 15px; color: var(--text-secondary); }
+  article.md p strong { color: var(--text); font-weight: 650; }
+  article.md ul, article.md ol { margin: 0 0 16px; padding-left: 24px; color: var(--text-secondary); }
+  article.md li { margin-bottom: 6px; }
+  article.md li strong { color: var(--text); }
+  article.md hr { border: none; border-top: 1px solid var(--border); margin: 30px 0; }
+  article.md a {
+    color: var(--primary); text-decoration: underline;
+    text-decoration-color: var(--primary-border); text-underline-offset: 3px;
+    font-weight: 500; transition: text-decoration-color .15s, color .15s;
+  }
+  article.md a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  article.md del { color: var(--text-faint); text-decoration-color: var(--accent); }
+
+  article.md code {
+    background: var(--code-bg); color: var(--code-text);
+    padding: 2px 6px; border-radius: 5px;
+    font-family: var(--font-mono); font-size: 0.85em; font-weight: 500;
+  }
+  article.md pre {
+    background: var(--pre-bg); color: var(--pre-text);
+    border: 1px solid var(--pre-border);
+    padding: 18px 20px; border-radius: 10px; overflow-x: auto;
+    margin: 16px 0 20px; line-height: 1.62; box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+  }
+  article.md pre code {
+    background: transparent; padding: 0; color: inherit;
+    font-size: 13px; font-weight: 400;
+  }
+
+  article.md blockquote {
+    margin: 16px 0 20px; padding: 13px 18px;
+    border-left: 3px solid var(--accent);
+    background: var(--bg); border-radius: 0 10px 10px 0;
+    color: var(--text-secondary);
+  }
+  article.md blockquote p { margin-bottom: 8px; }
+  article.md blockquote p:last-child { margin-bottom: 0; }
+
+  /* Harmonized Multilingual Contrast Callouts */
+  article.md .contrast-box {
+    border-left: 3.5px solid var(--primary);
+    background: var(--primary-soft);
+    padding: 12px 16px; border-radius: 0 10px 10px 0;
+    margin: 0 0 10px; font-size: 14.5px; line-height: 1.65;
+    color: var(--text-secondary);
+  }
+  article.md .contrast-box[data-lang="pt-BR"] { border-left-color: var(--c-pt-border); background: var(--c-pt-bg); }
+  article.md .contrast-box[data-lang="es"]    { border-left-color: var(--c-es-border); background: var(--c-es-bg); }
+  article.md .contrast-box[data-lang="fr"]    { border-left-color: var(--c-fr-border); background: var(--c-fr-bg); }
+  article.md .contrast-box[data-lang="en"]    { border-left-color: var(--c-en-border); background: var(--c-en-bg); }
+  article.md .contrast-box strong { color: var(--text); }
+  article.md .contrast-box.hidden-lang { display: none; }
+
+  /* Editorial Tables */
+  article.md .table-wrap {
+    overflow-x: auto; margin: 16px 0 22px;
+    border: 1px solid var(--border); border-radius: 10px;
+  }
+  article.md table {
+    width: 100%; border-collapse: collapse; font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+  article.md th, article.md td {
+    border-bottom: 1px solid var(--border); padding: 10px 13px;
+    text-align: left; vertical-align: top;
+  }
+  article.md th:not(:last-child), article.md td:not(:last-child) {
+    border-right: 1px solid var(--border);
+  }
+  article.md tr:last-child td { border-bottom: none; }
+  article.md th {
+    background: var(--surface-2); font-weight: 700; font-size: 11.5px;
+    text-transform: uppercase; letter-spacing: 0.045em; color: var(--text-muted);
+  }
+  article.md tbody tr:nth-child(even) { background: rgba(128, 120, 104, 0.035); }
+  article.md tbody tr:hover { background: var(--primary-soft); }
+
+  /* Tactile Collapsible Answer Key */
+  article.md details {
+    border: 1px solid var(--border); border-radius: 11px;
+    background: var(--bg); margin: 14px 0 22px; overflow: hidden;
+    transition: border-color .15s;
+  }
+  article.md details:hover { border-color: var(--border-strong); }
+  article.md details summary {
+    cursor: pointer; padding: 13px 16px; font-weight: 600; font-size: 14px;
+    color: var(--primary); list-style: none; user-select: none;
+    display: flex; align-items: center; gap: 10px;
+    background: var(--surface-2); transition: background .15s;
+  }
+  article.md details summary::-webkit-details-marker { display: none; }
+  article.md details summary:hover { background: var(--surface-hover); }
+  article.md details summary::before {
+    content: "▸"; font-size: 13px; color: var(--accent);
+    display: inline-flex; width: 20px; height: 20px; align-items: center; justify-content: center;
+    border-radius: 6px; background: var(--surface); border: 1px solid var(--border);
+    transition: transform .18s ease;
+  }
+  article.md details[open] summary::before { transform: rotate(90deg); }
+  article.md details[open] summary { border-bottom: 1px solid var(--border); }
+  article.md details > .details-body { padding: 18px 22px 6px; }
+
+  /* Case symbol dual-coding */
+  .sym-nom { color: var(--case-nom); font-weight: 700; }
+  .sym-akk { color: var(--case-akk); font-weight: 700; }
+  .sym-dat { color: var(--case-dat); font-weight: 700; }
+  .sym-gen { color: var(--case-gen); font-weight: 700; }
+
+  .lesson-footer {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    margin-top: 22px; flex-wrap: wrap;
+  }
+
+  /* Flashcards Studio */
+  .fc-panel {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 34px 38px; box-shadow: var(--shadow-sm);
+  }
+  .fc-panel h1 {
+    font-family: var(--font-serif); font-size: 28px; font-weight: 600;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .fc-tabs {
+    display: flex; gap: 8px; margin-bottom: 18px;
+    border-bottom: 1px solid var(--border); padding-bottom: 14px; flex-wrap: wrap;
+  }
+  .fc-stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    gap: 10px; margin: 18px 0 22px;
+  }
+  .stat-card {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .stat-val {
+    font-family: var(--font-serif); font-size: 26px; font-weight: 600;
+    line-height: 1.15; color: var(--text); font-variant-numeric: tabular-nums;
+  }
+  .stat-lbl { font-size: 11.5px; color: var(--text-muted); margin-top: 2px; font-weight: 500; }
+
+  .flashcard {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--border); border-radius: 14px; background: var(--surface);
+    padding: 32px 30px 26px; min-height: 255px; display: flex; flex-direction: column;
+    justify-content: space-between; box-shadow: var(--shadow-md); margin: 18px 0;
+  }
+  .flashcard::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: var(--primary);
+  }
+  .flashcard[data-level="A1"]::before { background: var(--case-dat); }
+  .flashcard[data-level="A2"]::before { background: var(--case-nom); }
+  .flashcard[data-level="B1"]::before { background: var(--case-gen); }
+
+  .fc-meta {
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);
+    margin-bottom: 18px;
+  }
+  .fc-tag {
+    background: var(--surface-2); padding: 3px 8px; border-radius: 6px;
+    border: 1px solid var(--border); color: var(--text-secondary); font-weight: 500;
+  }
+  .fc-q {
+    font-family: var(--font-serif); font-size: 22px; font-weight: 500;
+    line-height: 1.48; color: var(--text); margin-bottom: 20px;
+  }
+  .fc-a {
+    border-top: 1px dashed var(--border-strong); padding-top: 18px; margin-top: 14px;
+    font-size: 16.5px; color: var(--ok); font-weight: 600; line-height: 1.55;
+    animation: fadeUp .16s ease;
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .grade-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; margin-top: 18px; }
+  .grade-btn {
+    border: 1px solid var(--border); border-radius: 10px; padding: 11px 8px;
+    background: var(--bg); color: var(--text); cursor: pointer;
+    font-family: var(--font-sans); font-weight: 700;
+    display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 13px;
+    transition: all .14s ease;
+  }
+  .grade-btn small { font-size: 11px; font-weight: 500; color: var(--text-muted); }
+  .grade-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-xs); }
+  .grade-btn.g0 { border-color: rgba(200, 56, 56, 0.45); color: #b93838; }
+  .grade-btn.g0:hover { background: rgba(200, 56, 56, 0.08); }
+  .grade-btn.g1 { border-color: var(--accent-border); color: var(--accent); }
+  .grade-btn.g1:hover { background: var(--accent-soft); }
+  .grade-btn.g2 { border-color: var(--ok-border); color: var(--ok); }
+  .grade-btn.g2:hover { background: var(--ok-soft); }
+  .grade-btn.g3 { border-color: var(--primary-border); color: var(--primary); }
+  .grade-btn.g3:hover { background: var(--primary-soft); }
+  [data-theme="dark"] .grade-btn.g0 { color: #f07b7b; }
+
+  .kbd {
+    font-family: var(--font-mono); font-size: 10.5px; padding: 1px 5px;
+    border-radius: 4px; border: 1px solid currentColor; opacity: .65; margin-left: 4px;
+  }
+
+  .fc-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+  select.select {
+    padding: 8px 12px; border-radius: 9px; border: 1px solid var(--border);
+    background: var(--bg); color: var(--text); font-family: var(--font-sans);
+    font-size: 13px; max-width: 100%; outline: none;
+  }
+  select.select:focus { border-color: var(--primary); }
+
+  .notice {
+    background: var(--accent-soft); border: 1px solid var(--accent-border); color: var(--text);
+    padding: 16px 20px; border-radius: 12px; margin-bottom: 18px; font-size: 14.5px;
+  }
+  .toast {
+    position: fixed; bottom: 22px; right: 22px;
+    background: #1c1b18; color: #f5f2eb; border: 1px solid rgba(255,255,255,.12);
+    padding: 11px 17px; border-radius: 10px; font-size: 13px; font-weight: 600;
+    box-shadow: var(--shadow-lg); opacity: 0; transform: translateY(10px);
+    transition: all .2s ease; pointer-events: none; z-index: 99;
+  }
+  [data-theme="dark"] .toast { background: #eae6dc; color: #16181c; }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  @media (max-width: 920px) {
+    .menu-btn { display: inline-flex; }
+    aside.sidebar { transform: translateX(-100%); box-shadow: var(--shadow-lg); }
+    aside.sidebar.open { transform: translateX(0); }
+    .backdrop.open { display: block; }
+    main.content { margin-left: 0; padding: 18px 14px 72px; }
+    article.md { padding: 24px 20px; border-radius: 12px; }
+    article.md h1 { font-size: 26px; }
+    .fc-panel { padding: 22px 18px; }
+    .flashcard { padding: 22px 20px; }
+    .brand span { display: none; }
+    .grade-row { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media print {
+    header.topbar, aside.sidebar, .backdrop, .lesson-toolbar, .lesson-footer, .toast, .doc-print-bar {
+      display: none !important;
+    }
+    html, body {
+      background: #fff !important; color: #111 !important; font-size: 11pt; line-height: 1.55;
+    }
+    .layout { display: block; padding-top: 0; }
+    main.content { margin-left: 0 !important; padding: 0 !important; }
+    .container { max-width: 100% !important; }
+    article.md {
+      background: #fff !important; border: none !important; box-shadow: none !important;
+      padding: 0 !important;
+    }
+    article.md h1 { font-size: 20pt; color: #000 !important; }
+    article.md h2 { font-size: 14pt; color: #000 !important; page-break-after: avoid; break-after: avoid; }
+    article.md p, article.md li { color: #111 !important; }
+    article.md a { color: #111 !important; text-decoration: none !important; }
+    article.md pre {
+      background: #f5f5f5 !important; color: #111 !important; border: 1px solid #ccc !important;
+      white-space: pre-wrap; page-break-inside: avoid; break-inside: avoid;
+    }
+    article.md .table-wrap, article.md blockquote, article.md .contrast-box {
+      page-break-inside: avoid; break-inside: avoid;
+    }
+    article.md .contrast-box.hidden-lang { display: none !important; }
+    article.md details:not([open]) { border: 1px dashed #bbb !important; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="read-progress" id="readProgress"></div>
+  <div class="brand-group">
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <a class="brand" href="#doc=README.md">
+      <strong>Genau</strong>
+      <span>A1 → B1 German Grammar</span>
+    </a>
+  </div>
+  <div class="top-controls">
+    <div class="lang-pills" title="Choose contrast languages shown in lessons">
+      <button class="lang-pill" data-lang="pt-BR">🇧🇷 BR</button>
+      <button class="lang-pill" data-lang="es">🇪🇸 ES</button>
+      <button class="lang-pill" data-lang="fr">🇫🇷 FR</button>
+      <button class="lang-pill" data-lang="en">🇬🇧 EN</button>
+    </div>
+    <button class="top-btn primary" id="fcNavBtn">Flashcards <span class="badge" id="dueBadge">0</span></button>
+    <button class="top-btn icon-btn" id="themeBtn" title="Toggle dark mode" aria-label="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <div class="search-wrap">
+        <input type="search" class="search-input" id="searchInput" placeholder="Search 65 lessons & guides…">
+      </div>
+      <div class="progress-mini">
+        <div class="progress-mini-row">
+          <span>Course Progress</span>
+          <strong id="progressSummary">0 / 65</strong>
+        </div>
+        <div class="bar-track"><div class="bar-fill" id="progressBar" style="width:0%"></div></div>
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav"></nav>
+    <div class="case-legend" title="Genau dual-coding case symbols">
+      <span><b class="sym-nom">●</b> Nom</span>
+      <span><b class="sym-akk">▲</b> Akk</span>
+      <span><b class="sym-dat">■</b> Dat</span>
+      <span><b class="sym-gen">◆</b> Gen</span>
+    </div>
+    <div class="sidebar-footer">
+      <button class="link-btn" id="exportProgressBtn" title="Download progress & flashcard backup">⬇ Backup</button>
+      <button class="link-btn" id="importProgressBtn" title="Restore progress from backup file">⬆ Restore</button>
+      <input type="file" id="importFileInput" accept=".json" style="display:none">
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="container" id="mainContainer">
+      <div style="padding:40px; text-align:center; color:var(--text-muted)">Loading Genau…</div>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+  const COURSE = {
+    start: [
+      { id: "HOME", title: "Home & Quick Start", path: "README.md" },
+      { id: "METHOD", title: "Daily 30-Minute Method", path: "METHOD.md" },
+      { id: "PLAN", title: "Full A1 → B1 Syllabus", path: "PLAN.md" },
+      { id: "PROMPT", title: "AI Tutor Prompt (ChatGPT / Claude / Gemini)", path: "PROMPT.md" },
+      { id: "ANKI", title: "Ready-to-Import Anki Decks", path: "review/anki/README.md" }
+    ],
+    A1: [
+      { id: "A1-01", title: "Alphabet, sounds, spelling rules, punctuation", path: "A1/A1-01-alphabet-spelling.md" },
+      { id: "A1-02", title: "Personal pronouns and Präsens of regular verbs", path: "A1/A1-02-pronouns-praesens.md" },
+      { id: "A1-03", title: "sein, haben, and irregular Präsens (e→i / a→ä)", path: "A1/A1-03-sein-haben-irregular.md" },
+      { id: "A1-04", title: "Verb position: statements, W- & yes/no questions", path: "A1/A1-04-verb-position.md" },
+      { id: "A1-05", title: "Nouns: gender, articles, Nominativ ●", path: "A1/A1-05-nouns-gender-articles.md" },
+      { id: "A1-06", title: "Plural forms", path: "A1/A1-06-plural.md" },
+      { id: "A1-07", title: "Negation: nicht and kein", path: "A1/A1-07-negation.md" },
+      { id: "A1-08", title: "Akkusativ ▲", path: "A1/A1-08-akkusativ.md" },
+      { id: "A1-09", title: "Possessive articles (mein, dein, sein, ihr…)", path: "A1/A1-09-possessives.md" },
+      { id: "A1-10", title: "Separable verbs and the Satzklammer", path: "A1/A1-10-separable-verbs.md" },
+      { id: "A1-11", title: "Modal verbs I: können, müssen, wollen, möchten", path: "A1/A1-11-modals-1.md" },
+      { id: "A1-12", title: "Imperativ (du, ihr, Sie)", path: "A1/A1-12-imperativ.md" },
+      { id: "A1-13", title: "Numbers, clock time, dates, temporal prepositions I", path: "A1/A1-13-numbers-time-dates.md" },
+      { id: "A1-14", title: "Local prepositions I: in, aus, nach, zu, bei, mit, von", path: "A1/A1-14-local-prepositions-1.md" },
+      { id: "A1-15", title: "Dativ I ■: articles, pronouns, Dativ verbs", path: "A1/A1-15-dativ-1.md" },
+      { id: "A1-16", title: "Perfekt I: haben/sein + Partizip II", path: "A1/A1-16-perfekt-1.md" },
+      { id: "A1-17", title: "Präteritum of sein, haben, and modals", path: "A1/A1-17-praeteritum-sein-haben-modals.md" },
+      { id: "A1-18", title: "Predicative adjectives, adverbs, gern/lieber, es gibt", path: "A1/A1-18-adjectives-adverbs.md" },
+      { id: "A1-19", title: "Word order I: fronting, time before place, und/aber/denn", path: "A1/A1-19-word-order-1.md" },
+      { id: "A1-20", title: "Pronouns I: man, es, der/das/die, etwas/nichts/viel", path: "A1/A1-20-pronouns-1.md" },
+      { id: "A1-21", title: "A1 consolidation: test and writing tasks", path: "A1/A1-21-consolidation.md" }
+    ],
+    A2: [
+      { id: "A2-01", title: "Dativ II ■: full declension, Dativ verbs, ■ before ▲", path: "A2/A2-01-dativ-2.md" },
+      { id: "A2-02", title: "Two-way prepositions (wo? ■ vs wohin? ▲)", path: "A2/A2-02-two-way-prepositions.md" },
+      { id: "A2-03", title: "Prepositions with Akkusativ ▲ and Dativ ■", path: "A2/A2-03-prepositions-akk-dat.md" },
+      { id: "A2-04", title: "Temporal prepositions II and time adverbs", path: "A2/A2-04-temporal-prepositions-2.md" },
+      { id: "A2-05", title: "Perfekt II: prefixes, -ieren, mixed verbs, haben vs sein", path: "A2/A2-05-perfekt-2.md" },
+      { id: "A2-06", title: "Präteritum: modals, auxiliaries, recognising verbs", path: "A2/A2-06-praeteritum.md" },
+      { id: "A2-07", title: "Modal verbs II: dürfen, sollen, nicht müssen vs dürfen", path: "A2/A2-07-modals-2.md" },
+      { id: "A2-08", title: "Adjective declension I: after definite article", path: "A2/A2-08-adjective-declension-1.md" },
+      { id: "A2-09", title: "Adjective declension II: after ein-words & no article", path: "A2/A2-09-adjective-declension-2.md" },
+      { id: "A2-10", title: "Comparative and superlative", path: "A2/A2-10-comparison.md" },
+      { id: "A2-11", title: "Subordinate clauses I: dass, weil, wenn (verb-final)", path: "A2/A2-11-subordinate-clauses-1.md" },
+      { id: "A2-12", title: "Subordinate clauses II: ob, indirect questions, damit", path: "A2/A2-12-subordinate-clauses-2.md" },
+      { id: "A2-13", title: "Konjunktiv II I: hätte, wäre, würde, könnte, sollte", path: "A2/A2-13-konjunktiv-2-1.md" },
+      { id: "A2-14", title: "Reflexive verbs and verbs with prepositions I", path: "A2/A2-14-reflexive-verbs-prepositions-1.md" },
+      { id: "A2-15", title: "Relative clauses I: Nominativ and Akkusativ", path: "A2/A2-15-relative-clauses-1.md" },
+      { id: "A2-16", title: "Linking adverbs: deshalb, trotzdem, dann, außerdem", path: "A2/A2-16-linking-adverbs.md" },
+      { id: "A2-17", title: "Pronouns II: possessive, dieser, indefinite, welcher", path: "A2/A2-17-pronouns-2.md" },
+      { id: "A2-18", title: "Quantifiers and articles: alle, jeder, viele, Nullartikel", path: "A2/A2-18-quantifiers-articles.md" },
+      { id: "A2-19", title: "werden: to become, future, and passive preview", path: "A2/A2-19-werden.md" },
+      { id: "A2-20", title: "Word order II: Mittelfeld, pronouns, Te-Ka-Mo-Lo", path: "A2/A2-20-word-order-2.md" },
+      { id: "A2-21", title: "Verbs with two objects & prepositions II", path: "A2/A2-21-two-objects-verbs-prepositions-2.md" },
+      { id: "A2-22", title: "A2 consolidation: test, Sprachbausteine, e-mail", path: "A2/A2-22-consolidation.md" }
+    ],
+    B1: [
+      { id: "B1-01", title: "Genitiv ◆: articles, -s/-es, wegen / trotz / während", path: "B1/B1-01-genitiv.md" },
+      { id: "B1-02", title: "Adjective declension III: full system & noun adjectives", path: "B1/B1-02-adjective-declension-3.md" },
+      { id: "B1-03", title: "Präteritum II: regular, irregular, mixed verbs", path: "B1/B1-03-praeteritum-2.md" },
+      { id: "B1-04", title: "Plusquamperfekt & temporal clauses (als/wenn/nachdem)", path: "B1/B1-04-plusquamperfekt-temporal.md" },
+      { id: "B1-05", title: "Futur I: intentions, predictions, assumptions (wohl)", path: "B1/B1-05-futur-1.md" },
+      { id: "B1-06", title: "Konjunktiv II II: unreal conditions, wishes, past", path: "B1/B1-06-konjunktiv-2-2.md" },
+      { id: "B1-07", title: "Passiv: Präsens, Präteritum, Perfekt, modals, von/durch", path: "B1/B1-07-passiv.md" },
+      { id: "B1-08", title: "Infinitive with zu; um…zu / ohne…zu / statt…zu; lassen", path: "B1/B1-08-infinitive-zu.md" },
+      { id: "B1-09", title: "Subordinate clauses III: obwohl, während, sobald, indem", path: "B1/B1-09-subordinate-clauses-3.md" },
+      { id: "B1-10", title: "Two-part connectors: entweder…oder, sowohl…als auch", path: "B1/B1-10-two-part-connectors.md" },
+      { id: "B1-11", title: "Connector system overview (Sprachbausteine core)", path: "B1/B1-11-connector-system.md" },
+      { id: "B1-12", title: "Relative clauses II: Dativ ■, prepositions, wo/was/dessen", path: "B1/B1-12-relative-clauses-2.md" },
+      { id: "B1-13", title: "Verbs with prepositions III & da-/wo- compounds", path: "B1/B1-13-verbs-prepositions-3.md" },
+      { id: "B1-14", title: "Reported speech & Konjunktiv I recognition", path: "B1/B1-14-reported-speech.md" },
+      { id: "B1-15", title: "Modal verbs III: hearsay sollen, deduction, brauchen zu", path: "B1/B1-15-modals-3.md" },
+      { id: "B1-16", title: "Word formation & nominalisation (reading strategy)", path: "B1/B1-16-word-formation.md" },
+      { id: "B1-17", title: "Pronouns III: derselbe, einander, irgend-, es-constructions", path: "B1/B1-17-pronouns-3.md" },
+      { id: "B1-18", title: "Negation II & two-pronoun order (Wir geben es ihm)", path: "B1/B1-18-negation-2-pronoun-order.md" },
+      { id: "B1-19", title: "Partizip I and II as adjectives", path: "B1/B1-19-participles-as-adjectives.md" },
+      { id: "B1-20", title: "Prepositions III: Genitiv prepositions & place mastery", path: "B1/B1-20-prepositions-3.md" },
+      { id: "B1-21", title: "Text grammar for telc B1 Schreiben (4 Leitpunkte)", path: "B1/B1-21-text-grammar-writing.md" },
+      { id: "B1-22", title: "telc B1 consolidation & exam strategy", path: "B1/B1-22-telc-b1-strategy-consolidation.md" }
+    ],
+    shared: [
+      { id: "CASES", title: "Cases Master Tables (● ▲ ■ ◆)", path: "shared/cases.md" },
+      { id: "VERBS", title: "Irregular Verbs & Auxiliaries", path: "shared/verbs.md" },
+      { id: "ORDER", title: "Word Order — Bracket Model", path: "shared/word-order.md" },
+      { id: "PREPS", title: "Prepositions Reference", path: "shared/prepositions.md" },
+      { id: "CONNS", title: "Connectors Three-Column Model", path: "shared/connectors.md" },
+      { id: "WRITE", title: "Writing Templates & Redemittel", path: "shared/writing-templates.md" },
+      { id: "EXAM", title: "telc Deutsch B1 Exam Guide", path: "shared/exam-telc-b1.md" },
+      { id: "MOCK", title: "Full Timed Written Mock Exam", path: "shared/mock-exam-telc-b1.md" },
+      { id: "GLOSS", title: "Multilingual Grammar Glossary", path: "shared/glossary.md" },
+      { id: "LANGS", title: "Contrast Language Packs", path: "shared/contrasts/README.md" }
+    ]
+  };
+
+  const ALL_LESSONS = [...COURSE.A1, ...COURSE.A2, ...COURSE.B1];
+  const LESSON_BY_PATH = Object.fromEntries(ALL_LESSONS.map(l => [l.path, l]));
+  const LADDER = [1, 3, 7, 14, 30, 60, 120];
+  const STORAGE_KEY = "genau_app_state_v1";
+
+  function todayISO() {
+    const d = new Date();
+    const tz = d.getTimezoneOffset() * 60000;
+    return new Date(d - tz).toISOString().slice(0, 10);
+  }
+  function addDaysISO(days) {
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    const tz = d.getTimezoneOffset() * 60000;
+    return new Date(d - tz).toISOString().slice(0, 10);
+  }
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        const s = JSON.parse(raw);
+        return {
+          langs: Array.isArray(s.langs) && s.langs.length ? s.langs : ["pt-BR", "es", "fr", "en"],
+          progress: s.progress || {},
+          schedule: s.schedule || {},
+          theme: s.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"),
+          collapsed: s.collapsed || {}
+        };
+      }
+    } catch {}
+    return {
+      langs: ["pt-BR", "es", "fr", "en"],
+      progress: {},
+      schedule: {},
+      theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
+      collapsed: {}
+    };
+  }
+  let state = loadState();
+  function saveState() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
+    updateBadges();
+  }
+
+  const docCache = new Map();
+  let allCardsCache = null;
+  let currentPath = "README.md";
+  let currentRawMd = "";
+
+  // Toast helper
+  let toastTimer;
+  function showToast(msg) {
+    const el = document.getElementById("toast");
+    el.textContent = msg;
+    el.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 2400);
+  }
+
+  // Theme
+  function applyTheme() {
+    document.documentElement.setAttribute("data-theme", state.theme);
+    document.getElementById("themeBtn").textContent = state.theme === "dark" ? "☀️" : "🌙";
+  }
+
+  // Language filter pills
+  function renderLangPills() {
+    document.querySelectorAll(".lang-pill").forEach(btn => {
+      const code = btn.dataset.lang;
+      btn.classList.toggle("active", state.langs.includes(code));
+    });
+    document.querySelectorAll(".contrast-box").forEach(box => {
+      const code = box.dataset.lang;
+      box.classList.toggle("hidden-lang", !state.langs.includes(code));
+    });
+  }
+
+  // Badges & Progress bar
+  function updateBadges() {
+    const done = ALL_LESSONS.filter(l => ["●", "✔"].includes(state.progress[l.id])).length;
+    document.getElementById("progressSummary").textContent = `${done} / ${ALL_LESSONS.length}`;
+    document.getElementById("progressBar").style.width = `${Math.round((done / ALL_LESSONS.length) * 100)}%`;
+
+    const today = todayISO();
+    const due = Object.values(state.schedule).filter(r => r.due <= today).length;
+    document.getElementById("dueBadge").textContent = due;
+  }
+
+  // Sidebar rendering
+  function renderSidebar(filter = "") {
+    const q = filter.trim().toLowerCase();
+    const nav = document.getElementById("sidebarNav");
+    const groups = [
+      { key: "start", label: "Getting Started", items: COURSE.start, isLesson: false },
+      { key: "A1", label: "Level A1 (21 topics)", items: COURSE.A1, isLesson: true },
+      { key: "A2", label: "Level A2 (22 topics)", items: COURSE.A2, isLesson: true },
+      { key: "B1", label: "Level B1 (22 topics)", items: COURSE.B1, isLesson: true },
+      { key: "shared", label: "Reference & Exam Guides", items: COURSE.shared, isLesson: false }
+    ];
+
+    nav.innerHTML = groups.map(g => {
+      const items = g.items.filter(it =>
+        !q || it.id.toLowerCase().includes(q) || it.title.toLowerCase().includes(q)
+      );
+      if (!items.length) return "";
+      const isCollapsed = !q && !!state.collapsed[g.key];
+      const doneCnt = g.isLesson
+        ? g.items.filter(it => ["●", "✔"].includes(state.progress[it.id])).length
+        : null;
+      const rightTxt = g.isLesson ? `${doneCnt}/${g.items.length}` : (isCollapsed ? "▸" : "▾");
+
+      return `
+        <div class="nav-group ${isCollapsed ? "collapsed" : ""}" data-group="${g.key}">
+          <div class="nav-group-hdr" data-toggle="${g.key}">
+            <span>${g.label}</span>
+            <span class="nav-group-count">${rightTxt}</span>
+          </div>
+          <ul class="nav-list">
+            ${items.map(it => {
+              const active = location.hash !== "#flashcards" && currentPath === it.path;
+              const st = g.isLesson ? (state.progress[it.id] || "☐") : "";
+              return `
+                <li>
+                  <a class="nav-item ${active ? "active" : ""}" href="#doc=${encodeURIComponent(it.path)}">
+                    ${g.isLesson ? `<span class="nav-status" data-st="${st}">${st}</span><span class="nav-id">${it.id}</span>` : ""}
+                    <span class="nav-title">${escapeHtml(it.title)}</span>
+                  </a>
+                </li>
+              `;
+            }).join("")}
+          </ul>
+        </div>
+      `;
+    }).join("");
+
+    nav.querySelectorAll(".nav-group-hdr").forEach(hdr => {
+      hdr.addEventListener("click", () => {
+        const k = hdr.dataset.toggle;
+        state.collapsed[k] = !state.collapsed[k];
+        saveState();
+        renderSidebar(document.getElementById("searchInput").value);
+      });
+    });
+  }
+
+  // Relative path resolution for Markdown links
+  function resolveRelativePath(baseFile, href) {
+    if (!href || href.startsWith("http://") || href.startsWith("https://") || href.startsWith("mailto:") || href.startsWith("#")) {
+      return null;
+    }
+    const cleanHref = href.split("#")[0];
+    if (!cleanHref.endsWith(".md")) return null;
+    const baseParts = baseFile.split("/").slice(0, -1);
+    const relParts = cleanHref.split("/");
+    const out = [...baseParts];
+    for (const part of relParts) {
+      if (!part || part === ".") continue;
+      if (part === "..") out.pop();
+      else out.push(part);
+    }
+    return out.join("/");
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function formatInline(text, baseFile) {
+    // Protect inline code spans first
+    const codeTokens = [];
+    let s = text.replace(/`([^`]+)`/g, (_, code) => {
+      const idx = codeTokens.length;
+      codeTokens.push(`<code>${escapeHtml(code)}</code>`);
+      return `\u0000CODE${idx}\u0000`;
+    });
+
+    s = escapeHtml(s);
+
+    // Links [text](href)
+    s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
+      const resolved = resolveRelativePath(baseFile, href);
+      if (resolved) {
+        return `<a href="#doc=${encodeURIComponent(resolved)}">${label}</a>`;
+      }
+      if (href.startsWith("http://") || href.startsWith("https://")) {
+        return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+      }
+      // Relative non-md file (e.g. .tsv download)
+      const baseDir = baseFile.includes("/") ? baseFile.slice(0, baseFile.lastIndexOf("/") + 1) : "";
+      const url = href.startsWith("/") ? href : baseDir + href;
+      return `<a href="${url}" download>${label}</a>`;
+    });
+
+    // Bare https URLs
+    s = s.replace(/(^|[\s(])(https?:\/\/[^\s)<]+)/g, '$1<a href="$2" target="_blank" rel="noopener noreferrer">$2</a>');
+
+    // Strikethrough ~~text~~
+    s = s.replace(/~~([^~]+)~~/g, "<del>$1</del>");
+    // Bold **text**
+    s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    // Italic *text*
+    s = s.replace(/(^|[^\w*])\*([^*]+)\*(?!\w)/g, "$1<em>$2</em>");
+
+    // Highlight Genau case symbols subtly
+    s = s.replace(/●/g, '<span class="sym-nom">●</span>')
+         .replace(/▲/g, '<span class="sym-akk">▲</span>')
+         .replace(/■/g, '<span class="sym-dat">■</span>')
+         .replace(/◆/g, '<span class="sym-gen">◆</span>');
+
+    // Restore inline code
+    s = s.replace(/\u0000CODE(\d+)\u0000/g, (_, idx) => codeTokens[Number(idx)]);
+    return s;
+  }
+
+  function detectContrastLang(line) {
+    if (line.includes("🇧🇷") && /contrast/i.test(line)) return "pt-BR";
+    if (line.includes("🇪🇸") && /contrast/i.test(line)) return "es";
+    if (line.includes("🇫🇷") && /contrast/i.test(line)) return "fr";
+    if (line.includes("🇬🇧") && /contrast/i.test(line)) return "en";
+    return null;
+  }
+
+  function renderMarkdown(md, baseFile) {
+    // Strip HTML comments (e.g. <!-- adapted ... -->)
+    const cleaned = md.replace(/<!--[\s\S]*?-->/g, "");
+    const lines = cleaned.replace(/\r\n/g, "\n").split("\n");
+    const out = [];
+    let i = 0;
+
+    while (i < lines.length) {
+      const line = lines[i];
+
+      // Blank line
+      if (!line.trim()) { i++; continue; }
+
+      // Collapsible <details> block
+      if (/^<details>\s*$/i.test(line.trim())) {
+        i++;
+        let summaryHtml = "Click to reveal";
+        if (i < lines.length && /^<summary>/i.test(lines[i].trim())) {
+          summaryHtml = lines[i].trim().replace(/^<summary>/i, "").replace(/<\/summary>$/i, "");
+          i++;
+        }
+        const inner = [];
+        while (i < lines.length && !/^<\/details>\s*$/i.test(lines[i].trim())) {
+          inner.push(lines[i]);
+          i++;
+        }
+        if (i < lines.length) i++; // consume </details>
+        out.push(`<details><summary>${summaryHtml}</summary><div class="details-body">${renderMarkdown(inner.join("\n"), baseFile)}</div></details>`);
+        continue;
+      }
+
+      // Fenced code block
+      if (line.trim().startsWith("```")) {
+        i++;
+        const codeLines = [];
+        while (i < lines.length && !lines[i].trim().startsWith("```")) {
+          codeLines.push(lines[i]);
+          i++;
+        }
+        if (i < lines.length) i++;
+        out.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+        continue;
+      }
+
+      // Horizontal rule
+      if (/^---+$/.test(line.trim())) {
+        out.push("<hr>");
+        i++;
+        continue;
+      }
+
+      // Headings
+      const hm = line.match(/^(#{1,4})\s+(.+)$/);
+      if (hm) {
+        const lvl = hm[1].length;
+        out.push(`<h${lvl}>${formatInline(hm[2].trim(), baseFile)}</h${lvl}>`);
+        i++;
+        continue;
+      }
+
+      // Table
+      if (line.trim().startsWith("|") && i + 1 < lines.length && /^\|\s*[-:]+/.test(lines[i + 1].trim())) {
+        const parseRow = r => r.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map(c => c.trim());
+        const headers = parseRow(line);
+        i += 2;
+        const rows = [];
+        while (i < lines.length && lines[i].trim().startsWith("|")) {
+          rows.push(parseRow(lines[i]));
+          i++;
+        }
+        out.push(
+          `<div class="table-wrap"><table><thead><tr>${headers.map(h => `<th>${formatInline(h, baseFile)}</th>`).join("")}</tr></thead>` +
+          `<tbody>${rows.map(r => `<tr>${r.map(c => `<td>${formatInline(c, baseFile)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`
+        );
+        continue;
+      }
+
+      // Blockquote (and contrast language callouts)
+      if (line.trim().startsWith(">")) {
+        const bqLines = [];
+        while (i < lines.length && lines[i].trim().startsWith(">")) {
+          bqLines.push(lines[i].replace(/^\s*>\s?/, ""));
+          i++;
+        }
+        const isContrastBlock = bqLines.some(l => detectContrastLang(l));
+        if (isContrastBlock) {
+          for (const bl of bqLines) {
+            if (!bl.trim()) continue;
+            const lang = detectContrastLang(bl);
+            if (lang) {
+              const hidden = state.langs.includes(lang) ? "" : " hidden-lang";
+              out.push(`<div class="contrast-box${hidden}" data-lang="${lang}">${formatInline(bl, baseFile)}</div>`);
+            } else {
+              out.push(`<blockquote><p>${formatInline(bl, baseFile)}</p></blockquote>`);
+            }
+          }
+        } else {
+          out.push(`<blockquote>${bqLines.map(l => l.trim() ? `<p>${formatInline(l, baseFile)}</p>` : "").join("")}</blockquote>`);
+        }
+        continue;
+      }
+
+      // Unordered list
+      if (/^\s*[-*]\s+/.test(line)) {
+        const items = [];
+        while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+          items.push(lines[i].replace(/^\s*[-*]\s+/, ""));
+          i++;
+        }
+        out.push(`<ul>${items.map(it => `<li>${formatInline(it, baseFile)}</li>`).join("")}</ul>`);
+        continue;
+      }
+
+      // Ordered list
+      if (/^\s*\d+\.\s+/.test(line)) {
+        const items = [];
+        while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
+          items.push(lines[i].replace(/^\s*\d+\.\s+/, ""));
+          i++;
+        }
+        out.push(`<ol>${items.map(it => `<li>${formatInline(it, baseFile)}</li>`).join("")}</ol>`);
+        continue;
+      }
+
+      // Paragraph
+      const para = [];
+      while (
+        i < lines.length &&
+        lines[i].trim() &&
+        !lines[i].trim().startsWith("#") &&
+        !lines[i].trim().startsWith(">") &&
+        !lines[i].trim().startsWith("```") &&
+        !lines[i].trim().startsWith("|") &&
+        !/^---+$/.test(lines[i].trim()) &&
+        !/^\s*[-*]\s+/.test(lines[i]) &&
+        !/^\s*\d+\.\s+/.test(lines[i]) &&
+        !/^<details>/i.test(lines[i].trim())
+      ) {
+        para.push(lines[i]);
+        i++;
+      }
+      out.push(`<p>${formatInline(para.join(" "), baseFile)}</p>`);
+    }
+
+    return out.join("\n");
+  }
+
+  // Fetch markdown file
+  async function fetchDoc(path) {
+    if (docCache.has(path)) return docCache.get(path);
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const txt = await res.text();
+    docCache.set(path, txt);
+    return txt;
+  }
+
+  // Load and render a Markdown document
+  async function openDoc(path) {
+    currentPath = path;
+    renderSidebar(document.getElementById("searchInput").value);
+    closeMobileSidebar();
+
+    const container = document.getElementById("mainContainer");
+    if (window.location.protocol === "file:") {
+      container.innerHTML = `
+        <div class="notice">
+          <strong>Heads up — local file mode:</strong> Your browser blocks loading separate Markdown lessons directly from <code>file://</code>.
+          <br><br>
+          <strong>Easiest ways to read Genau:</strong>
+          <ul>
+            <li>Open the live <strong>GitHub Pages website</strong> URL for this repository, or</li>
+            <li>Open this unzipped <code>genau</code> folder in free <a href="https://obsidian.md/" target="_blank">Obsidian</a> for offline study.</li>
+          </ul>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-muted)">Loading ${escapeHtml(path)}…</div>`;
+    try {
+      const md = await fetchDoc(path);
+      currentRawMd = md;
+      const lesson = LESSON_BY_PATH[path];
+      let html = "";
+
+      if (lesson) {
+        const curSt = state.progress[lesson.id] || "☐";
+        html += `
+          <div class="lesson-toolbar">
+            <div class="status-group">
+              <span class="status-label">Status</span>
+              ${[
+                ["☐", "Not started"],
+                ["◐", "In progress"],
+                ["●", "Done ●"],
+                ["✔", "Known ✔"]
+              ].map(([st, lbl]) => `
+                <button class="status-btn ${curSt === st ? "active" : ""}" data-status="${st}">${lbl}</button>
+              `).join("")}
+            </div>
+            <div class="toolbar-actions">
+              <button class="top-btn" id="queueLessonBtn">🃏 Queue Cards</button>
+              <button class="top-btn" id="copyAiBtn">🤖 Copy for AI Tutor</button>
+              <button class="top-btn" id="printDocBtn" title="Print or save as PDF">🖨 Print</button>
+            </div>
+          </div>`;
+      } else if (path.startsWith("shared/")) {
+        html += `
+          <div class="lesson-toolbar doc-print-bar" style="justify-content:flex-end">
+            <button class="top-btn" id="printDocBtn" title="Print or save as PDF">🖨 Print / Save PDF</button>
+          </div>`;
+      }
+
+      html += `<article class="md${lesson ? " is-lesson" : ""}">${renderMarkdown(md, path)}</article>`;
+
+      if (lesson) {
+        const idx = ALL_LESSONS.findIndex(l => l.id === lesson.id);
+        const prev = idx > 0 ? ALL_LESSONS[idx - 1] : null;
+        const next = idx < ALL_LESSONS.length - 1 ? ALL_LESSONS[idx + 1] : null;
+        html += `
+          <div class="lesson-footer">
+            ${prev ? `<a class="top-btn" style="text-decoration:none" href="#doc=${encodeURIComponent(prev.path)}">← ${prev.id}</a>` : `<span></span>`}
+            ${next ? `<a class="top-btn primary" style="text-decoration:none" href="#doc=${encodeURIComponent(next.path)}">Next: ${next.id} →</a>` : `<a class="top-btn primary" style="text-decoration:none" href="#doc=${encodeURIComponent("shared/mock-exam-telc-b1.md")}">Take Full Mock Exam →</a>`}
+          </div>`;
+      }
+
+      container.innerHTML = html;
+      window.scrollTo({ top: 0, behavior: "instant" });
+
+      const printBtn = document.getElementById("printDocBtn");
+      if (printBtn) {
+        printBtn.addEventListener("click", () => window.print());
+      }
+
+      if (lesson) {
+        container.querySelectorAll(".status-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            state.progress[lesson.id] = btn.dataset.status;
+            saveState();
+            container.querySelectorAll(".status-btn").forEach(b => b.classList.toggle("active", b === btn));
+            renderSidebar(document.getElementById("searchInput").value);
+            showToast(`${lesson.id} marked ${btn.textContent}`);
+          });
+        });
+
+        document.getElementById("queueLessonBtn").addEventListener("click", async () => {
+          const added = await queueTopicCards(lesson.id);
+          showToast(added > 0 ? `Added ${added} card(s) for ${lesson.id} to Flashcards` : `Cards for ${lesson.id} are already queued`);
+        });
+
+        document.getElementById("copyAiBtn").addEventListener("click", async () => {
+          const langNames = state.langs.join(", ");
+          const payload =
+`You are my German grammar tutor for the Genau A1→B1 course (telc Deutsch B1 focus).
+Contrast languages I want: ${langNames}.
+Rules: Ask ONE item at a time (never reveal the answer key before I try). Start with the Diagnostic (6–8 items); if I score ≥ 90%, tell me I can mark it Known ✔. Otherwise explain in short dual-coded chunks, drill exercises one by one, correct mistakes with the rule, and finish with the 5-minute writing prompt.
+
+Here is lesson ${lesson.id}:
+
+${currentRawMd}`;
+          try {
+            await navigator.clipboard.writeText(payload);
+            showToast("Lesson + AI tutor prompt copied! Paste into ChatGPT, Claude, or Gemini.");
+          } catch {
+            showToast("Could not access clipboard — open PROMPT.md to copy manually.");
+          }
+        });
+      }
+    } catch (err) {
+      container.innerHTML = `<div class="notice">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(err.message)}).</div>`;
+    }
+  }
+
+  // ---------- Flashcards SRS ----------
+  function parseCardsMd(txt, langCode = null) {
+    const out = [];
+    let cur = null;
+    for (const line of txt.replace(/\r\n/g, "\n").split("\n")) {
+      const m = line.match(/^###\s+(\S+)\s*$/);
+      if (m) {
+        if (cur) out.push(cur);
+        const id = m[1];
+        const topic = id.split("-").slice(0, 2).join("-");
+        cur = { id, topic, Q: "", A: "", T: "", lang: langCode };
+        continue;
+      }
+      if (cur) {
+        if (line.startsWith("Q:")) cur.Q = (cur.Q + " " + line.slice(2).trim()).trim();
+        else if (line.startsWith("A:")) cur.A = (cur.A + " " + line.slice(2).trim()).trim();
+        else if (line.startsWith("T:")) cur.T = (cur.T + " " + line.slice(2).trim()).trim();
+      }
+    }
+    if (cur) out.push(cur);
+    return out;
+  }
+
+  async function loadAllCards() {
+    if (allCardsCache) return allCardsCache;
+    const files = [
+      ["review/cards/A1.md", null],
+      ["review/cards/A2.md", null],
+      ["review/cards/B1.md", null],
+      ["review/cards/contrasts/pt-BR.md", "pt-BR"],
+      ["review/cards/contrasts/es.md", "es"],
+      ["review/cards/contrasts/fr.md", "fr"],
+      ["review/cards/contrasts/en.md", "en"]
+    ];
+    const results = await Promise.all(files.map(async ([p, lang]) => {
+      try { return parseCardsMd(await fetchDoc(p), lang); }
+      catch { return []; }
+    }));
+    allCardsCache = results.flat();
+    return allCardsCache;
+  }
+
+  async function queueTopicCards(topicId) {
+    const cards = await loadAllCards();
+    const today = todayISO();
+    let added = 0;
+    for (const c of cards) {
+      if (c.topic !== topicId) continue;
+      if (c.lang && !state.langs.includes(c.lang)) continue;
+      if (!state.schedule[c.id]) {
+        state.schedule[c.id] = { id: c.id, topic: c.topic, due: today, step: 0, reviews: 0, correct: 0 };
+        added++;
+      }
+    }
+    saveState();
+    return added;
+  }
+
+  function gradeScheduleRow(row, grade) {
+    let step = row.step || 0;
+    const reviews = row.reviews || 0;
+    if (grade === 0) step = 0;
+    else if (grade === 1) step = Math.max(0, step - 1);
+    else if (grade === 2) step = (reviews === 0 && step === 0) ? 0 : Math.min(LADDER.length - 1, step + 1);
+    else if (grade === 3) step = (reviews === 0 && step === 0) ? 1 : Math.min(LADDER.length - 1, step + 2);
+    row.step = step;
+    row.due = addDaysISO(LADDER[step]);
+    row.reviews = reviews + 1;
+    row.correct = (row.correct || 0) + (grade >= 2 ? 1 : 0);
+    saveState();
+  }
+
+  let fcSession = { mode: "due", queue: [], idx: 0, revealed: false, reviewed: 0, practiceTopic: "A1-01" };
+
+  async function openFlashcards() {
+    closeMobileSidebar();
+    renderSidebar(document.getElementById("searchInput").value);
+    const container = document.getElementById("mainContainer");
+
+    if (window.location.protocol === "file:") {
+      container.innerHTML = `<div class="notice">Browser flashcards require the GitHub Pages URL (or an HTTP server). For offline flashcards on your phone or laptop, import the ready-made Anki decks in <code>review/anki/</code>.</div>`;
+      return;
+    }
+
+    container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-muted)">Loading 533 flashcards…</div>`;
+    const cards = await loadAllCards();
+    const cardMap = Object.fromEntries(cards.map(c => [c.id, c]));
+
+    function buildDueQueue() {
+      const today = todayISO();
+      const due = Object.values(state.schedule).filter(r => r.due <= today && cardMap[r.id]);
+      for (let i = due.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [due[i], due[j]] = [due[j], due[i]];
+      }
+      return due.map(r => cardMap[r.id]);
+    }
+
+    function buildPracticeQueue(topicId) {
+      return cards.filter(c => c.topic === topicId && (!c.lang || state.langs.includes(c.lang)));
+    }
+
+    if (fcSession.mode === "due") {
+      fcSession.queue = buildDueQueue();
+      fcSession.idx = 0;
+      fcSession.revealed = false;
+    }
+
+    function renderFc() {
+      const today = todayISO();
+      const totalQueued = Object.keys(state.schedule).length;
+      const dueCount = Object.values(state.schedule).filter(r => r.due <= today).length;
+      const totalReviews = Object.values(state.schedule).reduce((s, r) => s + (r.reviews || 0), 0);
+      const totalCorrect = Object.values(state.schedule).reduce((s, r) => s + (r.correct || 0), 0);
+      const acc = totalReviews ? Math.round((100 * totalCorrect) / totalReviews) + "%" : "—";
+
+      const curCard = fcSession.queue[fcSession.idx];
+
+      container.innerHTML = `
+        <div class="fc-panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:6px">
+            <h1>Flashcards &amp; Spaced Repetition</h1>
+            <a class="top-btn" style="text-decoration:none" href="#doc=review%2Fanki%2FREADME.md">Prefer Anki? Download Decks</a>
+          </div>
+
+          <div class="fc-stats">
+            <div class="stat-card"><div class="stat-val">${dueCount}</div><div class="stat-lbl">Due today</div></div>
+            <div class="stat-card"><div class="stat-val">${totalQueued}</div><div class="stat-lbl">In your queue</div></div>
+            <div class="stat-card"><div class="stat-val">${acc}</div><div class="stat-lbl">Accuracy</div></div>
+            <div class="stat-card"><div class="stat-val">${fcSession.reviewed}</div><div class="stat-lbl">Reviewed this session</div></div>
+          </div>
+
+          <div class="fc-tabs">
+            <button class="top-btn ${fcSession.mode === "due" ? "primary" : ""}" id="tabDue">Daily Review Queue (${dueCount})</button>
+            <button class="top-btn ${fcSession.mode === "practice" ? "primary" : ""}" id="tabPractice">Free Practice by Topic</button>
+          </div>
+
+          <div class="fc-controls">
+            <select class="select" id="topicSelect">
+              ${ALL_LESSONS.filter(l => !l.path.includes("consolidation")).map(l =>
+                `<option value="${l.id}" ${fcSession.practiceTopic === l.id ? "selected" : ""}>${l.id} — ${escapeHtml(l.title)}</option>`
+              ).join("")}
+            </select>
+            ${fcSession.mode === "due"
+              ? `<button class="top-btn" id="addTopicBtn">+ Add Topic to Queue</button>
+                 <button class="top-btn" id="addDoneBtn">+ Add All Completed Lessons</button>`
+              : `<button class="top-btn" id="startPracticeBtn">Load Topic Cards</button>`
+            }
+          </div>
+
+          ${curCard ? `
+            <div class="flashcard" data-level="${curCard.id.split('-')[0]}">
+              <div>
+                <div class="fc-meta">
+                  <span class="fc-tag">${curCard.id} · ${curCard.topic}${curCard.lang ? ` · ${curCard.lang}` : ""}</span>
+                  <span>Card ${fcSession.idx + 1} of ${fcSession.queue.length}</span>
+                </div>
+                <div class="fc-q">${formatInline(curCard.Q, "README.md")}</div>
+                ${fcSession.revealed ? `<div class="fc-a">${formatInline(curCard.A, "README.md")}</div>` : ""}
+              </div>
+              <div>
+                ${!fcSession.revealed
+                  ? `<button class="top-btn primary" id="revealBtn" style="width:100%; justify-content:center; padding:12px">Show Answer <span class="kbd">Space</span></button>`
+                  : (fcSession.mode === "due"
+                    ? `<div class="grade-row">
+                        <button class="grade-btn g0" data-g="0"><span>Again <span class="kbd">0</span></span><small>1 day</small></button>
+                        <button class="grade-btn g1" data-g="1"><span>Hard <span class="kbd">1</span></span><small>step back</small></button>
+                        <button class="grade-btn g2" data-g="2"><span>Good <span class="kbd">2</span></span><small>next step</small></button>
+                        <button class="grade-btn g3" data-g="3"><span>Easy <span class="kbd">3</span></span><small>skip step</small></button>
+                      </div>`
+                    : `<button class="top-btn primary" id="nextPracticeBtn" style="width:100%; justify-content:center; padding:12px">Next Card → <span class="kbd">Space</span></button>`
+                  )
+                }
+              </div>
+            </div>
+          ` : `
+            <div style="text-align:center; padding:34px 16px; background:var(--surface-2); border-radius:10px; margin-top:12px">
+              <div style="font-size:28px; margin-bottom:8px">🎉</div>
+              <strong>${fcSession.mode === "due" ? (totalQueued ? "All caught up for today!" : "Your review queue is empty.") : "Practice deck complete!"}</strong>
+              <p style="color:var(--text-muted); font-size:14px; margin:8px 0 0">
+                ${fcSession.mode === "due"
+                  ? "Pick a topic above and click <strong>+ Add Topic to Queue</strong>, or switch to <strong>Free Practice</strong> to test yourself right away."
+                  : "Pick another topic above to keep practicing."}
+              </p>
+            </div>
+          `}
+        </div>
+      `;
+
+      document.getElementById("tabDue").addEventListener("click", () => {
+        fcSession.mode = "due";
+        fcSession.queue = buildDueQueue();
+        fcSession.idx = 0;
+        fcSession.revealed = false;
+        renderFc();
+      });
+      document.getElementById("tabPractice").addEventListener("click", () => {
+        fcSession.mode = "practice";
+        fcSession.queue = buildPracticeQueue(fcSession.practiceTopic);
+        fcSession.idx = 0;
+        fcSession.revealed = false;
+        renderFc();
+      });
+      document.getElementById("topicSelect").addEventListener("change", e => {
+        fcSession.practiceTopic = e.target.value;
+        if (fcSession.mode === "practice") {
+          fcSession.queue = buildPracticeQueue(fcSession.practiceTopic);
+          fcSession.idx = 0;
+          fcSession.revealed = false;
+          renderFc();
+        }
+      });
+
+      const addTopicBtn = document.getElementById("addTopicBtn");
+      if (addTopicBtn) {
+        addTopicBtn.addEventListener("click", async () => {
+          const tid = document.getElementById("topicSelect").value;
+          const n = await queueTopicCards(tid);
+          showToast(n ? `Queued ${n} cards for ${tid}` : `${tid} cards already queued`);
+          fcSession.queue = buildDueQueue();
+          fcSession.idx = 0;
+          fcSession.revealed = false;
+          renderFc();
+        });
+      }
+
+      const addDoneBtn = document.getElementById("addDoneBtn");
+      if (addDoneBtn) {
+        addDoneBtn.addEventListener("click", async () => {
+          let total = 0;
+          for (const l of ALL_LESSONS) {
+            if (["●", "✔"].includes(state.progress[l.id])) {
+              total += await queueTopicCards(l.id);
+            }
+          }
+          showToast(total ? `Queued ${total} cards from completed lessons` : "No new cards from completed lessons");
+          fcSession.queue = buildDueQueue();
+          fcSession.idx = 0;
+          fcSession.revealed = false;
+          renderFc();
+        });
+      }
+
+      const startPracticeBtn = document.getElementById("startPracticeBtn");
+      if (startPracticeBtn) {
+        startPracticeBtn.addEventListener("click", () => {
+          fcSession.practiceTopic = document.getElementById("topicSelect").value;
+          fcSession.queue = buildPracticeQueue(fcSession.practiceTopic);
+          fcSession.idx = 0;
+          fcSession.revealed = false;
+          renderFc();
+        });
+      }
+
+      const revealBtn = document.getElementById("revealBtn");
+      if (revealBtn) {
+        revealBtn.addEventListener("click", () => { fcSession.revealed = true; renderFc(); });
+      }
+      const nextPracticeBtn = document.getElementById("nextPracticeBtn");
+      if (nextPracticeBtn) {
+        nextPracticeBtn.addEventListener("click", () => {
+          fcSession.idx++;
+          fcSession.revealed = false;
+          fcSession.reviewed++;
+          renderFc();
+        });
+      }
+      container.querySelectorAll(".grade-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const g = Number(btn.dataset.g);
+          const row = state.schedule[curCard.id];
+          if (row) gradeScheduleRow(row, g);
+          fcSession.idx++;
+          fcSession.revealed = false;
+          fcSession.reviewed++;
+          renderFc();
+        });
+      });
+    }
+
+    renderFc();
+  }
+
+  // Keyboard shortcuts in flashcard mode
+  window.addEventListener("keydown", e => {
+    if (location.hash !== "#flashcards") return;
+    if (["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+    if (e.code === "Space" || e.key === "Enter") {
+      const rev = document.getElementById("revealBtn");
+      const nxt = document.getElementById("nextPracticeBtn");
+      if (rev) { e.preventDefault(); rev.click(); }
+      else if (nxt) { e.preventDefault(); nxt.click(); }
+    } else if (["0", "1", "2", "3"].includes(e.key)) {
+      const btn = document.querySelector(`.grade-btn[data-g="${e.key}"]`);
+      if (btn) { e.preventDefault(); btn.click(); }
+    }
+  });
+
+  // Mobile sidebar helpers
+  function closeMobileSidebar() {
+    document.getElementById("sidebar").classList.remove("open");
+    document.getElementById("backdrop").classList.remove("open");
+  }
+  document.getElementById("menuBtn").addEventListener("click", () => {
+    document.getElementById("sidebar").classList.toggle("open");
+    document.getElementById("backdrop").classList.toggle("open");
+  });
+  document.getElementById("backdrop").addEventListener("click", closeMobileSidebar);
+
+  // Header controls
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    state.theme = state.theme === "dark" ? "light" : "dark";
+    saveState();
+    applyTheme();
+  });
+  document.getElementById("fcNavBtn").addEventListener("click", () => {
+    location.hash = "#flashcards";
+  });
+  document.querySelectorAll(".lang-pill").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const code = btn.dataset.lang;
+      if (state.langs.includes(code)) {
+        if (state.langs.length === 1) {
+          showToast("Keep at least one contrast language enabled.");
+          return;
+        }
+        state.langs = state.langs.filter(l => l !== code);
+      } else {
+        state.langs.push(code);
+      }
+      saveState();
+      renderLangPills();
+      showToast(`Contrast languages: ${state.langs.join(", ")}`);
+    });
+  });
+
+  // Search
+  document.getElementById("searchInput").addEventListener("input", e => {
+    renderSidebar(e.target.value);
+  });
+
+  // Export / Import JSON backup
+  document.getElementById("exportProgressBtn").addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `genau-progress-${todayISO()}.json`;
+    a.click();
+    showToast("Backup downloaded!");
+  });
+  document.getElementById("importProgressBtn").addEventListener("click", () => {
+    document.getElementById("importFileInput").click();
+  });
+  document.getElementById("importFileInput").addEventListener("change", e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const imported = JSON.parse(reader.result);
+        state = { ...state, ...imported };
+        saveState();
+        applyTheme();
+        renderLangPills();
+        renderSidebar(document.getElementById("searchInput").value);
+        route();
+        showToast("Progress restored!");
+      } catch {
+        showToast("Invalid backup file.");
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  // Reading scroll progress bar
+  function updateReadProgress() {
+    const bar = document.getElementById("readProgress");
+    if (!bar) return;
+    const h = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = h > 40 ? Math.min(100, Math.max(0, (window.scrollY / h) * 100)) : 0;
+    bar.style.width = pct + "%";
+  }
+  window.addEventListener("scroll", updateReadProgress, { passive: true });
+
+  // Router
+  function route() {
+    const h = location.hash || "#doc=README.md";
+    if (h === "#flashcards") {
+      openFlashcards();
+    } else if (h.startsWith("#doc=")) {
+      const path = decodeURIComponent(h.slice(5));
+      openDoc(path);
+    } else {
+      openDoc("README.md");
+    }
+    setTimeout(updateReadProgress, 60);
+  }
+  window.addEventListener("hashchange", route);
+
+  // Boot
+  applyTheme();
+  renderLangPills();
+  updateBadges();
+  renderSidebar();
+  route();
+})();
+</script>
+</body>
+</html>

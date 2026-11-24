@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#tags column:3
+[🇧🇷] Can you drop the subject pronoun like in Portuguese ("Moro em Berlim")?	No. Ich wohne in Berlin. The pronoun is obligatory.	genau A1 A1-02 A1-02-pt-BR-01 contrast-pt-BR pronouns contrast
+[🇧🇷] "Ich bin Lehrer", "Ich bin müde", "Ich bin in Berlin" — which Portuguese verbs does sein cover?	both ser and estar. There is no separate estar-verb.	genau A1 A1-03 A1-03-pt-BR-01 contrast-pt-BR verbs contrast
+[🇧🇷] Translate "Não vi ninguém." (one negative word)	Ich habe niemanden gesehen. — no double negation	genau A1 A1-07 A1-07-pt-BR-01 contrast-pt-BR negation contrast
+[🇧🇷] Translate: "o carro dela" / "o carro dele"	ihr Auto / sein Auto	genau A1 A1-09 A1-09-pt-BR-01 contrast-pt-BR possessives contrast
+[🇧🇷] Translate "Preciso comprar pão hoje."	Ich muss heute Brot kaufen. (infinitive at the end)	genau A1 A1-11 A1-11-pt-BR-01 contrast-pt-BR modals contrast
+[🇧🇷] Translate "Comi pizza ontem."	Ich habe gestern Pizza gegessen. — Perfekt, not Präteritum, in speech/letters	genau A1 A1-16 A1-16-pt-BR-01 contrast-pt-BR perfekt contrast
+[🇧🇷] Translate "Gosto de nadar."	Ich schwimme gern. (not mögen + infinitive)	genau A1 A1-18 A1-18-pt-BR-01 contrast-pt-BR adjectives contrast
+[🇧🇷] Translate "Amanhã eu viajo para Berlim."	Morgen fahre ich nach Berlin.	genau A1 A1-19 A1-19-pt-BR-01 contrast-pt-BR word-order contrast
+[🇧🇷] PT verbs that are direct but take ■ in German (5)	ajudar→helfen, agradecer→danken, responder→antworten, seguir→folgen, acreditar em→glauben, parabenizar→gratulieren, pertencer→gehören	genau A2 A2-01 A2-01-pt-BR-01 contrast-pt-BR cases contrast
+[🇧🇷] PT "para": which German preposition?	benefit → für ▲ (für dich); direction → zu/nach ■ (zum Arzt, nach Berlin)	genau A2 A2-03 A2-03-pt-BR-01 contrast-pt-BR prepositions contrast
+[🇧🇷] "in einer Stunde" — meaning?	in an hour from now (future distance); PT daqui a uma hora	genau A2 A2-04 A2-04-pt-BR-01 contrast-pt-BR time prepositions
+[🇧🇷] "Há três anos que moro aqui" → German	Ich wohne seit drei Jahren hier. (present tense!)	genau A2 A2-04 A2-04-pt-BR-02 contrast-pt-BR time contrast
+[🇧🇷] PT "poder" — können or dürfen?	ability → können (Posso nadar); permission → dürfen (Posso fumar aqui? → Darf ich …?)	genau A2 A2-07 A2-07-pt-BR-01 contrast-pt-BR modals contrast
+[🇧🇷] "Você não deve fumar aqui" (prohibition) → German	Sie dürfen hier nicht rauchen. (not müssen nicht)	genau A2 A2-07 A2-07-pt-BR-02 contrast-pt-BR modals contrast
+[🇧🇷] Translate "Acho que ele vem amanhã."	Ich glaube, dass er morgen kommt.	genau A2 A2-11 A2-11-pt-BR-01 contrast-pt-BR nebensatz contrast
+[🇧🇷] PT "se": wenn or ob?	condition (if) → wenn; whether (Não sei se ele vem) → ob	genau A2 A2-12 A2-12-pt-BR-01 contrast-pt-BR nebensatz contrast
+[🇧🇷] PT -ria form → German	würde + Infinitiv (compraria → würde kaufen); poderia → könnte; gostaria → hätte gern / würde gern; seria → wäre	genau A2 A2-13 A2-13-pt-BR-01 contrast-pt-BR konjunktiv contrast
+[🇧🇷] PT "pensar em / esperar por / ter medo de" → German chunks	denken an ▲ / warten auf ▲ / Angst haben vor ■	genau A2 A2-14 A2-14-pt-BR-01 contrast-pt-BR verbs prepositions contrast
+[🇧🇷] PT "ficar / virar / tornar-se" → German	werden: ficou tarde → es wurde spät; virou médico → er wurde Arzt	genau A2 A2-19 A2-19-pt-BR-01 contrast-pt-BR verbs contrast
+[🇧🇷] "Vou viajar amanhã" → German	Ich reise morgen. / Morgen reise ich. (Präsens + time word, not werden)	genau A2 A2-19 A2-19-pt-BR-02 contrast-pt-BR verbs future contrast
+[🇧🇷] PT clitic order "deu-mo" vs German	Ich gab es mir? no — Er gab es mir: ▲ pronoun before ■ pronoun (reverse of PT)	genau A2 A2-20 A2-20-pt-BR-01 contrast-pt-BR word-order contrast
+[🇧🇷] PT "agradecer por / pedir / participar de / reclamar de" → German chunks	sich bedanken für ▲ / bitten um ▲ / teilnehmen an ■ / sich beschweren über ▲	genau A2 A2-21 A2-21-pt-BR-01 contrast-pt-BR verbs prepositions contrast
+[🇧🇷] Translate "Quando cheguei à estação, o trem já tinha partido."	Als ich am Bahnhof ankam, war der Zug schon abgefahren.	genau B1 B1-04 B1-04-pt-BR-01 contrast-pt-BR plusquamperfekt contrast
+[🇧🇷] Translate "Ele provavelmente está no trânsito agora" using werden.	Er wird jetzt wohl im Stau stehen.	genau B1 B1-05 B1-05-pt-BR-01 contrast-pt-BR futur contrast
+[🇧🇷] Process Passive (wird geöffnet) vs State Passive (ist geöffnet)?	wird geöffnet = action (someone is opening it, PT é aberto) · ist geöffnet = resulting state (it is open, PT está aberto)	genau B1 B1-07 B1-07-pt-BR-01 contrast-pt-BR passiv contrast
+[🇧🇷] indem — meaning and how it translates English "by + -ing" / PT gerund?	"by doing" (manner/means, Subjunktor, verb at end): Man spart Energie, indem man das Licht ausschaltet.	genau B1 B1-09 B1-09-pt-BR-01 contrast-pt-BR connectors contrast
+[🇧🇷] Translate "Não recebi nem uma confirmação nem uma fatura."	Ich habe weder eine Bestätigung noch eine Rechnung erhalten.	genau B1 B1-10 B1-10-pt-BR-01 contrast-pt-BR connectors contrast
+[🇧🇷] Does German backshift tense in reported speech after "Er sagte" like PT/EN ("He said he was tired")?	No: Er sagte, dass er müde ist (or sei). Keep the present tense of the original thought.	genau B1 B1-14 B1-14-pt-BR-01 contrast-pt-BR reported-speech contrast
+[🇧🇷] Fix the PT double-negation trap: "Ich habe gestern nicht niemanden gesehen."	Ich habe gestern niemanden gesehen. (only ONE negative word per clause in German!)	genau B1 B1-18 B1-18-pt-BR-01 contrast-pt-BR negation contrast
+[🇧🇷] Translate "Ainda não recebi nenhuma resposta."	Ich habe noch keine Antwort erhalten / bekommen.	genau B1 B1-18 B1-18-pt-BR-02 contrast-pt-BR negation contrast

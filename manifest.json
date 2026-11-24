@@ -1,0 +1,18 @@
+{
+  "name": "Genau — German Grammar A1 to B1",
+  "short_name": "Genau",
+  "description": "A structured, science-based self-study German grammar course (A1 → B1) with multilingual contrast notes and spaced-repetition flashcards.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#1d3c63",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
