@@ -5,3 +5,4 @@ review/anki-export.tsv
 __pycache__/
 *.py[cod]
 .DS_Store
+.zed/
