@@ -1,14 +1,20 @@
 # B1-13 — Verbs with prepositions III and `da(r)-` / `wo(r)-` compounds (with clauses)
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-14, A2-21, B1-08, B1-12 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-14, A2-21, B1-08, B1-12 · **Nicos Weg B1:** [Studium und Beruf](https://learngerman.dw.com/de/studium-und-beruf/l-38487338) (Einh. 9), [Einh. 14 *Zu jung – zu alt?*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can use the complete B1 set of verb + preposition chunks, distinguish person vs thing references (`an ihn` vs `daran`), and use anticipatory `da(r)-` before `dass` and `zu`-clauses (`Ich freue mich darauf, dass …`).
 
 ## 0. Diagnostic (3 min)
 
 Fill in the preposition, `da(r)-` or `wo(r)-` form. ≥ 7/8 → `✔`.
 
-1. Ich freue mich schon sehr ___, Sie persönlich kennenzulernen. 2. ___ hast du dich beim Chef beschwert? — Über die Überstunden. 3. ___ ___ hast du dich über die Überstunden beschwert? — Beim Chef. 4. Hast du dich schon an das Wetter gewöhnt? — Nein, ___ gewöhne ich mich nie! 5. Wartest du auf deine Schwester? — Ja, ich warte schon seit einer Stunde ___ ___. 6. Er hat sich noch nicht ___ entschieden, welches Angebot er annimmt. 7. Alles hängt ___ ab, ob wir rechtzeitig einen Kredit bekommen. 8. Das Buch handelt ___ einer Familie im 19. Jahrhundert.
-
+1. Ich freue mich schon sehr ___, Sie persönlich kennenzulernen.
+2. ___ hast du dich beim Chef beschwert? — Über die Überstunden.
+3. ___ ___ hast du dich über die Überstunden beschwert? — Beim Chef.
+4. Hast du dich schon an das Wetter gewöhnt? — Nein, ___ gewöhne ich mich nie!
+5. Wartest du auf deine Schwester? — Ja, ich warte schon seit einer Stunde ___ ___.
+6. Er hat sich noch nicht ___ entschieden, welches Angebot er annimmt.
+7. Alles hängt ___ ab, ob wir rechtzeitig einen Kredit bekommen.
+8. Das Buch handelt ___ einer Familie im 19. Jahrhundert.
 ## 1. The rule in one picture
 
 ```
@@ -66,7 +72,18 @@ Fill in the preposition, `da(r)-` or `wo(r)-` form. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Fill in the preposition and decline the noun** — 1. Du kannst dich immer ___ (ich) verlassen. 2. Wir müssen uns gut ___ (das Gespräch) vorbereiten. 3. Bei Fragen wenden Sie sich bitte ___ (unser Kundenservice, m). 4. Ich möchte Ihnen herzlich ___ (die bestandene Prüfung) gratulieren. 5. Viele Anwohner leiden ___ (der starke Verkehr). 6. Die Creme schützt die Haut ___ (die Sonne). 7. In dem Artikel geht es ___ (das Thema Umweltschutz). 8. Der Roman handelt ___ (ein junger Arzt). 9. Ich habe nicht ___ (eine so schnelle Antwort) gerechnet. 10. Wir sollten ___ (das Auto) verzichten und den Zug nehmen.
+**4.1 Fill in the preposition and decline the noun**
+
+1. Du kannst dich immer ___ (ich) verlassen.
+2. Wir müssen uns gut ___ (das Gespräch) vorbereiten.
+3. Bei Fragen wenden Sie sich bitte ___ (unser Kundenservice, m).
+4. Ich möchte Ihnen herzlich ___ (die bestandene Prüfung) gratulieren.
+5. Viele Anwohner leiden ___ (der starke Verkehr).
+6. Die Creme schützt die Haut ___ (die Sonne).
+7. In dem Artikel geht es ___ (das Thema Umweltschutz).
+8. Der Roman handelt ___ (ein junger Arzt).
+9. Ich habe nicht ___ (eine so schnelle Antwort) gerechnet.
+10. Wir sollten ___ (das Auto) verzichten und den Zug nehmen.
 
 **4.2 Person (`Präp. + Pronoun / wen / wem`) vs Thing (`da(r)- / wo(r)-`)** —
 1. A: ___ ärgerst du dich? (thing) — B: Über den langsamen Computer. Ich ärgere mich jeden Tag ___.
@@ -89,8 +106,13 @@ Fill in the preposition, `da(r)-` or `wo(r)-` form. ≥ 7/8 → `✔`.
 3. Das Einzige, ___ er sich interessiert, ist Fußball. (*sich interessieren für*)
 4. Das war etwas, ___ niemand gerechnet hatte. (*rechnen mit*)
 
-**4.5 Sprachbausteine-style** — 1. Ich möchte mich herzlich ___ bedanken, dass Sie mich so freundlich unterstützt haben. (a) darüber (b) dafür (c) darum 2. Bei weiteren Fragen können Sie sich jederzeit ___ unsere Mitarbeiterin Frau Scholz wenden. (a) an (b) auf (c) zu 3. Wir bitten Sie, ___ zu achten, dass der Flur frei bleibt. (a) daran (b) darüber (c) darauf 4. Ob das Fest draußen stattfindet, hängt natürlich ___ Wetter ab. (a) am (b) vom (c) über das 5. ___ handelt es sich bei diesem Angebot genau? (a) Wovon (b) Worüber (c) Worum
+**4.5 Sprachbausteine-style**
 
+1. Ich möchte mich herzlich ___ bedanken, dass Sie mich so freundlich unterstützt haben. (a) darüber (b) dafür (c) darum
+2. Bei weiteren Fragen können Sie sich jederzeit ___ unsere Mitarbeiterin Frau Scholz wenden. (a) an (b) auf (c) zu
+3. Wir bitten Sie, ___ zu achten, dass der Flur frei bleibt. (a) daran (b) darüber (c) darauf
+4. Ob das Fest draußen stattfindet, hängt natürlich ___ Wetter ab. (a) am (b) vom (c) über das
+5. ___ handelt es sich bei diesem Angebot genau? (a) Wovon (b) Worüber (c) Worum
 ## 5. Answer key
 
 <details>
@@ -106,7 +128,12 @@ Fill in the preposition, `da(r)-` or `wo(r)-` form. ≥ 7/8 → `✔`.
 
 **4.4** 1 woran 2 wovor 3 wofür 4 womit
 
-**4.5** 1 b 2 a 3 c 4 b 5 c (*es handelt sich um → worum*)
+**4.5**
+1. **b** (*dafür* — `sich bedanken für` + `dass`-clause → correlate *dafür*)
+2. **a** (*an* — fixed verb chunk `sich wenden an ▲`)
+3. **c** (*darauf* — `achten auf` + `dass`-clause → correlate *darauf*)
+4. **b** (*vom* — fixed verb chunk `abhängen von ■` → *von dem = vom Wetter*)
+5. **c** (*Worum* — fixed verb chunk `es handelt sich um` + thing-question → *Worum*)
 
 </details>
 
@@ -116,7 +143,7 @@ Write 5 sentences for a formal letter using anticipatory `da(r)-` compounds: (1)
 
 ## 7. Cards
 
-`B1-13-01` … `B1-13-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-13`.
+`B1-13-01` … `B1-13-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-13`.
 
 ## 8. Live drill prompt
 

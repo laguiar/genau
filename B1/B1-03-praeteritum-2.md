@@ -1,14 +1,20 @@
 # B1-03 — Präteritum II: regular, irregular, and mixed verbs in narrative texts
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-17, A2-05, A2-06 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-17, A2-05, A2-06 · **Nicos Weg B1:** [Einh. 2 *Geschichte* & Einh. 7 *Arbeitswelt* — Präteritum](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can read newspaper articles, biographies and reports in the Präteritum, and form the Präteritum of regular, mixed and core strong verbs.
 
 ## 0. Diagnostic (3 min)
 
 Give the Präteritum (`er/sie/es` form, or as indicated). ≥ 7/8 → `✔`.
 
-1. er (machen) ___ 2. sie (arbeiten) ___ 3. ich (gehen) ___ 4. wir (kommen) ___ 5. er (denken) ___ 6. sie/pl. (nehmen) ___ 7. ich (bleiben) ___ 8. er (anrufen) ___ ___
-
+1. er (machen) ___
+2. sie (arbeiten) ___
+3. ich (gehen) ___
+4. wir (kommen) ___
+5. er (denken) ___
+6. sie/pl. (nehmen) ___
+7. ich (bleiben) ___
+8. er (anrufen) ___ ___
 ## 1. The rule in one picture
 
 ```
@@ -64,14 +70,45 @@ Give the Präteritum (`er/sie/es` form, or as indicated). ≥ 7/8 → `✔`.
 **4.1 Recognise in a news text** — Write the infinitive of each bold Präteritum verb:
 > *Gestern **ereignete** (1) sich auf der A3 ein Unfall. Ein Fahrer **verlor** (2) bei starkem Regen die Kontrolle über sein Auto und **fuhr** (3) gegen eine Leitplanke. Zum Glück **blieb** (4) er unverletzt. Die Polizei **sperrte** (5) die Straße für zwei Stunden. Viele Pendler **standen** (6) im Stau und **kamen** (7) zu spät zur Arbeit. Erst am Mittag **floss** (8) der Verkehr wieder normal.*
 
-**4.2 Fill in the Präteritum** — 1. Nach der Schule (studieren) ___ sie Medizin. 2. Wir (wohnen) ___ fünf Jahre in Hamburg. 3. Er (antworten) ___ nicht auf meine Frage. 4. Ich (finden) ___ meinen Schlüssel nicht. 5. Sie (sprechen) ___ mit dem Abteilungsleiter. 6. Der Zug (abfahren) ___ zehn Minuten zu spät ___. 7. Wir (denken) ___, der Laden wäre offen. 8. Er (entscheiden) ___ sich für das zweite Angebot.
+**4.2 Fill in the Präteritum**
 
-**4.3 Perfekt → Präteritum (rewrite as a written report)** — 1. Am Montag hat die Konferenz begonnen. 2. Über 200 Gäste sind nach Berlin gekommen. 3. Die Direktorin hat die Teilnehmer begrüßt und hat das Programm vorgestellt. 4. Am Abend haben alle zusammen im Hotel gegessen. 5. Viele haben neue Kontakte gefunden.
+1. Nach der Schule (studieren) ___ sie Medizin.
+2. Wir (wohnen) ___ fünf Jahre in Hamburg.
+3. Er (antworten) ___ nicht auf meine Frage.
+4. Ich (finden) ___ meinen Schlüssel nicht.
+5. Sie (sprechen) ___ mit dem Abteilungsleiter.
+6. Der Zug (abfahren) ___ zehn Minuten zu spät ___.
+7. Wir (denken) ___, der Laden wäre offen.
+8. Er (entscheiden) ___ sich für das zweite Angebot.
 
-**4.4 Mixed verbs & high-frequency strong verbs** — Give Präteritum (`er`): 1. bringen → 2. wissen → 3. kennen → 4. nehmen → 5. geben → 6. sehen → 7. bleiben → 8. schließen → 9. helfen → 10. lassen →
+**4.3 Perfekt → Präteritum (rewrite as a written report)**
 
-**4.5 Sprachbausteine-style** — 1. Als ich gestern nach Hause ___, regnete es stark. (a) komme (b) kam (c) gekommen 2. Früher ___ es in diesem Dorf keinen Supermarkt. (a) gibt (b) gegeben (c) gab 3. Ich ___ leider nicht früher anrufen, weil mein Akku leer war. (a) konnte (b) könnte (c) gekonnt 4. Er ___ schon gestern, dass der Termin ausfällt. (a) weiß (b) gewusst (c) wusste 5. Nach dem Studium ___ sie eine Stelle bei einer Bank an. (a) nahm (b) nimmt (c) genommen
+1. Am Montag hat die Konferenz begonnen.
+2. Über 200 Gäste sind nach Berlin gekommen.
+3. Die Direktorin hat die Teilnehmer begrüßt und hat das Programm vorgestellt.
+4. Am Abend haben alle zusammen im Hotel gegessen.
+5. Viele haben neue Kontakte gefunden.
 
+**4.4 Mixed verbs & high-frequency strong verbs** — Give Präteritum (`er`):
+
+1. bringen →
+2. wissen →
+3. kennen →
+4. nehmen →
+5. geben →
+6. sehen →
+7. bleiben →
+8. schließen →
+9. helfen →
+10. lassen →
+
+**4.5 Sprachbausteine-style**
+
+1. Als ich gestern nach Hause ___, regnete es stark. (a) komme (b) kam (c) gekommen
+2. Früher ___ es in diesem Dorf keinen Supermarkt. (a) gibt (b) gegeben (c) gab
+3. Ich ___ leider nicht früher anrufen, weil mein Akku leer war. (a) konnte (b) könnte (c) gekonnt
+4. Er ___ schon gestern, dass der Termin ausfällt. (a) weiß (b) gewusst (c) wusste
+5. Nach dem Studium ___ sie eine Stelle bei einer Bank an. (a) nahm (b) nimmt (c) genommen
 ## 5. Answer key
 
 <details>
@@ -87,7 +124,12 @@ Give the Präteritum (`er/sie/es` form, or as indicated). ≥ 7/8 → `✔`.
 
 **4.4** 1 brachte 2 wusste 3 kannte 4 nahm 5 gab 6 sah 7 blieb 8 schloss 9 half 10 ließ
 
-**4.5** 1 b 2 c 3 a 4 c 5 a
+**4.5**
+1. **b** (*kam* — single past event with `als` + Präteritum narrative: *kommen → kam*)
+2. **c** (*gab* — past state (*Früher*): *es gibt → es gab*)
+3. **a** (*konnte* — past fact with modal → Präteritum *konnte*, no umlaut)
+4. **c** (*wusste* — mixed verb *wissen* in Präteritum = *wusste*)
+5. **a** (*nahm* — strong verb *annehmen* in Präteritum = *nahm … an*)
 
 </details>
 
@@ -97,7 +139,7 @@ Write a 5-sentence mini-biography (your own path or a famous person's) in the **
 
 ## 7. Cards
 
-`B1-03-01` … `B1-03-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-03`.
+`B1-03-01` … `B1-03-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-03`.
 
 ## 8. Live drill prompt
 

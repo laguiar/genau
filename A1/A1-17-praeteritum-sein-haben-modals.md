@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Gestern (sein) ___ ich krank. 2. Wir (haben) ___ keine Zeit. 3. Er (können) ___ nicht kommen. 4. Ihr (müssen) ___ früh aufstehen. 5. Ich (wollen) ___ ins Kino gehen. 6. (sein) ___ du schon in Berlin? 7. Es (geben) ___ viele Leute. 8. Sie (they) (haben) ___ Glück.
-
+1. Gestern (sein) ___ ich krank.
+2. Wir (haben) ___ keine Zeit.
+3. Er (können) ___ nicht kommen.
+4. Ihr (müssen) ___ früh aufstehen.
+5. Ich (wollen) ___ ins Kino gehen.
+6. (sein) ___ du schon in Berlin?
+7. Es (geben) ___ viele Leute.
+8. Sie (they) (haben) ___ Glück.
 ## 1. The rule in one picture
 
 ```
@@ -56,16 +62,49 @@ For most verbs, the spoken past is the Perfekt (A1-16). For **`sein`, `haben`, t
 
 ## 4. Exercises (no peeking)
 
-**4.1 Conjugate** — 1. ich (sein) 2. du (haben) 3. er (können) 4. wir (müssen) 5. ihr (sein) 6. sie/they (wollen) 7. Sie (haben) 8. du (dürfen) 9. ich (sollen) 10. ihr (können)
+**4.1 Conjugate**
 
-**4.2 Präsens → Präteritum** — 1. Ich bin müde. 2. Wir haben Hunger. 3. Er kann gut singen. 4. Ihr müsst lernen. 5. Sie will nach Hause. 6. Es gibt keinen Kaffee. 7. Bist du krank? 8. Habt ihr Zeit?
+1. ich (sein)
+2. du (haben)
+3. er (können)
+4. wir (müssen)
+5. ihr (sein)
+6. sie/they (wollen)
+7. Sie (haben)
+8. du (dürfen)
+9. ich (sollen)
+10. ihr (können)
 
-**4.3 Perfekt or Präteritum?** — Put in the past with the natural tense: 1. Ich (fahren) nach Rom. 2. Das Hotel (sein) sehr schön. 3. Wir (haben) ein großes Zimmer. 4. Ich (essen) jeden Abend Pasta. 5. Leider (können) wir nicht schwimmen. 6. Es (geben) keinen Strand. 7. Am Sonntag (müssen) wir zurückfliegen. 8. Der Flug (dauern) zwei Stunden.
+**4.2 Präsens → Präteritum**
 
-**4.4 Build** — 1. gestern / ich / müssen / lange arbeiten 2. warum / du / nicht / können / kommen / ? 3. wir / wollen / ins Kino / gehen / aber / es / geben / keine Karten 4. als Kind / ich / dürfen / nicht / fernsehen
+1. Ich bin müde.
+2. Wir haben Hunger.
+3. Er kann gut singen.
+4. Ihr müsst lernen.
+5. Sie will nach Hause.
+6. Es gibt keinen Kaffee.
+7. Bist du krank?
+8. Habt ihr Zeit?
+
+**4.3 Perfekt or Präteritum?** — Put in the past with the natural tense:
+
+1. Ich (fahren) nach Rom.
+2. Das Hotel (sein) sehr schön.
+3. Wir (haben) ein großes Zimmer.
+4. Ich (essen) jeden Abend Pasta.
+5. Leider (können) wir nicht schwimmen.
+6. Es (geben) keinen Strand.
+7. Am Sonntag (müssen) wir zurückfliegen.
+8. Der Flug (dauern) zwei Stunden.
+
+**4.4 Build**
+
+1. gestern / ich / müssen / lange arbeiten
+2. warum / du / nicht / können / kommen / ?
+3. wir / wollen / ins Kino / gehen / aber / es / geben / keine Karten
+4. als Kind / ich / dürfen / nicht / fernsehen
 
 **4.5 Produce** — Your last holiday in 6 sentences, mixing *war, hatte, konnte, musste, wollte, es gab* with two Perfekt sentences.
-
 ## 5. Answer key
 
 <details>
@@ -91,7 +130,7 @@ Answer a friend's e-mail: *Wie war dein Wochenende?* in 5 sentences, using *war,
 
 ## 7. Cards
 
-`A1-17-01` … `A1-17-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-17`.
+`A1-17-01` … `A1-17-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-17`.
 
 ## 8. Live drill prompt
 

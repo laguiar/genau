@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. ich (können) ___ gut kochen. 2. du (müssen) ___ heute arbeiten. 3. er (wollen) ___ nach Berlin fahren. 4. wir (möchten) ___ einen Kaffee. 5. ihr (können) ___ Deutsch sprechen. 6. Build: ich / müssen / einkaufen / heute → 7. sie (they) (mögen) ___ Pizza. 8. Build: du / können / mir helfen / ? →
-
+1. ich (können) ___ gut kochen.
+2. du (müssen) ___ heute arbeiten.
+3. er (wollen) ___ nach Berlin fahren.
+4. wir (möchten) ___ einen Kaffee.
+5. ihr (können) ___ Deutsch sprechen.
+6. Build: ich / müssen / einkaufen / heute →
+7. sie (they) (mögen) ___ Pizza.
+8. Build: du / können / mir helfen / ? →
 ## 1. The rule in one picture
 
 ```
@@ -61,16 +67,49 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Which modal?** — können / müssen / wollen / möchten / mögen: 1. Ability to swim. 2. Polite order in a café. 3. The law says you have to. 4. A strong plan for the future. 5. Liking a food. 6. Asking permission informally.
+**4.1 Which modal?** — können / müssen / wollen / möchten / mögen:
 
-**4.2 Conjugate** — 1. ich (müssen) 2. du (können) 3. er (wollen) 4. wir (möchten) 5. ihr (müssen) 6. sie/she (mögen) 7. Sie (können) 8. du (wollen) 9. ich (mögen) 10. ihr (können)
+1. Ability to swim.
+2. Polite order in a café.
+3. The law says you have to.
+4. A strong plan for the future.
+5. Liking a food.
+6. Asking permission informally.
 
-**4.3 Build** — 1. ich / müssen / heute / lange / arbeiten 2. du / können / mich / morgen / anrufen / ? 3. wir / wollen / im Sommer / nach Italien / fahren 4. Sie / möchten / etwas trinken / ? 5. die Kinder / müssen / um 8 Uhr / ins Bett gehen 6. er / können / nicht / kommen 7. ich / möchten / ein Glas Wasser 8. wann / ihr / wollen / einkaufen / ?
+**4.2 Conjugate**
 
-**4.4 Transform** — Add the modal in brackets: 1. Ich lerne Deutsch. (müssen) 2. Er spricht Portugiesisch. (können) 3. Wir kaufen ein Auto. (wollen) 4. Kommst du mit? (können) 5. Sie steht früh auf. (müssen) 6. Ich esse Pizza. (möchten)
+1. ich (müssen)
+2. du (können)
+3. er (wollen)
+4. wir (möchten)
+5. ihr (müssen)
+6. sie/she (mögen)
+7. Sie (können)
+8. du (wollen)
+9. ich (mögen)
+10. ihr (können)
+
+**4.3 Build**
+
+1. ich / müssen / heute / lange / arbeiten
+2. du / können / mich / morgen / anrufen / ?
+3. wir / wollen / im Sommer / nach Italien / fahren
+4. Sie / möchten / etwas trinken / ?
+5. die Kinder / müssen / um 8 Uhr / ins Bett gehen
+6. er / können / nicht / kommen
+7. ich / möchten / ein Glas Wasser
+8. wann / ihr / wollen / einkaufen / ?
+
+**4.4 Transform** — Add the modal in brackets:
+
+1. Ich lerne Deutsch. (müssen)
+2. Er spricht Portugiesisch. (können)
+3. Wir kaufen ein Auto. (wollen)
+4. Kommst du mit? (können)
+5. Sie steht früh auf. (müssen)
+6. Ich esse Pizza. (möchten)
 
 **4.5 Produce** — Five sentences: what you can do well, must do this week, want to do next year, would like right now, and a food you like (*mögen*).
-
 ## 5. Answer key
 
 <details>
@@ -96,8 +135,8 @@ A note to a colleague: what you can't do today, what you must do, and what you w
 
 ## 7. Cards
 
-`A1-11-01` … `A1-11-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-11`.
+`A1-11-01` … `A1-11-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-11`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-11: Portuguese sentences with *posso/preciso/quero/gostaria/gosto de* to translate (watch infinitive position and gern), then scrambled sentences with modal + separable verb.
+> Drill me on A1-11: sentences from my active contrast language(s) with *can / must / want / would like / like* to translate (watch infinitive position and `gern`), then scrambled sentences with modal + separable verb.

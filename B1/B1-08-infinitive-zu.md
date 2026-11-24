@@ -1,14 +1,20 @@
 # B1-08 — Infinitive with `zu`; `um … zu / ohne … zu / (an)statt … zu`; `lassen` and `brauchen + zu`
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-10, A1-11, A2-12 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-10, A1-11, A2-12 · **Nicos Weg B1:** [Einh. 6 *Paare* — Infinitiv mit *zu*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can build infinitive clauses with `zu`, `um … zu`, `ohne … zu` and `(an)statt … zu`, and know which verbs take a bare infinitive without `zu` (modals, `lassen`, `gehen`, `sehen/hören`).
 
 ## 0. Diagnostic (3 min)
 
 Insert `zu` where needed (or `—` if no `zu`, or join as indicated). ≥ 7/8 → `✔`.
 
-1. Ich habe vergessen, die Tür (schließen) ___. 2. Vergiss nicht, mich morgen (anrufen) ___! 3. Ich muss heute länger (arbeiten) ___. 4. Ich lasse mein Auto in der Werkstatt (reparieren) ___. 5. Du brauchst heute nicht (kochen) ___. 6. Er lernt Deutsch, (in order to) ___ in Berlin ___ arbeiten. 7. Sie ging weg, (without) ___ sich ___ verabschieden. 8. (Instead of) ___ zu lernen, sieht er fern.
-
+1. Ich habe vergessen, die Tür (schließen) ___.
+2. Vergiss nicht, mich morgen (anrufen) ___!
+3. Ich muss heute länger (arbeiten) ___.
+4. Ich lasse mein Auto in der Werkstatt (reparieren) ___.
+5. Du brauchst heute nicht (kochen) ___.
+6. Er lernt Deutsch, (in order to) ___ in Berlin ___ arbeiten.
+7. Sie ging weg, (without) ___ sich ___ verabschieden.
+8. (Instead of) ___ zu lernen, sieht er fern.
 ## 1. The rule in one picture
 
 ```
@@ -67,16 +73,49 @@ Insert `zu` where needed (or `—` if no `zu`, or join as indicated). ≥ 7/8 �
 
 ## 4. Exercises (no peeking)
 
-**4.1 `zu + Infinitiv` or bare infinitive (`—`)?** — 1. Ich habe leider keine Zeit, heute Abend (mitkommen) ___. 2. Können Sie mir bitte (helfen) ___? 3. Wir lassen die Wohnung nächste Woche (streichen) ___. 4. Es ist verboten, hier (rauchen) ___. 5. Sie braucht sich keine Sorgen (machen) ___. 6. Ich gehe jetzt mit dem Hund (spazieren) ___. 7. Bitte vergessen Sie nicht, die Rechnung rechtzeitig (überweisen) ___. 8. Ich habe ihn gestern Klavier (spielen) ___ hören.
+**4.1 `zu + Infinitiv` or bare infinitive (`—`)?**
 
-**4.2 Build `zu`-clauses (watch out for separable verbs!)** — 1. Ich versuche / jeden Tag 20 Minuten Deutsch / üben. 2. Wir haben vor / am Wochenende Freunde / einladen. 3. Es ist wichtig / sich rechtzeitig für die Prüfung / anmelden. 4. Ich bitte Sie / mir den Termin kurz / bestätigen. 5. Sie hat mir versprochen / pünktlich / zurückkommen. 6. Ich freue mich darauf / an Ihrem Kurs / teilnehmen.
+1. Ich habe leider keine Zeit, heute Abend (mitkommen) ___.
+2. Können Sie mir bitte (helfen) ___?
+3. Wir lassen die Wohnung nächste Woche (streichen) ___.
+4. Es ist verboten, hier (rauchen) ___.
+5. Sie braucht sich keine Sorgen (machen) ___.
+6. Ich gehe jetzt mit dem Hund (spazieren) ___.
+7. Bitte vergessen Sie nicht, die Rechnung rechtzeitig (überweisen) ___.
+8. Ich habe ihn gestern Klavier (spielen) ___ hören.
 
-**4.3 `um … zu`, `ohne … zu`, or `(an)statt … zu`?** — Combine the sentences: 1. Er ging einfach aus dem Zimmer. Er sagte kein Wort. (*ohne … zu*) 2. Sie spart jeden Monat Geld. Sie will im Sommer nach Japan fliegen. (*um … zu*) 3. Er beschwert sich nur. Er sucht keine Lösung. (*statt … zu*) 4. Ich schreibe Ihnen diese E-Mail. Ich möchte mich nach den Preisen erkundigen. (*um … zu*) 5. Sie unterschrieb den Vertrag. Sie hatte das Kleingedruckte nicht gelesen. (*ohne … zu*) 6. Du sitzt den ganzen Tag vor dem Fernseher. Du solltest lieber für den Test lernen! (*statt … zu*)
+**4.2 Build `zu`-clauses (watch out for separable verbs!)**
 
-**4.4 `um … zu` (same subject) vs `damit` (different subjects)** — Join correctly: 1. Ich fahre nach Berlin. Ich möchte dort einen Deutschkurs besuchen. 2. Meine Eltern geben mir Geld. Ich kann einen Deutschkurs besuchen. 3. Der Lehrer wiederholt den Satz. Alle Schüler verstehen die Regel. 4. Ich nehme ein Taxi. Ich komme nicht zu spät zum Flughafen.
+1. Ich versuche / jeden Tag 20 Minuten Deutsch / üben.
+2. Wir haben vor / am Wochenende Freunde / einladen.
+3. Es ist wichtig / sich rechtzeitig für die Prüfung / anmelden.
+4. Ich bitte Sie / mir den Termin kurz / bestätigen.
+5. Sie hat mir versprochen / pünktlich / zurückkommen.
+6. Ich freue mich darauf / an Ihrem Kurs / teilnehmen.
 
-**4.5 Sprachbausteine-style** — 1. Ich möchte Sie bitten, das Paket bei meinen Nachbarn ___. (a) abgeben (b) abzugeben (c) zu abgeben 2. Sie ___ heute nicht ins Büro zu kommen; wir klären das telefonisch. (a) müssen (b) dürfen (c) brauchen 3. Er hat das Restaurant verlassen, ___ die Rechnung zu bezahlen. (a) ohne (b) statt (c) um 4. Wir haben unser Dach nach dem Sturm ___ lassen. (a) zu reparieren (b) repariert (c) reparieren 5. Ich rufe Sie an, ___ einen neuen Termin vorzuschlagen. (a) damit (b) um (c) dass
+**4.3 `um … zu`, `ohne … zu`, or `(an)statt … zu`?** — Combine the sentences:
 
+1. Er ging einfach aus dem Zimmer. Er sagte kein Wort. (*ohne … zu*)
+2. Sie spart jeden Monat Geld. Sie will im Sommer nach Japan fliegen. (*um … zu*)
+3. Er beschwert sich nur. Er sucht keine Lösung. (*statt … zu*)
+4. Ich schreibe Ihnen diese E-Mail. Ich möchte mich nach den Preisen erkundigen. (*um … zu*)
+5. Sie unterschrieb den Vertrag. Sie hatte das Kleingedruckte nicht gelesen. (*ohne … zu*)
+6. Du sitzt den ganzen Tag vor dem Fernseher. Du solltest lieber für den Test lernen! (*statt … zu*)
+
+**4.4 `um … zu` (same subject) vs `damit` (different subjects)** — Join correctly:
+
+1. Ich fahre nach Berlin. Ich möchte dort einen Deutschkurs besuchen.
+2. Meine Eltern geben mir Geld. Ich kann einen Deutschkurs besuchen.
+3. Der Lehrer wiederholt den Satz. Alle Schüler verstehen die Regel.
+4. Ich nehme ein Taxi. Ich komme nicht zu spät zum Flughafen.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich möchte Sie bitten, das Paket bei meinen Nachbarn ___. (a) abgeben (b) abzugeben (c) zu abgeben
+2. Sie ___ heute nicht ins Büro zu kommen; wir klären das telefonisch. (a) müssen (b) dürfen (c) brauchen
+3. Er hat das Restaurant verlassen, ___ die Rechnung zu bezahlen. (a) ohne (b) statt (c) um
+4. Wir haben unser Dach nach dem Sturm ___ lassen. (a) zu reparieren (b) repariert (c) reparieren
+5. Ich rufe Sie an, ___ einen neuen Termin vorzuschlagen. (a) damit (b) um (c) dass
 ## 5. Answer key
 
 <details>
@@ -92,7 +131,12 @@ Insert `zu` where needed (or `—` if no `zu`, or join as indicated). ≥ 7/8 �
 
 **4.4** 1 Ich fahre nach Berlin, um dort einen Deutschkurs zu besuchen. 2 Meine Eltern geben mir Geld, damit ich einen Deutschkurs besuchen kann. 3 Der Lehrer wiederholt den Satz, damit alle Schüler die Regel verstehen. 4 Ich nehme ein Taxi, um nicht zu spät zum Flughafen zu kommen.
 
-**4.5** 1 b 2 c 3 a 4 c 5 b
+**4.5**
+1. **b** (*abzugeben* — separable verb `ab|geben` inserts `-zu-` between prefix and stem)
+2. **c** (*brauchen* — `nicht … zu + Infinitiv` requires *brauchen*; *müssen/dürfen* take no *zu*)
+3. **a** (*ohne* — 'without paying' → `ohne … zu`)
+4. **c** (*reparieren* — `lassen` takes a bare infinitive with no *zu* and double-infinitive Perfekt)
+5. **b** (*um* — same subject (`ich`) + `zu` infinitive of purpose → *um … zu*)
 
 </details>
 
@@ -102,7 +146,7 @@ Write 5 sentences for a formal service/repair request letter using: (1) *Ich sch
 
 ## 7. Cards
 
-`B1-08-01` … `B1-08-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-08`.
+`B1-08-01` … `B1-08-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-08`.
 
 ## 8. Live drill prompt
 

@@ -131,7 +131,10 @@ Profile deutsch B1 inventory covered: Partizip I, Präteritum in full, Plusquamp
 | [shared/connectors.md](shared/connectors.md) | Every connector to B1 in the three-column model (Konjunktor / Subjunktor / Adverb) |
 | [shared/writing-templates.md](shared/writing-templates.md) | Redemittel for informal, semi-formal and formal letters; telc 4-point structure; model letters |
 | [shared/exam-telc-b1.md](shared/exam-telc-b1.md) | Exam format, points, timing, grading criteria, tactics |
-| [shared/mock-exam-telc-b1.md](shared/mock-exam-telc-b1.md) | Full timed written mock exam (Lesen Teil 1–3, Sprachbausteine Teil 1–2, Schreiben) |
+| [shared/reading-practice.md](shared/reading-practice.md) | Graded authentic reading mini-texts (A1 → B1) with comprehension questions & grammar hunts |
+| [shared/sprachbausteine-bank.md](shared/sprachbausteine-bank.md) | Extra telc B1 Sprachbausteine drill bank (4 timed letters · 40 items with explained keys) |
+| [shared/mock-exam-telc-b1.md](shared/mock-exam-telc-b1.md) | Full timed written Mock Exam 1 (Lesen Teil 1–3, Sprachbausteine Teil 1–2, Schreiben) |
+| [shared/mock-exam-2-telc-b1.md](shared/mock-exam-2-telc-b1.md) | Full timed written Mock Exam 2 (Lesen Teil 1–3, Sprachbausteine Teil 1–2, Schreiben) |
 | [shared/contrasts/README.md](shared/contrasts/README.md) | Index of modular language packs (`shared/contrasts/pt-BR.md`, `es.md`, `fr.md`, `en.md`, `TEMPLATE.md`) |
 | [shared/glossary.md](shared/glossary.md) | Grammar terminology DE / EN / PT / ES / FR |
 | [shared/lesson-template.md](shared/lesson-template.md) | The blank topic template |

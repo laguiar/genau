@@ -1,6 +1,6 @@
 # B1 — the fourth case, the passive, and the connector system
 
-Topics B1-01 to B1-22. See [PLAN.md](../PLAN.md) for the full table with *Profile deutsch* mapping. Every B1 topic links DW's B1 course (*Nicos Weg B1*: https://learngerman.dw.com/de/nicos-weg/c-36519718), ends with **5 Sprachbausteine-style items** and a **letter fragment**, and maps to its flashcards in [review/cards/B1.md](../review/cards/B1.md). Read [shared/exam-telc-b1.md](../shared/exam-telc-b1.md) before starting this level.
+Topics B1-01 to B1-22. See [PLAN.md](../PLAN.md) for the full table with *Profile deutsch* mapping. Every B1 topic maps to its matching DW *Nicos Weg B1* unit/episode (https://learngerman.dw.com/de/nicos-weg/c-36519718), ends with **5 Sprachbausteine-style items** (with explained answer keys) and a **letter fragment**, and maps to its flashcards in [review/cards/B1.md](../review/cards/B1.md). Read [shared/exam-telc-b1.md](../shared/exam-telc-b1.md) before starting this level.
 
 | # | File | Topic | Exam relevance |
 |---|------|-------|----------------|

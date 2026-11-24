@@ -7,8 +7,14 @@
 
 Imperative for the person in brackets. ≥ 7/8 → `✔`.
 
-1. kommen (du) 2. nehmen (du) 3. fahren (du) 4. kommen (ihr) 5. gehen (Sie) 6. sein (du) — be quiet: ___ leise! 7. anrufen (du) — mich 8. warten (du)
-
+1. kommen (du)
+2. nehmen (du)
+3. fahren (du)
+4. kommen (ihr)
+5. gehen (Sie)
+6. sein (du) — be quiet: ___ leise!
+7. anrufen (du) — mich
+8. warten (du)
 ## 1. The rule in one picture
 
 ```
@@ -55,16 +61,39 @@ Imperative for the person in brackets. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 du-form** — 1. schlafen 2. essen 3. sprechen 4. aufstehen 5. arbeiten 6. helfen (mir) 7. sein (nett) 8. haben (keine Angst) 9. lesen 10. mitkommen
+**4.1 du-form**
 
-**4.2 Sie-form** — 1. Platz nehmen 2. hier warten 3. das Formular ausfüllen 4. langsam sprechen 5. sein (so nett) 6. mich anrufen
+1. schlafen
+2. essen
+3. sprechen
+4. aufstehen
+5. arbeiten
+6. helfen (mir)
+7. sein (nett)
+8. haben (keine Angst)
+9. lesen
+10. mitkommen
 
-**4.3 Change the person** — From *du* to *ihr* and *Sie*: 1. Komm herein! 2. Gib mir das Buch! 3. Fahr vorsichtig! 4. Warte hier! 5. Sei pünktlich!
+**4.2 Sie-form**
+
+1. Platz nehmen
+2. hier warten
+3. das Formular ausfüllen
+4. langsam sprechen
+5. sein (so nett)
+6. mich anrufen
+
+**4.3 Change the person** — From *du* to *ihr* and *Sie*:
+
+1. Komm herein!
+2. Gib mir das Buch!
+3. Fahr vorsichtig!
+4. Warte hier!
+5. Sei pünktlich!
 
 **4.4 Directions** — Write 4 instructions for a stranger from the station to your home (*gehen, nehmen, abbiegen (bieg … ab / biegen Sie … ab), gehen … geradeaus, links, rechts, die erste/zweite Straße*).
 
 **4.5 Advice to a friend** — Five tips for learning German, *du*-form, with *doch/mal/bitte* in three of them (*lesen, hören, sprechen, wiederholen, keine Angst haben*).
-
 ## 5. Answer key
 
 <details>
@@ -90,7 +119,7 @@ A recipe or instruction in 5 steps, first in *Sie*-form, then the same in *du*-f
 
 ## 7. Cards
 
-`A1-12-01` … `A1-12-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-12`.
+`A1-12-01` … `A1-12-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-12`.
 
 ## 8. Live drill prompt
 

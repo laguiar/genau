@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Ich erkläre (mein Kollege) ___ (das Programm) ___. 2. Er hat (ich) ___ (sein Fahrrad) ___ geliehen. 3. Ich bedanke mich ___ das Geschenk. 4. Nimmst du ___ dem Kurs teil? 5. Wir haben uns ___ das Wetter beschwert. 6. ___ wartest du? — Auf den Bus. 7. ___ wem sprichst du? — Mit Anna. 8. Denkst du an die Prüfung? — Ja, ich denke oft ___.
-
+1. Ich erkläre (mein Kollege) ___ (das Programm) ___.
+2. Er hat (ich) ___ (sein Fahrrad) ___ geliehen.
+3. Ich bedanke mich ___ das Geschenk.
+4. Nimmst du ___ dem Kurs teil?
+5. Wir haben uns ___ das Wetter beschwert.
+6. ___ wartest du? — Auf den Bus.
+7. ___ wem sprichst du? — Mit Anna.
+8. Denkst du an die Prüfung? — Ja, ich denke oft ___.
 ## 1. The rule in one picture
 
 ```
@@ -41,8 +47,8 @@
 **Answering with a pronoun.** For **things**, fuse *da* + preposition: *darauf, damit, davon, dafür, darüber, daran, danach, dazu, dabei*. *Denkst du an den Termin? — Ja, ich denke **daran**.* For **people**, preposition + personal pronoun: *Denkst du an Anna? — Ja, ich denke **an sie**.* The *da-*compound can also point forward to a clause: *Ich freue mich **darauf**, dass du kommst. Ich bedanke mich **dafür**, dass Sie geholfen haben.* (Full treatment B1-13.)
 
 > 🇧🇷 **Portuguese contrast** — Two-object verbs: PT *dar/mostrar/explicar algo a alguém* → German no *a*: *jemandem etwas geben*. The *da-*compounds have no PT form; PT repeats the preposition + pronoun (*Penso nisso / Espero por isso*) — German fuses: *daran, darauf*. *Em que você pensa?* → *Woran denkst du?*; *Com quem?* → *Mit wem?*. Preposition mismatches to memorise: *agradecer por* → *sich bedanken für*, *pedir algo* → *bitten um*, *participar de* → *teilnehmen an ■*, *reclamar de* → *sich beschweren über ▲*, *depender de* → *abhängen von*, *concordar com* → *einverstanden sein mit*, *preparar-se para* → *sich vorbereiten auf ▲*, *acostumar-se com* → *sich gewöhnen an ▲*, *apaixonar-se por* → *sich verlieben in ▲*.
-> 🇪🇸 **Spanish contrast** — In Spanish, you use *preposición + pronombre / qué / quién* for both things and people (*¿En qué piensas? — Pienso en eso / ¿En quién piensas? — Pienso en ella*). German splits **things** from **people**: - **Thing:** fuse **`wo(r)-`** (question) and **`da(r)-`** (pronoun): ***Woran** denkst du? — Ich denke **daran*** (never ~~an es~~!). - **Person:** keep **preposition + `wen / wem` or personal pronoun**: ***An wen** denkst du? — Ich denke **an sie***. Also note key Spanish → German preposition mismatches: *agradecer por → sich bedanken **für ▲***, *pedir algo (no prep in ES!) → bitten **um ▲***, *participar en → teilnehmen **an ■***, *depender de → abhängen **von ■***.
-> 🇫🇷 **French contrast** — Compare French **`y`** and **`en`** (or *à quoi / de quoi*) with German **`da(r)-`** and **`wo(r)-`**: - For **things**, French uses *J'**y** pense / J'**en** parle / **À quoi** penses-tu ?*; German fuses **`da(r)-` / `wo(r)-` + the verb's exact preposition**: *Ich denke **daran** / Ich spreche **darüber** / **Woran** denkst du?* - For **people**, both French and German keep the preposition + personal/question pronoun: ***À qui** penses-tu ? — Je pense **à elle*** = ***An wen** denkst du? — Ich denke **an sie***.
+> 🇪🇸 **Spanish contrast** — In Spanish, you use *preposición + pronombre / qué / quién* for both things and people (*¿En qué piensas? — Pienso en eso / ¿En quién piensas? — Pienso en ella*). German splits **things** from **people**: Also note key Spanish → German preposition mismatches: *agradecer por → sich bedanken **für ▲***, *pedir algo (no prep in ES!) → bitten **um ▲***, *participar en → teilnehmen **an ■***, *depender de → abhängen **von ■***. **Thing:** fuse **`wo(r)-`** (question) and **`da(r)-`** (pronoun): ***Woran** denkst du? — Ich denke **daran*** (never ~~an es~~!) · **Person:** keep **preposition + `wen / wem` or personal pronoun**: ***An wen** denkst du? — Ich denke **an sie***.
+> 🇫🇷 **French contrast** — Compare French **`y`** and **`en`** (or *à quoi / de quoi*) with German **`da(r)-`** and **`wo(r)-`**: For **things**, French uses *J'**y** pense / J'**en** parle / **À quoi** penses-tu ?*; German fuses **`da(r)-` / `wo(r)-` + the verb's exact preposition**: *Ich denke **daran** / Ich spreche **darüber** / **Woran** denkst du?* · For **people**, both French and German keep the preposition + personal/question pronoun: ***À qui** penses-tu ? — Je pense **à elle*** = ***An wen** denkst du? — Ich denke **an sie***.
 > 🇬🇧 **English contrast** — *What are you waiting for?* → *Worauf wartest du?* (one word, preposition first). *Who are you talking to?* → *Mit wem sprichst du?* *thank for* → *sich bedanken für*; *ask for* → *bitten um*; *take part in* → *teilnehmen an ■*; *depend on* → *abhängen von*.
 
 ## 3. Watch out
@@ -56,16 +62,57 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Two objects** — 1. Der Kellner bringt (die Gäste) ___ (die Rechnung) ___. 2. Kannst du (ich) ___ (dein Auto) ___ leihen? 3. Ich habe (meine Freundin) ___ (die Geschichte) ___ erzählt. 4. Wir wünschen (Sie) ___ (ein gutes neues Jahr) ___. 5. Der Chef hat (wir) ___ (der Urlaub) ___ erlaubt. 6. Zeig (ich) ___ (dein Foto) ___! 7. Sie hat (er) ___ (das Rauchen) ___ verboten. 8. Ich habe (die Frage) ___ beantwortet.
+**4.1 Two objects**
 
-**4.2 Preposition + case** — 1. Ich bedanke mich ___ (die Einladung). 2. Er hat sich ___ (die Stelle) beworben. 3. Wir nehmen ___ (das Seminar) teil. 4. Sie hat sich ___ (der Chef) ___ (das Gehalt) beschwert. 5. Ich möchte mich ___ (die Öffnungszeiten) erkundigen. 6. Das hängt ___ (das Wetter) ab. 7. Bist du ___ (der Plan) einverstanden? 8. Ich muss mich ___ (die Prüfung) vorbereiten. 9. Sie hat sich ___ (das Leben in Deutschland) gewöhnt. 10. Er leidet ___ (der Stress).
+1. Der Kellner bringt (die Gäste) ___ (die Rechnung) ___.
+2. Kannst du (ich) ___ (dein Auto) ___ leihen?
+3. Ich habe (meine Freundin) ___ (die Geschichte) ___ erzählt.
+4. Wir wünschen (Sie) ___ (ein gutes neues Jahr) ___.
+5. Der Chef hat (wir) ___ (der Urlaub) ___ erlaubt.
+6. Zeig (ich) ___ (dein Foto) ___!
+7. Sie hat (er) ___ (das Rauchen) ___ verboten.
+8. Ich habe (die Frage) ___ beantwortet.
 
-**4.3 Questions** — Ask about the underlined part: 1. Ich warte _auf den Brief_. 2. Ich warte _auf meinen Bruder_. 3. Sie spricht _mit ihrer Chefin_. 4. Er interessiert sich _für Geschichte_. 5. Wir denken _an die Ferien_. 6. Ich habe Angst _vor dem Zahnarzt_. 7. Sie erzählt _von ihrer Reise_. 8. Das Kind freut sich _auf Oma_.
+**4.2 Preposition + case**
 
-**4.4 Answer with a pronoun** — 1. Denkst du an das Meeting? — Ja, ___. 2. Denkst du an Paul? — Ja, ___. 3. Bist du mit dem Ergebnis zufrieden? — Nein, ___. 4. Freust du dich auf die Reise? — Ja, sehr, ___. 5. Hast du dich bei Frau Kurz bedankt? — Ja, ___. 6. Interessierst du dich für Politik? — Nein, ___.
+1. Ich bedanke mich ___ (die Einladung).
+2. Er hat sich ___ (die Stelle) beworben.
+3. Wir nehmen ___ (das Seminar) teil.
+4. Sie hat sich ___ (der Chef) ___ (das Gehalt) beschwert.
+5. Ich möchte mich ___ (die Öffnungszeiten) erkundigen.
+6. Das hängt ___ (das Wetter) ab.
+7. Bist du ___ (der Plan) einverstanden?
+8. Ich muss mich ___ (die Prüfung) vorbereiten.
+9. Sie hat sich ___ (das Leben in Deutschland) gewöhnt.
+10. Er leidet ___ (der Stress).
 
-**4.5 Sprachbausteine-style** — 1. Ich möchte mich ___ Ihre schnelle Hilfe bedanken. (a) für (b) über (c) um 2. ___ interessieren Sie sich besonders? (a) Wofür (b) Für was (c) Worüber 3. Ich bitte Sie ___ eine kurze Antwort. (a) für (b) um (c) über 4. Ich freue mich sehr ___, Sie kennenzulernen. (a) darüber (b) darauf (c) dafür 5. Können Sie ___ die Unterlagen schicken? (a) mir (b) mich (c) ich
+**4.3 Questions** — Ask about the underlined part:
 
+1. Ich warte _auf den Brief_.
+2. Ich warte _auf meinen Bruder_.
+3. Sie spricht _mit ihrer Chefin_.
+4. Er interessiert sich _für Geschichte_.
+5. Wir denken _an die Ferien_.
+6. Ich habe Angst _vor dem Zahnarzt_.
+7. Sie erzählt _von ihrer Reise_.
+8. Das Kind freut sich _auf Oma_.
+
+**4.4 Answer with a pronoun**
+
+1. Denkst du an das Meeting? — Ja, ___.
+2. Denkst du an Paul? — Ja, ___.
+3. Bist du mit dem Ergebnis zufrieden? — Nein, ___.
+4. Freust du dich auf die Reise? — Ja, sehr, ___.
+5. Hast du dich bei Frau Kurz bedankt? — Ja, ___.
+6. Interessierst du dich für Politik? — Nein, ___.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich möchte mich ___ Ihre schnelle Hilfe bedanken. (a) für (b) über (c) um
+2. ___ interessieren Sie sich besonders? (a) Wofür (b) Für was (c) Worüber
+3. Ich bitte Sie ___ eine kurze Antwort. (a) für (b) um (c) über
+4. Ich freue mich sehr ___, Sie kennenzulernen. (a) darüber (b) darauf (c) dafür
+5. Können Sie ___ die Unterlagen schicken? (a) mir (b) mich (c) ich
 ## 5. Answer key
 
 <details>
@@ -81,7 +128,12 @@
 
 **4.4** 1 ich denke daran 2 ich denke an ihn 3 ich bin nicht damit zufrieden / damit bin ich nicht zufrieden 4 ich freue mich darauf 5 ich habe mich bei ihr bedankt 6 dafür interessiere ich mich nicht / ich interessiere mich nicht dafür
 
-**4.5** 1 a 2 a 3 b 4 b 5 a
+**4.5**
+1. **a** (*für* — fixed verb chunk `sich bedanken für ▲`)
+2. **a** (*Wofür* — thing-question with `sich interessieren für` → *wo- + für*)
+3. **b** (*um* — fixed verb chunk `bitten um ▲`)
+4. **b** (*darauf* — future anticipation `sich freuen auf` + clause → *darauf*)
+5. **a** (*mir* — recipient with `schicken` takes ■ Dativ (*mir*))
 
 </details>
 
@@ -91,8 +143,8 @@ A formal e-mail fragment with 6 chunks: *Ich bedanke mich für … / Ich möchte
 
 ## 7. Cards
 
-`A2-21-01` … `A2-21-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-21`.
+`A2-21-01` … `A2-21-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-21`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-21: verbs → preposition + case at speed (letter chunks first), questions with wo(r)- vs Präposition + wen/wem, answers with da(r)- vs Präposition + pronoun, and PT mismatches (agradecer por, pedir, participar de, reclamar de).
+> Drill me on A2-21: verbs → preposition + case at speed (letter chunks first), questions with `wo(r)-` vs `Präposition + wen/wem`, answers with `da(r)-` vs `Präposition + pronoun`, and common preposition mismatches (*thank for, ask for, participate in, complain about*) from my active contrast language(s).

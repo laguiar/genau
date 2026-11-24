@@ -7,7 +7,16 @@
 
 ≥ 7/8 → `✔`.
 
-Give the infinitive: 1. ging 2. kam 3. sah 4. gab 5. nahm 6. wurde 7. blieb 8. wusste
+Give the infinitive:
+
+1. ging
+2. kam
+3. sah
+4. gab
+5. nahm
+6. wurde
+7. blieb
+8. wusste
 
 ## 1. The rule in one picture
 
@@ -51,16 +60,52 @@ Give the infinitive: 1. ging 2. kam 3. sah 4. gab 5. nahm 6. wurde 7. blieb 8. w
 
 ## 4. Exercises (no peeking)
 
-**4.1 Recognise** — Give infinitive and meaning: 1. fand 2. schrieb 3. sprach 4. flog 5. hielt 6. starb 7. zog um 8. rief an 9. lief 10. ließ 11. begann 12. stieg aus
+**4.1 Recognise** — Give infinitive and meaning:
 
-**4.2 Produce (modals, auxiliaries, regular)** — 1. Gestern (können) ___ ich nicht schlafen. 2. Wir (haben) ___ viel Arbeit. 3. Er (werden) ___ 2020 Vater. 4. Ihr (sollen) ___ pünktlich sein. 5. Ich (wissen) ___ das nicht. 6. Sie (wollen) ___ Ärztin werden. 7. Früher (wohnen) ___ wir auf dem Land. 8. Damals (arbeiten) ___ mein Vater bei VW. 9. Es (geben) ___ keine Handys. 10. Die Kinder (spielen) ___ auf der Straße.
+1. fand
+2. schrieb
+3. sprach
+4. flog
+5. hielt
+6. starb
+7. zog um
+8. rief an
+9. lief
+10. ließ
+11. begann
+12. stieg aus
+
+**4.2 Produce (modals, auxiliaries, regular)**
+
+1. Gestern (können) ___ ich nicht schlafen.
+2. Wir (haben) ___ viel Arbeit.
+3. Er (werden) ___ 2020 Vater.
+4. Ihr (sollen) ___ pünktlich sein.
+5. Ich (wissen) ___ das nicht.
+6. Sie (wollen) ___ Ärztin werden.
+7. Früher (wohnen) ___ wir auf dem Land.
+8. Damals (arbeiten) ___ mein Vater bei VW.
+9. Es (geben) ___ keine Handys.
+10. Die Kinder (spielen) ___ auf der Straße.
 
 **4.3 Read and translate** — *Als Kind lebte Maria in einem kleinen Dorf. Ihre Eltern hatten einen Bauernhof. Jeden Morgen stand sie um fünf Uhr auf und half im Stall. Mit 18 ging sie nach Berlin, wo sie Medizin studierte. Dort lernte sie Peter kennen. Sie heirateten 1995 und bekamen zwei Kinder. Heute arbeitet Maria als Ärztin.* — List every Präteritum form with its infinitive.
 
-**4.4 Perfekt → Präteritum (narrative)** — Rewrite as a story: 1. Ich bin um 7 Uhr aufgestanden. 2. Ich habe gefrühstückt. 3. Dann bin ich zur Arbeit gefahren. 4. Mein Chef hat mich angerufen. 5. Wir haben lange gesprochen. 6. Am Abend habe ich meine Freunde getroffen.
+**4.4 Perfekt → Präteritum (narrative)** — Rewrite as a story:
 
-**4.5 Sprachbausteine-style** — 1. Als ich klein war, ___ ich nicht schwimmen. (a) kann (b) konnte (c) könnte 2. Letztes Jahr ___ ich viel Stress im Job. (a) hatte (b) habe (c) hätte 3. Früher ___ es hier einen Bahnhof. (a) gibt (b) gab (c) gegeben 4. Wir ___ leider nicht kommen. (a) müssten (b) mussten (c) müssen 5. 2015 ___ sie Chefin der Firma. (a) wurde (b) würde (c) werde
+1. Ich bin um 7 Uhr aufgestanden.
+2. Ich habe gefrühstückt.
+3. Dann bin ich zur Arbeit gefahren.
+4. Mein Chef hat mich angerufen.
+5. Wir haben lange gesprochen.
+6. Am Abend habe ich meine Freunde getroffen.
 
+**4.5 Sprachbausteine-style**
+
+1. Als ich klein war, ___ ich nicht schwimmen. (a) kann (b) konnte (c) könnte
+2. Letztes Jahr ___ ich viel Stress im Job. (a) hatte (b) habe (c) hätte
+3. Früher ___ es hier einen Bahnhof. (a) gibt (b) gab (c) gegeben
+4. Wir ___ leider nicht kommen. (a) müssten (b) mussten (c) müssen
+5. 2015 ___ sie Chefin der Firma. (a) wurde (b) würde (c) werde
 ## 5. Answer key
 
 <details>
@@ -76,7 +121,12 @@ Give the infinitive: 1. ging 2. kam 3. sah 4. gab 5. nahm 6. wurde 7. blieb 8. w
 
 **4.4** Ich stand um 7 Uhr auf. Ich frühstückte. Dann fuhr ich zur Arbeit. Mein Chef rief mich an. Wir sprachen lange. Am Abend traf ich meine Freunde.
 
-**4.5** 1 b 2 a 3 b 4 b 5 a
+**4.5**
+1. **b** (*konnte* — past fact with *als*, Präteritum of *können*, no umlaut)
+2. **a** (*hatte* — past fact (*Letztes Jahr*), Präteritum of *haben*)
+3. **b** (*gab* — Präteritum of *es gibt* = *es gab*)
+4. **b** (*mussten* — past fact, Präteritum of *müssen*, no umlaut)
+5. **a** (*wurde* — past event (2015), Präteritum of *werden* = *wurde*)
 
 </details>
 
@@ -86,7 +136,7 @@ Six sentences *Früher … heute …* about your life or your city, Präteritum 
 
 ## 7. Cards
 
-`A2-06-01` … `A2-06-08` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-06`.
+`A2-06-01` … `A2-06-08` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-06`.
 
 ## 8. Live drill prompt
 

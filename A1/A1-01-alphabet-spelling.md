@@ -78,11 +78,42 @@ Write the correct spelling or answer. Check in §5. ≥ 7/8 → mark `✔`.
 
 > sehr geehrte frau müller, vielen dank für ihre e-mail. ich habe am montag zeit und komme gern zu ihnen ins büro. können sie mir bitte die adresse schicken? mit freundlichen grüßen, max
 
-**4.2 ß or ss?** — 1. gro_ 2. Wa_er 3. hei_en 4. mu_ 5. Stra_e 6. Schlo_ 7. drau_en 8. Flu_ 9. wei_ (white) 10. e_en
+**4.2 ß or ss?**
 
-**4.3 ie or ei?** — 1. L__be 2. m__n 3. v__r (4) 4. dr__ (3) 5. Arb__t 6. Sp__l 7. fr__ (free) 8. z__hen (to pull) 9. kl__n (small) 10. h__ßen
+1. gro_
+2. Wa_er
+3. hei_en
+4. mu_
+5. Stra_e
+6. Schlo_
+7. drau_en
+8. Flu_
+9. wei_ (white)
+10. e_en
 
-**4.4 Double or single consonant?** — 1. ko(m)en 2. Na(m)e 3. bi(t)e 4. Zu(k)er 5. wo(n)en 6. Fa(r)ad 7. si(z)en 8. gu(t)
+**4.3 ie or ei?**
+
+1. L__be
+2. m__n
+3. v__r (4)
+4. dr__ (3)
+5. Arb__t
+6. Sp__l
+7. fr__ (free)
+8. z__hen (to pull)
+9. kl__n (small)
+10. h__ßen
+
+**4.4 Double or single consonant?**
+
+1. ko(m)en
+2. Na(m)e
+3. bi(t)e
+4. Zu(k)er
+5. wo(n)en
+6. Fa(r)ad
+7. si(z)en
+8. gu(t)
 
 **4.5 Punctuation** — Add commas and fix capitals:
 
@@ -91,7 +122,6 @@ Write the correct spelling or answer. Check in §5. ≥ 7/8 → mark `✔`.
 3. wir kaufen brot käse und wein
 4. er kommt nicht denn er ist krank
 5. das ist der mann der neben mir wohnt
-
 ## 5. Answer key
 
 <details>
@@ -122,7 +152,7 @@ Write your name, city, three things in your room and two things you like, as ful
 
 ## 7. Cards
 
-`A1-01-01` … `A1-01-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-01`.
+`A1-01-01` … `A1-01-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-01`.
 
 ## 8. Live drill prompt
 

@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. (ich) ___ Bruder 2. (du) ___ Schwester 3. (er) ___ Auto 4. (sie, she) ___ Kinder 5. (wir) ___ Haus 6. (ihr) ___ Lehrer (the two of you) 7. (Sie) Ist das ___ Tasche? 8. Ich sehe (sie, she) ___ Bruder. (▲)
-
+1. (ich) ___ Bruder
+2. (du) ___ Schwester
+3. (er) ___ Auto
+4. (sie, she) ___ Kinder
+5. (wir) ___ Haus
+6. (ihr) ___ Lehrer (the two of you)
+7. (Sie) Ist das ___ Tasche?
+8. Ich sehe (sie, she) ___ Bruder. (▲)
 ## 1. The rule in one picture
 
 ```
@@ -51,16 +57,51 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Choose the stem** — Owner in brackets: 1. (er) ___ Schwester 2. (sie, she) ___ Mann 3. (sie, they) ___ Kinder 4. (wir) ___ Lehrerin 5. (ihr) ___ Haus 6. (Sie) ___ Name 7. (es, das Kind) ___ Ball 8. (du) ___ Eltern
+**4.1 Choose the stem** — Owner in brackets:
 
-**4.2 Add the ending (●)** — 1. mein___ Frau 2. sein___ Auto 3. unser___ Kinder 4. euer/eur___ Wohnung 5. ihr___ Bruder 6. dein___ Tasche 7. Ihr___ Termin 8. mein___ Bücher
+1. (er) ___ Schwester
+2. (sie, she) ___ Mann
+3. (sie, they) ___ Kinder
+4. (wir) ___ Lehrerin
+5. (ihr) ___ Haus
+6. (Sie) ___ Name
+7. (es, das Kind) ___ Ball
+8. (du) ___ Eltern
 
-**4.3 ▲** — 1. Ich rufe (mein) ___ Vater an. 2. Kennst du (sein) ___ Freundin? 3. Wir besuchen (unser) ___ Oma. 4. Sie liebt (ihr) ___ Job (m). 5. Habt ihr (euer) ___ Schlüssel (m)? 6. Ich verstehe (Ihr) ___ Frage nicht. 7. Er sucht (sein) ___ Handy (n). 8. Sie fragt (ihr) ___ Eltern.
+**4.2 Add the ending (●)**
 
-**4.4 Translate** — 1. his sister and her brother 2. our house 3. your (formal) e-mail 4. their children 5. your (plural, friends) car 6. its (the dog's) ball 7. I see your (du) mother. 8. She visits her (own) friend (m).
+1. mein___ Frau
+2. sein___ Auto
+3. unser___ Kinder
+4. euer/eur___ Wohnung
+5. ihr___ Bruder
+6. dein___ Tasche
+7. Ihr___ Termin
+8. mein___ Bücher
+
+**4.3 ▲**
+
+1. Ich rufe (mein) ___ Vater an.
+2. Kennst du (sein) ___ Freundin?
+3. Wir besuchen (unser) ___ Oma.
+4. Sie liebt (ihr) ___ Job (m).
+5. Habt ihr (euer) ___ Schlüssel (m)?
+6. Ich verstehe (Ihr) ___ Frage nicht.
+7. Er sucht (sein) ___ Handy (n).
+8. Sie fragt (ihr) ___ Eltern.
+
+**4.4 Translate**
+
+1. his sister and her brother
+2. our house
+3. your (formal) e-mail
+4. their children
+5. your (plural, friends) car
+6. its (the dog's) ball
+7. I see your (du) mother.
+8. She visits her (own) friend (m).
 
 **4.5 Produce** — Describe your family in 5 sentences: *Mein Vater heißt …, meine Mutter …, ihre Schwester …, sein Bruder …*.
-
 ## 5. Answer key
 
 <details>
@@ -86,8 +127,8 @@ Write 5 sentences about a friend's family using *sein-* and *ihr-* (his/her) cor
 
 ## 7. Cards
 
-`A1-09-01` … `A1-09-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-09`.
+`A1-09-01` … `A1-09-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-09`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-09: give me owner + noun pairs (mixing his/her/their/your-formal) in ● and ▲; then Portuguese phrases with *dele/dela/deles* to translate.
+> Drill me on A1-09: give me owner + noun pairs (mixing his/her/their/your-formal) in ● and ▲; then possessive phrases from my active contrast language(s) to translate (watch *sein* vs *ihr* and masculine `-en`).

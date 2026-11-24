@@ -155,7 +155,7 @@ English says *the rich, the unemployed* (plural, no ending) or needs *one* (*a n
 Do not map German Präteritum to English Simple Past (*I went*) and Perfekt to Present Perfect (*I have gone*). *Gestern habe ich ihn gesehen* (spoken/letter) and *Gestern sah ich ihn* (written story) both mean *Yesterday I saw him*.
 
 ### B1-04
-English *before / after / while* can be prepositions (*after dinner, before Monday*) OR conjunctions (*after I ate, before I go*). German strictly separates them: - before a **noun** (preposition): **nach ■** (*nach dem Essen*), **vor ■** (*vor dem Montag*), **während ◆** (*während des Essens*). - before a **clause** (conjunction, verb at end): **nachdem** (*nachdem ich gegessen hatte*), **bevor** (*bevor ich gehe*), **während** (*während ich esse*). Never write ~~nach ich gegessen habe~~ or ~~vor ich gehe~~!
+English *before / after / while* can be prepositions (*after dinner, before Monday*) OR conjunctions (*after I ate, before I go*). German strictly separates them: before a **noun** (preposition): **nach ■** (*nach dem Essen*), **vor ■** (*vor dem Montag*), **während ◆** (*während des Essens*). - before a **clause** (conjunction, verb at end): **nachdem** (*nachdem ich gegessen hatte*), **bevor** (*bevor ich gehe*), **während** (*während ich esse*). Never write ~~nach ich gegessen habe~~ or ~~vor ich gehe~~!
 
 ### B1-05
 English requires *will* or *going to* for future facts (*Tomorrow I will call you*). German Präsens (*Morgen rufe ich dich an*) is fully natural and grammatical. Conversely, *Er wird wohl krank sein* means *He is probably ill (now)*, not in the future.

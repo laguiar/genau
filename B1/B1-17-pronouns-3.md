@@ -1,14 +1,20 @@
 # B1-17 — Pronouns III: `derselbe / der gleiche`, `mancher / einige / irgend-`, `einander`, and `es`-constructions
 
-**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-20, A2-17, A2-18 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-20, A2-17, A2-18 · **Nicos Weg B1:** [Einh. 5 *Männer und Frauen* & Einh. 8 *Schule und Lernen*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can distinguish `derselbe` and `der gleiche`, use indefinite and reciprocal pronouns (`irgend-, mancher, einander`), and build idiomatic `es`-constructions (`es geht um, es hängt davon ab, ich finde es wichtig`).
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Wir benutzen (derselbe) ___ Computer (one single PC). 2. Du hast (der gleiche) ___ Jacke wie ich! (two identical jackets). 3. Wir kennen uns seit zehn Jahren und helfen ___ immer. (each other) 4. Sie streiten oft ___ (with each other). 5. Ist hier (anybody) ___*jemand*, der Spanisch spricht? 6. (Manche / Manchen) ___ Leute trinken abends keinen Kaffee. 7. In diesem Text geht ___ um das Thema Gesundheit. 8. Ich finde ___ schade, dass du nicht kommen kannst.
-
+1. Wir benutzen (derselbe) ___ Computer (one single PC).
+2. Du hast (der gleiche) ___ Jacke wie ich! (two identical jackets).
+3. Wir kennen uns seit zehn Jahren und helfen ___ immer. (each other)
+4. Sie streiten oft ___ (with each other).
+5. Ist hier (anybody) ___*jemand*, der Spanisch spricht?
+6. (Manche / Manchen) ___ Leute trinken abends keinen Kaffee.
+7. In diesem Text geht ___ um das Thema Gesundheit.
+8. Ich finde ___ schade, dass du nicht kommen kannst.
 ## 1. The rule in one picture
 
 ```
@@ -55,7 +61,7 @@ In plural, reflexive pronouns (*uns, euch, sich*) can already mean "each other":
 - **Obligatory subject `es`** (never drop it, even on inversion!): *In dem Artikel **geht es um** die Umwelt. Bei dem Angebot **handelt es sich um** einen Intensivkurs. **Es kommt darauf an**, wie viel Zeit Sie haben. **Es gibt** viele Möglichkeiten. **Es fehlt** mir **an** der nötigen Erfahrung.*
 - **Placeholder `es` inside the main clause** before *dass* or *zu + Infinitiv* after verbs like *finden, halten für, machen*: *Ich finde **es** sehr schade, dass der Kurs ausfällt. Das macht **es** einfacher, einen Termin zu finden.*
 
-> 🇧🇷 **Portuguese contrast** — - PT uses *o mesmo carro* for both one shared car and two identical cars; German separates **dasselbe Auto** (1 car) and **das gleiche Auto** (2 identical cars). - PT *um com o outro / uns aos outros* → one word in German: **miteinander / einander**. - PT drops the dummy subject (*Trata-se de um erro / Acho importante que…*). German **requires `es`**: *Es handelt sich um einen Fehler / Ich finde **es** wichtig, dass …*.
+> 🇧🇷 **Portuguese contrast** — PT uses *o mesmo carro* for both one shared car and two identical cars; German separates **dasselbe Auto** (1 car) and **das gleiche Auto** (2 identical cars) · PT *um com o outro / uns aos outros* → one word in German: **miteinander / einander** · PT drops the dummy subject (*Trata-se de um erro / Acho importante que…*). German **requires `es`**: *Es handelt sich um einen Fehler / Ich finde **es** wichtig, dass …*.
 > 🇪🇸 **Spanish contrast** — Spanish uses *el mismo / la misma* for both one shared item and two identical items. German separates **derselbe / dasselbe / dieselbe** (one single shared object: *Vivimos en el mismo edificio → im **selben** Haus*) from **der / das / die gleiche** (an identical copy/model: *Tienes la misma chaqueta que yo → **die gleiche** Jacke*). Spanish *el uno con el otro / entre sí* fuses into **miteinander** (*füreinander, voneinander*). And Spanish *Se trata de…* requires the subject **`es`** in German: **Es handelt sich um + `▲`** / **Es geht um + `▲`** (*In dem Text **geht es um**…*).
 > 🇫🇷 **French contrast** — French uses *le même / la même* for both one shared object and two identical objects. German distinguishes **derselbe / dasselbe / dieselbe** (one single shared item: *Nous habitons dans le même immeuble → im **selben** Haus*) from **der / das / die gleiche** (an identical model: *Tu as la même veste que moi → **die gleiche** Jacke*). French *l'un avec l'autre / ensemble* fuses into **miteinander** (*füreinander, voneinander*). And French *Il s'agit de…* = **Es handelt sich um + ▲** / **Es geht um + ▲** (never drop `es`!).
 > 🇬🇧 **English contrast** — English also uses *the same* for both *derselbe* and *der gleiche*. And where English says *I find **it** hard to believe*, German uses the same placeholder *es*: *Ich finde **es** schwer zu glauben*.
@@ -98,8 +104,13 @@ In plural, reflexive pronouns (*uns, euch, sich*) can already mean "each other":
 4. Mir / leidtun, / dass / ich gestern nicht anrufen konnte →
 5. Darauf ankommen, / ob / das Wetter am Samstag schön bleibt →
 
-**4.5 Sprachbausteine-style** — 1. Mein Kollege und ich fahren jeden Morgen mit ___ Zug zur Arbeit. (a) der gleichen (b) demselben (c) derselbe 2. Bei unserer Arbeit ist es wichtig, dass wir offen ___ kommunizieren. (a) füreinander (b) voneinander (c) miteinander 3. Ich finde ___ sehr freundlich von Ihnen, dass Sie mich vom Bahnhof abholen. (a) das (b) es (c) — 4. Bei dem Dokument, das ich Ihnen schicke, handelt ___ sich um eine Kopie des Vertrags. (a) er (b) das (c) es 5. Falls Sie noch ___ Wünsche haben, teilen Sie uns diese bitte rechtzeitig mit. (a) irgendwelche (b) irgendeine (c) irgendwas
+**4.5 Sprachbausteine-style**
 
+1. Mein Kollege und ich fahren jeden Morgen mit ___ Zug zur Arbeit. (a) der gleichen (b) demselben (c) derselbe
+2. Bei unserer Arbeit ist es wichtig, dass wir offen ___ kommunizieren. (a) füreinander (b) voneinander (c) miteinander
+3. Ich finde ___ sehr freundlich von Ihnen, dass Sie mich vom Bahnhof abholen. (a) das (b) es (c) —
+4. Bei dem Dokument, das ich Ihnen schicke, handelt ___ sich um eine Kopie des Vertrags. (a) er (b) das (c) es
+5. Falls Sie noch ___ Wünsche haben, teilen Sie uns diese bitte rechtzeitig mit. (a) irgendwelche (b) irgendeine (c) irgendwas
 ## 5. Answer key
 
 <details>
@@ -115,7 +126,12 @@ In plural, reflexive pronouns (*uns, euch, sich*) can already mean "each other":
 
 **4.4** 1 In Ihrer Anzeige geht es um eine Stelle als Verkäufer. 2 Bei diesem Formular handelt es sich um eine Anmeldebestätigung. 3 Ich finde es sehr wichtig, dass die Kinder früh schwimmen lernen. 4 Es tut mir leid, dass ich gestern nicht anrufen konnte. 5 Es kommt darauf an, ob das Wetter am Samstag schön bleibt.
 
-**4.5** 1 b 2 c 3 b 4 c 5 a
+**4.5**
+1. **b** (*demselben* — one shared train + `mit + ■` m → *demselben*)
+2. **c** (*miteinander* — 'with each other' = *miteinander kommunizieren*)
+3. **b** (*es* — mandatory `es`-correlate in *Ich finde es + adj., dass …*)
+4. **c** (*es* — fixed impersonal expression *es handelt sich um*)
+5. **a** (*irgendwelche* — plural noun *Wünsche* ('any wishes at all') → *irgendwelche*)
 
 </details>
 
@@ -125,7 +141,7 @@ Write 5 sentences for a B1 letter using: (1) *In meiner E-Mail geht es um … / 
 
 ## 7. Cards
 
-`B1-17-01` … `B1-17-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-17`.
+`B1-17-01` … `B1-17-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-17`.
 
 ## 8. Live drill prompt
 

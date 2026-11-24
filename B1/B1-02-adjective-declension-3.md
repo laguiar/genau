@@ -1,14 +1,20 @@
 # B1-02 — Adjective declension III: the full system (incl. ◆) and adjectives as nouns
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-08, A2-09, B1-01 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-08, A2-09, B1-01 · **Nicos Weg B1:** [Einh. 6 *Paare* — Adjektivdeklination](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can decline adjectives in all four cases (after `der`, `ein`, and no article) and form nominalised adjectives (`der Bekannte, ein Deutscher, etwas Neues`).
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. wegen des (schlecht) ___ Wetters 2. trotz der (hoch) ___ Preise 3. das Auto meines (alt) ___ Nachbarn 4. trotz (groß) ___ Probleme (no article, pl.) 5. Ein (Deutsch) ___ und eine (Deutsch) ___ arbeiten hier. 6. Der (Krank) ___ liegt im Bett; ein (Krank) ___ wartet noch. 7. Ich wünsche Ihnen alles (Gut) ___! 8. Hast du etwas (Neu) ___ gehört?
-
+1. wegen des (schlecht) ___ Wetters
+2. trotz der (hoch) ___ Preise
+3. das Auto meines (alt) ___ Nachbarn
+4. trotz (groß) ___ Probleme (no article, pl.)
+5. Ein (Deutsch) ___ und eine (Deutsch) ___ arbeiten hier.
+6. Der (Krank) ___ liegt im Bett; ein (Krank) ___ wartet noch.
+7. Ich wünsche Ihnen alles (Gut) ___!
+8. Hast du etwas (Neu) ___ gehört?
 ## 1. The rule in one picture
 
 ```
@@ -62,16 +68,46 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 ◆ adjective endings** — 1. während des (ganz) ___ Jahres 2. wegen einer (schwer) ___ Erkältung 3. das Büro unseres (neu) ___ Direktors 4. trotz (lang) ___ Wartezeiten (pl., no article) 5. der Preis dieses (schön) ___ Hauses 6. wegen (stark) ___ Schneefalls (m., no article) 7. die Adresse meiner (früher) ___ Firma 8. trotz (groß) ___ Mühe (f., no article)
+**4.1 ◆ adjective endings**
 
-**4.2 Persons (adjective as noun)** — Fill in the ending: 1. Der (Krank) ___ muss im Bett bleiben. 2. Ein (Krank) ___ wurde ins Krankenhaus gebracht. 3. Kennst du den (Neu) ___ in unserer Abteilung? 4. Sie ist eine gute (Bekannt) ___ von mir. 5. Ein (Fremd) ___ hat mich nach dem Weg gefragt. 6. In der Firma arbeiten 50 (Angestellt) ___ (no article). 7. Die (Angestellt) ___ haben heute eine Versammlung. 8. Wir helfen den (Arbeitslos) ___.
+1. während des (ganz) ___ Jahres
+2. wegen einer (schwer) ___ Erkältung
+3. das Büro unseres (neu) ___ Direktors
+4. trotz (lang) ___ Wartezeiten (pl., no article)
+5. der Preis dieses (schön) ___ Hauses
+6. wegen (stark) ___ Schneefalls (m., no article)
+7. die Adresse meiner (früher) ___ Firma
+8. trotz (groß) ___ Mühe (f., no article)
 
-**4.3 Neuter nominalisations (`etwas / nichts / viel / alles`)** — 1. Gibt es etwas (Interessant) ___ in der Zeitung? 2. Zum Geburtstag wünsche ich dir alles (Lieb) ___ und (Gut) ___! 3. Zum Glück ist nichts (Schlimm) ___ passiert. 4. Im Urlaub haben wir viel (Schön) ___ erlebt. 5. Ich möchte dich mit etwas (Besonder) ___ (■!) überraschen. 6. Sie hat mir alles (Wichtig) ___ erklärt.
+**4.2 Persons (adjective as noun)** — Fill in the ending:
+
+1. Der (Krank) ___ muss im Bett bleiben.
+2. Ein (Krank) ___ wurde ins Krankenhaus gebracht.
+3. Kennst du den (Neu) ___ in unserer Abteilung?
+4. Sie ist eine gute (Bekannt) ___ von mir.
+5. Ein (Fremd) ___ hat mich nach dem Weg gefragt.
+6. In der Firma arbeiten 50 (Angestellt) ___ (no article).
+7. Die (Angestellt) ___ haben heute eine Versammlung.
+8. Wir helfen den (Arbeitslos) ___.
+
+**4.3 Neuter nominalisations (`etwas / nichts / viel / alles`)**
+
+1. Gibt es etwas (Interessant) ___ in der Zeitung?
+2. Zum Geburtstag wünsche ich dir alles (Lieb) ___ und (Gut) ___!
+3. Zum Glück ist nichts (Schlimm) ___ passiert.
+4. Im Urlaub haben wir viel (Schön) ___ erlebt.
+5. Ich möchte dich mit etwas (Besonder) ___ (■!) überraschen.
+6. Sie hat mir alles (Wichtig) ___ erklärt.
 
 **4.4 Mixed review (all 4 cases, Rules A/B/C)** — *Trotz des (schlecht) ___ Wetters kamen viele (Bekannt) ___ zu unserer (klein) ___ Feier. Ein (gut) ___ Freund aus München brachte etwas (Süß) ___ zum Nachtisch mit. Am Ende des (lang) ___ Abends wünschten wir allen (Anwesend) ___ alles (Gut) ___ für das (neu) ___ Jahr.*
 
-**4.5 Sprachbausteine-style** — 1. Wegen eines ___ Fehlers funktionierte das Programm nicht. (a) kleiner (b) kleinen (c) kleines 2. Ich wünsche Ihnen für Ihre Zukunft alles ___! (a) Gute (b) Gutes (c) Guten 3. Ein ___ von mir arbeitet bei dieser Bank. (a) Bekannte (b) Bekannten (c) Bekannter 4. Haben Sie am Wochenende etwas ___ vor? (a) Besondere (b) Besonderes (c) Besonderen 5. Trotz ___ Bemühungen konnten wir das Problem nicht lösen. (a) großer (b) großen (c) große
+**4.5 Sprachbausteine-style**
 
+1. Wegen eines ___ Fehlers funktionierte das Programm nicht. (a) kleiner (b) kleinen (c) kleines
+2. Ich wünsche Ihnen für Ihre Zukunft alles ___! (a) Gute (b) Gutes (c) Guten
+3. Ein ___ von mir arbeitet bei dieser Bank. (a) Bekannte (b) Bekannten (c) Bekannter
+4. Haben Sie am Wochenende etwas ___ vor? (a) Besondere (b) Besonderes (c) Besonderen
+5. Trotz ___ Bemühungen konnten wir das Problem nicht lösen. (a) großer (b) großen (c) große
 ## 5. Answer key
 
 <details>
@@ -87,7 +123,12 @@
 
 **4.4** schlechten · Bekannte · kleinen · guter · Süßes · langen · Anwesenden · Gute · neue
 
-**4.5** 1 b 2 a 3 c 4 b 5 a
+**4.5**
+1. **b** (*kleinen* — Genitiv after article (`eines`) always takes `-en`)
+2. **a** (*Gute* — after `alles`, nominalised neuter adjective takes weak `-e`)
+3. **c** (*Bekannter* — nominalised adjective after `ein` (● m) takes `-er`)
+4. **b** (*Besonderes* — after `etwas`, nominalised neuter adjective takes strong `-es`)
+5. **a** (*großer* — zero-article ◆ plural (`trotz + ◆`) takes strong ending `-er`)
 
 </details>
 
@@ -97,7 +138,7 @@ Write a short greeting / update message to a former colleague (5 sentences): inc
 
 ## 7. Cards
 
-`B1-02-01` … `B1-02-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-02`.
+`B1-02-01` … `B1-02-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-02`.
 
 ## 8. Live drill prompt
 

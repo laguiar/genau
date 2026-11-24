@@ -1,14 +1,20 @@
 # B1-06 — Konjunktiv II II: unreal conditions, wishes, advice, and past (`hätte / wäre + Partizip II`)
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-11, A2-13 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-11, A2-13 · **Nicos Weg B1:** [Einh. 3 *Alltag*, Lekt. 2 & Einh. 18 *Neuanfang* (*Wünsche und Träume*)](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can express unreal conditions (`Wenn ich … hätte, würde ich …`), wishes (`Wenn ich doch …!`), advice (`An Ihrer Stelle …`), and past regrets (`Ich hätte … gemacht / wäre … gefahren`).
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Wenn ich mehr Zeit (haben) ___, (lernen) ___ ich noch eine Sprache. 2. Wenn das Wetter schön (sein) ___, (können) ___ wir im Garten sitzen. 3. An deiner Stelle (sprechen) ___ ich mit dem Chef. 4. Wenn der Bus doch endlich (kommen) ___! 5. Du (sollen, KII) ___ gestern früher ins Bett gehen → past: Du ___ früher ins Bett gehen ___! 6. Past unreal: Wenn ich das gewusst (haben) ___, (sein) ___ ich nicht gekommen. 7. Fast (fallen) ___ ich die Treppe hinunter___ (Partizip II). 8. Es wäre besser, wenn Sie den Vertrag noch einmal (prüfen) ___.
-
+1. Wenn ich mehr Zeit (haben) ___, (lernen) ___ ich noch eine Sprache.
+2. Wenn das Wetter schön (sein) ___, (können) ___ wir im Garten sitzen.
+3. An deiner Stelle (sprechen) ___ ich mit dem Chef.
+4. Wenn der Bus doch endlich (kommen) ___!
+5. Du (sollen, KII) ___ gestern früher ins Bett gehen → past: Du ___ früher ins Bett gehen ___!
+6. Past unreal: Wenn ich das gewusst (haben) ___, (sein) ___ ich nicht gekommen.
+7. Fast (fallen) ___ ich die Treppe hinunter___ (Partizip II).
+8. Es wäre besser, wenn Sie den Vertrag noch einmal (prüfen) ___.
 ## 1. The rule in one picture
 
 ```
@@ -53,9 +59,9 @@
 - *sein*-verbs → **wäre + Partizip II**: *Ohne den Stau **wäre** ich pünktlich **gekommen**. Fast **wäre** das Glas **heruntergefallen**.* (Note: **fast / beinahe** = "almost happened" always takes *hätte/wäre + Partizip II*!).
 - With a modal verb in the past: **hätte + Infinitiv + modal Infinitiv**: *Du **hättest** früher **kommen sollen** (You should have come earlier). Wir **hätten** ein Ticket **reservieren müssen**.*
 
-> 🇧🇷 **Portuguese contrast** — The mapping to Portuguese is remarkably clean: - Present: *Se eu **tivesse** (imperfeito do subjuntivo) tempo, **viajaria** (futuro do pretérito)* → *Wenn ich Zeit **hätte**, **würde** ich **reisen***. (Unlike PT where only the main clause takes *-ria*, German uses Konjunktiv II in **both** clauses!). - Past: *Se eu **tivesse sabido**, **teria vindo*** → *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***. - Past modal: *Você **deveria ter ligado*** → *Du **hättest** anrufen **sollen***.
-> 🇪🇸 **Spanish contrast** — Spanish and German have a near-perfect structural parallel for unreal conditionals: - **Present unreal:** Spanish *Si **tuviera** (`imperfecto de subjuntivo`) más tiempo, **aprendería** (`condicional`) otro idioma* → German uses **Konjunktiv II in BOTH clauses**: *Wenn ich mehr Zeit **hätte**, **würde** ich noch eine Sprache **lernen***. - **Past unreal:** Spanish *Si me **hubieras avisado**, te **habría ayudado*** → German uses **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn du mir Bescheid **gesagt hättest**, **hätte** ich dir **geholfen*** (*Si lo hubiera sabido, habría venido → Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***). - **Past modal advice:** *¡Deberías haberme llamado! → Du **hättest** mich anrufen **sollen**!*
-> 🇫🇷 **French contrast** — Look at the tense difference in unreal *if*-sentences: - Present unreal: French uses *Si + **imparfait*** in the *si*-clause and ***conditionnel*** in the main clause (*Si j'**avais** le temps, je **viendrais***). German puts **Konjunktiv II in BOTH clauses**: *Wenn ich Zeit **hätte**, **würde** ich **kommen***. - Past unreal: French uses *Si + **plus-que-parfait*** and ***conditionnel passé*** (*Si j'**avais su**, je **serais venu***). German puts **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***.
+> 🇧🇷 **Portuguese contrast** — The mapping to Portuguese is remarkably clean: Present: *Se eu **tivesse** (imperfeito do subjuntivo) tempo, **viajaria** (futuro do pretérito)* → *Wenn ich Zeit **hätte**, **würde** ich **reisen***. (Unlike PT where only the main clause takes *-ria*, German uses Konjunktiv II in **both** clauses!). · Past: *Se eu **tivesse sabido**, **teria vindo*** → *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***. · Past modal: *Você **deveria ter ligado*** → *Du **hättest** anrufen **sollen***.
+> 🇪🇸 **Spanish contrast** — Spanish and German have a near-perfect structural parallel for unreal conditionals: **Present unreal:** Spanish *Si **tuviera** (`imperfecto de subjuntivo`) más tiempo, **aprendería** (`condicional`) otro idioma* → German uses **Konjunktiv II in BOTH clauses**: *Wenn ich mehr Zeit **hätte**, **würde** ich noch eine Sprache **lernen*** · **Past unreal:** Spanish *Si me **hubieras avisado**, te **habría ayudado*** → German uses **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn du mir Bescheid **gesagt hättest**, **hätte** ich dir **geholfen*** (*Si lo hubiera sabido, habría venido → Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***) · **Past modal advice:** *¡Deberías haberme llamado! → Du **hättest** mich anrufen **sollen**!*.
+> 🇫🇷 **French contrast** — Look at the tense difference in unreal *if*-sentences: Present unreal: French uses *Si + **imparfait*** in the *si*-clause and ***conditionnel*** in the main clause (*Si j'**avais** le temps, je **viendrais***). German puts **Konjunktiv II in BOTH clauses**: *Wenn ich Zeit **hätte**, **würde** ich **kommen*** · Past unreal: French uses *Si + **plus-que-parfait*** and ***conditionnel passé*** (*Si j'**avais su**, je **serais venu***). German puts **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***.
 > 🇬🇧 **English contrast** — English uses Simple Past in the *if*-clause (*If I **had** money, I **would** buy it*). Do not use German Präteritum (*hatte / war*) for unreal conditions: *Wenn ich Geld **hatte*** means "Whenever I had money (in the past, real)"; *Wenn ich Geld **hätte*** means "If I had money (now, unreal)".
 
 ## 3. Watch out
@@ -67,16 +73,45 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Present unreal conditions (`Wenn …, …`)** — Build sentences in Konjunktiv II: 1. Wenn ich reich (sein) ___, (kaufen) ___ ich ein Haus am Meer. 2. Wenn wir einen Garten (haben) ___, (können) ___ die Kinder draußen spielen. 3. Was (machen) ___ du, wenn du im Lotto (gewinnen) ___? 4. Wenn er näher am Büro (wohnen) ___, (müssen) ___ er nicht so früh aufstehen. 5. Es (sein) ___ toll, wenn ihr am Samstag (mitkommen) ___!
+**4.1 Present unreal conditions (`Wenn …, …`)** — Build sentences in Konjunktiv II:
 
-**4.2 Wishes & Advice** — 1. Ich habe keinen Urlaub. → *Wenn ich doch …!* 2. Es regnet schon wieder. → *Wenn es nur nicht …!* 3. Dein Freund hat Rückenschmerzen (zum Arzt gehen). → *An deiner Stelle …* 4. Ein Kollege sucht eine Wohnung (in der Zeitung suchen). → *An Ihrer Stelle …* 5. Suggest meeting on Sunday instead of Saturday: *Es wäre besser, wenn …*
+1. Wenn ich reich (sein) ___, (kaufen) ___ ich ein Haus am Meer.
+2. Wenn wir einen Garten (haben) ___, (können) ___ die Kinder draußen spielen.
+3. Was (machen) ___ du, wenn du im Lotto (gewinnen) ___?
+4. Wenn er näher am Büro (wohnen) ___, (müssen) ___ er nicht so früh aufstehen.
+5. Es (sein) ___ toll, wenn ihr am Samstag (mitkommen) ___!
 
-**4.3 Past unreal (`hätte / wäre + Partizip II`)** — Rewrite in the past unreal: 1. Ich helfe dir gern (aber ich hatte gestern keine Zeit). → *Gestern hätte ich …* 2. Wir fahren ans Meer (aber das Wetter war schlecht). → *Bei gutem Wetter wären wir …* 3. Wenn du mich (anrufen) ___, (abholen) ___ ich dich vom Bahnhof ___. 4. Wenn der Wecker (klingeln) ___, (kommen) ___ sie nicht zu spät ___. 5. Fast (verpassen) ___ wir den Flug ___! 6. Du (mir / Bescheid sagen / sollen — past!) ___ ___ ___ ___!
+**4.2 Wishes & Advice**
 
-**4.4 Present or Past Konjunktiv II?** — Fill in the right form: 1. **Heute** habe ich leider keine Zeit; sonst (helfen) ___ ich dir jetzt. 2. **Gestern** hatte ich leider keine Zeit; sonst (helfen) ___ ich dir ___. 3. Wenn ich **jetzt** im Urlaub (sein) ___, (liegen) ___ ich am Strand. 4. Wenn ich **letzte Woche** nicht krank (sein) ___, (mitfahren) ___ ich nach Wien ___.
+1. Ich habe keinen Urlaub. → *Wenn ich doch …!*
+2. Es regnet schon wieder. → *Wenn es nur nicht …!*
+3. Dein Freund hat Rückenschmerzen (zum Arzt gehen). → *An deiner Stelle …*
+4. Ein Kollege sucht eine Wohnung (in der Zeitung suchen). → *An Ihrer Stelle …*
+5. Suggest meeting on Sunday instead of Saturday: *Es wäre besser, wenn …*
 
-**4.5 Sprachbausteine-style** — 1. An Ihrer Stelle ___ ich das Gerät sofort umtauschen. (a) werde (b) wurde (c) würde 2. Wenn Sie uns früher informiert ___, hätten wir den Termin verschieben können. (a) haben (b) hatten (c) hätten 3. Ohne deine schnelle Hilfe ___ ich den Umzug nicht geschafft. (a) wäre (b) hätte (c) würde 4. Es ___ sehr nett von Ihnen, wenn Sie mir kurz antworten könnten. (a) wäre (b) war (c) hätte 5. Du ___ das Formular gestern unterschreiben müssen! (a) hast (b) hattest (c) hättest
+**4.3 Past unreal (`hätte / wäre + Partizip II`)** — Rewrite in the past unreal:
 
+1. Ich helfe dir gern (aber ich hatte gestern keine Zeit). → *Gestern hätte ich …*
+2. Wir fahren ans Meer (aber das Wetter war schlecht). → *Bei gutem Wetter wären wir …*
+3. Wenn du mich (anrufen) ___, (abholen) ___ ich dich vom Bahnhof ___.
+4. Wenn der Wecker (klingeln) ___, (kommen) ___ sie nicht zu spät ___.
+5. Fast (verpassen) ___ wir den Flug ___!
+6. Du (mir / Bescheid sagen / sollen — past!) ___ ___ ___ ___!
+
+**4.4 Present or Past Konjunktiv II?** — Fill in the right form:
+
+1. **Heute** habe ich leider keine Zeit; sonst (helfen) ___ ich dir jetzt.
+2. **Gestern** hatte ich leider keine Zeit; sonst (helfen) ___ ich dir ___.
+3. Wenn ich **jetzt** im Urlaub (sein) ___, (liegen) ___ ich am Strand.
+4. Wenn ich **letzte Woche** nicht krank (sein) ___, (mitfahren) ___ ich nach Wien ___.
+
+**4.5 Sprachbausteine-style**
+
+1. An Ihrer Stelle ___ ich das Gerät sofort umtauschen. (a) werde (b) wurde (c) würde
+2. Wenn Sie uns früher informiert ___, hätten wir den Termin verschieben können. (a) haben (b) hatten (c) hätten
+3. Ohne deine schnelle Hilfe ___ ich den Umzug nicht geschafft. (a) wäre (b) hätte (c) würde
+4. Es ___ sehr nett von Ihnen, wenn Sie mir kurz antworten könnten. (a) wäre (b) war (c) hätte
+5. Du ___ das Formular gestern unterschreiben müssen! (a) hast (b) hattest (c) hättest
 ## 5. Answer key
 
 <details>
@@ -92,7 +127,12 @@
 
 **4.4** 1 würde … helfen 2 hätte … geholfen 3 wäre, würde … liegen (läge) 4 gewesen wäre, wäre … mitgefahren
 
-**4.5** 1 c 2 c 3 b 4 a 5 c
+**4.5**
+1. **c** (*würde* — advice formula *An Ihrer Stelle würde ich …* uses Konjunktiv II)
+2. **c** (*hätten* — past unreal condition: `hätten + Partizip II` in the *wenn*-clause)
+3. **b** (*hätte* — `schaffen` takes auxiliary `haben` → past unreal *hätte … geschafft*)
+4. **a** (*wäre* — polite conditional of *sein* uses *wäre*, not *war/hätte*)
+5. **c** (*hättest* — past modal criticism/regret: `hättest + Infinitiv + Modal`)
 
 </details>
 
@@ -102,7 +142,7 @@ A friend writes that they are unhappy with their flat and missed the deadline to
 
 ## 7. Cards
 
-`B1-06-01` … `B1-06-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-06`.
+`B1-06-01` … `B1-06-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-06`.
 
 ## 8. Live drill prompt
 

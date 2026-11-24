@@ -7,8 +7,14 @@
 
 Join with the conjunction. ≥ 7/8 → `✔`.
 
-1. Ich glaube. Er kommt morgen. (dass) 2. Ich bleibe zu Hause. Ich bin krank. (weil) 3. Ich rufe dich an. Ich habe Zeit. (wenn) 4. Sie sagt. Sie kann nicht kommen. (dass) 5. Wir fahren nicht. Das Auto ist kaputt gegangen. (weil, Perfekt) 6. Ich stehe früh auf. Ich muss arbeiten. (wenn) 7. Start with the Nebensatz: Ich bin müde → Ich gehe ins Bett. (wenn) 8. Er lernt Deutsch. Er will in Deutschland arbeiten. (weil)
-
+1. Ich glaube. Er kommt morgen. (dass)
+2. Ich bleibe zu Hause. Ich bin krank. (weil)
+3. Ich rufe dich an. Ich habe Zeit. (wenn)
+4. Sie sagt. Sie kann nicht kommen. (dass)
+5. Wir fahren nicht. Das Auto ist kaputt gegangen. (weil, Perfekt)
+6. Ich stehe früh auf. Ich muss arbeiten. (wenn)
+7. Start with the Nebensatz: Ich bin müde → Ich gehe ins Bett. (wenn)
+8. Er lernt Deutsch. Er will in Deutschland arbeiten. (weil)
 ## 1. The rule in one picture
 
 ```
@@ -26,7 +32,7 @@ Join with the conjunction. ≥ 7/8 → `✔`.
 
  dass  = that (content: after sagen glauben denken wissen finden hoffen meinen, es ist wichtig/schade/gut, dass …)
  weil  = because (reason; = denn but with V-END)
- wenn  = if / whenever / when (condition; repeated or future events)      (as = single past event → B1-04)
+ wenn  = if / whenever / when (condition; repeated or future events)      (als = single past event → B1-04)
 ```
 
 ## 2. The rule in words
@@ -59,16 +65,46 @@ Join with the conjunction. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Recognise** — Underline the conjugated verb of each subordinate clause and mark the comma: 1. Ich hoffe, dass du bald wieder gesund bist. 2. Wir nehmen den Zug, weil das Auto in der Werkstatt ist. 3. Wenn das Wetter schön ist, fahren wir ans Meer. 4. Sie sagt, dass sie den Termin verschieben muss. 5. Weil er verschlafen hat, ist er zu spät gekommen.
+**4.1 Recognise** — Underline the conjugated verb of each subordinate clause and mark the comma:
 
-**4.2 Join with dass / weil / wenn** — 1. Ich weiß. Du hast viel Arbeit. 2. Er kauft kein Auto. Er hat kein Geld. 3. Wir gehen spazieren. Es regnet nicht. 4. Sie hofft. Der Kurs ist nicht zu schwer. 5. Ich habe verschlafen. Der Wecker hat nicht geklingelt. 6. Du kannst mich anrufen. Du brauchst Hilfe. 7. Er meint. Man muss jeden Tag üben. 8. Ich lerne Deutsch. Ich möchte hier studieren.
+1. Ich hoffe, dass du bald wieder gesund bist.
+2. Wir nehmen den Zug, weil das Auto in der Werkstatt ist.
+3. Wenn das Wetter schön ist, fahren wir ans Meer.
+4. Sie sagt, dass sie den Termin verschieben muss.
+5. Weil er verschlafen hat, ist er zu spät gekommen.
 
-**4.3 Start with the Nebensatz** — 1. Ich gehe ins Bett, wenn ich müde bin. 2. Er kommt nicht, weil er krank ist. 3. Wir bleiben zu Hause, wenn es schneit. 4. Ich habe nicht geantwortet, weil ich die E-Mail nicht gesehen habe.
+**4.2 Join with dass / weil / wenn**
 
-**4.4 denn ↔ weil** — Rewrite with the other one: 1. Ich bin glücklich, denn ich habe die Prüfung bestanden. 2. Sie fährt nicht mit, weil sie keine Zeit hat. 3. Wir sind nass, denn wir hatten keinen Schirm. 4. Er lernt Deutsch, weil seine Frau Deutsche ist.
+1. Ich weiß. Du hast viel Arbeit.
+2. Er kauft kein Auto. Er hat kein Geld.
+3. Wir gehen spazieren. Es regnet nicht.
+4. Sie hofft. Der Kurs ist nicht zu schwer.
+5. Ich habe verschlafen. Der Wecker hat nicht geklingelt.
+6. Du kannst mich anrufen. Du brauchst Hilfe.
+7. Er meint. Man muss jeden Tag üben.
+8. Ich lerne Deutsch. Ich möchte hier studieren.
 
-**4.5 Sprachbausteine-style** — 1. Ich glaube, dass er morgen ___. (a) kommt (b) kommen (c) kommt er 2. Ich kann nicht kommen, ___ ich arbeiten muss. (a) denn (b) weil (c) deshalb 3. ___ du Zeit hast, können wir uns treffen. (a) Wann (b) Wenn (c) Dass 4. Es ist schade, ___ du nicht dabei warst. (a) das (b) dass (c) weil 5. Wenn es regnet, ___. (a) ich bleibe zu Hause (b) bleibe ich zu Hause (c) ich zu Hause bleibe
+**4.3 Start with the Nebensatz**
 
+1. Ich gehe ins Bett, wenn ich müde bin.
+2. Er kommt nicht, weil er krank ist.
+3. Wir bleiben zu Hause, wenn es schneit.
+4. Ich habe nicht geantwortet, weil ich die E-Mail nicht gesehen habe.
+
+**4.4 denn ↔ weil** — Rewrite with the other one:
+
+1. Ich bin glücklich, denn ich habe die Prüfung bestanden.
+2. Sie fährt nicht mit, weil sie keine Zeit hat.
+3. Wir sind nass, denn wir hatten keinen Schirm.
+4. Er lernt Deutsch, weil seine Frau Deutsche ist.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich glaube, dass er morgen ___. (a) kommt (b) kommen (c) kommt er
+2. Ich kann nicht kommen, ___ ich arbeiten muss. (a) denn (b) weil (c) deshalb
+3. ___ du Zeit hast, können wir uns treffen. (a) Wann (b) Wenn (c) Dass
+4. Es ist schade, ___ du nicht dabei warst. (a) das (b) dass (c) weil
+5. Wenn es regnet, ___. (a) ich bleibe zu Hause (b) bleibe ich zu Hause (c) ich zu Hause bleibe
 ## 5. Answer key
 
 <details>
@@ -84,7 +120,12 @@ Join with the conjunction. ≥ 7/8 → `✔`.
 
 **4.4** 1 …, weil ich die Prüfung bestanden habe. 2 …, denn sie hat keine Zeit. 3 …, weil wir keinen Schirm hatten. 4 …, denn seine Frau ist Deutsche.
 
-**4.5** 1 a 2 b 3 b 4 b 5 b
+**4.5**
+1. **a** (*kommt* — `dass` sends the conjugated verb to the end)
+2. **b** (*weil* — verb `muss` is at the end → requires Subjunktor *weil*, not *denn*)
+3. **b** (*Wenn* — conditional 'if/whenever' uses *wenn*, never *wann*)
+4. **b** (*dass* — conjunction 'that' after *Es ist schade,* is *dass*)
+5. **b** (*bleibe ich zu Hause* — Nebensatz fills Pos. 1, so main verb comes right after the comma)
 
 </details>
 
@@ -94,8 +135,8 @@ Reply to a friend's invitation you cannot accept: 6 sentences, at least one *das
 
 ## 7. Cards
 
-`A2-11-01` … `A2-11-08` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-11`.
+`A2-11-01` … `A2-11-08` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-11`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-11: pairs of sentences to join (include modal, Perfekt and separable verbs), Nebensatz-first conversions, denn↔weil swaps, and PT *acho que / porque / se* sentences to translate.
+> Drill me on A2-11: pairs of sentences to join (include modal, Perfekt and separable verbs), Nebensatz-first conversions, `denn ↔ weil` swaps, and `that / because / if-when` sentences from my active contrast language(s) to translate.

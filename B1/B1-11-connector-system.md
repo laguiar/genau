@@ -1,14 +1,20 @@
 # B1-11 — The connector system overview: Konjunktor (pos. 0) vs Subjunktor (V-END) vs Adverb (pos. 1)
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-19, A2-11, A2-16, B1-09, B1-10 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-19, A2-11, A2-16, B1-09, B1-10 · **Nicos Weg B1:** [Einh. 6 *Paare* (*obwohl/trotzdem/sondern*) & Einh. 11 *Umwelt*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can express any logical relation (reason, contrast, consequence, time, condition, purpose) in three syntactic shapes and solve connector gaps in telc B1 Sprachbausteine by checking verb position first.
 
 ## 0. Diagnostic (3 min)
 
 Fill in the connector that matches both meaning AND word order. ≥ 7/8 → `✔`.
 
-1. Ich bleibe heute zu Hause, ___ ich **habe** Fieber. (reason) 2. Ich bleibe heute zu Hause, ___ ich Fieber **habe**. (reason) 3. Ich habe Fieber; ___ **bleibe** ich heute zu Hause. (consequence) 4. Es regnet stark, ___ wir **gehen** spazieren. (contrast) 5. ___ es stark **regnet**, gehen wir spazieren. (concession) 6. Es regnet stark. ___ **gehen** wir spazieren. (concession) 7. Beeil dich, ___ **verpassen** wir den Bus! (otherwise) 8. Wir nehmen ein Taxi, ___ wir den Zug nicht **verpassen**. (purpose)
-
+1. Ich bleibe heute zu Hause, ___ ich **habe** Fieber. (reason)
+2. Ich bleibe heute zu Hause, ___ ich Fieber **habe**. (reason)
+3. Ich habe Fieber; ___ **bleibe** ich heute zu Hause. (consequence)
+4. Es regnet stark, ___ wir **gehen** spazieren. (contrast)
+5. ___ es stark **regnet**, gehen wir spazieren. (concession)
+6. Es regnet stark. ___ **gehen** wir spazieren. (concession)
+7. Beeil dich, ___ **verpassen** wir den Bus! (otherwise)
+8. Wir nehmen ein Taxi, ___ wir den Zug nicht **verpassen**. (purpose)
 ## 1. The rule in one picture
 
 ```
@@ -84,13 +90,28 @@ Now fill in (a) `aber`, (b) `obwohl`, or (c) `trotzdem`:
 1. *Der Zug hatte Verspätung. Wir haben den Anschluss verpasst.* → (a) with `weil`, (b) with `denn`, (c) with `deshalb`.
 2. *Er hat wenig Geld. Er kauft sich ein teures Handy.* → (a) with `obwohl`, (b) with `aber`, (c) with `trotzdem`.
 
-**4.3 `aber` vs `sondern`, and `wenn/falls` vs `sonst`** — Fill in the right connector: 1. Wir fahren dieses Jahr nicht nach Italien, ___ nach Griechenland. 2. Wir fahren dieses Jahr nicht in den Urlaub, ___ wir bleiben gern zu Hause auf dem Balkon. 3. Du musst dich jetzt beeilen, ___ kommst du zu spät zum Vorstellungsgespräch. 4. ___ du dich nicht beeilst, kommst du zu spät. 5. Ich habe seine Nummer nicht, ___ hätte ich ihn schon längst angerufen.
+**4.3 `aber` vs `sondern`, and `wenn/falls` vs `sonst`** — Fill in the right connector:
 
-**4.4 Preposition + ◆ vs Subjunktor vs Adverb** — Rewrite *Wegen des starken Schnees fuhren keine Busse* in 3 ways using the verb *schneien* (*Es schneite stark*): 1. with `weil`: 2. with `deshalb`: 3. with `so dass`:
+1. Wir fahren dieses Jahr nicht nach Italien, ___ nach Griechenland.
+2. Wir fahren dieses Jahr nicht in den Urlaub, ___ wir bleiben gern zu Hause auf dem Balkon.
+3. Du musst dich jetzt beeilen, ___ kommst du zu spät zum Vorstellungsgespräch.
+4. ___ du dich nicht beeilst, kommst du zu spät.
+5. Ich habe seine Nummer nicht, ___ hätte ich ihn schon längst angerufen.
+
+**4.4 Preposition + ◆ vs Subjunktor vs Adverb** — Rewrite *Wegen des starken Schnees fuhren keine Busse* in 3 ways using the verb *schneien* (*Es schneite stark*):
+
+1. with `weil`:
+2. with `deshalb`:
+3. with `so dass`:
 And rewrite *Trotz seiner Müdigkeit arbeitete er weiter* using *müde sein*: 4. with `obwohl`: 5. with `trotzdem`:
 
-**4.5 Sprachbausteine-style** — 1. ___ ich nächste Woche auf Geschäftsreise bin, kann ich an dem Treffen leider nicht teilnehmen. (a) Denn (b) Da (c) Deshalb 2. Das Gerät wurde schon zweimal repariert; ___ funktioniert es immer noch nicht richtig. (a) obwohl (b) trotzdem (c) aber 3. Bitte schicken Sie uns den unterschriebenen Vertrag bis Freitag zurück, ___ wir die Bestellung bearbeiten können. (a) damit (b) sodass (c) deshalb 4. Der Kurs findet nicht im Raum 12 statt, ___ wurde in den Raum 204 verlegt. (a) aber (b) sondern (c) trotzdem 5. Sie sollten einen Tisch reservieren, ___ bekommen Sie am Samstagabend keinen Platz. (a) falls (b) sonst (c) obwohl
+**4.5 Sprachbausteine-style**
 
+1. ___ ich nächste Woche auf Geschäftsreise bin, kann ich an dem Treffen leider nicht teilnehmen. (a) Denn (b) Da (c) Deshalb
+2. Das Gerät wurde schon zweimal repariert; ___ funktioniert es immer noch nicht richtig. (a) obwohl (b) trotzdem (c) aber
+3. Bitte schicken Sie uns den unterschriebenen Vertrag bis Freitag zurück, ___ wir die Bestellung bearbeiten können. (a) damit (b) sodass (c) deshalb
+4. Der Kurs findet nicht im Raum 12 statt, ___ wurde in den Raum 204 verlegt. (a) aber (b) sondern (c) trotzdem
+5. Sie sollten einen Tisch reservieren, ___ bekommen Sie am Samstagabend keinen Platz. (a) falls (b) sonst (c) obwohl
 ## 5. Answer key
 
 <details>
@@ -106,7 +127,12 @@ And rewrite *Trotz seiner Müdigkeit arbeitete er weiter* using *müde sein*: 4.
 
 **4.4** 1 Weil es stark schneite, fuhren keine Busse. 2 Es schneite stark; deshalb fuhren keine Busse. 3 Es schneite stark, so dass keine Busse fuhren. 4 Obwohl er müde war, arbeitete er weiter. 5 Er war müde; trotzdem arbeitete er weiter.
 
-**4.5** 1 b 2 b 3 a 4 b 5 b
+**4.5**
+1. **b** (*Da* — verb `bin` at the end + sentence-initial reason → Subjunktor *Da*, not *Denn*)
+2. **b** (*trotzdem* — verb `funktioniert` right after semicolon → Pos. 1 adverb *trotzdem*)
+3. **a** (*damit* — intentional purpose ('so that we can') with two subjects → *damit*)
+4. **b** (*sondern* — corrective contrast directly after negation (`nicht im Raum 12`) → *sondern*)
+5. **b** (*sonst* — warning 'otherwise' + V2 inversion → *sonst bekommen Sie…*)
 
 </details>
 
@@ -116,7 +142,7 @@ Write a 6-sentence paragraph explaining a problem and proposing a solution in a 
 
 ## 7. Cards
 
-`B1-11-01` … `B1-11-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-11`.
+`B1-11-01` … `B1-11-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-11`.
 
 ## 8. Live drill prompt
 

@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Wie geht es (du) ___? 2. Das Buch gefällt (ich) ___. 3. Ich helfe (der Mann) ___. 4. Das Auto gehört (meine Schwester) ___. 5. Ich fahre mit (das Auto) ___. 6. Sie dankt (die Lehrerin) ___. 7. Wir wohnen bei (unsere Eltern) ___. 8. Schmeckt (Sie, formal) ___ die Suppe?
-
+1. Wie geht es (du) ___?
+2. Das Buch gefällt (ich) ___.
+3. Ich helfe (der Mann) ___.
+4. Das Auto gehört (meine Schwester) ___.
+5. Ich fahre mit (das Auto) ___.
+6. Sie dankt (die Lehrerin) ___.
+7. Wir wohnen bei (unsere Eltern) ___.
+8. Schmeckt (Sie, formal) ___ die Suppe?
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,51 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Article in ■** — 1. Ich helfe (der Lehrer) ___. 2. Das gehört (das Kind) ___. 3. Die Schuhe passen (die Frau) ___. 4. Wir danken (die Eltern) ___. 5. Er gratuliert (sein Freund) ___. 6. Das Essen schmeckt (mein Bruder) ___. 7. Ich antworte (eine Kollegin) ___. 8. Sie fehlt (ihre Kinder) ___.
+**4.1 Article in ■**
 
-**4.2 Pronouns in ■** — 1. Kannst du (ich) ___ helfen? 2. Wie geht es (ihr, you pl.) ___? 3. Das Auto gehört (er) ___. 4. Ich danke (Sie) ___. 5. Gefällt (du) ___ das Bild? 6. Das ist (wir) ___ egal. 7. Ich glaube (sie, she) ___ nicht. 8. Es tut (sie, they) ___ leid.
+1. Ich helfe (der Lehrer) ___.
+2. Das gehört (das Kind) ___.
+3. Die Schuhe passen (die Frau) ___.
+4. Wir danken (die Eltern) ___.
+5. Er gratuliert (sein Freund) ___.
+6. Das Essen schmeckt (mein Bruder) ___.
+7. Ich antworte (eine Kollegin) ___.
+8. Sie fehlt (ihre Kinder) ___.
 
-**4.3 Prepositions + ■** — 1. mit (mein Vater) 2. bei (die Firma) 3. von (unsere Nachbarn) 4. zu (das Konzert) 5. nach (die Arbeit) 6. aus (ein Glas) 7. seit (ein Jahr) 8. mit (die Kinder)
+**4.2 Pronouns in ■**
 
-**4.4 ▲ or ■?** — 1. Ich sehe (der Mann) ___. 2. Ich helfe (der Mann) ___. 3. Ich kenne (sie) ___. 4. Ich danke (sie) ___. 5. Er liebt (ich) ___. 6. Er glaubt (ich) ___. 7. Wir besuchen (unsere Oma) ___. 8. Wir gratulieren (unsere Oma) ___.
+1. Kannst du (ich) ___ helfen?
+2. Wie geht es (ihr, you pl.) ___?
+3. Das Auto gehört (er) ___.
+4. Ich danke (Sie) ___.
+5. Gefällt (du) ___ das Bild?
+6. Das ist (wir) ___ egal.
+7. Ich glaube (sie, she) ___ nicht.
+8. Es tut (sie, they) ___ leid.
+
+**4.3 Prepositions + ■**
+
+1. mit (mein Vater)
+2. bei (die Firma)
+3. von (unsere Nachbarn)
+4. zu (das Konzert)
+5. nach (die Arbeit)
+6. aus (ein Glas)
+7. seit (ein Jahr)
+8. mit (die Kinder)
+
+**4.4 ▲ or ■?**
+
+1. Ich sehe (der Mann) ___.
+2. Ich helfe (der Mann) ___.
+3. Ich kenne (sie) ___.
+4. Ich danke (sie) ___.
+5. Er liebt (ich) ___.
+6. Er glaubt (ich) ___.
+7. Wir besuchen (unsere Oma) ___.
+8. Wir gratulieren (unsere Oma) ___.
 
 **4.5 Produce** — Five sentences: *gefallen, gehören, helfen, schmecken, Wie geht es …* with a different ■ person in each.
-
 ## 5. Answer key
 
 <details>
@@ -92,8 +133,8 @@ Write a thank-you message: *danken* + ■, *gefallen* + ■, *helfen* + ■, one
 
 ## 7. Cards
 
-`A1-15-01` … `A1-15-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-15`.
+`A1-15-01` … `A1-15-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-15`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-15: verbs with a person in brackets, mixing ▲ verbs and ■ verbs so I must choose the case; then pronouns; then the plural -n trap; then Portuguese sentences with *ajudar/agradecer/gostar*.
+> Drill me on A1-15: verbs with a person in brackets, mixing ▲ verbs and ■ verbs so I must choose the case; then pronouns; then the plural -n trap; then sentences from my active contrast language(s) with *help / thank / like* (`helfen / danken / gefallen`).

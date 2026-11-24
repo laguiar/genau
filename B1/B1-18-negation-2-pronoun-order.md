@@ -1,14 +1,20 @@
 # B1-18 — Negation II (`noch nicht, nicht mehr, kein … mehr, nie, niemand, nirgends`) and pronoun order (`Wir geben es ihm`)
 
-**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-07, A2-01, A2-20 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-07, A2-01, A2-20 · **Nicos Weg B1:** [Einh. 7 *Arbeitswelt* — Verneinung](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can negate any positive statement with its exact negative counterpart (`schon → noch nicht`, `noch → nicht mehr`) without double negation, and order two objects + `nicht` in main and subordinate clauses.
 
 ## 0. Diagnostic (3 min)
 
 Negate the sentence or order the pronouns. ≥ 7/8 → `✔`.
 
-1. *Der Zug ist **schon** abgefahren.* → Der Zug ist ___ ___ abgefahren. 2. *Er wohnt **noch** bei seinen Eltern.* → Er wohnt ___ ___ bei seinen Eltern. 3. *Ich habe **noch** Bargeld.* → Ich habe ___ Bargeld ___. 4. *Ich habe **jemanden** gesehen.* → Ich habe ___ gesehen. 5. *Sie war **schon einmal** in Wien.* → Sie war ___ ___ in Wien. 6. Replace both nouns with pronouns: *Ich schicke **meinem Chef** **den Bericht**.* → Ich schicke ___ ___. 7. In a Nebensatz (noun subject + 2 pronouns): *…, weil (das Buch / mir / mein Bruder) ___ ___ ___ geliehen hat.* 8. Place `nicht`: *Ich habe (ihm / gestern / das Geld / nicht) ___ ___ ___ ___ gegeben.*
-
+1. *Der Zug ist **schon** abgefahren.* → Der Zug ist ___ ___ abgefahren.
+2. *Er wohnt **noch** bei seinen Eltern.* → Er wohnt ___ ___ bei seinen Eltern.
+3. *Ich habe **noch** Bargeld.* → Ich habe ___ Bargeld ___.
+4. *Ich habe **jemanden** gesehen.* → Ich habe ___ gesehen.
+5. *Sie war **schon einmal** in Wien.* → Sie war ___ ___ in Wien.
+6. Replace both nouns with pronouns: *Ich schicke **meinem Chef** **den Bericht**.* → Ich schicke ___ ___.
+7. In a Nebensatz (noun subject + 2 pronouns): *…, weil (das Buch / mir / mein Bruder) ___ ___ ___ geliehen hat.*
+8. Place `nicht`: *Ich habe (ihm / gestern / das Geld / nicht) ___ ___ ___ ___ gegeben.*
 ## 1. The rule in one picture
 
 ```
@@ -60,7 +66,7 @@ Reviewing and extending A2-01 and A2-20 for B1 accuracy:
 
 > 🇧🇷 **Portuguese contrast** — 1. **Double negation trap:** Portuguese requires double negation whenever *nada / ninguém / nunca* follows the verb (*Não vi ninguém / Não disse nada / Nunca fiz nada*). Translating the *não* gives ~~Ich habe nicht niemanden gesehen~~ — a major grammar error in German! Drop the *nicht*: *Ich habe **niemanden** gesehen.* 2. **`kein … mehr`:** PT *não tenho mais tempo* → German wraps *kein … mehr* around the noun: *Ich habe **keine** Zeit **mehr***. 3. **Two pronouns:** PT *Ele me disse isso* puts *me* (■) before *isso* (▲). German puts ▲ first: *Er hat **es mir** gesagt*.
 > 🇪🇸 **Spanish contrast** — Three essential Spanish → German negation rules: 1. **Never use double negation:** *No vi a nadie / No dije nada / Nunca voy* → *Ich habe **niemanden** gesehen / Ich habe **nichts** gesagt / Ich gehe **nie*** (never add *nicht*!). 2. ***todavía no* vs *ya no*:** *todavía no* = **noch nicht** (with a noun: *todavía no tengo respuesta → ich habe **noch keine** Antwort*); *ya no* = **nicht mehr** (with a noun: *ya no tengo tiempo → ich habe **keine** Zeit **mehr*** — wrap `kein- … mehr` around the noun!). 3. **Two pronouns (*Se lo envié*):** Always put `▲` (`ihn, es, sie`) **before** `■` (`mir, dir, ihm, ihr, Ihnen`): *Ich habe **ihn/es ihm** geschickt*.
-> 🇫🇷 **French contrast** — Map the French negative pairs directly to German (with **no `ne`**!): - *déjà (schon)* ↔ *pas encore* = **noch nicht** (with a noun: *pas encore de réponse* = **noch keine** Antwort) - *déjà (dans ta vie: schon einmal)* ↔ *ne … jamais* = **noch nie** - *encore (noch)* ↔ *ne … plus* = **nicht mehr** (with a noun: *Je n'ai **plus de** temps* = *Ich habe **keine** Zeit **mehr*** — wrap `kein- … mehr` around the noun!). And for two object pronouns (*Je **le lui** donne*), remember that German always puts the `▲` pronoun (`ihn, es, sie`) **before** the `■` pronoun (`mir, dir, ihm, ihr, Ihnen`): *Ich gebe **es ihm** / **es dir***.
+> 🇫🇷 **French contrast** — Map the French negative pairs directly to German (with **no `ne`**!): And for two object pronouns (*Je **le lui** donne*), remember that German always puts the `▲` pronoun (`ihn, es, sie`) **before** the `■` pronoun (`mir, dir, ihm, ihr, Ihnen`): *Ich gebe **es ihm** / **es dir***. *déjà (schon)* ↔ *pas encore* = **noch nicht** (with a noun: *pas encore de réponse* = **noch keine** Antwort) · *déjà (dans ta vie: schon einmal)* ↔ *ne … jamais* = **noch nie** · *encore (noch)* ↔ *ne … plus* = **nicht mehr** (with a noun: *Je n'ai **plus de** temps* = *Ich habe **keine** Zeit **mehr*** — wrap `kein- … mehr` around the noun!).
 > 🇬🇧 **English contrast** — English *I don't have any more time* / *any longer* uses *not … any*. German fuses *not + a/any* into **kein-**: *Ich habe **kein** Geld **mehr*** (never ~~nicht mehr Geld~~ when you mean "no money left"; *nicht mehr Geld* means "not a larger amount of money").
 
 ## 3. Watch out
@@ -101,8 +107,13 @@ Reviewing and extending A2-01 and A2-20 for B1 accuracy:
 3. ~~Das Paket ist da; der Postbote hat mir es gerade gebracht.~~
 4. ~~Er hat mir noch nicht keine Bestätigung geschickt.~~
 
-**4.5 Sprachbausteine-style** — 1. Leider habe ich bis heute ___ Antwort auf meine E-Mail erhalten. (a) noch nicht (b) noch keine (c) nicht mehr 2. Da das Gerät kaputt ist, können wir es leider ___ benutzen. (a) keine mehr (b) noch nicht (c) nicht mehr 3. Sie suchen den Schlüssel? Ich habe ___ Ihnen doch vor einer Stunde gegeben! (a) ihn (b) ihm (c) es 4. Als ich im Büro ankam, war ___ mehr da; alle waren schon gegangen. (a) nicht jemand (b) niemand (c) keiner nicht 5. Wenn Sie die Unterlagen gefunden haben, schicken Sie ___ bitte per Post zu. (a) mir sie (b) sie mich (c) sie mir
+**4.5 Sprachbausteine-style**
 
+1. Leider habe ich bis heute ___ Antwort auf meine E-Mail erhalten. (a) noch nicht (b) noch keine (c) nicht mehr
+2. Da das Gerät kaputt ist, können wir es leider ___ benutzen. (a) keine mehr (b) noch nicht (c) nicht mehr
+3. Sie suchen den Schlüssel? Ich habe ___ Ihnen doch vor einer Stunde gegeben! (a) ihn (b) ihm (c) es
+4. Als ich im Büro ankam, war ___ mehr da; alle waren schon gegangen. (a) nicht jemand (b) niemand (c) keiner nicht
+5. Wenn Sie die Unterlagen gefunden haben, schicken Sie ___ bitte per Post zu. (a) mir sie (b) sie mich (c) sie mir
 ## 5. Answer key
 
 <details>
@@ -118,7 +129,12 @@ Reviewing and extending A2-01 and A2-20 for B1 accuracy:
 
 **4.4** 1 …, weil ich **keine Zeit mehr** habe. 2 Ich habe gestern im Büro **niemanden** getroffen. 3 … der Postbote hat **es mir** gerade gebracht. 4 Er hat mir **noch keine** Bestätigung geschickt.
 
-**4.5** 1 b 2 c 3 a (*den Schlüssel* = m ▲ → *ihn* before ■ *Ihnen*) 4 b 5 c
+**4.5**
+1. **b** (*noch keine* — opposite of *schon eine Antwort* = *noch keine Antwort*)
+2. **c** (*nicht mehr* — opposite of *noch* with a verb = *nicht mehr*)
+3. **a** (*ihn* — *der Schlüssel* m ▲ → *ihn*, placed before ■ pronoun *Ihnen*)
+4. **b** (*niemand* — German uses single negation: *niemand* = 'nobody')
+5. **c** (*sie mir* — two pronouns: ▲ *sie* (*Unterlagen*) comes before ■ *mir*)
 
 </details>
 
@@ -128,8 +144,8 @@ Write 5 sentences for a follow-up / reminder letter using: (1) *noch keine Antwo
 
 ## 7. Cards
 
-`B1-18-01` … `B1-18-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-18`.
+`B1-18-01` … `B1-18-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-18`.
 
 ## 8. Live drill prompt
 
-> Drill me on B1-18: positive → negative transformations (`schon → noch nicht / noch kein`, `noch → nicht mehr / kein … mehr`, `jemals → noch nie`), avoiding PT double negation, and replacing two objects with pronouns (`es ihm, ihn mir, sie ihr`) in main and subordinate clauses.
+> Drill me on B1-18: positive → negative transformations (`schon → noch nicht / noch kein`, `noch → nicht mehr / kein … mehr`, `jemals → noch nie`), avoiding double negation traps from my active contrast language(s), and replacing two objects with pronouns (`es ihm, ihn mir, sie ihr`) in main and subordinate clauses.

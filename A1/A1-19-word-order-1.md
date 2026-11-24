@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. ich / fahren / nach Berlin / morgen (start with *Morgen*) 2. ich / fahren / nach Berlin / morgen (start with *Ich*; order the rest) 3. Join: Ich bleibe zu Hause. Ich bin müde. (*denn*) 4. Join: Ich bin müde. Ich gehe nicht ins Bett. (*aber*) 5. Zuerst esse ich, ___ (then I go to work). 6. ich / können / heute / nicht / kommen 7. Join: Er kommt. Sie kommt. (*und*, drop the repeated verb) 8. Ich habe keine Zeit, ___ ich muss arbeiten. (*because*, position 0)
-
+1. ich / fahren / nach Berlin / morgen (start with *Morgen*)
+2. ich / fahren / nach Berlin / morgen (start with *Ich*; order the rest)
+3. Join: Ich bleibe zu Hause. Ich bin müde. (*denn*)
+4. Join: Ich bin müde. Ich gehe nicht ins Bett. (*aber*)
+5. Zuerst esse ich, ___ (then I go to work).
+6. ich / können / heute / nicht / kommen
+7. Join: Er kommt. Sie kommt. (*und*, drop the repeated verb)
+8. Ich habe keine Zeit, ___ ich muss arbeiten. (*because*, position 0)
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,39 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Recognise** — Mark position 0 / 1 / verb: 1. Heute regnet es, aber morgen scheint die Sonne. 2. Zuerst frühstücke ich, dann dusche ich. 3. Ich komme nicht, denn ich bin krank. 4. Er lernt Deutsch und sie lernt Spanisch.
+**4.1 Recognise** — Mark position 0 / 1 / verb:
 
-**4.2 Front the underlined element** — 1. Ich gehe _am Samstag_ ins Kino. 2. Wir essen _um 12 Uhr_. 3. Ich trinke _morgens_ Kaffee. 4. Sie muss _heute_ arbeiten. 5. Ich rufe dich _später_ an. 6. Man spricht _in Österreich_ Deutsch.
+1. Heute regnet es, aber morgen scheint die Sonne.
+2. Zuerst frühstücke ich, dann dusche ich.
+3. Ich komme nicht, denn ich bin krank.
+4. Er lernt Deutsch und sie lernt Spanisch.
 
-**4.3 Time before place** — Order: 1. ich / wohne / seit 2020 / in Hamburg 2. wir / fahren / im Sommer / nach Portugal 3. sie / arbeitet / heute / zu Hause 4. ich / bin / gestern / im Kino / gewesen 5. er / geht / jeden Tag / ins Fitnessstudio
+**4.2 Front the underlined element**
 
-**4.4 Join with the connector** — 1. Ich habe Hunger. Ich esse ein Brot. (*und*, drop subject) 2. Ich möchte ins Kino. Ich habe kein Geld. (*aber*) 3. Er bleibt zu Hause. Er ist krank. (*denn*) 4. Trinkst du Kaffee? Trinkst du Tee? (*oder*, one question) 5. Ich stehe auf. Ich dusche. Ich frühstücke. (*zuerst … dann … danach*)
+1. Ich gehe _am Samstag_ ins Kino.
+2. Wir essen _um 12 Uhr_.
+3. Ich trinke _morgens_ Kaffee.
+4. Sie muss _heute_ arbeiten.
+5. Ich rufe dich _später_ an.
+6. Man spricht _in Österreich_ Deutsch.
+
+**4.3 Time before place** — Order:
+
+1. ich / wohne / seit 2020 / in Hamburg
+2. wir / fahren / im Sommer / nach Portugal
+3. sie / arbeitet / heute / zu Hause
+4. ich / bin / gestern / im Kino / gewesen
+5. er / geht / jeden Tag / ins Fitnessstudio
+
+**4.4 Join with the connector**
+
+1. Ich habe Hunger. Ich esse ein Brot. (*und*, drop subject)
+2. Ich möchte ins Kino. Ich habe kein Geld. (*aber*)
+3. Er bleibt zu Hause. Er ist krank. (*denn*)
+4. Trinkst du Kaffee? Trinkst du Tee? (*oder*, one question)
+5. Ich stehe auf. Ich dusche. Ich frühstücke. (*zuerst … dann … danach*)
 
 **4.5 Produce** — Describe a day with 6 sentences that each start with a different element (time, *dann*, *danach*, place, object, *am Abend*), using *denn* once and *aber* once.
-
 ## 5. Answer key
 
 <details>
@@ -92,8 +121,8 @@ A short e-mail (6 sentences) about your week, with at least 4 different sentence
 
 ## 7. Cards
 
-`A1-19-01` … `A1-19-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-19`.
+`A1-19-01` … `A1-19-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-19`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-19: give me sentences plus an element to front; two sentences to join with a given connector; PT sentences starting with *depois/então/amanhã* to translate.
+> Drill me on A1-19: give me sentences plus an element to front; two sentences to join with a given connector; sentences from my active contrast language(s) starting with *then / tomorrow / afterwards* to translate with V2 inversion.

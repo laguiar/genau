@@ -7,8 +7,14 @@
 
 Build the sentence. ≥ 7/8 → `✔`.
 
-1. ich / aufstehen / um 7 Uhr → 2. wann / du / anrufen / mich → ? 3. er / einkaufen / am Samstag → 4. wir / fernsehen / abends → 5. du / mitkommen → ? (yes/no) 6. der Zug / ankommen / um 9 Uhr → 7. sie (she) / verstehen / das nicht → 8. ich / anfangen / morgen / den Kurs →
-
+1. ich / aufstehen / um 7 Uhr →
+2. wann / du / anrufen / mich → ?
+3. er / einkaufen / am Samstag →
+4. wir / fernsehen / abends →
+5. du / mitkommen → ? (yes/no)
+6. der Zug / ankommen / um 9 Uhr →
+7. sie (she) / verstehen / das nicht →
+8. ich / anfangen / morgen / den Kurs →
 ## 1. The rule in one picture
 
 ```
@@ -54,16 +60,46 @@ Build the sentence. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Recognise** — Separable (S) or inseparable (I)? 1. anfangen 2. bezahlen 3. einkaufen 4. verstehen 5. mitkommen 6. erklären 7. aufhören 8. bekommen 9. zurückkommen 10. gefallen
+**4.1 Recognise** — Separable (S) or inseparable (I)?
 
-**4.2 Build the sentence** — 1. ich / anrufen / meine Mutter / heute 2. der Kurs / anfangen / um 9 Uhr 3. wir / einkaufen / im Supermarkt 4. du / mitbringen / etwas / ? 5. das Konzert / stattfinden / am Freitag 6. er / aussehen / gut 7. ihr / aufräumen / das Zimmer 8. ich / vorbereiten / das Essen
+1. anfangen
+2. bezahlen
+3. einkaufen
+4. verstehen
+5. mitkommen
+6. erklären
+7. aufhören
+8. bekommen
+9. zurückkommen
+10. gefallen
 
-**4.3 Questions** — Make W-questions for the underlined part: 1. Ich stehe _um 6 Uhr_ auf. 2. Sie kauft _im Supermarkt_ ein. 3. Der Zug kommt _um 10 Uhr_ an. 4. Er ruft _seine Schwester_ an.
+**4.2 Build the sentence**
 
-**4.4 Fill in the right verb (conjugated, split)** — abholen, aufmachen, einladen, fernsehen, umsteigen: 1. Ich ___ dich vom Bahnhof ___. 2. Wir ___ abends ___. 3. Sie ___ ihre Freunde zur Party ___. 4. ___ du bitte das Fenster ___? 5. In Köln ___ ich ___.
+1. ich / anrufen / meine Mutter / heute
+2. der Kurs / anfangen / um 9 Uhr
+3. wir / einkaufen / im Supermarkt
+4. du / mitbringen / etwas / ?
+5. das Konzert / stattfinden / am Freitag
+6. er / aussehen / gut
+7. ihr / aufräumen / das Zimmer
+8. ich / vorbereiten / das Essen
+
+**4.3 Questions** — Make W-questions for the underlined part:
+
+1. Ich stehe _um 6 Uhr_ auf.
+2. Sie kauft _im Supermarkt_ ein.
+3. Der Zug kommt _um 10 Uhr_ an.
+4. Er ruft _seine Schwester_ an.
+
+**4.4 Fill in the right verb (conjugated, split)** — abholen, aufmachen, einladen, fernsehen, umsteigen:
+
+1. Ich ___ dich vom Bahnhof ___.
+2. Wir ___ abends ___.
+3. Sie ___ ihre Freunde zur Party ___.
+4. ___ du bitte das Fenster ___?
+5. In Köln ___ ich ___.
 
 **4.5 Produce** — Your typical day in 6 sentences, each with a separable verb (*aufstehen, anfangen, einkaufen, fernsehen, zurückkommen, ausgehen …*), two starting with a time expression.
-
 ## 5. Answer key
 
 <details>
@@ -89,7 +125,7 @@ A text message inviting a friend: use *einladen, mitkommen, anfangen, abholen* a
 
 ## 7. Cards
 
-`A1-10-01` … `A1-10-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-10`.
+`A1-10-01` … `A1-10-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-10`.
 
 ## 8. Live drill prompt
 

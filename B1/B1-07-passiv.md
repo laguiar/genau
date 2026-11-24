@@ -1,14 +1,20 @@
 # B1-07 — Passiv: Präsens, Präteritum, Perfekt, with modals, `von / durch`, and `man`
 
-**Level:** B1 · **Time:** 2–3 sessions · **Prerequisites:** A2-05, A2-19, B1-03 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2–3 sessions · **Prerequisites:** A2-05, A2-19, B1-03 · **Nicos Weg B1:** [Einh. 15 *Politik*, Lekt. 4 — Passiv & Einh. 16 *Region im Wandel*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can recognise and form the process passive (`werden + Partizip II`) across tenses and with modal verbs, distinguish it from `sein + Partizip II` (state), and rewrite between `man` and Passiv.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Präsens Passiv: Das Auto (reparieren) ___ ___. 2. Präteritum Passiv: Das Haus (1990 / bauen) ___ 1990 ___. 3. Modal + Passiv: Der Antrag (müssen / heute / unterschreiben) ___ heute ___ ___. 4. Perfekt Passiv: Die Straße ist gestern gesperrt (worden / geworden) ___. 5. Der Brief wurde (von / durch) ___ meiner Kollegin geschrieben. 6. Active → Passive: *Man öffnet die Tür um 8 Uhr.* → 7. Passive → Active with `man`: *Hier wird nicht geraucht.* → 8. Process or State? *Um 20 Uhr ist das Geschäft geschlossen.* →
-
+1. Präsens Passiv: Das Auto (reparieren) ___ ___.
+2. Präteritum Passiv: Das Haus (1990 / bauen) ___ 1990 ___.
+3. Modal + Passiv: Der Antrag (müssen / heute / unterschreiben) ___ heute ___ ___.
+4. Perfekt Passiv: Die Straße ist gestern gesperrt (worden / geworden) ___.
+5. Der Brief wurde (von / durch) ___ meiner Kollegin geschrieben.
+6. Active → Passive: *Man öffnet die Tür um 8 Uhr.* →
+7. Passive → Active with `man`: *Hier wird nicht geraucht.* →
+8. Process or State? *Um 20 Uhr ist das Geschäft geschlossen.* →
 ## 1. The rule in one picture
 
 ```
@@ -49,8 +55,8 @@
 - *Um 18 Uhr **wird** der Laden **geschlossen*** = someone is locking the door at 6 pm (action).
 - *Ab 18 Uhr **ist** der Laden **geschlossen*** = the shop is closed from 6 pm on (state = Zustandspassiv, *sein + Partizip II*).
 
-> 🇧🇷 **Portuguese contrast** — Portuguese forms the passive with **ser / estar + particípio** (*A carta **é** escrita / **foi** escrita*). Because *ser* = *sein*, Brazilian learners automatically write ~~Der Brief ist geschrieben~~ when they mean an action! Lock in the contrast: - PT **ser** + particípio (action) → German **werden** + Partizip II (*Der Brief **wird** / **wurde** geschrieben*). - PT **estar** + particípio (resulting state) → German **sein** + Partizip II (*Der Brief **ist** fertig geschrieben*). - PT *se*-passive (*Aluga-se apartamento / Fala-se alemão*) → German **man** or **wird + Partizip II**.
-> 🇪🇸 **Spanish contrast** — **Your best Spanish anchor for the Passive:** Spanish clearly separates **ser + participio** (process/action: *La puerta **es / fue** cerrada a las 8*) from **estar + participio** (resulting state: *La puerta **está / estaba** cerrada*). Map them 1:1 to German: - Spanish **ser + participio** (action) = German **`werden` + Partizip II** (*Die Tür **wird / wurde** um 8 Uhr geschlossen; **ist** geschlossen **worden***). - Spanish **estar + participio** (state) = German **`sein` + Partizip II** (*Die Tür **ist / war** geschlossen*). - Spanish *pasiva refleja* with ***se*** (*Aquí no **se** fuma / **Se** reparan coches*) = German **`man`** or **`wird + Partizip II`** (*Hier raucht **man** nicht / Hier **wird** nicht geraucht*).
+> 🇧🇷 **Portuguese contrast** — Portuguese forms the passive with **ser / estar + particípio** (*A carta **é** escrita / **foi** escrita*). Because *ser* = *sein*, Brazilian learners automatically write ~~Der Brief ist geschrieben~~ when they mean an action! Lock in the contrast: PT **ser** + particípio (action) → German **werden** + Partizip II (*Der Brief **wird** / **wurde** geschrieben*). · PT **estar** + particípio (resulting state) → German **sein** + Partizip II (*Der Brief **ist** fertig geschrieben*). · PT *se*-passive (*Aluga-se apartamento / Fala-se alemão*) → German **man** or **wird + Partizip II**.
+> 🇪🇸 **Spanish contrast** — **Your best Spanish anchor for the Passive:** Spanish clearly separates **ser + participio** (process/action: *La puerta **es / fue** cerrada a las 8*) from **estar + participio** (resulting state: *La puerta **está / estaba** cerrada*). Map them 1:1 to German: Spanish **ser + participio** (action) = German **`werden` + Partizip II** (*Die Tür **wird / wurde** um 8 Uhr geschlossen; **ist** geschlossen **worden***) · Spanish **estar + participio** (state) = German **`sein` + Partizip II** (*Die Tür **ist / war** geschlossen*) · Spanish *pasiva refleja* with ***se*** (*Aquí no **se** fuma / **Se** reparan coches*) = German **`man`** or **`wird + Partizip II`** (*Hier raucht **man** nicht / Hier **wird** nicht geraucht*).
 > 🇫🇷 **French contrast** — This is a major French → German trap: French forms the passive with ***être* + participe passé** (*La voiture **est** réparée / **a été** réparée*). If you translate *est / était / a été* with `ist / war`, you get the **state passive** (already finished)! For an **action** (process passive), always use **`werden`**: *Das Auto **wird** repariert (est réparée) / **wurde** repariert (a été réparée) / **ist** repariert **worden***. French ***on*** (*On répare la voiture*) maps directly to German **`man`** (*Man repariert das Auto*).
 > 🇬🇧 **English contrast** — Same trap: English uses *to be* (*is built, was built*) for both action and state. In German, action = **wird / wurde gebaut**; state = **ist gebaut**.
 
@@ -63,16 +69,46 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Präsens and Präteritum Passiv** — Put into (a) Präsens Passiv and (b) Präteritum Passiv: 1. das Zimmer / putzen 2. die Gäste / einladen 3. der Termin / verschieben 4. die Pakete / liefern 5. das Licht / ausschalten
+**4.1 Präsens and Präteritum Passiv** — Put into (a) Präsens Passiv and (b) Präteritum Passiv:
 
-**4.2 Active (`man`) ↔ Passive** — Rewrite in the passive (keep the tense!): 1. Man renoviert das Rathaus. 2. Man baute diese Brücke vor 100 Jahren. 3. Man hat den Fehler sofort korrigiert. 4. Man muss die Miete am Monatsanfang überweisen. 5. Man darf die Hunde hier nicht mitnehmen. 6. Man servierte den Gästen (■ stays ■!) das Essen.
+1. das Zimmer / putzen
+2. die Gäste / einladen
+3. der Termin / verschieben
+4. die Pakete / liefern
+5. das Licht / ausschalten
 
-**4.3 Passive with modals & in Nebensätze** — Build the sentence: 1. die Rechnung / müssen / bis Freitag / bezahlen (Passiv) 2. das Ticket / können / online / buchen (Passiv) 3. Ich hoffe, dass / das Paket / morgen / liefern (Präsens Passiv) 4. Er ärgert sich, weil / er / nicht / informieren (Präteritum Passiv) 5. Weißt du, wann / das Auto / reparieren / können (Passiv)?
+**4.2 Active (`man`) ↔ Passive** — Rewrite in the passive (keep the tense!):
 
-**4.4 `von + ■` vs `durch + ▲`, and `wird` (action) vs `ist` (state)** — Fill in: 1. Der Patient wurde ___ einem Spezialisten untersucht. 2. Das Dorf wurde ___ ein Erdbeben zerstört. 3. Jeden Morgen um 7 Uhr (wird / ist) ___ die Bäckerei geöffnet. 4. Am Sonntag (wird / ist) ___ die Bäckerei den ganzen Tag geschlossen. 5. Mein Fahrrad ist gestohlen (worden / geworden) ___.
+1. Man renoviert das Rathaus.
+2. Man baute diese Brücke vor 100 Jahren.
+3. Man hat den Fehler sofort korrigiert.
+4. Man muss die Miete am Monatsanfang überweisen.
+5. Man darf die Hunde hier nicht mitnehmen.
+6. Man servierte den Gästen (■ stays ■!) das Essen.
 
-**4.5 Sprachbausteine-style** — 1. Der neue Bahnhof ___ im letzten Jahr eröffnet. (a) wird (b) wurde (c) war 2. Die Unterlagen müssen bis spätestens Freitag eingereicht ___. (a) worden (b) werden (c) geworden 3. Leider ist mein Flug wegen des Sturms annulliert ___. (a) geworden (b) werden (c) worden 4. Das Buch wurde ___ einer bekannten Autorin geschrieben. (a) von (b) durch (c) mit 5. Wir möchten Sie darüber informieren, dass Ihr Auftrag heute bearbeitet ___. (a) werde (b) wird (c) worden
+**4.3 Passive with modals & in Nebensätze** — Build the sentence:
 
+1. die Rechnung / müssen / bis Freitag / bezahlen (Passiv)
+2. das Ticket / können / online / buchen (Passiv)
+3. Ich hoffe, dass / das Paket / morgen / liefern (Präsens Passiv)
+4. Er ärgert sich, weil / er / nicht / informieren (Präteritum Passiv)
+5. Weißt du, wann / das Auto / reparieren / können (Passiv)?
+
+**4.4 `von + ■` vs `durch + ▲`, and `wird` (action) vs `ist` (state)** — Fill in:
+
+1. Der Patient wurde ___ einem Spezialisten untersucht.
+2. Das Dorf wurde ___ ein Erdbeben zerstört.
+3. Jeden Morgen um 7 Uhr (wird / ist) ___ die Bäckerei geöffnet.
+4. Am Sonntag (wird / ist) ___ die Bäckerei den ganzen Tag geschlossen.
+5. Mein Fahrrad ist gestohlen (worden / geworden) ___.
+
+**4.5 Sprachbausteine-style**
+
+1. Der neue Bahnhof ___ im letzten Jahr eröffnet. (a) wird (b) wurde (c) war
+2. Die Unterlagen müssen bis spätestens Freitag eingereicht ___. (a) worden (b) werden (c) geworden
+3. Leider ist mein Flug wegen des Sturms annulliert ___. (a) geworden (b) werden (c) worden
+4. Das Buch wurde ___ einer bekannten Autorin geschrieben. (a) von (b) durch (c) mit
+5. Wir möchten Sie darüber informieren, dass Ihr Auftrag heute bearbeitet ___. (a) werde (b) wird (c) worden
 ## 5. Answer key
 
 <details>
@@ -88,7 +124,12 @@
 
 **4.4** 1 von 2 durch 3 wird 4 ist 5 worden
 
-**4.5** 1 b 2 b 3 c 4 a 5 b
+**4.5**
+1. **b** (*wurde* — past action (*im letzten Jahr*) uses Präteritum Passiv *wurde … eröffnet*)
+2. **b** (*werden* — modal + passive always ends with `Partizip II + werden`)
+3. **c** (*worden* — Perfekt Passiv uses `ist + Partizip II + worden`, never *geworden*)
+4. **a** (*von* — person/agent in the passive takes `von + ■`)
+5. **b** (*wird* — Präsens Passiv in Nebensatz: *bearbeitet wird*)
 
 </details>
 
@@ -98,8 +139,8 @@ Write 5 sentences for a formal complaint or inquiry letter using the Passiv: e.g
 
 ## 7. Cards
 
-`B1-07-01` … `B1-07-08` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-07`.
+`B1-07-01` … `B1-07-08` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-07`.
 
 ## 8. Live drill prompt
 
-> Drill me on B1-07: active (`man` or named agent) → passive across Präsens, Präteritum, Perfekt (`worden`) and modals (`Partizip II + werden`), plus PT *foi feito / está feito* → `wurde gemacht / ist gemacht`.
+> Drill me on B1-07: active (`man` or named agent) → passive across Präsens, Präteritum, Perfekt (`worden`) and modals (`Partizip II + werden`), plus process vs state passive (*was done* vs *is done* → `wurde gemacht / ist gemacht`) from my active contrast language(s).

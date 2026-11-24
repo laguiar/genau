@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Kommt er? → Ich weiß nicht, ___ er ___. 2. Wann beginnt der Kurs? → Weißt du, ___ der Kurs ___? 3. Wo ist der Bahnhof? → Können Sie mir sagen, ___? 4. Ich lerne Deutsch. Ich will hier arbeiten. (damit or um … zu?) → 5. Ich spreche langsam. Du verstehst mich. (damit) → 6. Hat sie angerufen? → Ich frage mich, ___. 7. Wie viel kostet das? → Ich möchte wissen, ___. 8. dass or ob? Ich bin sicher, ___ er kommt.
-
+1. Kommt er? → Ich weiß nicht, ___ er ___.
+2. Wann beginnt der Kurs? → Weißt du, ___ der Kurs ___?
+3. Wo ist der Bahnhof? → Können Sie mir sagen, ___?
+4. Ich lerne Deutsch. Ich will hier arbeiten. (damit or um … zu?) →
+5. Ich spreche langsam. Du verstehst mich. (damit) →
+6. Hat sie angerufen? → Ich frage mich, ___.
+7. Wie viel kostet das? → Ich möchte wissen, ___.
+8. dass or ob? Ich bin sicher, ___ er kommt.
 ## 1. The rule in one picture
 
 ```
@@ -55,16 +61,52 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Make indirect** — Start with *Ich weiß nicht, …*: 1. Wo wohnt sie? 2. Hat er das Buch gelesen? 3. Wann fängt der Film an? 4. Kann man hier parken? 5. Warum ist der Laden geschlossen? 6. Wie lange dauert der Kurs? 7. Fährt der Bus nach Mitte? 8. Was kostet ein Ticket?
+**4.1 Make indirect** — Start with *Ich weiß nicht, …*:
 
-**4.2 Polite** — Rewrite as *Können Sie mir sagen, …?* / *Wissen Sie, …?*: 1. Wo ist die Post? 2. Ist das Museum heute geöffnet? 3. Wie komme ich zum Bahnhof? 4. Gibt es hier ein Café? 5. Um wie viel Uhr schließt die Bank?
+1. Wo wohnt sie?
+2. Hat er das Buch gelesen?
+3. Wann fängt der Film an?
+4. Kann man hier parken?
+5. Warum ist der Laden geschlossen?
+6. Wie lange dauert der Kurs?
+7. Fährt der Bus nach Mitte?
+8. Was kostet ein Ticket?
 
-**4.3 dass / ob / wann / wenn** — 1. Ich hoffe, ___ du kommst. 2. Ich bin nicht sicher, ___ ich kommen kann. 3. Sag mir, ___ du ankommst, dann hole ich dich ab. 4. ___ ich Zeit habe, gehe ich ins Fitnessstudio. 5. Er fragt, ___ wir am Samstag Zeit haben. 6. Ich weiß, ___ das schwierig ist. 7. Weißt du, ___ der Zug abfährt? 8. Ich rufe an, ___ ich in Berlin bin.
+**4.2 Polite** — Rewrite as *Können Sie mir sagen, …?* / *Wissen Sie, …?*:
 
-**4.4 damit or um … zu** — 1. Ich lerne jeden Tag. Ich bestehe die Prüfung. 2. Ich kaufe Brot. Wir haben morgen Frühstück. 3. Sie arbeitet viel. Sie kann ein Haus kaufen. 4. Er fährt mit dem Rad. Er ist fit. (→ um … zu: um fit zu bleiben) 5. Ich schreibe alles auf. Ich vergesse nichts. 6. Die Lehrerin spricht langsam. Die Schüler verstehen alles.
+1. Wo ist die Post?
+2. Ist das Museum heute geöffnet?
+3. Wie komme ich zum Bahnhof?
+4. Gibt es hier ein Café?
+5. Um wie viel Uhr schließt die Bank?
 
-**4.5 Sprachbausteine-style** — 1. Könnten Sie mir mitteilen, ___ der Kurs noch Plätze hat? (a) dass (b) ob (c) wenn 2. Ich möchte wissen, ___ der Unterricht beginnt. (a) wenn (b) wann (c) ob 3. Ich schreibe Ihnen, ___ mich für den Kurs anzumelden. (a) um (b) damit (c) für 4. Ich schicke Ihnen die Unterlagen, ___ Sie alles prüfen können. (a) um (b) damit (c) dass 5. Er fragt, ___ wir kommen. (a) ob (b) dass (c) das
+**4.3 dass / ob / wann / wenn**
 
+1. Ich hoffe, ___ du kommst.
+2. Ich bin nicht sicher, ___ ich kommen kann.
+3. Sag mir, ___ du ankommst, dann hole ich dich ab.
+4. ___ ich Zeit habe, gehe ich ins Fitnessstudio.
+5. Er fragt, ___ wir am Samstag Zeit haben.
+6. Ich weiß, ___ das schwierig ist.
+7. Weißt du, ___ der Zug abfährt?
+8. Ich rufe an, ___ ich in Berlin bin.
+
+**4.4 damit or um … zu**
+
+1. Ich lerne jeden Tag. Ich bestehe die Prüfung.
+2. Ich kaufe Brot. Wir haben morgen Frühstück.
+3. Sie arbeitet viel. Sie kann ein Haus kaufen.
+4. Er fährt mit dem Rad. Er ist fit. (→ um … zu: um fit zu bleiben)
+5. Ich schreibe alles auf. Ich vergesse nichts.
+6. Die Lehrerin spricht langsam. Die Schüler verstehen alles.
+
+**4.5 Sprachbausteine-style**
+
+1. Könnten Sie mir mitteilen, ___ der Kurs noch Plätze hat? (a) dass (b) ob (c) wenn
+2. Ich möchte wissen, ___ der Unterricht beginnt. (a) wenn (b) wann (c) ob
+3. Ich schreibe Ihnen, ___ mich für den Kurs anzumelden. (a) um (b) damit (c) für
+4. Ich schicke Ihnen die Unterlagen, ___ Sie alles prüfen können. (a) um (b) damit (c) dass
+5. Er fragt, ___ wir kommen. (a) ob (b) dass (c) das
 ## 5. Answer key
 
 <details>
@@ -80,7 +122,12 @@
 
 **4.4** 1 Ich lerne jeden Tag, um die Prüfung zu bestehen. 2 Ich kaufe Brot, damit wir morgen Frühstück haben. 3 Sie arbeitet viel, um ein Haus kaufen zu können. / …, damit sie ein Haus kaufen kann. 4 Er fährt mit dem Rad, um fit zu bleiben. 5 Ich schreibe alles auf, um nichts zu vergessen. 6 Die Lehrerin spricht langsam, damit die Schüler alles verstehen.
 
-**4.5** 1 b 2 b 3 a 4 b 5 a
+**4.5**
+1. **b** (*ob* — indirect yes/no question 'whether' uses *ob*)
+2. **b** (*wann* — indirect W-question asking time 'when' uses *wann*, not *wenn*)
+3. **a** (*um* — same subject (`ich`…`mich`) + `zu` infinitive → *um … zu*)
+4. **b** (*damit* — two different subjects (`ich` vs `Sie`) + purpose → *damit* + V-END)
+5. **a** (*ob* — *fragen* introduces an open yes/no question → *ob*)
 
 </details>
 
@@ -90,8 +137,8 @@ A letter fragment asking a language school three things: *Ich möchte gern wisse
 
 ## 7. Cards
 
-`A2-12-01` … `A2-12-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-12`.
+`A2-12-01` … `A2-12-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-12`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-12: direct questions to make indirect (mix yes/no and W), PT *se/quando* traps, dass/ob decisions, and purpose sentences where I pick damit or um…zu by the subject test.
+> Drill me on A2-12: direct questions to make indirect (mix yes/no and W), `wenn / ob / wann` traps from my active contrast language(s), `dass / ob` decisions, and purpose sentences where I pick `damit` or `um … zu` by the subject test.

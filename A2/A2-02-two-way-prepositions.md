@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Das Buch liegt auf (der Tisch) ___. 2. Ich lege das Buch auf (der Tisch) ___. 3. Wir gehen in (das Kino) ___. 4. Wir sind in (das Kino) ___. 5. Das Bild hängt an (die Wand) ___. 6. Er (stellen/stehen) ___ die Flasche in den Kühlschrank. 7. Die Flasche (stellen/stehen) ___ im Kühlschrank. 8. Sie setzt sich neben (ich) ___.
-
+1. Das Buch liegt auf (der Tisch) ___.
+2. Ich lege das Buch auf (der Tisch) ___.
+3. Wir gehen in (das Kino) ___.
+4. Wir sind in (das Kino) ___.
+5. Das Bild hängt an (die Wand) ___.
+6. Er (stellen/stehen) ___ die Flasche in den Kühlschrank.
+7. Die Flasche (stellen/stehen) ___ im Kühlschrank.
+8. Sie setzt sich neben (ich) ___.
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,52 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 wo or wohin? give the article** — 1. Der Hund schläft unter (der Tisch) ___. 2. Stell die Milch in (der Kühlschrank) ___. 3. Ich warte vor (das Kino) ___. 4. Hängen Sie die Jacke an (der Haken) ___. 5. Wir treffen uns hinter (die Schule) ___. 6. Die Kinder laufen in (der Garten) ___. (into) 7. Die Kinder spielen in (der Garten) ___. 8. Das Bild hängt über (das Sofa) ___. 9. Sie legt das Handy neben (die Tasse) ___. 10. Das Auto steht zwischen (die Bäume, pl.) ___.
+**4.1 wo or wohin? give the article**
 
-**4.2 Position verbs** — stellen/stehen/legen/liegen/setzen/sitzen/hängen: 1. Wo ist mein Schlüssel? — Er ___ auf dem Tisch. 2. Ich ___ die Bücher ins Regal. 3. Die Vase ___ auf dem Fenster. 4. ___ dich bitte neben mich. 5. Der Mantel ___ im Schrank. 6. Wer ___ die Tasche auf den Boden? (put flat) 7. Wir ___ im Café und trinken Kaffee. 8. Ich ___ die Lampe in die Ecke. (upright)
+1. Der Hund schläft unter (der Tisch) ___.
+2. Stell die Milch in (der Kühlschrank) ___.
+3. Ich warte vor (das Kino) ___.
+4. Hängen Sie die Jacke an (der Haken) ___.
+5. Wir treffen uns hinter (die Schule) ___.
+6. Die Kinder laufen in (der Garten) ___. (into)
+7. Die Kinder spielen in (der Garten) ___.
+8. Das Bild hängt über (das Sofa) ___.
+9. Sie legt das Handy neben (die Tasse) ___.
+10. Das Auto steht zwischen (die Bäume, pl.) ___.
 
-**4.3 Answer with the opposite question** — 1. Wo ist das Auto? (die Garage) → Wohin fährt er das Auto? 2. Wohin gehst du? (die Bank) → Wo bist du? 3. Wo liegt der Brief? (der Schreibtisch) → Wohin legst du den Brief? 4. Wohin hängt sie das Poster? (die Tür) → Wo hängt das Poster?
+**4.2 Position verbs** — stellen/stehen/legen/liegen/setzen/sitzen/hängen:
 
-**4.4 Perfekt of the pairs** — 1. Ich (legen) ___ das Buch auf den Tisch ___. 2. Das Buch (liegen) ___ auf dem Tisch ___. 3. Er (sich setzen) ___ ___ auf das Sofa ___. 4. Wir (sitzen) ___ zwei Stunden im Zug ___. 5. Sie (hängen, put) ___ das Bild an die Wand ___.
+1. Wo ist mein Schlüssel? — Er ___ auf dem Tisch.
+2. Ich ___ die Bücher ins Regal.
+3. Die Vase ___ auf dem Fenster.
+4. ___ dich bitte neben mich.
+5. Der Mantel ___ im Schrank.
+6. Wer ___ die Tasche auf den Boden? (put flat)
+7. Wir ___ im Café und trinken Kaffee.
+8. Ich ___ die Lampe in die Ecke. (upright)
 
-**4.5 Sprachbausteine-style** — 1. Ich habe den Schlüssel ___ Tasche gesteckt. (a) in der (b) in die (c) in das 2. Die Kinder spielen ___ Park. (a) im (b) ins (c) in den 3. Bitte ___ Sie sich! (a) sitzen (b) setzen (c) stellen 4. Das Foto hängt ___ Wand. (a) an der (b) an die (c) auf der 5. Wir fahren ___ Meer. (a) am (b) ans (c) an der
+**4.3 Answer with the opposite question**
 
+1. Wo ist das Auto? (die Garage) → Wohin fährt er das Auto?
+2. Wohin gehst du? (die Bank) → Wo bist du?
+3. Wo liegt der Brief? (der Schreibtisch) → Wohin legst du den Brief?
+4. Wohin hängt sie das Poster? (die Tür) → Wo hängt das Poster?
+
+**4.4 Perfekt of the pairs**
+
+1. Ich (legen) ___ das Buch auf den Tisch ___.
+2. Das Buch (liegen) ___ auf dem Tisch ___.
+3. Er (sich setzen) ___ ___ auf das Sofa ___.
+4. Wir (sitzen) ___ zwei Stunden im Zug ___.
+5. Sie (hängen, put) ___ das Bild an die Wand ___.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich habe den Schlüssel ___ Tasche gesteckt. (a) in der (b) in die (c) in das
+2. Die Kinder spielen ___ Park. (a) im (b) ins (c) in den
+3. Bitte ___ Sie sich! (a) sitzen (b) setzen (c) stellen
+4. Das Foto hängt ___ Wand. (a) an der (b) an die (c) auf der
+5. Wir fahren ___ Meer. (a) am (b) ans (c) an der
 ## 5. Answer key
 
 <details>
@@ -82,7 +124,12 @@
 
 **4.4** 1 habe … gelegt 2 hat … gelegen 3 hat sich … gesetzt 4 haben … gesessen 5 hat … gehängt
 
-**4.5** 1 b 2 a 3 b 4 a 5 b
+**4.5**
+1. **b** (*in die* — `stecken` = movement/direction *wohin?* → ▲ *in die Tasche*)
+2. **a** (*im* — `spielen` = location *wo?* → ■ *in dem = im Park*)
+3. **b** (*setzen* — `sich setzen` = action of sitting down; *sitzen* is static)
+4. **a** (*an der* — `hängen` static *wo?* + vertical surface → ■ *an der Wand*)
+5. **b** (*ans* — `fahren` = direction *wohin?* → ▲ *an das = ans Meer*)
 
 </details>
 
@@ -92,8 +139,8 @@ Describe your desk or kitchen: 4 sentences *wo?* (■, position verbs) and 3 sen
 
 ## 7. Cards
 
-`A2-02-01` … `A2-02-08` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-02`.
+`A2-02-01` … `A2-02-08` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-02`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-02: give me a verb + preposition + noun and I decide ■/▲ and supply the article; then the position-verb pairs in Präsens and Perfekt; then PT sentences with *pôr/estar em cima* to translate.
+> Drill me on A2-02: give me a verb + preposition + noun and I decide ■/▲ and supply the article; then the position-verb pairs in Präsens and Perfekt; then location vs placement sentences from my active contrast language(s) to translate.

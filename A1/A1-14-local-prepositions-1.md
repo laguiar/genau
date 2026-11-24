@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Ich komme ___ Brasilien. 2. Ich fahre ___ Berlin. 3. Ich wohne ___ Köln. 4. Ich gehe ___ Arzt. (zu + dem) 5. Ich bin ___ Hause. 6. Ich gehe ___ Hause. 7. Ich fahre ___ dem Bus. 8. Er ist ___ seiner Oma. (at her place)
-
+1. Ich komme ___ Brasilien.
+2. Ich fahre ___ Berlin.
+3. Ich wohne ___ Köln.
+4. Ich gehe ___ Arzt. (zu + dem)
+5. Ich bin ___ Hause.
+6. Ich gehe ___ Hause.
+7. Ich fahre ___ dem Bus.
+8. Er ist ___ seiner Oma. (at her place)
 ## 1. The rule in one picture
 
 ```
@@ -61,16 +67,47 @@ Three questions organise everything: **Wohin?** (direction), **Wo?** (location),
 
 ## 4. Exercises (no peeking)
 
-**4.1 nach / in / aus / zu / bei / mit / von** — 1. Ich fahre ___ Wien. 2. Wir wohnen ___ Hamburg. 3. Sie kommt ___ Kolumbien. 4. Er geht ___ Bäcker. 5. Ich bin ___ Peter. (at his place) 6. Ich fahre ___ Fahrrad. 7. Kommst du ___ Arbeit? (from) 8. Wir gehen ___ Hause. 9. Ich bleibe heute ___ Hause. 10. Sie fliegen ___ Türkei. (to)
+**4.1 nach / in / aus / zu / bei / mit / von**
 
-**4.2 Contractions** — Write with *zum / zur / beim / vom / im / ins*: 1. zu + der Post 2. zu + dem Bahnhof 3. bei + dem Arzt 4. von + dem Flughafen 5. in + dem Büro 6. in + das Kino
+1. Ich fahre ___ Wien.
+2. Wir wohnen ___ Hamburg.
+3. Sie kommt ___ Kolumbien.
+4. Er geht ___ Bäcker.
+5. Ich bin ___ Peter. (at his place)
+6. Ich fahre ___ Fahrrad.
+7. Kommst du ___ Arbeit? (from)
+8. Wir gehen ___ Hause.
+9. Ich bleibe heute ___ Hause.
+10. Sie fliegen ___ Türkei. (to)
 
-**4.3 Wo / Wohin / Woher** — Ask the question, then answer with the given place: 1. (fahren) → Italien 2. (sein) → die Schweiz 3. (kommen) → Portugal 4. (gehen) → die Uni 5. (arbeiten) → Bosch 6. (kommen) → der Supermarkt (from)
+**4.2 Contractions** — Write with *zum / zur / beim / vom / im / ins*:
 
-**4.4 Correct the mistakes** — 1. Ich fahre nach dem Bahnhof. 2. Sie ist in ihrer Mutter. 3. Wir gehen zu Hause. 4. Ich komme von Brasilien. 5. Er fährt mit das Auto. 6. Ich wohne nach Berlin.
+1. zu + der Post
+2. zu + dem Bahnhof
+3. bei + dem Arzt
+4. von + dem Flughafen
+5. in + dem Büro
+6. in + das Kino
+
+**4.3 Wo / Wohin / Woher** — Ask the question, then answer with the given place:
+
+1. (fahren) → Italien
+2. (sein) → die Schweiz
+3. (kommen) → Portugal
+4. (gehen) → die Uni
+5. (arbeiten) → Bosch
+6. (kommen) → der Supermarkt (from)
+
+**4.4 Correct the mistakes**
+
+1. Ich fahre nach dem Bahnhof.
+2. Sie ist in ihrer Mutter.
+3. Wir gehen zu Hause.
+4. Ich komme von Brasilien.
+5. Er fährt mit das Auto.
+6. Ich wohne nach Berlin.
 
 **4.5 Produce** — Describe your commute: where you go, how (transport), where you work/study, where you come from in the evening. 5 sentences.
-
 ## 5. Answer key
 
 <details>
@@ -96,8 +133,8 @@ Write directions from the station to a café: 4 imperatives (A1-12) with *gerade
 
 ## 7. Cards
 
-`A1-14-01` … `A1-14-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-14`.
+`A1-14-01` … `A1-14-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-14`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-14: give me a destination noun and a verb (gehen/sein/kommen) and I produce the preposition + article chunk; include lots of *zu/bei/nach* traps and Portuguese sentences with *ao/na/de*.
+> Drill me on A1-14: give me a destination noun and a verb (gehen/sein/kommen) and I produce the preposition + article chunk; include lots of *zu/bei/nach* traps and location/direction phrases from my active contrast language(s).

@@ -50,9 +50,7 @@ Master reference for French speakers (or learners who know French as an L2/L3) l
 
 ## 5. Spelling, sounds, and false friends
 
-- **Sounds & spelling:** German `h` is aspirated (*Haus*); `ch` after *a/o/u* is guttural, after *e/i/ä/ö/ü* palatal; `u` = FR *ou* (*gut*), while `ü` = FR *u* (*Tür* = *tu*); `ö` = FR *eu* (*schön*); `v` = "f" (*Vater*), `w` = "v" (*Wasser*); `z` = "ts" (*Zeit*).
-- **French loanwords in German:** Watch gender shifts! Words in **`-age`** are feminine in German (*die Garage, die Etage, die Bagage*), whereas *das Büro, das Hotel, das Restaurant, das Ticket, das Niveau, das Abonnement* are neuter. Verbs in **`-ieren`** (*studieren, reservieren, reparieren, telefonieren, funktionieren*) come from French *-er/-ir* and **never take `ge-`** in Partizip II!
-- **False friends FR ↔ DE:** *aktuell* = current (FR *actuel*, not English!), *eventuell* = possibly (FR *éventuellement*), *der Chef* = boss (not cook = *der Koch*), *das Kuvert / der Umschlag* = envelope, *sympathisch* = likeable (FR *sympathique*), *brav* = well-behaved (not brave = *mutig*), *fast* = almost (*presque*).
+- **Sounds & spelling:** German `h` is aspirated (*Haus*); `ch` after *a/o/u* is guttural, after *e/i/ä/ö/ü* palatal; `u` = FR *ou* (*gut*), while `ü` = FR *u* (*Tür* = *tu*); `ö` = FR *eu* (*schön*); `v` = "f" (*Vater*), `w` = "v" (*Wasser*); `z` = "ts" (*Zeit*). · **French loanwords in German:** Watch gender shifts! Words in **`-age`** are feminine in German (*die Garage, die Etage, die Bagage*), whereas *das Büro, das Hotel, das Restaurant, das Ticket, das Niveau, das Abonnement* are neuter. Verbs in **`-ieren`** (*studieren, reservieren, reparieren, telefonieren, funktionieren*) come from French *-er/-ir* and **never take `ge-`** in Partizip II! · **False friends FR ↔ DE:** *aktuell* = current (FR *actuel*, not English!), *eventuell* = possibly (FR *éventuellement*), *der Chef* = boss (not cook = *der Koch*), *das Kuvert / der Umschlag* = envelope, *sympathisch* = likeable (FR *sympathique*), *brav* = well-behaved (not brave = *mutig*), *fast* = almost (*presque*).
 
 ## 6. Grammar terminology (`Deutsch / English / Français`)
 
@@ -140,12 +138,7 @@ French uses the same preposition (*dans, sur, sous, devant, derrière*) whether 
 Memorise the fixed-case groups as two rhythmic chants: `▲` *durch-für-gegen-ohne-um* and `■` *aus-bei-mit-nach-seit-von-zu*. French *chez* (at someone's place/doctor's) = **bei + ■** (*chez le médecin → **beim** Arzt*); *aller chez* = **zu + ■** (*aller chez le médecin → **zum** Arzt*). And just like French *depuis + présent* (*J'habite ici depuis 3 ans*), German **seit + ■** takes the **Präsens** (*Ich wohne seit 3 Jahren hier*).
 
 ### A2-04
-French and German align almost 1:1 on time prepositions!
-- *depuis 3 ans* (still ongoing, present tense!) = **seit + ■** (*seit drei Jahren*, Präsens!)
-- *il y a 3 ans* (ago, past tense) = **vor + ■** (*vor drei Jahren*, Perfekt/Präteritum)
-- *dans une heure* (in an hour from now) = **in + ■** (*in einer Stunde*)
-- *pendant le cours* = **während + ◆** (*während des Kurses*)
-- *ne … que* (time: "not until") = **erst** (*Il n'arrive qu'à 10 h → Er kommt **erst** um 10 Uhr*); quantity "only" = **nur**.
+French and German align almost 1:1 on time prepositions! *depuis 3 ans* (still ongoing, present tense!) = **seit + ■** (*seit drei Jahren*, Präsens!) · *il y a 3 ans* (ago, past tense) = **vor + ■** (*vor drei Jahren*, Perfekt/Präteritum) · *dans une heure* (in an hour from now) = **in + ■** (*in einer Stunde*) · *pendant le cours* = **während + ◆** (*während des Kurses*) · *ne … que* (time: "not until") = **erst** (*Il n'arrive qu'à 10 h → Er kommt **erst** um 10 Uhr*); quantity "only" = **nur**.
 
 ### A2-05
 Your French *être / avoir* intuition covers 90 % of German `sein / haben` in the Perfekt! Watch the **three differences** where French and German diverge:
@@ -207,9 +200,7 @@ In French, *chaque* (*jeder*) is singular and *tous les* (*alle*) is plural — 
 As seen in A2-01, French 3rd-person clitic order (*Je **le lui** donne*) is the exact same as German two-pronoun order (`▲` pronoun **before** `■` pronoun: *Ich gebe **es ihm***). Just remember that German applies `▲ before ■` to **all** persons (*Il **me le** donne → Er gibt **es mir***)! For adverbials, French often puts place right after the verb (*Je vais **à Berlin** demain*); German follows **Te-Ka-Mo-Lo** (Time → Reason → Manner → Place: *Ich fahre **morgen mit dem Zug nach Berlin***).
 
 ### A2-21
-Compare French **`y`** and **`en`** (or *à quoi / de quoi*) with German **`da(r)-`** and **`wo(r)-`**:
-- For **things**, French uses *J'**y** pense / J'**en** parle / **À quoi** penses-tu ?*; German fuses **`da(r)-` / `wo(r)-` + the verb's exact preposition**: *Ich denke **daran** / Ich spreche **darüber** / **Woran** denkst du?*
-- For **people**, both French and German keep the preposition + personal/question pronoun: ***À qui** penses-tu ? — Je pense **à elle*** = ***An wen** denkst du? — Ich denke **an sie***.
+Compare French **`y`** and **`en`** (or *à quoi / de quoi*) with German **`da(r)-`** and **`wo(r)-`**: For **things**, French uses *J'**y** pense / J'**en** parle / **À quoi** penses-tu ?*; German fuses **`da(r)-` / `wo(r)-` + the verb's exact preposition**: *Ich denke **daran** / Ich spreche **darüber** / **Woran** denkst du?* · For **people**, both French and German keep the preposition + personal/question pronoun: ***À qui** penses-tu ? — Je pense **à elle*** = ***An wen** denkst du? — Ich denke **an sie***.
 
 ### B1-01
 French *de / du / de la / des* maps directly to the German `◆ Genitiv`: *le bureau **du** chef → das Büro **des** Chefs*; *à cause **de la** pluie → wegen **des** Regens*; *malgré **le** froid → trotz **der** Kälte*; *pendant **les** vacances → während **des** Urlaubs*. Remember that masculine and neuter nouns add **`-(e)s`** on both the article and the noun (*des Chef**s**, des Kind**es***).
@@ -227,9 +218,7 @@ French uses *quand* for all three German words: pause and choose **als** for a s
 In French, a future time clause requires the future tense (*Quand je **serai** à la maison, je t'**appellerai***). In German, both clauses normally stay in the **Präsens** (*Wenn ich zu Hause **bin**, **rufe** ich dich **an***)! On the other hand, just like French uses the *futur antérieur / futur simple* for present conjecture (*Il sera encore au bureau* = "He must still be at the office"), German uses **`werden + (wohl) + Infinitiv`** for present assumptions (*Er **wird wohl** noch im Büro **sein***).
 
 ### B1-06
-Look at the tense difference in unreal *if*-sentences:
-- Present unreal: French uses *Si + **imparfait*** in the *si*-clause and ***conditionnel*** in the main clause (*Si j'**avais** le temps, je **viendrais***). German puts **Konjunktiv II in BOTH clauses**: *Wenn ich Zeit **hätte**, **würde** ich **kommen***.
-- Past unreal: French uses *Si + **plus-que-parfait*** and ***conditionnel passé*** (*Si j'**avais su**, je **serais venu***). German puts **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***.
+Look at the tense difference in unreal *if*-sentences: Present unreal: French uses *Si + **imparfait*** in the *si*-clause and ***conditionnel*** in the main clause (*Si j'**avais** le temps, je **viendrais***). German puts **Konjunktiv II in BOTH clauses**: *Wenn ich Zeit **hätte**, **würde** ich **kommen*** · Past unreal: French uses *Si + **plus-que-parfait*** and ***conditionnel passé*** (*Si j'**avais su**, je **serais venu***). German puts **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***.
 
 ### B1-07
 This is a major French → German trap: French forms the passive with ***être* + participe passé** (*La voiture **est** réparée / **a été** réparée*). If you translate *est / était / a été* with `ist / war`, you get the **state passive** (already finished)! For an **action** (process passive), always use **`werden`**: *Das Auto **wird** repariert (est réparée) / **wurde** repariert (a été réparée) / **ist** repariert **worden***. French ***on*** (*On répare la voiture*) maps directly to German **`man`** (*Man repariert das Auto*).
@@ -243,22 +232,13 @@ Two great simplifications compared to French:
 2. French **`en + participe présent`** (gérondif of manner/means: *On économise de l'énergie **en éteignant** la lumière*) translates into German as **`indem + subject + verb at end`** (*…, **indem man** das Licht **ausschaltet***).
 
 ### B1-10
-Map the six two-part connectors to French:
-- *aussi bien … que / tant … que* → **sowohl … als auch**
-- *non seulement …, mais aussi* → **nicht nur …, sondern auch**
-- *soit … soit / ou … ou* → **entweder … oder**
-- *ni … ni* → **weder … noch** (Note: unlike French *Je **n'**ai **ni** temps **ni** envie*, German adds **no extra negation** — *Ich habe **weder** Zeit **noch** Lust*!)
-- *certes / il est vrai que …, mais* → **zwar …, aber**
-- *plus …, plus …* (*Plus je lis, mieux je comprends*) → **je + comparative (+ V-END!), desto + comparative (+ V2!)** (*Je mehr ich **lese**, desto besser **verstehe ich***).
+Map the six two-part connectors to French: *aussi bien … que / tant … que* → **sowohl … als auch** · *non seulement …, mais aussi* → **nicht nur …, sondern auch** · *soit … soit / ou … ou* → **entweder … oder** · *ni … ni* → **weder … noch** (Note: unlike French *Je **n'**ai **ni** temps **ni** envie*, German adds **no extra negation** — *Ich habe **weder** Zeit **noch** Lust*!) · *certes / il est vrai que …, mais* → **zwar …, aber** · *plus …, plus …* (*Plus je lis, mieux je comprends*) → **je + comparative (+ V-END!), desto + comparative (+ V2!)** (*Je mehr ich **lese**, desto besser **verstehe ich***).
 
 ### B1-11
 In French, connectors from all three categories (*car, parce que, c'est pourquoi / mais, bien que, pourtant*) keep `Subject + Verb` order after them. In German, choosing between **denn / weil / deshalb** or **aber / obwohl / trotzdem** in Sprachbausteine is a **word-order test first**: verb at the end → Subjunktor (`weil, da, obwohl`); verb right after the gap → Adverb (`deshalb, trotzdem, sonst`); subject + verb after the gap → Konjunktor (`denn, aber, sondern`).
 
 ### B1-12
-Compare French relative pronouns with German:
-- French *à qui / auquel / auxquels* (COI) → **`■` dem / der / denen** (*les voisins **à qui** je parle → die Nachbarn, **mit denen** ich spreche*).
-- French ***dont*** ("whose / of which") splits in German! When *dont* means possession ("whose": *l'homme **dont** la voiture… / la femme **dont** le fils…*), use **`dessen`** (m/n owner) or **`deren`** (f/pl owner) + noun **without article** (*der Mann, **dessen** Auto… / die Frau, **deren** Sohn…*). When *dont* comes from a verb with *de* (*le livre **dont** je t'ai parlé*), use the German verb's preposition + relative pronoun (*das Buch, **von dem** ich dir erzählt habe*)!
-- French ***ce qui / ce que*** (*tout **ce que** tu dis*) = German **`was`** (*alles, **was** du sagst*).
+Compare French relative pronouns with German: French *à qui / auquel / auxquels* (COI) → **`■` dem / der / denen** (*les voisins **à qui** je parle → die Nachbarn, **mit denen** ich spreche*) · French ***dont*** ("whose / of which") splits in German! When *dont* means possession ("whose": *l'homme **dont** la voiture… / la femme **dont** le fils…*), use **`dessen`** (m/n owner) or **`deren`** (f/pl owner) + noun **without article** (*der Mann, **dessen** Auto… / die Frau, **deren** Sohn…*). When *dont* comes from a verb with *de* (*le livre **dont** je t'ai parlé*), use the German verb's preposition + relative pronoun (*das Buch, **von dem** ich dir erzählt habe*)! · French ***ce qui / ce que*** (*tout **ce que** tu dis*) = German **`was`** (*alles, **was** du sagst*).
 
 ### B1-13
 In French, you can write *Je me réjouis **de** venir* or *Je veille **à ce que** tout soit prêt*. In German, whenever a prepositional verb (*sich freuen auf, sich bedanken für, achten auf, abhängen von*) is followed by a `dass/ob` clause or `zu + Infinitiv`, you put the matching **`da(r)-` compound** (*darauf, dafür, davon, darüber, darum*) in the main clause as a bridge: *Ich freue mich **darauf**, Sie **zu sehen** / Ich bedanke mich **dafür**, **dass** Sie mir geholfen haben*.
@@ -276,23 +256,13 @@ Many abstract nouns correspond cleanly: French `-tion / -ment` ≈ German **`-un
 French uses *le même / la même* for both one shared object and two identical objects. German distinguishes **derselbe / dasselbe / dieselbe** (one single shared item: *Nous habitons dans le même immeuble → im **selben** Haus*) from **der / das / die gleiche** (an identical model: *Tu as la même veste que moi → **die gleiche** Jacke*). French *l'un avec l'autre / ensemble* fuses into **miteinander** (*füreinander, voneinander*). And French *Il s'agit de…* = **Es handelt sich um + ▲** / **Es geht um + ▲** (never drop `es`!).
 
 ### B1-18
-Map the French negative pairs directly to German (with **no `ne`**!):
-- *déjà (schon)* ↔ *pas encore* = **noch nicht** (with a noun: *pas encore de réponse* = **noch keine** Antwort)
-- *déjà (dans ta vie: schon einmal)* ↔ *ne … jamais* = **noch nie**
-- *encore (noch)* ↔ *ne … plus* = **nicht mehr** (with a noun: *Je n'ai **plus de** temps* = *Ich habe **keine** Zeit **mehr*** — wrap `kein- … mehr` around the noun!).
-And for two object pronouns (*Je **le lui** donne*), remember that German always puts the `▲` pronoun (`ihn, es, sie`) **before** the `■` pronoun (`mir, dir, ihm, ihr, Ihnen`): *Ich gebe **es ihm** / **es dir***.
+Map the French negative pairs directly to German (with **no `ne`**!): And for two object pronouns (*Je **le lui** donne*), remember that German always puts the `▲` pronoun (`ihn, es, sie`) **before** the `■` pronoun (`mir, dir, ihm, ihr, Ihnen`): *Ich gebe **es ihm** / **es dir***. *déjà (schon)* ↔ *pas encore* = **noch nicht** (with a noun: *pas encore de réponse* = **noch keine** Antwort) · *déjà (dans ta vie: schon einmal)* ↔ *ne … jamais* = **noch nie** · *encore (noch)* ↔ *ne … plus* = **nicht mehr** (with a noun: *Je n'ai **plus de** temps* = *Ich habe **keine** Zeit **mehr*** — wrap `kein- … mehr` around the noun!).
 
 ### B1-19
 French *participe présent* (`-ant`: *les enfants souriants, la semaine suivante*) matches German **Partizip I** (`Infinitiv + -d + adjective ending`: *die lächelnd**en** Kinder, in der folgend**en** Woche*), and French *participe passé* (*le contrat signé*) matches **Partizip II + adjective ending** (*der unterschrieben**e** Vertrag*). Crucial reading difference: French puts extended participial phrases **after** the noun (*le courrier **envoyé hier par votre service***); German packs the entire phrase **between the article and the noun** (*der **gestern von Ihnen geschickte** Brief*).
 
 ### B1-20
-Compare key B1 prepositions with French:
-- *dans un délai de 14 jours* → **innerhalb von 14 Tagen** (*innerhalb/außerhalb* + `◆`: *außerhalb der Öffnungszeiten* = outside opening hours).
-- *sauf moi / à part mon frère* → **außer mir / außer meinem Bruder** (`■` Dativ!).
-- *en face de la gare* → **gegenüber dem Bahnhof** (or *dem Bahnhof gegenüber*, `■`).
-- *le long du fleuve* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!).
-- *à mon avis / selon moi* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!).
-- *à la campagne* → **auf dem Land** (direction: **aufs Land**); *à la plage* → **am Strand** (direction: **an den Strand**).
+Compare key B1 prepositions with French: *dans un délai de 14 jours* → **innerhalb von 14 Tagen** (*innerhalb/außerhalb* + `◆`: *außerhalb der Öffnungszeiten* = outside opening hours) · *sauf moi / à part mon frère* → **außer mir / außer meinem Bruder** (`■` Dativ!) · *en face de la gare* → **gegenüber dem Bahnhof** (or *dem Bahnhof gegenüber*, `■`) · *le long du fleuve* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!) · *à mon avis / selon moi* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!) · *à la campagne* → **auf dem Land** (direction: **aufs Land**); *à la plage* → **am Strand** (direction: **an den Strand**).
 
 ### B1-21
 Watch three strict differences between French and German formal letters:

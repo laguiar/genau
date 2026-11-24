@@ -7,8 +7,14 @@
 
 Fill in the ▲ form. ≥ 7/8 → `✔`.
 
-1. Ich sehe (der Mann) ___. 2. Hast du (ein Stift) ___? 3. Ich kaufe (das Brot) ___. 4. Er liebt (sie) ___. 5. Ich habe (kein Hunger) ___. 6. Kennst du (er) ___? 7. Das ist für (du) ___. 8. Sie braucht (die Tasche) ___.
-
+1. Ich sehe (der Mann) ___.
+2. Hast du (ein Stift) ___?
+3. Ich kaufe (das Brot) ___.
+4. Er liebt (sie) ___.
+5. Ich habe (kein Hunger) ___.
+6. Kennst du (er) ___?
+7. Das ist für (du) ___.
+8. Sie braucht (die Tasche) ___.
 ## 1. The rule in one picture
 
 ```
@@ -58,16 +64,49 @@ Fill in the ▲ form. ≥ 7/8 → `✔`.
 ## 4. Exercises (no peeking)
 
 **4.1 Recognise** — Underline the ▲ objects and mark the subject ●:
-1. Der Mann liest die Zeitung. 2. Die Zeitung liest der Mann. 3. Meine Schwester hat einen Hund. 4. Den Kaffee trinke ich morgens. 5. Wen suchst du?
+1. Der Mann liest die Zeitung.
+2. Die Zeitung liest der Mann.
+3. Meine Schwester hat einen Hund.
+4. Den Kaffee trinke ich morgens.
+5. Wen suchst du?
 
-**4.2 Fill in the article** — 1. Ich brauche ___ Stuhl (m). 2. Wir kaufen ___ Auto (n). 3. Er hat ___ Katze (f). 4. Ich lese ___ Buch (n). 5. Siehst du ___ Bus (m)? 6. Sie sucht ___ Wohnung (f). 7. Ich möchte ___ Kaffee (m). 8. Das ist ___ Tisch (m). 9. Ich habe ___ Bruder (m) und ___ Schwester (f). 10. Es gibt hier ___ Bahnhof (m).
+**4.2 Fill in the article**
 
-**4.3 Pronouns** — Replace the object with a pronoun: 1. Ich kenne den Lehrer. 2. Sie liebt das Kind. 3. Wir besuchen die Oma. 4. Er sieht die Kinder. 5. Kennst du meinen Bruder und mich? 6. Ich brauche den Schlüssel.
+1. Ich brauche ___ Stuhl (m).
+2. Wir kaufen ___ Auto (n).
+3. Er hat ___ Katze (f).
+4. Ich lese ___ Buch (n).
+5. Siehst du ___ Bus (m)?
+6. Sie sucht ___ Wohnung (f).
+7. Ich möchte ___ Kaffee (m).
+8. Das ist ___ Tisch (m).
+9. Ich habe ___ Bruder (m) und ___ Schwester (f).
+10. Es gibt hier ___ Bahnhof (m).
 
-**4.4 kein** — Negate: 1. Ich habe einen Computer. 2. Er trinkt Bier. 3. Wir haben Zeit. 4. Sie hat einen Freund. 5. Ich sehe ein Taxi.
+**4.3 Pronouns** — Replace the object with a pronoun:
 
-**4.5 wer / wen / was** — 1. ___ kommt heute? 2. ___ triffst du heute? 3. ___ kaufst du? 4. ___ ist das? (a person, subject) 5. ___ rufst du an?
+1. Ich kenne den Lehrer.
+2. Sie liebt das Kind.
+3. Wir besuchen die Oma.
+4. Er sieht die Kinder.
+5. Kennst du meinen Bruder und mich?
+6. Ich brauche den Schlüssel.
 
+**4.4 kein** — Negate:
+
+1. Ich habe einen Computer.
+2. Er trinkt Bier.
+3. Wir haben Zeit.
+4. Sie hat einen Freund.
+5. Ich sehe ein Taxi.
+
+**4.5 wer / wen / was**
+
+1. ___ kommt heute?
+2. ___ triffst du heute?
+3. ___ kaufst du?
+4. ___ ist das? (a person, subject)
+5. ___ rufst du an?
 ## 5. Answer key
 
 <details>
@@ -93,7 +132,7 @@ A shopping list as sentences: *Ich brauche einen …, eine …, ein … und … 
 
 ## 7. Cards
 
-`A1-08-01` … `A1-08-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-08`.
+`A1-08-01` … `A1-08-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-08`.
 
 ## 8. Live drill prompt
 

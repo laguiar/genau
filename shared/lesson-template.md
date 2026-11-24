@@ -50,7 +50,7 @@ Answer from memory, then check in §5. Score ≥ 7/8 → mark `✔` in PROGRESS.
 
 ## 7. Cards
 
-`<ID>-01` … `<ID>-0N` in `review/cards/<level>.md` (`[review/cards/<level>.md](../review/cards/<level>.md)`). Queue with `python3 review/review.py add <ID>`.
+`<ID>-01` … `<ID>-0N` in `review/cards/<level>.md` (`[review/cards/<level>.md](../review/cards/<level>.md)`). Practice them in the **Genau Web App** (**🃏 Queue Cards**), import [review/anki/](../review/anki/README.md), or run `python3 review/review.py add <ID>`.
 
 ## 8. Live drill prompt
 

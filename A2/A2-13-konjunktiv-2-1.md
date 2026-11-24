@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. (polite) ___ Sie mir bitte helfen? (können) 2. Ich ___ gern einen Kaffee. (haben) 3. Das ___ schön! (sein) 4. ___ du mir das Buch leihen? (werden, polite) 5. Du ___ mehr schlafen. (advice, sollen) 6. Wir ___ ins Kino gehen. (suggestion, können) 7. Ich ___ gern nach Japan reisen. (wish, werden) 8. An deiner Stelle ___ ich den Job nehmen. (werden)
-
+1. (polite) ___ Sie mir bitte helfen? (können)
+2. Ich ___ gern einen Kaffee. (haben)
+3. Das ___ schön! (sein)
+4. ___ du mir das Buch leihen? (werden, polite)
+5. Du ___ mehr schlafen. (advice, sollen)
+6. Wir ___ ins Kino gehen. (suggestion, können)
+7. Ich ___ gern nach Japan reisen. (wish, werden)
+8. An deiner Stelle ___ ich den Job nehmen. (werden)
 ## 1. The rule in one picture
 
 ```
@@ -62,16 +68,52 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Forms** — 1. ich (haben) 2. du (sein) 3. Sie (können) 4. wir (werden) 5. ihr (sollen) 6. er (müssen) 7. sie/they (haben) 8. ich (sein)
+**4.1 Forms**
 
-**4.2 Make it polite** — 1. Geben Sie mir die Speisekarte! 2. Kannst du mir helfen? 3. Ich will ein Bier. 4. Öffnen Sie das Fenster! 5. Haben Sie kurz Zeit? 6. Sagen Sie mir, wann der Zug fährt.
+1. ich (haben)
+2. du (sein)
+3. Sie (können)
+4. wir (werden)
+5. ihr (sollen)
+6. er (müssen)
+7. sie/they (haben)
+8. ich (sein)
 
-**4.3 Wishes, advice, suggestions** — 1. (wish) Ich / gern / mehr Zeit / haben 2. (wish) Wir / gern / am Meer / wohnen (würde) 3. (advice) Du / weniger arbeiten (sollte) 4. (advice) An deiner Stelle / ich / die Wohnung nehmen 5. (suggestion) Wir / zusammen kochen (könnte) 6. (suggestion) Wie / es / mit einem Spaziergang / sein? 7. (opinion) Das / ein gutes Angebot / sein (könnte) 8. (wish) Das / toll / sein!
+**4.2 Make it polite**
 
-**4.4 Letter sentences** — Complete: 1. Könnten Sie mir bitte mitteilen, ob … 2. Ich würde mich freuen, wenn … 3. Wäre es möglich, … zu …? 4. Ich hätte noch eine Frage: … 5. Vielen Dank, das wäre …
+1. Geben Sie mir die Speisekarte!
+2. Kannst du mir helfen?
+3. Ich will ein Bier.
+4. Öffnen Sie das Fenster!
+5. Haben Sie kurz Zeit?
+6. Sagen Sie mir, wann der Zug fährt.
 
-**4.5 Sprachbausteine-style** — 1. ___ Sie mir bitte die Rechnung schicken? (a) Könnten (b) Konnten (c) Können Sie 2. Ich ___ gern einen Termin am Montag. (a) habe (b) hätte (c) würde 3. Du ___ dich beim Arzt melden. (a) solltest (b) sollst (c) würdest 4. Das ___ eine gute Idee! (a) wurde (b) wäre (c) würde 5. Wir ___ auch am Samstag kommen. (a) könnten (b) konnten (c) können könnten
+**4.3 Wishes, advice, suggestions**
 
+1. (wish) Ich / gern / mehr Zeit / haben
+2. (wish) Wir / gern / am Meer / wohnen (würde)
+3. (advice) Du / weniger arbeiten (sollte)
+4. (advice) An deiner Stelle / ich / die Wohnung nehmen
+5. (suggestion) Wir / zusammen kochen (könnte)
+6. (suggestion) Wie / es / mit einem Spaziergang / sein?
+7. (opinion) Das / ein gutes Angebot / sein (könnte)
+8. (wish) Das / toll / sein!
+
+**4.4 Letter sentences** — Complete:
+
+1. Könnten Sie mir bitte mitteilen, ob …
+2. Ich würde mich freuen, wenn …
+3. Wäre es möglich, … zu …?
+4. Ich hätte noch eine Frage: …
+5. Vielen Dank, das wäre …
+
+**4.5 Sprachbausteine-style**
+
+1. ___ Sie mir bitte die Rechnung schicken? (a) Könnten (b) Konnten (c) Können Sie
+2. Ich ___ gern einen Termin am Montag. (a) habe (b) hätte (c) würde
+3. Du ___ dich beim Arzt melden. (a) solltest (b) sollst (c) würdest
+4. Das ___ eine gute Idee! (a) wurde (b) wäre (c) würde
+5. Wir ___ auch am Samstag kommen. (a) könnten (b) konnten (c) können könnten
 ## 5. Answer key
 
 <details>
@@ -87,7 +129,12 @@
 
 **4.4** (examples) 1 … der Kurs noch freie Plätze hat. 2 … Sie mir die Unterlagen schicken könnten. 3 …, den Termin auf Freitag zu verschieben? 4 Gibt es eine Ermäßigung für Studenten? 5 … sehr nett.
 
-**4.5** 1 a 2 b 3 a 4 b 5 a
+**4.5**
+1. **a** (*Könnten* — polite request uses Konjunktiv II with umlaut, not past *Konnten*)
+2. **b** (*hätte* — polite wish *Ich hätte gern …* = 'I would like to have')
+3. **a** (*solltest* — gentle advice 'you should' uses Konjunktiv II *solltest*)
+4. **b** (*wäre* — *sein* uses its own KII form *wäre*, not *würde*)
+5. **a** (*könnten* — polite suggestion 'we could' uses KII *könnten*)
 
 </details>
 
@@ -97,8 +144,8 @@ A polite e-mail to a landlord: a request (*Könnten Sie …*), a wish (*Ich hät
 
 ## 7. Cards
 
-`A2-13-01` … `A2-13-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-13`.
+`A2-13-01` … `A2-13-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-13`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-13: PT *-ria / poderia / gostaria / deveria* sentences to translate; commands to soften into polite requests; then situations (friend is tired, boss asks a favour) where I produce advice or suggestions.
+> Drill me on A2-13: polite requests and conditional (*would / could / should / would like*) sentences from my active contrast language(s) to translate; commands to soften into polite requests; then situations (friend is tired, boss asks a favour) where I produce advice or suggestions.

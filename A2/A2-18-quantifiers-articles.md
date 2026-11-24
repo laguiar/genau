@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. ___ Kind bekommt ein Geschenk. (every) 2. ___ Kinder bekommen ein Geschenk. (all) 3. Ich habe ___ Freunde in Berlin. (many) 4. Er trinkt ___ Wasser. (little) 5. Ich bin ___ Ingenieur. (article?) 6. Sie spricht ___ Deutsch. (article?) 7. Wir fahren in ___ Schweiz. (article?) 8. Mit ___ Kindern ist es laut. (many, ■)
-
+1. ___ Kind bekommt ein Geschenk. (every)
+2. ___ Kinder bekommen ein Geschenk. (all)
+3. Ich habe ___ Freunde in Berlin. (many)
+4. Er trinkt ___ Wasser. (little)
+5. Ich bin ___ Ingenieur. (article?)
+6. Sie spricht ___ Deutsch. (article?)
+7. Wir fahren in ___ Schweiz. (article?)
+8. Mit ___ Kindern ist es laut. (many, ■)
 ## 1. The rule in one picture
 
 ```
@@ -70,16 +76,63 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Endings** — 1. all___ Leute 2. jed___ Woche 3. viel___ Zeit 4. viel___ Fragen 5. wenig___ Geld 6. einig___ Kollegen 7. mit all___ Freunden 8. an jed___ Tag 9. mit viel___ Zucker 10. für mehrer___ Wochen 11. ein paar ___ Bücher 12. beid___ Eltern
+**4.1 Endings**
 
-**4.2 Adjective after the quantifier** — 1. alle (neu) ___ Mitarbeiter 2. viele (alt) ___ Häuser 3. einige (gut) ___ Ideen 4. mit vielen (nett) ___ Leuten 5. jedes (klein) ___ Kind 6. manche (interessant) ___ Bücher 7. ein paar (schön) ___ Tage 8. wenige (frei) ___ Plätze
+1. all___ Leute
+2. jed___ Woche
+3. viel___ Zeit
+4. viel___ Fragen
+5. wenig___ Geld
+6. einig___ Kollegen
+7. mit all___ Freunden
+8. an jed___ Tag
+9. mit viel___ Zucker
+10. für mehrer___ Wochen
+11. ein paar ___ Bücher
+12. beid___ Eltern
 
-**4.3 Article or no article?** — 1. Er ist ___ Arzt. 2. Er ist ___ guter Arzt. 3. Ich habe ___ Hunger. 4. Wir fliegen nach ___ Portugal. 5. Wir fliegen in ___ USA. 6. Sie lernt ___ Spanisch. 7. Ich bin ___ Brasilianerin. 8. Der Tisch ist aus ___ Holz. 9. Hast du ___ Geschwister? 10. Ich gehe zu ___ Fuß. 11. Sie arbeitet als ___ Ärztin in ___ Schweiz. 12. Kaufst du ___ Brot? (some)
+**4.2 Adjective after the quantifier**
 
-**4.4 Correct the mistakes** — 1. Ich bin ein Student. 2. Ich habe viel Freunde. 3. Sie kommt aus der Deutschland. 4. Jede Morgen trinke ich Kaffee. 5. Mit ein paar Freunden wir fahren nach Wien. (also word order) 6. Ich brauche etwas Äpfel.
+1. alle (neu) ___ Mitarbeiter
+2. viele (alt) ___ Häuser
+3. einige (gut) ___ Ideen
+4. mit vielen (nett) ___ Leuten
+5. jedes (klein) ___ Kind
+6. manche (interessant) ___ Bücher
+7. ein paar (schön) ___ Tage
+8. wenige (frei) ___ Plätze
 
-**4.5 Sprachbausteine-style** — 1. ___ Teilnehmer bekommen ein Zertifikat. (a) Alle (b) Jede (c) Alles 2. Ich habe leider ___ Zeit. (a) wenige (b) wenig (c) weniger 3. Er arbeitet seit zwei Jahren ___ Koch. (a) als ein (b) als (c) wie 4. Wir haben ___ Fragen zu Ihrem Angebot. (a) einige (b) einiges (c) etwas 5. Sie kommt aus ___ Türkei. (a) – (b) die (c) der
+**4.3 Article or no article?**
 
+1. Er ist ___ Arzt.
+2. Er ist ___ guter Arzt.
+3. Ich habe ___ Hunger.
+4. Wir fliegen nach ___ Portugal.
+5. Wir fliegen in ___ USA.
+6. Sie lernt ___ Spanisch.
+7. Ich bin ___ Brasilianerin.
+8. Der Tisch ist aus ___ Holz.
+9. Hast du ___ Geschwister?
+10. Ich gehe zu ___ Fuß.
+11. Sie arbeitet als ___ Ärztin in ___ Schweiz.
+12. Kaufst du ___ Brot? (some)
+
+**4.4 Correct the mistakes**
+
+1. Ich bin ein Student.
+2. Ich habe viel Freunde.
+3. Sie kommt aus der Deutschland.
+4. Jede Morgen trinke ich Kaffee.
+5. Mit ein paar Freunden wir fahren nach Wien. (also word order)
+6. Ich brauche etwas Äpfel.
+
+**4.5 Sprachbausteine-style**
+
+1. ___ Teilnehmer bekommen ein Zertifikat. (a) Alle (b) Jede (c) Alles
+2. Ich habe leider ___ Zeit. (a) wenige (b) wenig (c) weniger
+3. Er arbeitet seit zwei Jahren ___ Koch. (a) als ein (b) als (c) wie
+4. Wir haben ___ Fragen zu Ihrem Angebot. (a) einige (b) einiges (c) etwas
+5. Sie kommt aus ___ Türkei. (a) – (b) die (c) der
 ## 5. Answer key
 
 <details>
@@ -95,7 +148,12 @@
 
 **4.4** 1 Ich bin Student. 2 viele Freunde 3 aus Deutschland 4 Jeden Morgen 5 Mit ein paar Freunden fahren wir nach Wien. 6 ein paar Äpfel / einige Äpfel
 
-**4.5** 1 a 2 b 3 b 4 a 5 c
+**4.5**
+1. **a** (*Alle* — plural noun *Teilnehmer* + plural verb *bekommen* → *Alle*)
+2. **b** (*wenig* — uncountable singular noun (*Zeit*) takes uninflected *wenig*)
+3. **b** (*als* — professions after `als` take zero article (*als Koch*))
+4. **a** (*einige* — countable plural noun (*Fragen*) takes *einige*)
+5. **c** (*der* — feminine country *die Türkei* after `aus + ■` → *aus der Türkei*)
 
 </details>
 
@@ -105,8 +163,8 @@ Describe your workplace or class: *alle, jeder, viele, einige, wenige, ein paar*
 
 ## 7. Cards
 
-`A2-18-01` … `A2-18-06` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-18`.
+`A2-18-01` … `A2-18-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-18`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-18: quantity word + noun (+ adjective) in a given case; PT *todo/todos/muito/pouco/alguns* to translate; article-or-not decisions with professions, countries and uncountables.
+> Drill me on A2-18: quantity word + noun (+ adjective) in a given case; quantifier sentences (*every / all / many / few / some*) from my active contrast language(s) to translate; article-or-not decisions with professions, countries and uncountables.

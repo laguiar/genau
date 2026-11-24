@@ -1,14 +1,20 @@
 # B1-12 — Relative clauses II: Dativ ■, with prepositions, `wo / was / wer`, and `dessen / deren`
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-01, A2-15, B1-01 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-01, A2-15, B1-01 · **Nicos Weg B1:** [Einh. 17 *Migration*, Lekt. 3 — Relativsätze im Genitiv](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can build and read relative clauses in the Dativ ■ (`dem, der, denen`), with prepositions (`auf den, mit der, in denen`), with `dessen / deren` (◆), and with `wo / was`.
 
 ## 0. Diagnostic (3 min)
 
 Fill in the relative pronoun (or preposition + relative pronoun). ≥ 7/8 → `✔`.
 
-1. Das ist der Kollege, ___ ich gestern beim Umzug geholfen habe. (helfen + ■) 2. Das sind die Nachbarn, ___ das rote Auto gehört. (gehören + ■ pl.) 3. Die Firma, (bei + ___) ___ ___ ich arbeite, hat 100 Mitarbeiter. 4. Das Thema, (über + ___) ___ ___ wir gesprochen haben, ist wichtig. 5. Die Freunde, (mit + ___) ___ ___ ich in den Urlaub fahre, kommen aus Köln. 6. Das ist der Mann, ___ Auto gestohlen wurde. (whose) 7. Die Stadt, ___ ich geboren bin, liegt am Meer. (where / in der) 8. Alles, ___ er gesagt hat, stimmt. (that/which after *alles*)
-
+1. Das ist der Kollege, ___ ich gestern beim Umzug geholfen habe. (helfen + ■)
+2. Das sind die Nachbarn, ___ das rote Auto gehört. (gehören + ■ pl.)
+3. Die Firma, (bei + ___) ___ ___ ich arbeite, hat 100 Mitarbeiter.
+4. Das Thema, (über + ___) ___ ___ wir gesprochen haben, ist wichtig.
+5. Die Freunde, (mit + ___) ___ ___ ich in den Urlaub fahre, kommen aus Köln.
+6. Das ist der Mann, ___ Auto gestohlen wurde. (whose)
+7. Die Stadt, ___ ich geboren bin, liegt am Meer. (where / in der)
+8. Alles, ___ er gesagt hat, stimmt. (that/which after *alles*)
 ## 1. The rule in one picture
 
 ```
@@ -59,9 +65,9 @@ Fill in the relative pronoun (or preposition + relative pronoun). ≥ 7/8 → `�
   2. Neuter superlatives: *Das Beste, **was** mir passieren konnte …*
   3. A **whole sentence** as the antecedent (", which …"): *Er hat die Prüfung bestanden, **was** uns alle sehr gefreut hat.*
 
-> 🇧🇷 **Portuguese contrast** — - PT *a quem / para quem* → **dem / der / denen** (no preposition in German for pure Dativ!). - PT *em que / com quem / sobre o qual* → **in dem / mit dem / über den** (preposition + declined pronoun). - PT *cujo / cuja / cujos / cujas* agrees with the **possessed thing** (*o homem **cuja** filha*). German **dessen / deren** agrees with the **owner** before the comma (*der Mann [m] → **dessen** Tochter; die Frau [f] → **deren** Sohn*)! - PT *tudo o que / nada que* → *alles, **was** / nichts, **was***.
+> 🇧🇷 **Portuguese contrast** — PT *a quem / para quem* → **dem / der / denen** (no preposition in German for pure Dativ!) · PT *em que / com quem / sobre o qual* → **in dem / mit dem / über den** (preposition + declined pronoun) · PT *cujo / cuja / cujos / cujas* agrees with the **possessed thing** (*o homem **cuja** filha*). German **dessen / deren** agrees with the **owner** before the comma (*der Mann [m] → **dessen** Tochter; die Frau [f] → **deren** Sohn*)! · PT *tudo o que / nada que* → *alles, **was** / nichts, **was***.
 > 🇪🇸 **Spanish contrast** — **Watch the Spanish *cuyo / cuya / cuyos / cuyas* trap!** In Spanish, *cuyo* agrees in gender and number with the **possessed noun after it** (*el hombre **cuya** hija… / la mujer **cuyo** hijo…*). In German, **`dessen` / `deren`** agrees with the **owner before the comma**: masculine or neuter owner → **`dessen`** (*der Mann [m], **dessen** Tochter…*); feminine or plural owner → **`deren`** (*die Frau [f], **deren** Sohn…*)! And Spanish *lo que / todo lo que* (*Todo **lo que** dices*) = German **`was`** (*Alles, **was** du sagst*).
-> 🇫🇷 **French contrast** — Compare French relative pronouns with German: - French *à qui / auquel / auxquels* (COI) → **`■` dem / der / denen** (*les voisins **à qui** je parle → die Nachbarn, **mit denen** ich spreche*). - French ***dont*** ("whose / of which") splits in German! When *dont* means possession ("whose": *l'homme **dont** la voiture… / la femme **dont** le fils…*), use **`dessen`** (m/n owner) or **`deren`** (f/pl owner) + noun **without article** (*der Mann, **dessen** Auto… / die Frau, **deren** Sohn…*). When *dont* comes from a verb with *de* (*le livre **dont** je t'ai parlé*), use the German verb's preposition + relative pronoun (*das Buch, **von dem** ich dir erzählt habe*)! - French ***ce qui / ce que*** (*tout **ce que** tu dis*) = German **`was`** (*alles, **was** du sagst*).
+> 🇫🇷 **French contrast** — Compare French relative pronouns with German: French *à qui / auquel / auxquels* (COI) → **`■` dem / der / denen** (*les voisins **à qui** je parle → die Nachbarn, **mit denen** ich spreche*) · French ***dont*** ("whose / of which") splits in German! When *dont* means possession ("whose": *l'homme **dont** la voiture… / la femme **dont** le fils…*), use **`dessen`** (m/n owner) or **`deren`** (f/pl owner) + noun **without article** (*der Mann, **dessen** Auto… / die Frau, **deren** Sohn…*). When *dont* comes from a verb with *de* (*le livre **dont** je t'ai parlé*), use the German verb's preposition + relative pronoun (*das Buch, **von dem** ich dir erzählt habe*)! · French ***ce qui / ce que*** (*tout **ce que** tu dis*) = German **`was`** (*alles, **was** du sagst*).
 > 🇬🇧 **English contrast** — English often puts the preposition at the end of the relative clause and drops the pronoun (*the flat I told you **about***). German **never** strands a preposition at the end and never drops the pronoun: *die Wohnung, **von der** ich dir erzählt habe*.
 
 ## 3. Watch out
@@ -73,16 +79,51 @@ Fill in the relative pronoun (or preposition + relative pronoun). ≥ 7/8 → `�
 
 ## 4. Exercises (no peeking)
 
-**4.1 Dativ ■ relative pronouns (`dem, der, denen`)** — 1. Das ist der Nachbar, ___ ich mein Werkzeug geliehen habe. 2. Die Kollegin, ___ du zum Geburtstag gratuliert hast, hat sich sehr gefreut. 3. Wo sind die Gäste, ___ der Kellner die Speisekarte gebracht hat? 4. Das Kind, ___ die Jacke gehört, ist schon nach Hause gegangen. 5. Die Studenten, ___ der Professor die Aufgabe erklärt hat, hatten keine Fragen mehr. 6. Der Arzt, ___ ich seit Jahren vertraue, geht in Rente.
+**4.1 Dativ ■ relative pronouns (`dem, der, denen`)**
 
-**4.2 Preposition + relative pronoun** — 1. Das ist der Kurs, ___ ___ ich mich angemeldet habe. (*sich anmelden für ▲*) 2. Die Stadt, ___ ___ wir letzten Sommer waren, heißt Lübeck. (*sein in ■*) 3. Der Kollege, ___ ___ ich mich gestern beschwert habe, hat sich entschuldigt. (*sich beschweren über ▲*) 4. Die Leute, ___ ___ wir zusammenarbeiten, sind sehr hilfsbereit. (*zusammenarbeiten mit ■*) 5. Das Hotel, ___ ___ wir übernachtet haben, lag direkt am Strand. (*übernachten in ■*) 6. Die Prüfung, ___ ___ ich mich vorbereite, findet im Mai statt. (*sich vorbereiten auf ▲*) 7. Die Themen, ___ ___ wir uns interessieren, sind ähnlich. (*sich interessieren für ▲*) 8. Die Freundin, ___ ___ ich dir erzählt habe, besucht mich morgen. (*erzählen von ■*)
+1. Das ist der Nachbar, ___ ich mein Werkzeug geliehen habe.
+2. Die Kollegin, ___ du zum Geburtstag gratuliert hast, hat sich sehr gefreut.
+3. Wo sind die Gäste, ___ der Kellner die Speisekarte gebracht hat?
+4. Das Kind, ___ die Jacke gehört, ist schon nach Hause gegangen.
+5. Die Studenten, ___ der Professor die Aufgabe erklärt hat, hatten keine Fragen mehr.
+6. Der Arzt, ___ ich seit Jahren vertraue, geht in Rente.
 
-**4.3 `dessen` or `deren`?** — 1. Das ist der Autor, ___ neues Buch gestern erschienen ist. 2. Die Frau, ___ Fahrrad vor dem Haus steht, arbeitet hier. 3. Wir helfen den Nachbarn, ___ Wohnung renoviert wird. 4. Das Unternehmen, ___ Direktor zurückgetreten ist, wird verkauft. 5. Das ist meine Schwester, mit ___ Mann du gestern gesprochen hast. 6. Der Patient, ___ Name aufgerufen wurde, ging ins Sprechzimmer.
+**4.2 Preposition + relative pronoun**
 
-**4.4 `was`, `wo`, or `das / der / die`?** — 1. Alles, ___ Sie für die Anmeldung brauchen, steht auf unserer Webseite. 2. Das Buch, ___ du mir geschenkt hast, ist super spannend. 3. Das war das Schönste, ___ ich je gesehen habe. 4. Das Café, ___ wir uns immer treffen, wird leider geschlossen. 5. Es gibt nichts, ___ mir hier fehlt. 6. Der Zug kam pünktlich an, ___ alle Reisenden überraschte.
+1. Das ist der Kurs, ___ ___ ich mich angemeldet habe. (*sich anmelden für ▲*)
+2. Die Stadt, ___ ___ wir letzten Sommer waren, heißt Lübeck. (*sein in ■*)
+3. Der Kollege, ___ ___ ich mich gestern beschwert habe, hat sich entschuldigt. (*sich beschweren über ▲*)
+4. Die Leute, ___ ___ wir zusammenarbeiten, sind sehr hilfsbereit. (*zusammenarbeiten mit ■*)
+5. Das Hotel, ___ ___ wir übernachtet haben, lag direkt am Strand. (*übernachten in ■*)
+6. Die Prüfung, ___ ___ ich mich vorbereite, findet im Mai statt. (*sich vorbereiten auf ▲*)
+7. Die Themen, ___ ___ wir uns interessieren, sind ähnlich. (*sich interessieren für ▲*)
+8. Die Freundin, ___ ___ ich dir erzählt habe, besucht mich morgen. (*erzählen von ■*)
 
-**4.5 Sprachbausteine-style** — 1. Die Teilnehmer, ___ wir die Zertifikate geschickt haben, waren sehr zufrieden. (a) den (b) denen (c) deren 2. Ich schicke Ihnen die Unterlagen, ___ Sie mich gestern gebeten haben. (a) für die (b) um die (c) nach denen 3. Das ist Frau Klein, ___ Sohn mit meiner Tochter in eine Klasse geht. (a) dessen (b) der (c) deren 4. Leider gab es im Hotel keinen Aufzug, ___ für meine Großeltern ein großes Problem war. (a) das (b) was (c) welches 5. Das Restaurant, ___ wir am Samstag essen wollen, wurde erst vor kurzem eröffnet. (a) in dem (b) in das (c) mit dem
+**4.3 `dessen` or `deren`?**
 
+1. Das ist der Autor, ___ neues Buch gestern erschienen ist.
+2. Die Frau, ___ Fahrrad vor dem Haus steht, arbeitet hier.
+3. Wir helfen den Nachbarn, ___ Wohnung renoviert wird.
+4. Das Unternehmen, ___ Direktor zurückgetreten ist, wird verkauft.
+5. Das ist meine Schwester, mit ___ Mann du gestern gesprochen hast.
+6. Der Patient, ___ Name aufgerufen wurde, ging ins Sprechzimmer.
+
+**4.4 `was`, `wo`, or `das / der / die`?**
+
+1. Alles, ___ Sie für die Anmeldung brauchen, steht auf unserer Webseite.
+2. Das Buch, ___ du mir geschenkt hast, ist super spannend.
+3. Das war das Schönste, ___ ich je gesehen habe.
+4. Das Café, ___ wir uns immer treffen, wird leider geschlossen.
+5. Es gibt nichts, ___ mir hier fehlt.
+6. Der Zug kam pünktlich an, ___ alle Reisenden überraschte.
+
+**4.5 Sprachbausteine-style**
+
+1. Die Teilnehmer, ___ wir die Zertifikate geschickt haben, waren sehr zufrieden. (a) den (b) denen (c) deren
+2. Ich schicke Ihnen die Unterlagen, ___ Sie mich gestern gebeten haben. (a) für die (b) um die (c) nach denen
+3. Das ist Frau Klein, ___ Sohn mit meiner Tochter in eine Klasse geht. (a) dessen (b) der (c) deren
+4. Leider gab es im Hotel keinen Aufzug, ___ für meine Großeltern ein großes Problem war. (a) das (b) was (c) welches
+5. Das Restaurant, ___ wir am Samstag essen wollen, wurde erst vor kurzem eröffnet. (a) in dem (b) in das (c) mit dem
 ## 5. Answer key
 
 <details>
@@ -98,7 +139,12 @@ Fill in the relative pronoun (or preposition + relative pronoun). ≥ 7/8 → `�
 
 **4.4** 1 was 2 das 3 was 4 wo / in dem 5 was 6 was
 
-**4.5** 1 b 2 b (*bitten um ▲*) 3 c 4 b 5 a
+**4.5**
+1. **b** (*denen* — plural ■ Dativ relative pronoun is *denen*, never *den*)
+2. **b** (*um die* — fixed verb `bitten um ▲` + plural *Unterlagen* → *um die*)
+3. **c** (*deren* — feminine owner (*Frau Klein*) → possessive relative pronoun *deren*)
+4. **b** (*was* — referring back to a whole preceding clause uses *was*, never *das*)
+5. **a** (*in dem* — `essen` = static location *wo?* + *das Restaurant* n → ■ *in dem*)
 
 </details>
 
@@ -108,8 +154,8 @@ Write 5 sentences for a B1 letter describing a course, trip or neighborhood: inc
 
 ## 7. Cards
 
-`B1-12-01` … `B1-12-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-12`.
+`B1-12-01` … `B1-12-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-12`.
 
 ## 8. Live drill prompt
 
-> Drill me on B1-12: merging sentence pairs with prepositional relative clauses (`auf den, mit der, in denen`), choosing `dem / der / denen`, `dessen` vs `deren` (watch PT *cujo* trap!), and `das` vs `was`.
+> Drill me on B1-12: merging sentence pairs with prepositional relative clauses (`auf den, mit der, in denen`), choosing `dem / der / denen`, `dessen` vs `deren` (agreeing with the owner before the comma!), and `das` vs `was`.

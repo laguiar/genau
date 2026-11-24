@@ -7,8 +7,14 @@
 
 Put in the neutral order. ≥ 7/8 → `✔`.
 
-1. ich / gebe / das Buch / meinem Bruder 2. ich / gebe / es / ihm 3. ich / gebe / ihm / das Buch 4. wir / fahren / nach Berlin / morgen / mit dem Zug 5. ich / habe / gestern / den Film / nicht / gesehen 6. er / hat / sich / heute / verspätet 7. sie / kauft / ihrer Tochter / heute / ein Fahrrad 8. ich / bin / wegen des Regens / gestern / zu Hause / geblieben
-
+1. ich / gebe / das Buch / meinem Bruder
+2. ich / gebe / es / ihm
+3. ich / gebe / ihm / das Buch
+4. wir / fahren / nach Berlin / morgen / mit dem Zug
+5. ich / habe / gestern / den Film / nicht / gesehen
+6. er / hat / sich / heute / verspätet
+7. sie / kauft / ihrer Tochter / heute / ein Fahrrad
+8. ich / bin / wegen des Regens / gestern / zu Hause / geblieben
 ## 1. The rule in one picture
 
 ```
@@ -64,16 +70,47 @@ The German sentence has a fixed frame (verb in position 2, second verb part at t
 
 ## 4. Exercises (no peeking)
 
-**4.1 Objects** — Neutral order: 1. sie / schenkt / ein Buch / ihrer Mutter 2. sie / schenkt / es / ihrer Mutter 3. sie / schenkt / ihr / ein Buch 4. sie / schenkt / es / ihr 5. kannst du / erklären / die Regel / mir / ? 6. kannst du / erklären / sie / mir / ?
+**4.1 Objects** — Neutral order:
 
-**4.2 Te-Ka-Mo-Lo** — 1. ich / fliege / nach Lissabon / im Juli / mit meiner Familie 2. er / fährt / zur Arbeit / jeden Tag / mit dem Rad 3. wir / sind / gestern / ins Kino / wegen des schlechten Wetters / gegangen 4. sie / lernt / in der Bibliothek / abends / konzentriert 5. ich / bin / gestern / spät / nach Hause / mit dem Taxi / gekommen
+1. sie / schenkt / ein Buch / ihrer Mutter
+2. sie / schenkt / es / ihrer Mutter
+3. sie / schenkt / ihr / ein Buch
+4. sie / schenkt / es / ihr
+5. kannst du / erklären / die Regel / mir / ?
+6. kannst du / erklären / sie / mir / ?
 
-**4.3 Pronouns before noun subjects** — Front the time expression and reorder: 1. Mein Bruder hat mir gestern geholfen. 2. Die Kinder haben sich heute gestritten. 3. Der Chef hat es uns am Montag erklärt. 4. Anna hat sich am Wochenende erholt.
+**4.2 Te-Ka-Mo-Lo**
 
-**4.4 Place `nicht`** — 1. Ich habe die E-Mail gelesen. 2. Wir fahren morgen nach Hamburg. 3. Er kann heute kommen. 4. Das Essen war gut. 5. Sie hat ihn gestern angerufen. 6. Ich habe heute Zeit. (→ kein!) 7. Ich arbeite heute, sondern morgen. (partial)
+1. ich / fliege / nach Lissabon / im Juli / mit meiner Familie
+2. er / fährt / zur Arbeit / jeden Tag / mit dem Rad
+3. wir / sind / gestern / ins Kino / wegen des schlechten Wetters / gegangen
+4. sie / lernt / in der Bibliothek / abends / konzentriert
+5. ich / bin / gestern / spät / nach Hause / mit dem Taxi / gekommen
 
-**4.5 Sprachbausteine-style** — 1. Können Sie ___ bitte schicken? (a) es mir (b) mir es (c) mich es 2. Ich habe ___ gestern nicht erreicht. (a) Sie (b) Ihnen (c) Ihr — (choose the ▲ formal pronoun) 3. Wir fahren ___ nach Wien. (a) mit dem Auto morgen (b) morgen mit dem Auto (c) nach morgen mit dem Auto 4. Leider kann ich am Montag ___. (a) nicht kommen (b) kommen nicht (c) nicht komme 5. Gestern hat ___ die Firma ein Angebot geschickt. (a) mir (b) mich (c) ich
+**4.3 Pronouns before noun subjects** — Front the time expression and reorder:
 
+1. Mein Bruder hat mir gestern geholfen.
+2. Die Kinder haben sich heute gestritten.
+3. Der Chef hat es uns am Montag erklärt.
+4. Anna hat sich am Wochenende erholt.
+
+**4.4 Place `nicht`**
+
+1. Ich habe die E-Mail gelesen.
+2. Wir fahren morgen nach Hamburg.
+3. Er kann heute kommen.
+4. Das Essen war gut.
+5. Sie hat ihn gestern angerufen.
+6. Ich habe heute Zeit. (→ kein!)
+7. Ich arbeite heute, sondern morgen. (partial)
+
+**4.5 Sprachbausteine-style**
+
+1. Können Sie ___ bitte schicken? (a) es mir (b) mir es (c) mich es
+2. Ich habe ___ gestern nicht erreicht. (a) Sie (b) Ihnen (c) Ihr — (choose the ▲ formal pronoun)
+3. Wir fahren ___ nach Wien. (a) mit dem Auto morgen (b) morgen mit dem Auto (c) nach morgen mit dem Auto
+4. Leider kann ich am Montag ___. (a) nicht kommen (b) kommen nicht (c) nicht komme
+5. Gestern hat ___ die Firma ein Angebot geschickt. (a) mir (b) mich (c) ich
 ## 5. Answer key
 
 <details>
@@ -89,7 +126,12 @@ The German sentence has a fixed frame (verb in position 2, second verb part at t
 
 **4.4** 1 Ich habe die E-Mail nicht gelesen. 2 Wir fahren morgen nicht nach Hamburg. 3 Er kann heute nicht kommen. 4 Das Essen war nicht gut. 5 Sie hat ihn gestern nicht angerufen. 6 Ich habe heute keine Zeit. 7 Ich arbeite nicht heute, sondern morgen.
 
-**4.5** 1 a 2 a 3 b 4 a 5 a
+**4.5**
+1. **a** (*es mir* — two pronouns: ▲ *es* comes before ■ *mir*)
+2. **a** (*Sie* — `erreichen` takes ▲ Akkusativ; formal *Sie* stays *Sie*)
+3. **b** (*morgen mit dem Auto* — Te-Ka-Mo-Lo: Temporal before Modal)
+4. **a** (*nicht kommen* — `nicht` stands before the final infinitive in the Satzklammer)
+5. **a** (*mir* — pronoun object *mir* (■) moves right after the verb, before noun subject)
 
 </details>
 
@@ -99,8 +141,8 @@ Six sentences about last week, each with at least three Mittelfeld elements (pro
 
 ## 7. Cards
 
-`A2-20-01` … `A2-20-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-20`.
+`A2-20-01` … `A2-20-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-20`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-20: scrambled sentences with 4–5 Mittelfeld elements; pronoun substitutions that change the order; nicht placement; then PT sentences with clitics and *não* to translate.
+> Drill me on A2-20: scrambled sentences with 4–5 Mittelfeld elements; pronoun substitutions that change the order; `nicht` placement; then sentences with two objects and negation from my active contrast language(s) to translate.

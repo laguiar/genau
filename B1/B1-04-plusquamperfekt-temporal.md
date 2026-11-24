@@ -1,14 +1,20 @@
 # B1-04 — Plusquamperfekt and temporal clauses: `als / wenn / wann`, `nachdem, bevor, während`
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-05, A2-11, B1-03 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-05, A2-11, B1-03 · **Nicos Weg B1:** [Einh. 13 *Wie peinlich!*, Lekt. 4 — Plusquamperfekt](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can distinguish `als`, `wenn` and `wann`, and sequence two events using `nachdem` (with Plusquamperfekt), `bevor` and `während`.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. (Als / Wenn / Wann) ___ ich ein Kind war, wohnten wir auf dem Land. 2. Immer (als / wenn / wann) ___ ich ihn treffe, hat er schlechte Laune. 3. Weißt du, (als / wenn / wann) ___ der Zug abfährt? 4. (Als / Wenn) ___ ich morgen Zeit habe, besuche ich dich. 5. Nachdem ich gegessen (hatte / habe) ___, ging ich spazieren. 6. (Bevor / Nachdem) ___ du gehst, mach bitte das Fenster zu! 7. (Während / Bevor) ___ sie kochte, deckte er den Tisch. 8. Als ich am Bahnhof ankam, ___ der Zug schon ___ (abfahren, Plusquamperfekt).
-
+1. (Als / Wenn / Wann) ___ ich ein Kind war, wohnten wir auf dem Land.
+2. Immer (als / wenn / wann) ___ ich ihn treffe, hat er schlechte Laune.
+3. Weißt du, (als / wenn / wann) ___ der Zug abfährt?
+4. (Als / Wenn) ___ ich morgen Zeit habe, besuche ich dich.
+5. Nachdem ich gegessen (hatte / habe) ___, ging ich spazieren.
+6. (Bevor / Nachdem) ___ du gehst, mach bitte das Fenster zu!
+7. (Während / Bevor) ___ sie kochte, deckte er den Tisch.
+8. Als ich am Bahnhof ankam, ___ der Zug schon ___ (abfahren, Plusquamperfekt).
 ## 1. The rule in one picture
 
 ```
@@ -48,7 +54,7 @@
 > 🇧🇷 **Portuguese contrast** — Portuguese uses *quando* for all three (*Quando eu era criança / Quando chove / Não sei quando ele vem*). Before writing "when" in German, pause and pick between **als** (1× past), **wenn** (repeated / present / future) and **wann** (question). The Plusquamperfekt matches PT *tinha feito* (*Quando cheguei, o trem já **tinha partido*** → *… **war** schon **abgefahren***).
 > 🇪🇸 **Spanish contrast** — Spanish uses ***cuando*** (or *cuándo*) for three distinct German words: 1. **als** = a single event or life stage in the past (*Cuando tenía 10 años / Cuando llegué ayer → **Als** ich 10 war / **Als** ich gestern ankam*). 2. **wenn** = repeated past (*Siempre que venía → Immer **wenn** er kam*) or any present/future event (*Cuando llegues, llámame → **Wenn** du ankommst, ruf mich an!* — with **Präsens**, never subjunctive!). 3. **wann** = direct or indirect questions (*¿Cuándo viene? / No sé cuándo viene → …, **wann** er kommt*). The Plusquamperfekt matches Spanish *pluscuamperfecto* (*había comido / había salido → **hatte** gegessen / **war** abgefahren*), mandatory after **nachdem** (*después de que*).
 > 🇫🇷 **French contrast** — French uses *quand* for all three German words: pause and choose **als** for a single event/period in the past (*Quand j'étais enfant → **Als** ich ein Kind war*), **wenn** for repeated past (*chaque fois que → immer **wenn***) or present/future (*quand tu viendras → **wenn** du kommst*), and **wann** for direct/indirect questions (*Je ne sais pas quand il vient → …, **wann** er kommt*). The Plusquamperfekt matches French *plus-que-parfait* (*j'avais mangé / j'étais parti → ich **hatte** gegessen / ich **war** abgefahren*), used after **nachdem** (*après que*).
-> 🇬🇧 **English contrast** — English *before / after / while* can be prepositions (*after dinner, before Monday*) OR conjunctions (*after I ate, before I go*). German strictly separates them: - before a **noun** (preposition): **nach ■** (*nach dem Essen*), **vor ■** (*vor dem Montag*), **während ◆** (*während des Essens*). - before a **clause** (conjunction, verb at end): **nachdem** (*nachdem ich gegessen hatte*), **bevor** (*bevor ich gehe*), **während** (*während ich esse*). Never write ~~nach ich gegessen habe~~ or ~~vor ich gehe~~!
+> 🇬🇧 **English contrast** — English *before / after / while* can be prepositions (*after dinner, before Monday*) OR conjunctions (*after I ate, before I go*). German strictly separates them: before a **noun** (preposition): **nach ■** (*nach dem Essen*), **vor ■** (*vor dem Montag*), **während ◆** (*während des Essens*). - before a **clause** (conjunction, verb at end): **nachdem** (*nachdem ich gegessen hatte*), **bevor** (*bevor ich gehe*), **während** (*während ich esse*). Never write ~~nach ich gegessen habe~~ or ~~vor ich gehe~~!
 
 ## 3. Watch out
 
@@ -60,16 +66,50 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 `als`, `wenn` or `wann`?** — 1. ___ ich gestern im Supermarkt war, traf ich meine alte Lehrerin. 2. Könnten Sie mir bitte sagen, ___ der nächste Kurs beginnt? 3. ___ das Wetter am Wochenende schön ist, machen wir einen Ausflug. 4. Immer ___ mein Vater früher kochte, machte er Spaghetti. 5. ___ ich 2019 nach Deutschland kam, sprach ich kaum Deutsch. 6. Sag mir bitte Bescheid, ___ du am Bahnhof ankommst. 7. Wir wissen noch nicht, ___ die Lieferung kommt. 8. Jedes Mal, ___ das Telefon klingelte, erschrak der Hund.
+**4.1 `als`, `wenn` or `wann`?**
 
-**4.2 Build the Plusquamperfekt** — Fill in `hatte/war … Partizip II`: 1. Sie war müde, weil sie die ganze Nacht (arbeiten) ___ ___. 2. Als der Arzt kam, (einschlafen) ___ das Kind schon ___. 3. Ich fand die E-Mail nicht, die du mir (schicken) ___ ___. 4. Er kannte die Stadt gut, denn er (wohnen) ___ dort früher ___. 5. Als wir aufwachten, (aufhören) ___ der Regen schon ___. 6. Ich konnte nichts kaufen, weil ich mein Portemonnaie zu Hause (vergessen) ___ ___.
+1. ___ ich gestern im Supermarkt war, traf ich meine alte Lehrerin.
+2. Könnten Sie mir bitte sagen, ___ der nächste Kurs beginnt?
+3. ___ das Wetter am Wochenende schön ist, machen wir einen Ausflug.
+4. Immer ___ mein Vater früher kochte, machte er Spaghetti.
+5. ___ ich 2019 nach Deutschland kam, sprach ich kaum Deutsch.
+6. Sag mir bitte Bescheid, ___ du am Bahnhof ankommst.
+7. Wir wissen noch nicht, ___ die Lieferung kommt.
+8. Jedes Mal, ___ das Telefon klingelte, erschrak der Hund.
 
-**4.3 Join with `nachdem`, `bevor` or `während` (mind the tense with `nachdem`!)** — 1. Zuerst schloss er das Studium ab. Dann suchte er eine Stelle. (*Nachdem …*) 2. Zuerst lese ich den Vertrag genau. Dann unterschreibe ich ihn. (*Bevor …*) 3. Ich wartete auf den Bus. Gleichzeitig las ich die Nachrichten auf dem Handy. (*Während …*) 4. Zuerst war sie drei Jahre in Wien gewesen. Dann zog sie nach Zürich um. (*Nachdem …*) 5. Zuerst machst du das Licht aus. Dann verlässt du das Büro. (*Bevor …*)
+**4.2 Build the Plusquamperfekt** — Fill in `hatte/war … Partizip II`:
 
-**4.4 Preposition (`vor/nach/während`) vs Conjunction (`bevor/nachdem/während`)** — Choose the right word: 1. (Vor / Bevor) ___ dem Unterricht trinke ich einen Kaffee. 2. (Vor / Bevor) ___ der Unterricht beginnt, trinke ich einen Kaffee. 3. (Nach / Nachdem) ___ dem Essen gehen wir spazieren. 4. (Nach / Nachdem) ___ wir gegessen haben, gehen wir spazieren. 5. (Während / Während des) ___ Films hat er geschlafen. 6. (Während / Während der) ___ der Film lief, hat er geschlafen.
+1. Sie war müde, weil sie die ganze Nacht (arbeiten) ___ ___.
+2. Als der Arzt kam, (einschlafen) ___ das Kind schon ___.
+3. Ich fand die E-Mail nicht, die du mir (schicken) ___ ___.
+4. Er kannte die Stadt gut, denn er (wohnen) ___ dort früher ___.
+5. Als wir aufwachten, (aufhören) ___ der Regen schon ___.
+6. Ich konnte nichts kaufen, weil ich mein Portemonnaie zu Hause (vergessen) ___ ___.
 
-**4.5 Sprachbausteine-style** — 1. ___ ich vor zwei Jahren in Berlin war, habe ich das Museum besucht. (a) Wenn (b) Als (c) Wann 2. Könnten Sie mir mitteilen, ___ ich die Unterlagen abholen kann? (a) wenn (b) als (c) wann 3. ___ Sie das Gerät einschalten, lesen Sie bitte die Anleitung. (a) Vor (b) Bevor (c) Nachdem 4. Nachdem er das Formular ausgefüllt ___, gab er es am Schalter ab. (a) hat (b) hatte (c) ist 5. Immer ___ ich Fragen hatte, halfen mir meine Kollegen. (a) wenn (b) als (c) wann
+**4.3 Join with `nachdem`, `bevor` or `während` (mind the tense with `nachdem`!)**
 
+1. Zuerst schloss er das Studium ab. Dann suchte er eine Stelle. (*Nachdem …*)
+2. Zuerst lese ich den Vertrag genau. Dann unterschreibe ich ihn. (*Bevor …*)
+3. Ich wartete auf den Bus. Gleichzeitig las ich die Nachrichten auf dem Handy. (*Während …*)
+4. Zuerst war sie drei Jahre in Wien gewesen. Dann zog sie nach Zürich um. (*Nachdem …*)
+5. Zuerst machst du das Licht aus. Dann verlässt du das Büro. (*Bevor …*)
+
+**4.4 Preposition (`vor/nach/während`) vs Conjunction (`bevor/nachdem/während`)** — Choose the right word:
+
+1. (Vor / Bevor) ___ dem Unterricht trinke ich einen Kaffee.
+2. (Vor / Bevor) ___ der Unterricht beginnt, trinke ich einen Kaffee.
+3. (Nach / Nachdem) ___ dem Essen gehen wir spazieren.
+4. (Nach / Nachdem) ___ wir gegessen haben, gehen wir spazieren.
+5. (Während / Während des) ___ Films hat er geschlafen.
+6. (Während / Während der) ___ der Film lief, hat er geschlafen.
+
+**4.5 Sprachbausteine-style**
+
+1. ___ ich vor zwei Jahren in Berlin war, habe ich das Museum besucht. (a) Wenn (b) Als (c) Wann
+2. Könnten Sie mir mitteilen, ___ ich die Unterlagen abholen kann? (a) wenn (b) als (c) wann
+3. ___ Sie das Gerät einschalten, lesen Sie bitte die Anleitung. (a) Vor (b) Bevor (c) Nachdem
+4. Nachdem er das Formular ausgefüllt ___, gab er es am Schalter ab. (a) hat (b) hatte (c) ist
+5. Immer ___ ich Fragen hatte, halfen mir meine Kollegen. (a) wenn (b) als (c) wann
 ## 5. Answer key
 
 <details>
@@ -85,7 +125,12 @@
 
 **4.4** 1 Vor 2 Bevor 3 Nach 4 Nachdem 5 Während des 6 Während
 
-**4.5** 1 b 2 c 3 b 4 b 5 a
+**4.5**
+1. **b** (*Als* — single completed event in the past → *als*)
+2. **c** (*wann* — indirect question asking for a time → *wann*)
+3. **b** (*Bevor* — conjunction introducing a clause with verb (`einschalten`) → *Bevor*, not prep *vor*)
+4. **b** (*hatte* — `nachdem` + past main clause (`gab`) requires Plusquamperfekt (*hatte … ausgefüllt*))
+5. **a** (*wenn* — repeated past habit (*Immer …*) takes *wenn*, not *als*)
 
 </details>
 
@@ -95,7 +140,7 @@ Write a 5-sentence paragraph for a letter telling a friend about a trip or an ex
 
 ## 7. Cards
 
-`B1-04-01` … `B1-04-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-04`.
+`B1-04-01` … `B1-04-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-04`.
 
 ## 8. Live drill prompt
 

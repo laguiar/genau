@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. der (neu) ___ Kollege 2. das (klein) ___ Kind 3. die (alt) ___ Häuser 4. Ich kenne den (nett) ___ Mann. 5. Ich sehe das (groß) ___ Auto. 6. mit der (jung) ___ Frau 7. mit dem (alt) ___ Auto 8. Welche (rot) ___ Jacke meinst du?
-
+1. der (neu) ___ Kollege
+2. das (klein) ___ Kind
+3. die (alt) ___ Häuser
+4. Ich kenne den (nett) ___ Mann.
+5. Ich sehe das (groß) ___ Auto.
+6. mit der (jung) ___ Frau
+7. mit dem (alt) ___ Auto
+8. Welche (rot) ___ Jacke meinst du?
 ## 1. The rule in one picture
 
 ```
@@ -53,16 +59,46 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 ● only** — 1. der (schön) ___ Garten 2. die (neu) ___ Wohnung 3. das (klein) ___ Zimmer 4. die (alt) ___ Freunde 5. dieser (jung) ___ Mann 6. jedes (gut) ___ Restaurant 7. welche (deutsch) ___ Stadt 8. der (hoch) ___ Turm
+**4.1 ● only**
 
-**4.2 ▲** — 1. Ich nehme den (blau) ___ Pullover. 2. Sie kauft das (teuer) ___ Kleid. 3. Wir besuchen die (alt) ___ Kirche. 4. Kennst du die (neu) ___ Nachbarn? 5. Er liest jeden (interessant) ___ Artikel. 6. Ich mag diesen (klein) ___ Park.
+1. der (schön) ___ Garten
+2. die (neu) ___ Wohnung
+3. das (klein) ___ Zimmer
+4. die (alt) ___ Freunde
+5. dieser (jung) ___ Mann
+6. jedes (gut) ___ Restaurant
+7. welche (deutsch) ___ Stadt
+8. der (hoch) ___ Turm
 
-**4.3 ■** — 1. mit dem (neu) ___ Handy 2. in der (groß) ___ Stadt 3. bei dem (nett) ___ Arzt 4. mit den (klein) ___ Kindern 5. aus dem (alt) ___ Haus 6. in diesem (schön) ___ Hotel 7. zu der (wichtig) ___ Besprechung 8. nach dem (lang) ___ Tag
+**4.2 ▲**
+
+1. Ich nehme den (blau) ___ Pullover.
+2. Sie kauft das (teuer) ___ Kleid.
+3. Wir besuchen die (alt) ___ Kirche.
+4. Kennst du die (neu) ___ Nachbarn?
+5. Er liest jeden (interessant) ___ Artikel.
+6. Ich mag diesen (klein) ___ Park.
+
+**4.3 ■**
+
+1. mit dem (neu) ___ Handy
+2. in der (groß) ___ Stadt
+3. bei dem (nett) ___ Arzt
+4. mit den (klein) ___ Kindern
+5. aus dem (alt) ___ Haus
+6. in diesem (schön) ___ Hotel
+7. zu der (wichtig) ___ Besprechung
+8. nach dem (lang) ___ Tag
 
 **4.4 Mixed text** — *Der (jung) ___ Mann wohnt in der (klein) ___ Wohnung im (dritt) ___ Stock. Jeden (frei) ___ Tag geht er in das (nah) ___ Café und liest die (neu) ___ Zeitung. Die (alt) ___ Nachbarn mögen den (freundlich) ___ Mann. Mit den (laut) ___ Kindern aus dem (erst) ___ Stock spielt er manchmal Fußball.*
 
-**4.5 Sprachbausteine-style** — 1. Vielen Dank für das ___ Geschenk! (a) schöne (b) schönen (c) schönes 2. Ich habe den ___ Termin vergessen. (a) wichtige (b) wichtigen (c) wichtiger 3. Wir treffen uns in der ___ Bar. (a) neue (b) neuen (c) neuem 4. Die ___ Kollegen kommen aus Spanien. (a) neue (b) neuen (c) neues 5. Am ___ Tag war das Wetter schlecht. (a) erste (b) ersten (c) erstem
+**4.5 Sprachbausteine-style**
 
+1. Vielen Dank für das ___ Geschenk! (a) schöne (b) schönen (c) schönes
+2. Ich habe den ___ Termin vergessen. (a) wichtige (b) wichtigen (c) wichtiger
+3. Wir treffen uns in der ___ Bar. (a) neue (b) neuen (c) neuem
+4. Die ___ Kollegen kommen aus Spanien. (a) neue (b) neuen (c) neues
+5. Am ___ Tag war das Wetter schlecht. (a) erste (b) ersten (c) erstem
 ## 5. Answer key
 
 <details>
@@ -78,7 +114,12 @@
 
 **4.4** junge · kleinen · dritten · freien · nahe · neue · alten · freundlichen · lauten · ersten
 
-**4.5** 1 a 2 b 3 b 4 b 5 b
+**4.5**
+1. **a** (*schöne* — after `das` (▲ n), weak ending is `-e`)
+2. **b** (*wichtigen* — after `den` (▲ m), weak ending is `-en`)
+3. **b** (*neuen* — after `der` (■ f), all Dativ weak endings are `-en`)
+4. **b** (*neuen* — after `die` (● pl), plural after definite article always takes `-en`)
+5. **b** (*ersten* — `am = an dem` (■ m) → weak Dativ ending `-en`)
 
 </details>
 
@@ -88,7 +129,7 @@ Describe a person you know: 6 sentences, every noun with *der/die/das* + adjecti
 
 ## 7. Cards
 
-`A2-08-01` … `A2-08-06` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-08`.
+`A2-08-01` … `A2-08-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-08`.
 
 ## 8. Live drill prompt
 

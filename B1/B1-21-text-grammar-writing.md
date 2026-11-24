@@ -1,14 +1,20 @@
 # B1-21 — Text grammar for telc B1 Schreiben: cohesion, register (`Sie / du`), letter structure, and the 4 Leitpunkte
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-13, A2-22, B1-06, B1-08, B1-11, B1-13 · **Reference:** [shared/writing-templates.md](../shared/writing-templates.md)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-13, A2-22, B1-06, B1-08, B1-11, B1-13 · **Reference:** [shared/writing-templates.md](../shared/writing-templates.md) · **Nicos Weg B1:** [Berufsberatung](https://learngerman.dw.com/de/berufsberatung/l-38462985) & [Einh. 4 *Endlich Arbeit!* (*Bewerbung*)](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can plan, write and self-check a 150-word telc B1 letter covering all 4 content points in 30 minutes with full register consistency, paragraph cohesion and B1 grammar variety.
 
 ## 0. Diagnostic (3 min)
 
 Fix or complete each letter element. ≥ 7/8 → `✔`.
 
-1. Formal salutation when you do NOT know the person's name: *Sehr ___ ___ und ___ ,* 2. First word of the body line after `Liebe Frau Weber,`: **(I)ch** or **(i)ch**? (*___ schreibe Ihnen, weil …*) — why? 3. Formal closing formula (no comma after it!): *Mit ___ ___* 4. Register check — fix the 2 errors in a formal `Sie` letter: *~~Könnt ihr mir bitte euer Angebot zuschicken?~~* 5. Turn a bare Leitpunkt (*Grund für Ihr Schreiben*) into a B1 opening sentence: *Ich schreibe Ihnen, weil …* 6. Cohesion — replace the repeated noun with a pronoun or adverb: *Ich habe gestern **einen Drucker** gekauft. Leider funktioniert **der Drucker** nicht. Außerdem fehlt **in dem Drucker** das Kabel.* → 7. Polite request with `da(r)-` + `zu`: *Ich möchte Sie ___ bitten, mir den Betrag ___ erstatten.* 8. Which 3 criteria is the telc B1 letter graded on? →
-
+1. Formal salutation when you do NOT know the person's name: *Sehr ___ ___ und ___ ,*
+2. First word of the body line after `Liebe Frau Weber,`: **(I)ch** or **(i)ch**? (*___ schreibe Ihnen, weil …*) — why?
+3. Formal closing formula (no comma after it!): *Mit ___ ___*
+4. Register check — fix the 2 errors in a formal `Sie` letter: *~~Könnt ihr mir bitte euer Angebot zuschicken?~~*
+5. Turn a bare Leitpunkt (*Grund für Ihr Schreiben*) into a B1 opening sentence: *Ich schreibe Ihnen, weil …*
+6. Cohesion — replace the repeated noun with a pronoun or adverb: *Ich habe gestern **einen Drucker** gekauft. Leider funktioniert **der Drucker** nicht. Außerdem fehlt **in dem Drucker** das Kabel.* →
+7. Polite request with `da(r)-` + `zu`: *Ich möchte Sie ___ bitten, mir den Betrag ___ erstatten.*
+8. Which 3 criteria is the telc B1 letter graded on? →
 ## 1. The rule in one picture
 
 ```
@@ -60,7 +66,7 @@ Never write just one clause per bullet point. Use the **"Statement + Reason/Deta
 2. **Verb position check:** In every main clause (especially after *Deshalb, Trotzdem, Außerdem, Am Montag*, or a fronted *Weil/Wenn*-clause), is the conjugated verb in **Position 2**? In every *dass / weil / wenn / ob / obwohl / relative* clause, is the conjugated verb at the **very end**?
 3. **Register & Capitalisation check:** Every **Sie / Ihnen / Ihr-** capitalised? Every **noun** capitalised (including *das Lesen, vielen Dank, am Montag, Zeit, Recht*)? Lowercase word on the line right after the salutation comma (unless *Ich / Sie* or a noun)?
 
-> 🇧🇷 **Portuguese contrast** — - In Portuguese e-mails, the first line after *Prezado Sr. Silva,* starts with a capital letter (*Venho por meio desta…*). In German, the salutation ends with a **comma**, so the first word of the body continues the sentence and is **lowercase** (*vielen Dank… / leider muss ich…*) — unless that first word is **Ich**, **Sie**, or a noun! - In Portuguese, there is a comma after *Atenciosamente,*. In German, **Mit freundlichen Grüßen** has **no comma and no full stop**!
+> 🇧🇷 **Portuguese contrast** — In Portuguese e-mails, the first line after *Prezado Sr. Silva,* starts with a capital letter (*Venho por meio desta…*). In German, the salutation ends with a **comma**, so the first word of the body continues the sentence and is **lowercase** (*vielen Dank… / leider muss ich…*) — unless that first word is **Ich**, **Sie**, or a noun! · In Portuguese, there is a comma after *Atenciosamente,*. In German, **Mit freundlichen Grüßen** has **no comma and no full stop**!
 > 🇪🇸 **Spanish contrast** — Three key letter-format differences between Spanish and German: 1. **Punctuation after the salutation:** In Spanish, you use a colon (*Estimada señora Weber:**`***) and start the next line with a **capital** letter. In German, you use a **comma** (*Sehr geehrte Frau Weber**,***) and start the first word of the body in **lowercase** (*vielen Dank… / leider muss ich…*) unless it is a noun or `Sie`! 2. **Closing formula:** Unlike Spanish *Atentamente**,*** (with a comma), German **Mit freundlichen Grüßen** has **no comma and no full stop**. 3. **Capital `Sie / Ihnen / Ihr`:** Formal pronouns and possessives (*usted / ustedes / su*) are always capitalised in German.
 > 🇫🇷 **French contrast** — Watch three strict differences between French and German formal letters: 1. **Salutation & first line:** In French, you write *Madame, Monsieur,* and start the next paragraph with a **capital** letter (*Je vous écris…*). In German, after *Sehr geehrte Damen und Herren,* the first word of the body starts **lowercase** (*ich schreibe Ihnen… / vielen Dank…*) unless it is a noun or `Sie`! 2. **Closing formula:** Instead of long French closings (*Je vous prie d'agréer…*), German uses concise **Mit freundlichen Grüßen** with **no comma** after it. 3. **Capital `Sie / Ihnen / Ihr`:** Unlike French *vous / votre* (lowercase), formal `Sie, Ihnen, Ihr-` is always capitalised.
 > 🇬🇧 **English contrast** — English capitalises every word in *Dear Mr. Smith,* and puts a comma after *Best regards,*. German writes *Sehr **g**eehrter Herr Schmidt,* (lowercase *geehrter*!) and **no comma** after *Mit freundlichen Grüßen*.
@@ -94,8 +100,13 @@ Never write just one clause per bullet point. Use the **"Statement + Reason/Deta
 **4.4 Formal (`Sie`) ↔ Informal (`du`) conversion** — Rewrite this formal paragraph for your good friend **Tim** (*Hallo Tim,*):
 > *Sehr geehrter Herr Peters, leider muss ich Ihnen mitteilen, dass ich unseren Termin am Donnerstag verschieben muss. Könnten Sie mir bitte Bescheid geben, ob Sie am Freitagabend Zeit hätten? Ich würde mich sehr freuen, wenn wir uns in Ihrem neuen Büro treffen könnten. Mit freundlichen Grüßen*
 
-**4.5 Sprachbausteine-style (Letter Redemittel)** — 1. Sehr geehrte Frau Berger, ___ Dank für Ihre schnelle Rückmeldung. (a) Vielen (b) vielen (c) Vieler 2. Ich schreibe Ihnen, ___ mich nach den Preisen für den Abendkurs zu erkundigen. (a) damit (b) für (c) um 3. ___ wäre ich Ihnen sehr dankbar, wenn Sie mir ein neues Gerät schicken könnten. (a) Außerdem (b) Trotzdem (c) Obwohl 4. Für weitere Fragen stehe ich ___ jederzeit gern zur Verfügung. (a) Sie (b) Ihr (c) Ihnen 5. Ich freue mich auf Ihre Antwort und verbleibe mit freundlichen ___. (a) Gruß (b) Grüßen (c) Grüße
+**4.5 Sprachbausteine-style (Letter Redemittel)**
 
+1. Sehr geehrte Frau Berger, ___ Dank für Ihre schnelle Rückmeldung. (a) Vielen (b) vielen (c) Vieler
+2. Ich schreibe Ihnen, ___ mich nach den Preisen für den Abendkurs zu erkundigen. (a) damit (b) für (c) um
+3. ___ wäre ich Ihnen sehr dankbar, wenn Sie mir ein neues Gerät schicken könnten. (a) Außerdem (b) Trotzdem (c) Obwohl
+4. Für weitere Fragen stehe ich ___ jederzeit gern zur Verfügung. (a) Sie (b) Ihr (c) Ihnen
+5. Ich freue mich auf Ihre Antwort und verbleibe mit freundlichen ___. (a) Gruß (b) Grüßen (c) Grüße
 ## 5. Answer key
 
 <details>
@@ -122,7 +133,12 @@ Never write just one clause per bullet point. Use the **"Statement + Reason/Deta
 
 **4.4** *Hallo Tim, leider muss ich dir sagen, dass ich unseren Termin am Donnerstag verschieben muss. Könntest du mir bitte Bescheid geben, ob du am Freitagabend Zeit hättest? Ich würde mich sehr freuen, wenn wir uns in deiner neuen Wohnung (deinem neuen Büro) treffen könnten. Liebe Grüße*
 
-**4.5** 1 b 2 c 3 a 4 c 5 b (*mit + ■ pl. → Grüßen*)
+**4.5**
+1. **b** (*vielen* — after the salutation comma, the first word continues lowercase)
+2. **c** (*um* — same subject (`ich`…`mich`) + `zu`-infinitive of purpose → *um … zu*)
+3. **a** (*Außerdem* — adds a new point + V2 inversion (*Außerdem wäre ich…*))
+4. **c** (*Ihnen* — fixed closing chunk *jemandem (■) zur Verfügung stehen* → *Ihnen*)
+5. **b** (*Grüßen* — `mit + ■` plural adds `-n`: *mit freundlichen Grüßen*)
 
 </details>
 
@@ -132,7 +148,7 @@ Combine your 4 sentence pairs from Exercise **4.3** into a complete, properly fo
 
 ## 7. Cards
 
-`B1-21-01` … `B1-21-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-21`.
+`B1-21-01` … `B1-21-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-21`.
 
 ## 8. Live drill prompt
 

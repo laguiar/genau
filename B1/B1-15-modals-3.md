@@ -1,14 +1,20 @@
 # B1-15 — Modal verbs III: subjective use (`sollen` hearsay, `müssen/können` assumption), `nicht brauchen zu`, and modals in Perfekt
 
-**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-11, A1-17, A2-07, B1-08 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A1-11, A1-17, A2-07, B1-08 · **Nicos Weg B1:** [Einh. 3 *Alltag*, Lekt. 2 & Einh. 12 *Medien*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can understand modals used for hearsay (`soll … sein`) and degrees of certainty (`muss / dürfte / könnte / kann nicht`), use `nicht brauchen + zu`, and recognise modals in the Perfekt.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Hearsay ("People say the new film is very good"): Der neue Film ___ sehr gut ___. 2. Strong certainty ("The light is on; he must be at home"): Das Licht brennt; er ___ zu Hause ___. 3. Negative certainty ("He can't be at home; his car is gone"): Er ___ ___ zu Hause sein. 4. Polite probability ("That is probably around 50 euros"): Das ___ etwa 50 Euro kosten. (dürfen, KII) 5. Rewrite with `brauchen`: *Du musst heute nicht abwaschen.* → Du ___ heute nicht ___. 6. Past modal (standard in writing/speech): *Gestern (müssen) ___ ich bis 20 Uhr arbeiten.* 7. Recognise Perfekt with modal: *Er hat gestern lange arbeiten müssen.* = *Er ___ gestern lange arbeiten.* 8. Recognise full-verb modal in Perfekt: *Das habe ich nicht gewollt.* — why *gewollt* and not *wollen*? →
-
+1. Hearsay ("People say the new film is very good"): Der neue Film ___ sehr gut ___.
+2. Strong certainty ("The light is on; he must be at home"): Das Licht brennt; er ___ zu Hause ___.
+3. Negative certainty ("He can't be at home; his car is gone"): Er ___ ___ zu Hause sein.
+4. Polite probability ("That is probably around 50 euros"): Das ___ etwa 50 Euro kosten. (dürfen, KII)
+5. Rewrite with `brauchen`: *Du musst heute nicht abwaschen.* → Du ___ heute nicht ___.
+6. Past modal (standard in writing/speech): *Gestern (müssen) ___ ich bis 20 Uhr arbeiten.*
+7. Recognise Perfekt with modal: *Er hat gestern lange arbeiten müssen.* = *Er ___ gestern lange arbeiten.*
+8. Recognise full-verb modal in Perfekt: *Das habe ich nicht gewollt.* — why *gewollt* and not *wollen*? →
 ## 1. The rule in one picture
 
 ```
@@ -60,7 +66,7 @@ As introduced in B1-08, whenever *müssen* is negated ("don't have to") or restr
   - When a modal has another verb with it, its Partizip II looks just like the **infinitive** (**Ersatzinfinitiv / double infinitive**): *Ich **habe** gestern lange **arbeiten müssen*** (= *Ich musste gestern lange arbeiten*).
   - When a modal stands **alone** with no second verb (as a full verb), it takes the normal `ge-…-t` participle: *Das **habe** ich nicht **gewollt**! Sie **hat** kein Wort Englisch **gekonnt**. Ich **habe** die Suppe nicht **gemocht**.*
 
-> 🇧🇷 **Portuguese contrast** — - Hearsay `soll`: PT uses *Dizem que o filme é ótimo* or *O filme parece ser ótimo*; German packs "they say" into one verb: *Der Film **soll** super **sein***. Don't translate *soll* here as *deve (obrigação)*! - Deduction: *Deve estar em casa* → *Er **muss** zu Hause sein*; *Não pode ser verdade!* → *Das **kann nicht** wahr sein!* - *Não precisa vir* → *Du **musst** nicht kommen* OR *Du **brauchst** nicht **zu** kommen* (never *darfst nicht*!).
+> 🇧🇷 **Portuguese contrast** — Hearsay `soll`: PT uses *Dizem que o filme é ótimo* or *O filme parece ser ótimo*; German packs "they say" into one verb: *Der Film **soll** super **sein***. Don't translate *soll* here as *deve (obrigação)*! · Deduction: *Deve estar em casa* → *Er **muss** zu Hause sein*; *Não pode ser verdade!* → *Das **kann nicht** wahr sein!* · *Não precisa vir* → *Du **musst** nicht kommen* OR *Du **brauchst** nicht **zu** kommen* (never *darfst nicht*!).
 > 🇪🇸 **Spanish contrast** — In Spanish, you say *Dicen que el nuevo hotel es muy bueno / Se dice que…*. German packs "they say / reportedly" into the modal verb **`sollen` in the Präsens**: *Das neue Hotel **soll** sehr gut **sein***. For probability deductions where Spanish uses the future (*Tendrá hambre / Estará en casa*), German uses **`muss / müsste / dürfte + Infinitiv`** (*Er **muss** zu Hause **sein***) or `wird wohl … sein`.
 > 🇫🇷 **French contrast** — In French media, an unconfirmed report is expressed with the *conditionnel journalistique* (*Le nouveau restaurant **serait** excellent / Deux personnes **auraient** été blessées*). German expresses this exact "hearsay / reportedly" meaning with **`sollen` in the Präsens**: *Das neue Restaurant **soll** sehr gut **sein** / Zwei Personen **sollen** verletzt worden **sein***. And French *Tu n'as pas besoin de venir* = **Du brauchst nicht zu kommen** (= *Du musst nicht kommen*).
 > 🇬🇧 **English contrast** — English *The film is supposed to be good* matches *Der Film soll gut sein*. Watch out for *must not* vs *can't*: for negative deduction ("That can't be right!"), both English and German use **kann nicht** (*Das kann nicht stimmen*).
@@ -87,15 +93,23 @@ As introduced in B1-08, whenever *müssen* is negated ("don't have to") or restr
 4. (50 % possible) Ich bin nicht sicher, warum er fehlt. → Er ___ krank ___.
 
 **4.3 `nicht müssen` ↔ `nicht / nur brauchen + zu`** — Rewrite with `brauchen`:
-1. Du musst mich nicht vom Bahnhof abholen. 2. Sie müssen die Tickets nicht vorher ausdrucken. 3. Ihr müsst mir nur kurz Bescheid geben. 4. Er musste gestern nicht lange warten. (Präteritum: *brauchte*)
+1. Du musst mich nicht vom Bahnhof abholen.
+2. Sie müssen die Tickets nicht vorher ausdrucken.
+3. Ihr müsst mir nur kurz Bescheid geben.
+4. Er musste gestern nicht lange warten. (Präteritum: *brauchte*)
 
 **4.4 Past modals: Perfekt → Präteritum (and full-verb Perfekt)** —
 1. Rewrite in Präteritum: *Wir haben den Termin leider verschieben müssen.* →
 2. Rewrite in Präteritum: *Sie hat als Kind kein Fernsehen gucken dürfen.* →
 3. Fill in the full-verb Partizip II (`gekonnt / gewollt / gemocht`): (a) Tut mir leid, das habe ich wirklich nicht ___! (b) Schon in der Schule hat er kein Mathe ___. (c) Sie hat das Lied auswendig ___.
 
-**4.5 Sprachbausteine-style** — 1. Ich war selbst noch nicht in diesem Hotel, aber es ___ sehr komfortabel sein. (a) darf (b) soll (c) will 2. Sie ___ das Paket nicht zur Post zu bringen; der Kurier holt es bei Ihnen ab. (a) müssen (b) dürfen (c) brauchen 3. Da der Zug ausgefallen war, ___ wir zwei Stunden am Bahnhof warten. (a) mussten (b) müssten (c) gemusst 4. Das neue Museum ___ für Kinder besonders interessant sein, habe ich gelesen. (a) will (b) soll (c) muss 5. Das ___ doch nicht wahr sein! Ich habe den Schlüssel schon wieder verloren. (a) muss (b) soll (c) kann
+**4.5 Sprachbausteine-style**
 
+1. Ich war selbst noch nicht in diesem Hotel, aber es ___ sehr komfortabel sein. (a) darf (b) soll (c) will
+2. Sie ___ das Paket nicht zur Post zu bringen; der Kurier holt es bei Ihnen ab. (a) müssen (b) dürfen (c) brauchen
+3. Da der Zug ausgefallen war, ___ wir zwei Stunden am Bahnhof warten. (a) mussten (b) müssten (c) gemusst
+4. Das neue Museum ___ für Kinder besonders interessant sein, habe ich gelesen. (a) will (b) soll (c) muss
+5. Das ___ doch nicht wahr sein! Ich habe den Schlüssel schon wieder verloren. (a) muss (b) soll (c) kann
 ## 5. Answer key
 
 <details>
@@ -111,7 +125,12 @@ As introduced in B1-08, whenever *müssen* is negated ("don't have to") or restr
 
 **4.4** 1 Wir mussten den Termin leider verschieben. 2 Sie durfte als Kind kein Fernsehen gucken. 3 (a) gewollt (b) gemocht (c) gekonnt
 
-**4.5** 1 b 2 c 3 a 4 b 5 c
+**4.5**
+1. **b** (*soll* — hearsay ('is said to be') uses subjective *soll*)
+2. **c** (*brauchen* — `nicht … zu + Infinitiv` requires *brauchen*)
+3. **a** (*mussten* — past modal necessity prefers Präteritum *mussten*)
+4. **b** (*soll* — hearsay ('I read that it is supposed to be') uses *soll*)
+5. **c** (*kann* — negative deduction 'that can't be true!' uses *kann nicht*)
 
 </details>
 
@@ -121,7 +140,7 @@ Write 5 sentences recommending a place or course to a friend in a letter: use tw
 
 ## 7. Cards
 
-`B1-15-01` … `B1-15-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-15`.
+`B1-15-01` … `B1-15-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-15`.
 
 ## 8. Live drill prompt
 

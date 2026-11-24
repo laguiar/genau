@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Ich gebe (das Kind) ___ den Ball. 2. Sie zeigt (ihre Freunde) ___ die Fotos. 3. Das gefällt (dieser Mann) ___. 4. Wir helfen (unsere Nachbarn) ___. 5. Ich schreibe (mein Kollege) ___ eine E-Mail. 6. Er erklärt (die Studenten) ___ die Grammatik. 7. Order: ich / schenke / ein Buch / meiner Mutter → 8. Order: ich / schenke / es / ihr →
-
+1. Ich gebe (das Kind) ___ den Ball.
+2. Sie zeigt (ihre Freunde) ___ die Fotos.
+3. Das gefällt (dieser Mann) ___.
+4. Wir helfen (unsere Nachbarn) ___.
+5. Ich schreibe (mein Kollege) ___ eine E-Mail.
+6. Er erklärt (die Studenten) ___ die Grammatik.
+7. Order: ich / schenke / ein Buch / meiner Mutter →
+8. Order: ich / schenke / es / ihr →
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,54 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Decline in ■** — 1. (der Lehrer) 2. (das Baby) 3. (die Kollegin) 4. (die Kollegen) 5. (dieser Junge) 6. (jede Frau) 7. (mein Chef) 8. (unsere Kinder) 9. (ein Tourist) 10. (Herr Braun)
+**4.1 Decline in ■**
 
-**4.2 Fill in (■ verbs)** — 1. Das Kleid passt (du) ___ gut. 2. Wir gratulieren (unser Freund) ___ zum Geburtstag. 3. Kannst du (die Kinder) ___ helfen? 4. Der Film hat (ich) ___ gefallen. 5. Sie antwortet (der Kunde) ___ nicht. 6. Folgen Sie (dieser Straße) ___! 7. Glaubst du (er) ___? 8. Das Handy gehört (meine Schwester) ___.
+1. (der Lehrer)
+2. (das Baby)
+3. (die Kollegin)
+4. (die Kollegen)
+5. (dieser Junge)
+6. (jede Frau)
+7. (mein Chef)
+8. (unsere Kinder)
+9. (ein Tourist)
+10. (Herr Braun)
 
-**4.3 Two objects** — Build with ■ person + ▲ thing: 1. ich / schenken / mein Vater / eine Uhr 2. sie / zeigen / die Touristen / der Weg 3. er / erklären / die Schüler / die Aufgabe 4. wir / schicken / unsere Oma / ein Paket 5. kannst du / leihen / ich / dein Auto / ? 6. der Kellner / empfehlen / die Gäste / der Fisch
+**4.2 Fill in (■ verbs)**
 
-**4.4 Pronoun order** — Replace the underlined part with a pronoun and reorder if needed: 1. Ich gebe _dem Kind_ den Ball. 2. Ich gebe dem Kind _den Ball_. 3. Ich gebe _dem Kind_ _den Ball_. 4. Sie erzählt _ihrer Tochter_ _die Geschichte_. 5. Er schickt _mir_ _das Foto_.
+1. Das Kleid passt (du) ___ gut.
+2. Wir gratulieren (unser Freund) ___ zum Geburtstag.
+3. Kannst du (die Kinder) ___ helfen?
+4. Der Film hat (ich) ___ gefallen.
+5. Sie antwortet (der Kunde) ___ nicht.
+6. Folgen Sie (dieser Straße) ___!
+7. Glaubst du (er) ___?
+8. Das Handy gehört (meine Schwester) ___.
 
-**4.5 Sprachbausteine-style** — Choose a/b/c: 1. Ich habe ___ Nachbarn geholfen. (a) den (b) dem (c) der 2. Das Auto gehört ___ Frau. (a) die (b) der (c) dem 3. Wir haben ___ Kindern Geschenke gegeben. (a) die (b) den (c) dem 4. Kannst du ___ erklären? (a) es mir (b) mir es (c) mich es 5. Ich danke ___ für die Einladung. (a) Sie (b) Ihnen (c) Ihre
+**4.3 Two objects** — Build with ■ person + ▲ thing:
 
+1. ich / schenken / mein Vater / eine Uhr
+2. sie / zeigen / die Touristen / der Weg
+3. er / erklären / die Schüler / die Aufgabe
+4. wir / schicken / unsere Oma / ein Paket
+5. kannst du / leihen / ich / dein Auto / ?
+6. der Kellner / empfehlen / die Gäste / der Fisch
+
+**4.4 Pronoun order** — Replace the underlined part with a pronoun and reorder if needed:
+
+1. Ich gebe _dem Kind_ den Ball.
+2. Ich gebe dem Kind _den Ball_.
+3. Ich gebe _dem Kind_ _den Ball_.
+4. Sie erzählt _ihrer Tochter_ _die Geschichte_.
+5. Er schickt _mir_ _das Foto_.
+
+**4.5 Sprachbausteine-style** — Choose a/b/c:
+
+1. Ich habe ___ Nachbarn geholfen. (a) den (b) dem (c) der
+2. Das Auto gehört ___ Frau. (a) die (b) der (c) dem
+3. Wir haben ___ Kindern Geschenke gegeben. (a) die (b) den (c) dem
+4. Kannst du ___ erklären? (a) es mir (b) mir es (c) mich es
+5. Ich danke ___ für die Einladung. (a) Sie (b) Ihnen (c) Ihre
 ## 5. Answer key
 
 <details>
@@ -82,7 +126,12 @@
 
 **4.4** 1 Ich gebe ihm den Ball. 2 Ich gebe ihn dem Kind. 3 Ich gebe ihn ihm. 4 Sie erzählt sie ihr. 5 Er schickt es mir.
 
-**4.5** 1 b 2 b 3 b 4 a 5 b
+**4.5**
+1. **b** (*dem* — `helfen` takes ■ Dativ; *der Nachbar* m → *dem Nachbarn*)
+2. **b** (*der* — `gehören` takes ■ Dativ; *die Frau* f → *der Frau*)
+3. **b** (*den* — plural ■ Dativ is *den* + `-n`: *den Kindern*)
+4. **a** (*es mir* — two pronouns: ▲ *es* comes before ■ *mir*)
+5. **b** (*Ihnen* — `danken` takes ■ Dativ; formal *Sie* → *Ihnen*)
 
 </details>
 
@@ -92,7 +141,7 @@ Five sentences about presents: who gave what to whom last Christmas (*schenken, 
 
 ## 7. Cards
 
-`A2-01-01` … `A2-01-08` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-01`.
+`A2-01-01` … `A2-01-08` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-01`.
 
 ## 8. Live drill prompt
 

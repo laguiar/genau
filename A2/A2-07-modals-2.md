@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Hier ___ man nicht rauchen. (prohibited) 2. Du ___ heute nicht kommen, es ist freiwillig. (not necessary) 3. Der Arzt sagt, ich ___ mehr Sport machen. (advice from him) 4. ___ ich das Fenster öffnen? (permission, polite) 5. Kinder unter 6 ___ kostenlos fahren. (are allowed) 6. Als Kind ___ ich nicht lange fernsehen. (was not allowed) 7. Ich ___ gestern zum Zahnarzt. (had to) 8. ___ ich Ihnen helfen? (shall I)
-
+1. Hier ___ man nicht rauchen. (prohibited)
+2. Du ___ heute nicht kommen, es ist freiwillig. (not necessary)
+3. Der Arzt sagt, ich ___ mehr Sport machen. (advice from him)
+4. ___ ich das Fenster öffnen? (permission, polite)
+5. Kinder unter 6 ___ kostenlos fahren. (are allowed)
+6. Als Kind ___ ich nicht lange fernsehen. (was not allowed)
+7. Ich ___ gestern zum Zahnarzt. (had to)
+8. ___ ich Ihnen helfen? (shall I)
 ## 1. The rule in one picture
 
 ```
@@ -59,16 +65,45 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 dürfen or können** — 1. ___ ich hier parken? (is it allowed) 2. ___ du Auto fahren? (ability) 3. Man ___ im Museum nicht fotografieren. 4. Ich ___ leider nicht kommen, ich bin krank. 5. Die Kinder ___ bis 22 Uhr aufbleiben. (permission)
+**4.1 dürfen or können**
 
-**4.2 nicht müssen or nicht dürfen** — 1. Du ___ das Formular ___ ausfüllen, das machen wir. 2. Man ___ bei Rot ___ über die Straße gehen. 3. Ihr ___ ___ warten, geht schon rein. 4. Hier ___ man ___ laut sein, es ist eine Bibliothek. 5. Sie ___ ___ bezahlen, es ist kostenlos.
+1. ___ ich hier parken? (is it allowed)
+2. ___ du Auto fahren? (ability)
+3. Man ___ im Museum nicht fotografieren.
+4. Ich ___ leider nicht kommen, ich bin krank.
+5. Die Kinder ___ bis 22 Uhr aufbleiben. (permission)
 
-**4.3 sollen** — Report the instruction: 1. Chef: „Schicken Sie mir den Bericht!“ → Mein Chef sagt, ich ___. 2. Ärztin: „Trinken Sie viel Wasser!“ → Die Ärztin sagt, ich ___. 3. Mutter: „Räum dein Zimmer auf!“ → Meine Mutter sagt, ich ___. 4. Offer: (Fenster zumachen) → ___ ich ___? 5. Question: (was / ich / kaufen) → ___?
+**4.2 nicht müssen or nicht dürfen**
 
-**4.4 Past** — 1. Als Kind (dürfen) ich nicht allein ins Kino. 2. Gestern (müssen) wir bis 20 Uhr arbeiten. 3. Ich (sollen) meine Oma anrufen, aber ich habe es vergessen. 4. (können) du gestern schlafen? 5. Sie (wollen) Lehrerin werden.
+1. Du ___ das Formular ___ ausfüllen, das machen wir.
+2. Man ___ bei Rot ___ über die Straße gehen.
+3. Ihr ___ ___ warten, geht schon rein.
+4. Hier ___ man ___ laut sein, es ist eine Bibliothek.
+5. Sie ___ ___ bezahlen, es ist kostenlos.
 
-**4.5 Sprachbausteine-style** — 1. In der Bibliothek ___ man nicht laut sprechen. (a) muss (b) darf (c) soll 2. Du ___ nicht kommen, wenn du keine Zeit hast. (a) darfst (b) musst (c) sollst 3. Der Lehrer sagt, wir ___ mehr lesen. (a) sollen (b) dürfen (c) mögen 4. ___ ich Ihnen einen Kaffee bringen? (a) Muss (b) Will (c) Soll 5. Früher ___ Frauen nicht wählen. (a) durften (b) müssen (c) dürften
+**4.3 sollen** — Report the instruction:
 
+1. Chef: „Schicken Sie mir den Bericht!“ → Mein Chef sagt, ich ___.
+2. Ärztin: „Trinken Sie viel Wasser!“ → Die Ärztin sagt, ich ___.
+3. Mutter: „Räum dein Zimmer auf!“ → Meine Mutter sagt, ich ___.
+4. Offer: (Fenster zumachen) → ___ ich ___?
+5. Question: (was / ich / kaufen) → ___?
+
+**4.4 Past**
+
+1. Als Kind (dürfen) ich nicht allein ins Kino.
+2. Gestern (müssen) wir bis 20 Uhr arbeiten.
+3. Ich (sollen) meine Oma anrufen, aber ich habe es vergessen.
+4. (können) du gestern schlafen?
+5. Sie (wollen) Lehrerin werden.
+
+**4.5 Sprachbausteine-style**
+
+1. In der Bibliothek ___ man nicht laut sprechen. (a) muss (b) darf (c) soll
+2. Du ___ nicht kommen, wenn du keine Zeit hast. (a) darfst (b) musst (c) sollst
+3. Der Lehrer sagt, wir ___ mehr lesen. (a) sollen (b) dürfen (c) mögen
+4. ___ ich Ihnen einen Kaffee bringen? (a) Muss (b) Will (c) Soll
+5. Früher ___ Frauen nicht wählen. (a) durften (b) müssen (c) dürften
 ## 5. Answer key
 
 <details>
@@ -84,7 +119,12 @@
 
 **4.4** 1 durfte 2 mussten 3 sollte 4 Konntest 5 wollte
 
-**4.5** 1 b 2 b 3 a 4 c 5 a
+**4.5**
+1. **b** (*darf* — `nicht dürfen` = forbidden/not allowed)
+2. **b** (*musst* — `nicht müssen` = don't have to / optional)
+3. **a** (*sollen* — `sollen` reports someone else's instruction/advice)
+4. **c** (*Soll* — polite offer 'Shall I bring you…?' uses *Soll ich…?)*
+5. **a** (*durften* — past prohibition (*Früher*), Präteritum of *dürfen*, no umlaut)
 
 </details>
 
@@ -94,8 +134,8 @@ House rules for a shared flat: 3 with *dürfen / nicht dürfen*, 2 with *müssen
 
 ## 7. Cards
 
-`A2-07-01` … `A2-07-06` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-07`.
+`A2-07-01` … `A2-07-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-07`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-07: PT sentences with *pode/não pode/não precisa/deve/tem que* to translate; signs and rules to express with modals; reported instructions with sollen; past modals.
+> Drill me on A2-07: sentences from my active contrast language(s) testing *may / must not / don't have to / should / have to* to translate; signs and rules to express with modals; reported instructions with `sollen`; past modals.

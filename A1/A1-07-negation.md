@@ -7,8 +7,14 @@
 
 Negate the sentence. ≥ 7/8 → `✔`.
 
-1. Ich habe ein Auto. 2. Das ist mein Bruder. 3. Ich trinke Kaffee. 4. Er wohnt in Berlin. 5. Das Haus ist groß. 6. Ich kenne den Mann. 7. Sie hat Kinder. 8. Bist du müde? — (answer: yes, I am) ___, ich bin müde.
-
+1. Ich habe ein Auto.
+2. Das ist mein Bruder.
+3. Ich trinke Kaffee.
+4. Er wohnt in Berlin.
+5. Das Haus ist groß.
+6. Ich kenne den Mann.
+7. Sie hat Kinder.
+8. Bist du müde? — (answer: yes, I am) ___, ich bin müde.
 ## 1. The rule in one picture
 
 ```
@@ -56,16 +62,50 @@ Negate the sentence. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 kein or nicht?** — 1. Ich habe ___ Hunger. 2. Das ist ___ mein Haus. 3. Er spricht ___ Englisch. (language: no article → ?) 4. Wir haben ___ Zeit. 5. Sie kommt ___ aus Spanien. 6. Das ist ___ Problem. 7. Ich verstehe das ___. 8. Ich habe ___ Geschwister. 9. Der Film ist ___ interessant. 10. Das ist ___ Anna, das ist Maria.
+**4.1 kein or nicht?**
 
-**4.2 Put `nicht` in the right place** — 1. Ich arbeite am Samstag. 2. Er ist müde. 3. Wir wohnen in Hamburg. 4. Ich kann heute kommen. 5. Das Auto ist neu. 6. Sie ruft mich an. 7. Ich habe das Buch gelesen. 8. Das ist mein Bruder.
+1. Ich habe ___ Hunger.
+2. Das ist ___ mein Haus.
+3. Er spricht ___ Englisch. (language: no article → ?)
+4. Wir haben ___ Zeit.
+5. Sie kommt ___ aus Spanien.
+6. Das ist ___ Problem.
+7. Ich verstehe das ___.
+8. Ich habe ___ Geschwister.
+9. Der Film ist ___ interessant.
+10. Das ist ___ Anna, das ist Maria.
 
-**4.3 Negate** — 1. Ich habe einen Bruder. 2. Das sind Freunde. 3. Er trinkt Bier. 4. Ich kenne die Frau. 5. Wir haben ein Problem. 6. Ich finde den Film gut. 7. Sie hat Kinder. 8. Ich fahre nach Berlin.
+**4.2 Put `nicht` in the right place**
 
-**4.4 ja / nein / doch** — 1. Hast du Zeit? (yes) 2. Kommst du nicht? (yes, I come) 3. Hast du kein Auto? (right, I don't) 4. Bist du nicht müde? (yes, I am) 5. Wohnst du in Köln? (no)
+1. Ich arbeite am Samstag.
+2. Er ist müde.
+3. Wir wohnen in Hamburg.
+4. Ich kann heute kommen.
+5. Das Auto ist neu.
+6. Sie ruft mich an.
+7. Ich habe das Buch gelesen.
+8. Das ist mein Bruder.
+
+**4.3 Negate**
+
+1. Ich habe einen Bruder.
+2. Das sind Freunde.
+3. Er trinkt Bier.
+4. Ich kenne die Frau.
+5. Wir haben ein Problem.
+6. Ich finde den Film gut.
+7. Sie hat Kinder.
+8. Ich fahre nach Berlin.
+
+**4.4 ja / nein / doch**
+
+1. Hast du Zeit? (yes)
+2. Kommst du nicht? (yes, I come)
+3. Hast du kein Auto? (right, I don't)
+4. Bist du nicht müde? (yes, I am)
+5. Wohnst du in Köln? (no)
 
 **4.5 Produce** — Five true sentences about yourself with negation: one *kein* (▲ masculine), one *keine* plural, one *nicht* + adjective, one *nicht* + place, one *noch nicht*.
-
 ## 5. Answer key
 
 <details>
@@ -91,8 +131,8 @@ Write "Was ich nicht mache" — 5 sentences about things you don't do or don't h
 
 ## 7. Cards
 
-`A1-07-01` … `A1-07-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-07`.
+`A1-07-01` … `A1-07-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-07`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-07: give me positive sentences to negate (mix ein/no-article nouns, definite nouns, adjectives, verbs, places, two-part verbs), then negative questions to answer with ja/nein/doch, then Portuguese sentences with *não/nenhum* to translate.
+> Drill me on A1-07: give me positive sentences to negate (mix ein/no-article nouns, definite nouns, adjectives, verbs, places, two-part verbs), then negative questions to answer with ja/nein/doch, then negation sentences from my active contrast language(s) to translate (watch `nicht` vs `kein`).

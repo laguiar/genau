@@ -1,14 +1,20 @@
 # B1-16 — Word formation and nominalisation: suffixes (`-ung, -heit, -keit, -er, -in`), compounds, `das Lesen`, and prefixes (`ver-, be-, ent-, un-, -los`)
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-05, A1-10, B1-02 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-05, A1-10, B1-02 · **Nicos Weg B1:** [Einh. 7 *Arbeitswelt* — Nominalisierung & Einh. 14 *Zu jung – zu alt?*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can decode unfamiliar long words in telc B1 Lesen by splitting compounds and recognising suffixes/prefixes, and turn verbs and adjectives into nouns with automatic gender.
 
 ## 0. Diagnostic (3 min)
 
 Give the noun (with `der/die/das`) or adjective as indicated. ≥ 7/8 → `✔`.
 
-1. Verb → Noun (`-ung`): *anmelden* → ___ ___ 2. Adjective → Noun (`-heit` / `-keit`): *gesund* → ___ ___; *freundlich* → ___ ___ 3. Verb → Infinitive Noun: *lesen* → ___ ___ (Beim ___ lerne ich viel.) 4. Gender and meaning of the compound: *die Kinder + der Arzt + die Praxis* → ___ *Kinderarztpraxis* 5. Person (m & f): *unterrichten / lehren* → ___ *Lehrer* / ___ ___ 6. Noun → Adjective ("without"): *der Erfolg* → *erfolg*___ (without success); *die Kosten* → *kosten*___ (free of charge) 7. Opposite adjective with prefix: *zufrieden* → ___*zufrieden*; *möglich* → ___*möglich* 8. Verb → Adjective ("can be done"): *machbar / lösbar / essbar* — what does `-bar` mean? →
-
+1. Verb → Noun (`-ung`): *anmelden* → ___ ___
+2. Adjective → Noun (`-heit` / `-keit`): *gesund* → ___ ___; *freundlich* → ___ ___
+3. Verb → Infinitive Noun: *lesen* → ___ ___ (Beim ___ lerne ich viel.)
+4. Gender and meaning of the compound: *die Kinder + der Arzt + die Praxis* → ___ *Kinderarztpraxis*
+5. Person (m & f): *unterrichten / lehren* → ___ *Lehrer* / ___ ___
+6. Noun → Adjective ("without"): *der Erfolg* → *erfolg*___ (without success); *die Kosten* → *kosten*___ (free of charge)
+7. Opposite adjective with prefix: *zufrieden* → ___*zufrieden*; *möglich* → ___*möglich*
+8. Verb → Adjective ("can be done"): *machbar / lösbar / essbar* — what does `-bar` mean? →
 ## 1. The rule in one picture
 
 ```
@@ -60,7 +66,7 @@ Give the noun (with `der/die/das`) or adjective as indicated. ≥ 7/8 → `✔`.
   - *für die Ware zahlen* → *die Ware **be**zahlen*
 - **`ver-`** has three core patterns: (a) turning an adjective into a "make more X" verb (*länger → **ver**längern* = extend/renew, *besser → **ver**bessern* = improve, *größer → **ver**größern*, *einfach → **ver**einfachen*), (b) doing something **wrong / too much** (*sich **ver**schreiben* = make a typo, *sich **ver**laufen / **ver**fahren* = get lost, ***ver**schlafen* = oversleep, ***ver**passen* = miss), (c) away/passing (*die Zeit **ver**geht, **ver**reisen, **ver**kaufen*).
 
-> 🇧🇷 **Portuguese contrast** — - `-ung` ≈ PT `-ção` (*die Information, die Reservierung = a reserva, die Erklärung = a explicação*). - `-heit / -keit` ≈ PT `-dade / -eza` (*die Möglichkeit = a possibilidade, die Freiheit = a liberdade*). - `-bar` ≈ PT `-vel` (*essbar = comestível, erreichbar = alcançável*). - `-los` ≈ PT *sem + substantivo* (*kostenlos = sem custo / gratuito*). - PT *ao ler / durante a leitura* → German **beim Lesen** (*bei dem* + capitalised infinitive!).
+> 🇧🇷 **Portuguese contrast** — `-ung` ≈ PT `-ção` (*die Information, die Reservierung = a reserva, die Erklärung = a explicação*) · `-heit / -keit` ≈ PT `-dade / -eza` (*die Möglichkeit = a possibilidade, die Freiheit = a liberdade*) · `-bar` ≈ PT `-vel` (*essbar = comestível, erreichbar = alcançável*) · `-los` ≈ PT *sem + substantivo* (*kostenlos = sem custo / gratuito*) · PT *ao ler / durante a leitura* → German **beim Lesen** (*bei dem* + capitalised infinitive!).
 > 🇪🇸 **Spanish contrast** — Many suffixes map directly from Spanish: Spanish `-ción / -miento` ≈ German **`-ung`** (always `die`: *die Reservierung, die Erklärung*); Spanish `-dad / -eza` ≈ German **`-heit / -keit`** (always `die`: *die Möglichkeit = la posibilidad, die Sicherheit = la seguridad*); Spanish `-ble` = German **`-bar`** (*lösbar, erreichbar*); Spanish *sin + noun* = **`-los`** (*kostenlos = gratuito / sin costo*). And Spanish *al leer / leyendo* = **`beim Lesen`** (`bei dem` + capitalised infinitive!).
 > 🇫🇷 **French contrast** — Many abstract nouns correspond cleanly: French `-tion / -ment` ≈ German **`-ung`** (always `die`: *die Reservierung, die Erklärung*); French `-té / -esse` ≈ German **`-heit / -keit`** (always `die`: *die Möglichkeit = la possibilité, die Freiheit = la liberté*); French `-able / -ible` = German **`-bar`** (*lösbar, erreichbar*); French *sans + noun* = **`-los`** (*kostenlos = gratuit / sans frais*). French *en lisant / pendant la lecture* = **`beim Lesen`** (`bei dem` + capitalised infinitive!).
 > 🇬🇧 **English contrast** — English writes compounds as separate words (*language course registration form*). German glues them into one word (*das Sprachkursanmeldeformular*). Always find the **last** word first to know the gender and what the thing actually is.
@@ -79,7 +85,12 @@ Give the noun (with `der/die/das`) or adjective as indicated. ≥ 7/8 → `✔`.
 3. Infinitive noun after `beim` ("while -ing"): (a) *Wenn ich koche, höre ich Musik.* → *Beim ___ höre ich Musik.* (b) *Als er ausstieg, fiel er hin.* → *Beim ___ fiel er hin.*
 
 **4.2 Decode the compounds** — Give the article (`der / die / das`) and translate/explain by splitting into parts:
-1. ___ *Haustürschlüssel* 2. ___ *Kundendienstmitarbeiterin* 3. ___ *Abendkursangebot* 4. ___ *Mietvertragskündigung* 5. ___ *öffentliche Verkehrsmittel* (pl. / sg. *das Mittel*) 6. ___ *Aufenthaltsgenehmigung*
+1. ___ *Haustürschlüssel*
+2. ___ *Kundendienstmitarbeiterin*
+3. ___ *Abendkursangebot*
+4. ___ *Mietvertragskündigung*
+5. ___ *öffentliche Verkehrsmittel* (pl. / sg. *das Mittel*)
+6. ___ *Aufenthaltsgenehmigung*
 
 **4.3 Build the adjective (`-bar`, `-los`, `un-`, `-lich/-ig`)** —
 1. Eine Schrift, die man nicht lesen kann, ist (un + les + bar) ___.
@@ -96,8 +107,13 @@ Give the noun (with `der/die/das`) or adjective as indicated. ≥ 7/8 → `✔`.
 4. Ich möchte *mein Deutsch besser machen*. → Ich möchte mein Deutsch (**ver-**) ___.
 5. Ich habe die falsche Straße genommen (*sich + fahren*). → Ich habe mich (**ver-**) ___.
 
-**4.5 Sprachbausteine-style** — 1. Vielen Dank für Ihre schnelle ___ meiner Anfrage. (a) Beantworten (b) Beantwortung (c) Antwortet 2. Beim ___ im Internet habe ich Ihr Angebot entdeckt. (a) Suchen (b) Suche (c) Gesucht 3. Die Nutzung des Schwimmbads ist für Hotelgäste ___. (a) kostenfrei / kostenlos (b) kostenbar (c) unkosten 4. Ich bin morgen den ganzen Tag telefonisch für Sie ___. (a) erreichen (b) erreichbar (c) Erreichung 5. Ich möchte mein Abonnement gern um ein weiteres Jahr ___. (a) erlangen (b) belängern (c) verlängern
+**4.5 Sprachbausteine-style**
 
+1. Vielen Dank für Ihre schnelle ___ meiner Anfrage. (a) Beantworten (b) Beantwortung (c) Antwortet
+2. Beim ___ im Internet habe ich Ihr Angebot entdeckt. (a) Suchen (b) Suche (c) Gesucht
+3. Die Nutzung des Schwimmbads ist für Hotelgäste ___. (a) kostenfrei / kostenlos (b) kostenbar (c) unkosten
+4. Ich bin morgen den ganzen Tag telefonisch für Sie ___. (a) erreichen (b) erreichbar (c) Erreichung
+5. Ich möchte mein Abonnement gern um ein weiteres Jahr ___. (a) erlangen (b) belängern (c) verlängern
 ## 5. Answer key
 
 <details>
@@ -113,7 +129,12 @@ Give the noun (with `der/die/das`) or adjective as indicated. ≥ 7/8 → `✔`.
 
 **4.4** 1 besprechen 2 beantworten 3 verlängern 4 verbessern 5 verfahren
 
-**4.5** 1 b 2 a 3 a 4 b 5 c
+**4.5**
+1. **b** (*Beantwortung* — after `Ihre schnelle`, needs feminine `-ung` noun)
+2. **a** (*Suchen* — `beim` + capitalised infinitive = 'while searching')
+3. **a** (*kostenfrei / kostenlos* — suffix `-los / -frei` = 'without cost')
+4. **b** (*erreichbar* — suffix `-bar` = '-able' ('reachable'))
+5. **c** (*verlängern* — prefix `ver-` + *länger* = 'to extend/renew')
 
 </details>
 
@@ -123,7 +144,7 @@ Write 5 formal sentences for a letter using B1 word formation: include two `-ung
 
 ## 7. Cards
 
-`B1-16-01` … `B1-16-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-16`.
+`B1-16-01` … `B1-16-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-16`.
 
 ## 8. Live drill prompt
 

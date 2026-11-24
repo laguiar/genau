@@ -1,14 +1,20 @@
 # B1-05 — Futur I: intentions, predictions, assumptions (`wohl`), and Präsens for future
 
-**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A2-19 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A2-19 · **Nicos Weg B1:** [Es wird wärmer](https://learngerman.dw.com/de/es-wird-w%C3%A4rmer/l-38496147) (Einh. 10), [Einh. 18 *Neuanfang* (*Zukunftspläne*)](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can form Futur I (`werden` + infinitive), use it for promises, forecasts and present assumptions (`wohl`), and prefer Präsens + time expression for scheduled future plans.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Morgen (ich / fahren) ___ ___ nach München. (normal plan) 2. Ich verspreche dir: Ich (pünktlich / sein / werden) ___ ___ ___. 3. Das Wetter (sich ändern / werden) ___ ___ morgen ___. 4. Wo ist Tom? — Er (wohl / im Stau / stehen / werden) ___ ___ ___ ___. 5. In zehn Jahren (viele Menschen / von zu Hause / arbeiten / werden) ___ ___ ___ ___ ___. 6. Ich glaube, dass es bald (regnen / werden) ___ ___. 7. Full verb or Futur I? *Mein Sohn wird nächstes Jahr Arzt.* → 8. Full verb or Futur I? *Mein Sohn wird nächstes Jahr studieren.* →
-
+1. Morgen (ich / fahren) ___ ___ nach München. (normal plan)
+2. Ich verspreche dir: Ich (pünktlich / sein / werden) ___ ___ ___.
+3. Das Wetter (sich ändern / werden) ___ ___ morgen ___.
+4. Wo ist Tom? — Er (wohl / im Stau / stehen / werden) ___ ___ ___ ___.
+5. In zehn Jahren (viele Menschen / von zu Hause / arbeiten / werden) ___ ___ ___ ___ ___.
+6. Ich glaube, dass es bald (regnen / werden) ___ ___.
+7. Full verb or Futur I? *Mein Sohn wird nächstes Jahr Arzt.* →
+8. Full verb or Futur I? *Mein Sohn wird nächstes Jahr studieren.* →
 ## 1. The rule in one picture
 
 ```
@@ -64,14 +70,34 @@
 4. Ruf ihn nicht an, er wird jetzt sicher schon schlafen.
 5. In Zukunft werden noch mehr Menschen online einkaufen.
 
-**4.2 Form Futur I** — Rewrite in Futur I: 1. Ich kümmere mich um das Problem. 2. Du findest bestimmt eine gute Wohnung. 3. Der Kurs dauert sechs Wochen. 4. Wir geben Ihnen morgen Bescheid. 5. Ich hoffe, dass du mich nicht vergisst. (Nebensatz!) 6. Er denkt, dass das Wetter besser wird. (Nebensatz!)
+**4.2 Form Futur I** — Rewrite in Futur I:
 
-**4.3 Present assumptions with `wohl`** — Answer the question using Futur I + `wohl`: 1. Warum geht Paul nicht ans Telefon? (er / unter der Dusche / sein) 2. Warum ist das Licht im Büro noch an? (die Chefin / noch / arbeiten) 3. Warum isst Lisa nichts? (sie / keinen Hunger / haben) 4. Wo sind die Kinder? (sie / im Garten / spielen)
+1. Ich kümmere mich um das Problem.
+2. Du findest bestimmt eine gute Wohnung.
+3. Der Kurs dauert sechs Wochen.
+4. Wir geben Ihnen morgen Bescheid.
+5. Ich hoffe, dass du mich nicht vergisst. (Nebensatz!)
+6. Er denkt, dass das Wetter besser wird. (Nebensatz!)
 
-**4.4 Präsens or Futur I?** — Choose the more natural form: 1. (Morgen um 8 Uhr beginnt der Kurs / wird der Kurs beginnen). 2. Keine Sorge, ich (helfe dir? → promise without time word: werde dir helfen!). Write the best sentence for: (a) scheduled train at 9:15 (der Zug / abfahren), (b) promise never to be late again (ich / nie wieder zu spät / kommen), (c) plan for next Saturday (wir / nach Hamburg / fahren), (d) forecast about technology in 2050 (Autos / automatisch / fahren).
+**4.3 Present assumptions with `wohl`** — Answer the question using Futur I + `wohl`:
 
-**4.5 Sprachbausteine-style** — 1. Ich verspreche Ihnen, dass ich die Unterlagen morgen ___ ___. (a) werde schicken (b) schicken werde (c) geschickt werde 2. Du ___ sehen, alles wird gut! (a) wirst (b) wird (c) werdet 3. Herr Weber ist nicht an seinem Platz; er ___ wohl in einer Besprechung sein. (a) wurde (b) würde (c) wird 4. Nächsten Monat ___ mein Bruder seine neue Stelle an. (a) tritt (b) werden treten (c) getreten 5. Wir hoffen, dass Ihnen unser Vorschlag gefallen ___. (a) wurde (b) wird (c) werden
+1. Warum geht Paul nicht ans Telefon? (er / unter der Dusche / sein)
+2. Warum ist das Licht im Büro noch an? (die Chefin / noch / arbeiten)
+3. Warum isst Lisa nichts? (sie / keinen Hunger / haben)
+4. Wo sind die Kinder? (sie / im Garten / spielen)
 
+**4.4 Präsens or Futur I?** — Choose the more natural form:
+
+1. (Morgen um 8 Uhr beginnt der Kurs / wird der Kurs beginnen).
+2. Keine Sorge, ich (helfe dir? → promise without time word: werde dir helfen!). Write the best sentence for: (a) scheduled train at 9:15 (der Zug / abfahren), (b) promise never to be late again (ich / nie wieder zu spät / kommen), (c) plan for next Saturday (wir / nach Hamburg / fahren), (d) forecast about technology in 2050 (Autos / automatisch / fahren).
+
+**4.5 Sprachbausteine-style**
+
+1. Ich verspreche Ihnen, dass ich die Unterlagen morgen ___ ___. (a) werde schicken (b) schicken werde (c) geschickt werde
+2. Du ___ sehen, alles wird gut! (a) wirst (b) wird (c) werdet
+3. Herr Weber ist nicht an seinem Platz; er ___ wohl in einer Besprechung sein. (a) wurde (b) würde (c) wird
+4. Nächsten Monat ___ mein Bruder seine neue Stelle an. (a) tritt (b) werden treten (c) getreten
+5. Wir hoffen, dass Ihnen unser Vorschlag gefallen ___. (a) wurde (b) wird (c) werden
 ## 5. Answer key
 
 <details>
@@ -87,7 +113,12 @@
 
 **4.4** (a) Der Zug fährt um 9:15 Uhr ab. (b) Ich werde nie wieder zu spät kommen. (c) Nächsten Samstag fahren wir nach Hamburg. (d) Im Jahr 2050 werden Autos automatisch fahren.
 
-**4.5** 1 b 2 a 3 c 4 a 5 b
+**4.5**
+1. **b** (*schicken werde* — Nebensatz puts infinitive first, conjugated `werde` last)
+2. **a** (*wirst* — 2nd-person singular of *werden* is *du wirst*)
+3. **c** (*wird* — present assumption with `wohl` uses Futur I: *wird wohl … sein*)
+4. **a** (*tritt* — Präsens + future time (*Nächsten Monat*) expresses fixed plans; *er tritt an*)
+5. **b** (*wird* — subject is singular *unser Vorschlag* → *gefallen wird*)
 
 </details>
 
@@ -97,7 +128,7 @@ Write the closing paragraph of a semi-formal letter (4 sentences): state one con
 
 ## 7. Cards
 
-`B1-05-01` … `B1-05-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-05`.
+`B1-05-01` … `B1-05-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-05`.
 
 ## 8. Live drill prompt
 

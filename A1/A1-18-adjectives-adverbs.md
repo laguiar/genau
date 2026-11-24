@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Das Haus ist (groß) ___. 2. Ich finde den Film (gut) ___. 3. Er spricht (schnell) ___. 4. Ich trinke ___ Kaffee, aber ich trinke ___ Tee. (like / prefer) 5. Am ___ trinke ich Wasser. (like most) 6. ___ hier einen Supermarkt? (is there) 7. Es gibt (ein Park, m) ___. 8. Ich koche nicht ___. (don't like cooking)
-
+1. Das Haus ist (groß) ___.
+2. Ich finde den Film (gut) ___.
+3. Er spricht (schnell) ___.
+4. Ich trinke ___ Kaffee, aber ich trinke ___ Tee. (like / prefer)
+5. Am ___ trinke ich Wasser. (like most)
+6. ___ hier einen Supermarkt? (is there)
+7. Es gibt (ein Park, m) ___.
+8. Ich koche nicht ___. (don't like cooking)
 ## 1. The rule in one picture
 
 ```
@@ -58,16 +64,45 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Adjective or adverb — no ending either way** — Translate the bracketed word: 1. Das Wetter ist (bad) ___. 2. Sie singt (beautifully) ___. 3. Der Zug ist (slow) ___. 4. Der Zug fährt (slowly) ___. 5. Ich finde die Wohnung (expensive) ___. 6. Er arbeitet (a lot) ___. 7. Das ist (very) ___ interessant. 8. Das Essen ist (too) ___ salzig.
+**4.1 Adjective or adverb — no ending either way** — Translate the bracketed word:
 
-**4.2 gern / lieber / am liebsten / nicht gern** — 1. Ich esse ___ Pizza, aber ___ esse ich Sushi. 2. Er lernt ___ Grammatik. (dislikes) 3. Was trinkst du ___: Kaffee oder Tee? 4. ___ fahre ich Rad. (most of all) 5. Spielst du ___ Fußball? — Ja, ___!
+1. Das Wetter ist (bad) ___.
+2. Sie singt (beautifully) ___.
+3. Der Zug ist (slow) ___.
+4. Der Zug fährt (slowly) ___.
+5. Ich finde die Wohnung (expensive) ___.
+6. Er arbeitet (a lot) ___.
+7. Das ist (very) ___ interessant.
+8. Das Essen ist (too) ___ salzig.
 
-**4.3 es gibt** — 1. In meiner Stadt ___ ___ ein Kino. 2. ___ ___ hier einen Supermarkt? 3. Es gibt (kein Park, m) ___. 4. Es gibt (viele Restaurants) ___. 5. Früher (es gibt, past) ___ hier eine Schule.
+**4.2 gern / lieber / am liebsten / nicht gern**
 
-**4.4 Opposites** — 1. groß 2. teuer 3. schnell 4. laut 5. alt (for things) 6. hell 7. voll 8. einfach
+1. Ich esse ___ Pizza, aber ___ esse ich Sushi.
+2. Er lernt ___ Grammatik. (dislikes)
+3. Was trinkst du ___: Kaffee oder Tee?
+4. ___ fahre ich Rad. (most of all)
+5. Spielst du ___ Fußball? — Ja, ___!
+
+**4.3 es gibt**
+
+1. In meiner Stadt ___ ___ ein Kino.
+2. ___ ___ hier einen Supermarkt?
+3. Es gibt (kein Park, m) ___.
+4. Es gibt (viele Restaurants) ___.
+5. Früher (es gibt, past) ___ hier eine Schule.
+
+**4.4 Opposites**
+
+1. groß
+2. teuer
+3. schnell
+4. laut
+5. alt (for things)
+6. hell
+7. voll
+8. einfach
 
 **4.5 Produce** — Describe your city: 3 sentences with *es gibt* (one negative), 2 with *sein* + adjective, 2 with *gern/lieber/am liebsten*.
-
 ## 5. Answer key
 
 <details>
@@ -93,8 +128,8 @@ Five sentences "Was ich gern mache und was nicht", each with an adverb of freque
 
 ## 7. Cards
 
-`A1-18-01` … `A1-18-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-18`.
+`A1-18-01` … `A1-18-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-18`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-18: English/Portuguese phrases with adjectives and adverbs to translate (watch for endings and -ly/-mente), *gostar de* sentences to render with gern, and *há/tem* sentences for es gibt + ▲.
+> Drill me on A1-18: phrases from my active contrast language(s) with predicative adjectives and adverbs to translate (watch for no endings!), *like doing* sentences to render with `gern`, and *there is/are* sentences for `es gibt + ▲`.

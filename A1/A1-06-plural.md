@@ -7,8 +7,14 @@
 
 Plural. ≥ 7/8 → `✔`.
 
-1. das Kind 2. die Frau 3. der Apfel 4. das Auto 5. der Tisch 6. die Freundin 7. das Haus 8. der Lehrer
-
+1. das Kind
+2. die Frau
+3. der Apfel
+4. das Auto
+5. der Tisch
+6. die Freundin
+7. das Haus
+8. der Lehrer
 ## 1. The rule in one picture
 
 ```
@@ -54,14 +60,45 @@ Learn the plural **with** the noun: *das Kind, -er · die Frau, -en · der Apfel
 
 **4.1 Sort by pattern** — Put each noun in the right column (-(e)n / -e / ¨-er / – / -s): Lampe, Auto, Kind, Tisch, Lehrer, Frau, Buch, Handy, Stuhl, Mädchen, Zeitung, Bild, Zimmer, Café, Freund
 
-**4.2 Plural** — 1. der Tag 2. die Straße 3. das Land 4. der Vater 5. das Hotel 6. die Stadt 7. das Fenster 8. der Junge 9. die Ärztin 10. der Zug 11. das Glas 12. die Hand 13. der Garten 14. das Sofa 15. die Tochter
+**4.2 Plural**
 
-**4.3 Singular** — Give the singular with article: 1. Bücher 2. Männer 3. Studentinnen 4. Äpfel 5. Autos 6. Nächte 7. Namen 8. Kinder
+1. der Tag
+2. die Straße
+3. das Land
+4. der Vater
+5. das Hotel
+6. die Stadt
+7. das Fenster
+8. der Junge
+9. die Ärztin
+10. der Zug
+11. das Glas
+12. die Hand
+13. der Garten
+14. das Sofa
+15. die Tochter
 
-**4.4 Rewrite in the plural** — 1. Das Kind spielt. 2. Der Apfel ist rot. 3. Ich habe eine Frage. 4. Die Frau arbeitet. 5. Ein Haus ist teuer. 6. Das Mädchen lernt Deutsch.
+**4.3 Singular** — Give the singular with article:
+
+1. Bücher
+2. Männer
+3. Studentinnen
+4. Äpfel
+5. Autos
+6. Nächte
+7. Namen
+8. Kinder
+
+**4.4 Rewrite in the plural**
+
+1. Das Kind spielt.
+2. Der Apfel ist rot.
+3. Ich habe eine Frage.
+4. Die Frau arbeitet.
+5. Ein Haus ist teuer.
+6. Das Mädchen lernt Deutsch.
 
 **4.5 Produce** — Write 5 sentences with *viele / zwei / keine + plural* about things in your city (*Es gibt viele Cafés.* — `es gibt` + ▲, but plural looks the same).
-
 ## 5. Answer key
 
 <details>
@@ -87,7 +124,7 @@ Describe your flat in 5 sentences using plural nouns (*Zimmer, Fenster, Stühle,
 
 ## 7. Cards
 
-`A1-06-01` … `A1-06-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-06`.
+`A1-06-01` … `A1-06-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-06`.
 
 ## 8. Live drill prompt
 

@@ -71,16 +71,34 @@ Three shapes to remember: **wir / sie / Sie = infinitive** · **er / ihr = -t** 
 
 > Ich heiße Max und ich komme aus Brasilien. Ich wohne jetzt in Deutschland und lerne Deutsch. Meine Frau arbeitet in einem Büro. Wir spielen am Wochenende Tennis. Und ihr? Was macht ihr am Wochenende?
 
-**4.2 Fill in** — 1. Wie (heißen) ___ du? 2. Wo (wohnen) ___ Sie, Frau Kurz? 3. Er (arbeiten) ___ bei Siemens. 4. Wir (lernen) ___ Deutsch. 5. Ihr (kommen) ___ zu spät. 6. Sie (plural) (spielen) ___ Karten. 7. Ich (finden) ___ das gut. 8. Du (tanzen) ___ gut. 9. Das Kind (öffnen) ___ die Tür. 10. Ihr (warten) ___ hier.
+**4.2 Fill in**
+
+1. Wie (heißen) ___ du?
+2. Wo (wohnen) ___ Sie, Frau Kurz?
+3. Er (arbeiten) ___ bei Siemens.
+4. Wir (lernen) ___ Deutsch.
+5. Ihr (kommen) ___ zu spät.
+6. Sie (plural) (spielen) ___ Karten.
+7. Ich (finden) ___ das gut.
+8. Du (tanzen) ___ gut.
+9. Das Kind (öffnen) ___ die Tür.
+10. Ihr (warten) ___ hier.
 
 **4.3 Transform** — Rewrite for the person in brackets:
-1. Ich wohne in Köln. (er) 2. Du arbeitest viel. (ihr) 3. Wir kommen aus Portugal. (sie, plural) 4. Er heißt Tom. (du) 5. Ihr lernt Deutsch. (Sie, formal) 6. Sie reist gern. (ich)
+1. Ich wohne in Köln. (er)
+2. Du arbeitest viel. (ihr)
+3. Wir kommen aus Portugal. (sie, plural)
+4. Er heißt Tom. (du)
+5. Ihr lernt Deutsch. (Sie, formal)
+6. Sie reist gern. (ich)
 
 **4.4 Produce** — Write one sentence each with: *du + heißen*, *Sie + wohnen*, *ihr + machen*, *sie (they) + arbeiten*, *es + regnen*.
 
 **4.5 du, ihr or Sie?** — Choose the pronoun and conjugate *wohnen*:
-1. to your teacher: Wo ___ ___? 2. to two friends: Wo ___ ___? 3. to a child: Wo ___ ___? 4. in a letter to a company: Wo ___ ___?
-
+1. to your teacher: Wo ___ ___?
+2. to two friends: Wo ___ ___?
+3. to a child: Wo ___ ___?
+4. in a letter to a company: Wo ___ ___?
 ## 5. Answer key
 
 <details>
@@ -106,8 +124,8 @@ Introduce yourself in 5 sentences: name, origin, where you live, what you do, wh
 
 ## 7. Cards
 
-`A1-02-01` … `A1-02-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-02`.
+`A1-02-01` … `A1-02-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-02`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-02: give me verb + pronoun pairs (include arbeiten/finden/heißen/tanzen/öffnen), then situations where I must pick du/ihr/Sie, then 3 sentences to translate from Portuguese without dropping the pronoun.
+> Drill me on A1-02: give me verb + pronoun pairs (include arbeiten/finden/heißen/tanzen/öffnen), then situations where I must pick du/ihr/Sie, then 3 sentences to translate from my active contrast language(s) without dropping the pronoun.

@@ -7,8 +7,14 @@
 
 Perfekt. ≥ 7/8 → `✔`.
 
-1. ich / machen / die Hausaufgaben → 2. er / fahren / nach Köln → 3. wir / essen / Pizza → 4. du / anrufen / mich / ? → 5. sie (she) / bleiben / zu Hause → 6. ihr / trinken / Kaffee → 7. ich / besuchen / meine Oma → 8. Wann / du / aufstehen / ? →
-
+1. ich / machen / die Hausaufgaben →
+2. er / fahren / nach Köln →
+3. wir / essen / Pizza →
+4. du / anrufen / mich / ? →
+5. sie (she) / bleiben / zu Hause →
+6. ihr / trinken / Kaffee →
+7. ich / besuchen / meine Oma →
+8. Wann / du / aufstehen / ? →
 ## 1. The rule in one picture
 
 ```
@@ -62,16 +68,57 @@ Perfekt. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Partizip II** — 1. spielen 2. trinken 3. schreiben 4. arbeiten 5. einkaufen 6. verstehen 7. fahren 8. telefonieren 9. sehen 10. aufstehen 11. bezahlen 12. bringen 13. schlafen 14. kommen 15. vergessen
+**4.1 Partizip II**
 
-**4.2 haben or sein** — 1. Ich ___ gestern lange geschlafen. 2. Wir ___ nach Wien geflogen. 3. Er ___ um 6 Uhr aufgestanden. 4. Sie ___ ein Buch gelesen. 5. Ihr ___ zu Hause geblieben. 6. Was ___ passiert? 7. Ich ___ meinen Freund getroffen. 8. Die Kinder ___ im Park gelaufen. 9. Du ___ viel gearbeitet. 10. Wann ___ ihr angekommen?
+1. spielen
+2. trinken
+3. schreiben
+4. arbeiten
+5. einkaufen
+6. verstehen
+7. fahren
+8. telefonieren
+9. sehen
+10. aufstehen
+11. bezahlen
+12. bringen
+13. schlafen
+14. kommen
+15. vergessen
 
-**4.3 Rewrite in the Perfekt** — 1. Ich lerne Deutsch. 2. Sie fährt nach Berlin. 3. Wir essen im Restaurant. 4. Er ruft seine Mutter an. 5. Ich besuche meine Oma. 6. Du bleibst zu Hause. 7. Ihr trinkt Bier. 8. Was machst du am Wochenende?
+**4.2 haben or sein**
 
-**4.4 Questions in the Perfekt** — 1. Wann / du / aufstehen? 2. Was / ihr / essen? 3. Wohin / Sie / fahren? 4. Wen / er / treffen? 5. du / schon / einkaufen?
+1. Ich ___ gestern lange geschlafen.
+2. Wir ___ nach Wien geflogen.
+3. Er ___ um 6 Uhr aufgestanden.
+4. Sie ___ ein Buch gelesen.
+5. Ihr ___ zu Hause geblieben.
+6. Was ___ passiert?
+7. Ich ___ meinen Freund getroffen.
+8. Die Kinder ___ im Park gelaufen.
+9. Du ___ viel gearbeitet.
+10. Wann ___ ihr angekommen?
+
+**4.3 Rewrite in the Perfekt**
+
+1. Ich lerne Deutsch.
+2. Sie fährt nach Berlin.
+3. Wir essen im Restaurant.
+4. Er ruft seine Mutter an.
+5. Ich besuche meine Oma.
+6. Du bleibst zu Hause.
+7. Ihr trinkt Bier.
+8. Was machst du am Wochenende?
+
+**4.4 Questions in the Perfekt**
+
+1. Wann / du / aufstehen?
+2. Was / ihr / essen?
+3. Wohin / Sie / fahren?
+4. Wen / er / treffen?
+5. du / schon / einkaufen?
 
 **4.5 Produce** — Your last weekend in 6 sentences, two with *sein*, one separable, one inseparable, one *-ieren* verb.
-
 ## 5. Answer key
 
 <details>
@@ -97,8 +144,8 @@ A short e-mail to a friend (5–6 sentences) about what you did yesterday. Check
 
 ## 7. Cards
 
-`A1-16-01` … `A1-16-10` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-16`.
+`A1-16-01` … `A1-16-10` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-16`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-16: infinitives → Partizip II with auxiliary (mix regular/irregular/separable/inseparable/-ieren), then present sentences to convert, then Portuguese simple-past sentences to translate into the Perfekt.
+> Drill me on A1-16: infinitives → Partizip II with auxiliary (mix regular/irregular/separable/inseparable/-ieren), then present sentences to convert, then simple-past sentences from my active contrast language(s) to translate into the Perfekt.

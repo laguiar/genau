@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Write 47 in words. 2. Write 13:30 informally (spoken). 3. "on Monday": ___ Montag 4. "in May": ___ Mai 5. "at 8 o'clock": ___ 8 Uhr 6. "on the 3rd of March": ___ 3. März 7. "from 9 to 5": ___ 9 ___ 17 Uhr 8. 3.50 € in German notation: ___
-
+1. Write 47 in words.
+2. Write 13:30 informally (spoken).
+3. "on Monday": ___ Montag
+4. "in May": ___ Mai
+5. "at 8 o'clock": ___ 8 Uhr
+6. "on the 3rd of March": ___ 3. März
+7. "from 9 to 5": ___ 9 ___ 17 Uhr
+8. 3.50 € in German notation: ___
 ## 1. The rule in one picture
 
 ```
@@ -62,16 +68,51 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Numbers in words** — 1. 16 2. 27 3. 33 4. 60 5. 71 6. 99 7. 104 8. 250 9. 1.999 10. 12,80 €
+**4.1 Numbers in words**
 
-**4.2 Time, two ways (official / informal)** — 1. 7:15 2. 9:30 3. 14:45 4. 18:10 5. 22:50 6. 12:00
+1. 16
+2. 27
+3. 33
+4. 60
+5. 71
+6. 99
+7. 104
+8. 250
+9. 1.999
+10. 12,80 €
 
-**4.3 Preposition or nothing** — 1. ___ Dienstag 2. ___ 9 Uhr 3. ___ Sommer 4. ___ 2020 5. ___ Abend 6. ___ Nacht 7. ___ 1. Mai 8. ___ Wochenende 9. ___ nächste Woche 10. ___ Montag ___ Freitag 11. ___ morgen (from tomorrow on) 12. ___ dem Frühstück (after)
+**4.2 Time, two ways (official / informal)**
 
-**4.4 Dates** — Write in words: 1. Heute ist der 3.10. 2. Ich habe am 21.6. Geburtstag. 3. Der Kurs beginnt am 1.9. 4. Weihnachten ist am 24.12.
+1. 7:15
+2. 9:30
+3. 14:45
+4. 18:10
+5. 22:50
+6. 12:00
+
+**4.3 Preposition or nothing**
+
+1. ___ Dienstag
+2. ___ 9 Uhr
+3. ___ Sommer
+4. ___ 2020
+5. ___ Abend
+6. ___ Nacht
+7. ___ 1. Mai
+8. ___ Wochenende
+9. ___ nächste Woche
+10. ___ Montag ___ Freitag
+11. ___ morgen (from tomorrow on)
+12. ___ dem Frühstück (after)
+
+**4.4 Dates** — Write in words:
+
+1. Heute ist der 3.10.
+2. Ich habe am 21.6. Geburtstag.
+3. Der Kurs beginnt am 1.9.
+4. Weihnachten ist am 24.12.
 
 **4.5 Produce** — Your weekly schedule in 5 sentences with *um, am, von … bis, ab, jeden*.
-
 ## 5. Answer key
 
 <details>
@@ -97,7 +138,7 @@ Write an appointment confirmation: day, date in words, time (official), duration
 
 ## 7. Cards
 
-`A1-13-01` … `A1-13-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-13`.
+`A1-13-01` … `A1-13-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-13`.
 
 ## 8. Live drill prompt
 

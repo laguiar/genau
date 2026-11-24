@@ -1,14 +1,20 @@
 # B1-14 — Reported speech: `dass`-clauses, unmarked V2 clauses (`Er sagt, er hat …`), indirect questions, and Konjunktiv I recognition (`sei, habe`)
 
-**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A2-11, A2-12, B1-06 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 1–2 sessions · **Prerequisites:** A2-11, A2-12, B1-06 · **Nicos Weg B1:** [Einh. 12 *Medien* — Indirekte Rede](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can report statements, questions and requests in everyday and formal writing, and recognise Konjunktiv I forms (`er sei, sie habe, es gebe`) in news articles.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. *Tom sagt: „Ich habe keine Zeit."* → Tom sagt, dass er ___ ___ ___. 2. Without `dass`: Tom sagt, er ___ keine Zeit. 3. *Lisa fragt: „Kommst du morgen mit?"* → Lisa fragt, ___ ich morgen ___. 4. *Der Chef fragt: „Wann ist der Bericht fertig?"* → Der Chef fragt, ___ der Bericht fertig ___. 5. *Die Ärztin sagt zu mir: „Trinken Sie viel Wasser!"* → Die Ärztin sagt, dass ich viel Wasser trinken ___. (modal for requests!) 6. News text recognition — what is the infinitive of **sei**? *Der Minister sagte, die Lage **sei** stabil.* → 7. Infinitive of **habe** in *Sie erklärte, sie **habe** nichts gewusst*? → 8. Why does the news text write *Die Zeugen sagten, sie **hätten** nichts gesehen* (Konjunktiv II) instead of *haben*? →
-
+1. *Tom sagt: „Ich habe keine Zeit."* → Tom sagt, dass er ___ ___ ___.
+2. Without `dass`: Tom sagt, er ___ keine Zeit.
+3. *Lisa fragt: „Kommst du morgen mit?"* → Lisa fragt, ___ ich morgen ___.
+4. *Der Chef fragt: „Wann ist der Bericht fertig?"* → Der Chef fragt, ___ der Bericht fertig ___.
+5. *Die Ärztin sagt zu mir: „Trinken Sie viel Wasser!"* → Die Ärztin sagt, dass ich viel Wasser trinken ___. (modal for requests!)
+6. News text recognition — what is the infinitive of **sei**? *Der Minister sagte, die Lage **sei** stabil.* →
+7. Infinitive of **habe** in *Sie erklärte, sie **habe** nichts gewusst*? →
+8. Why does the news text write *Die Zeugen sagten, sie **hätten** nichts gesehen* (Konjunktiv II) instead of *haben*? →
 ## 1. The rule in one picture
 
 ```
@@ -87,8 +93,13 @@
 2. Der Sprecher erklärte, die Firma werde im nächsten Jahr 50 neue Mitarbeiter einstellen. → *„Unsere Firma ___ …"*
 3. Anna fragte mich, ob ich ihr am Samstag beim Umzug helfen könne. → *„___ du ___?"*
 
-**4.5 Sprachbausteine-style** — 1. Der Verkäufer hat mir versprochen, er ___ sich sofort um die Reklamation kümmern. (a) wird (b) werden (c) geworden 2. Meine Nachbarin bat mich darum, dass ich während ihres Urlaubs die Blumen gießen ___. (a) muss (b) soll (c) darf 3. Laut Zeitungsbericht ___ der Unfall durch überhöhte Geschwindigkeit verursacht worden. (a) wäre (b) sei (c) wurde 4. Könnten Sie mir bitte sagen, ___ der Kurs auch in den Ferien stattfindet? (a) dass (b) wann (c) ob 5. Die Zeugen berichteten der Polizei, sie ___ gegen Mitternacht einen lauten Knall gehört. (a) habe (b) hätten (c) seien
+**4.5 Sprachbausteine-style**
 
+1. Der Verkäufer hat mir versprochen, er ___ sich sofort um die Reklamation kümmern. (a) wird (b) werden (c) geworden
+2. Meine Nachbarin bat mich darum, dass ich während ihres Urlaubs die Blumen gießen ___. (a) muss (b) soll (c) darf
+3. Laut Zeitungsbericht ___ der Unfall durch überhöhte Geschwindigkeit verursacht worden. (a) wäre (b) sei (c) wurde
+4. Könnten Sie mir bitte sagen, ___ der Kurs auch in den Ferien stattfindet? (a) dass (b) wann (c) ob
+5. Die Zeugen berichteten der Polizei, sie ___ gegen Mitternacht einen lauten Knall gehört. (a) habe (b) hätten (c) seien
 ## 5. Answer key
 
 <details>
@@ -104,7 +115,12 @@
 
 **4.4** 1 „Ruhen Sie sich bitte drei Tage aus!" 2 „Unsere Firma wird im nächsten Jahr 50 neue Mitarbeiter einstellen." 3 „Kannst du mir am Samstag beim Umzug helfen?"
 
-**4.5** 1 a 2 b 3 b 4 c 5 b
+**4.5**
+1. **a** (*wird* — unmarked V2 reported speech keeps conjugated `er wird … kümmern`)
+2. **b** (*soll* — reported request/instruction uses `sollen`)
+3. **b** (*sei* — news hearsay (`Laut Zeitungsbericht`) uses Konjunktiv I *sei … worden*)
+4. **c** (*ob* — indirect yes/no question ('whether the course takes place') → *ob*)
+5. **b** (*hätten* — plural Konjunktiv I *haben* matches indicative, so news switches to KII *hätten*)
 
 </details>
 
@@ -114,7 +130,7 @@ Write 5 sentences for a B1 letter reporting a conversation you had with customer
 
 ## 7. Cards
 
-`B1-14-01` … `B1-14-06` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-14`.
+`B1-14-01` … `B1-14-06` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-14`.
 
 ## 8. Live drill prompt
 

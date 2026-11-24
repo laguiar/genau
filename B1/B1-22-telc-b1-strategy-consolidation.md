@@ -1,6 +1,6 @@
 # B1-22 — telc Deutsch B1 consolidation: exam tactics, 40-item B1 test, full Sprachbausteine (Teil 1 & 2), Reading & Writing mock
 
-**Level:** B1 · **Time:** 3–4 sessions · **Prerequisites:** B1-01 … B1-21 · **Reference:** [shared/exam-telc-b1.md](../shared/exam-telc-b1.md)
+**Level:** B1 · **Time:** 3–4 sessions · **Prerequisites:** B1-01 … B1-21 · **Reference:** [shared/exam-telc-b1.md](../shared/exam-telc-b1.md) · **Nicos Weg B1:** [Einh. 18 *Neuanfang* & B1-Abschlusstest](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can pass a comprehensive B1 grammar test at ≥ 80 %, solve a full 20-item telc B1 Sprachbausteine section (Teil 1 & Teil 2) under time, apply the Lesen Teil 1–3 tactics, and write a 150-word 4-point exam letter in 30 minutes.
 
 ## How to use this file

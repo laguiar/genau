@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Ist das dein Auto? — Ja, das ist ___. (mine) 2. Welches Handy gefällt dir? — ___ hier. (this one, n) 3. Hast du einen Stift? — Ja, ich habe ___. (one, m) 4. Ich habe ___. (none, m) 5. ___ Auto hast du? — Einen VW. (what kind of) 6. ___ Auto nimmst du, das rote oder das blaue? (which) 7. Hat ___ angerufen? (anybody) 8. Brauchst du Äpfel? — Ja, ich brauche ___. (some, pl.)
-
+1. Ist das dein Auto? — Ja, das ist ___. (mine)
+2. Welches Handy gefällt dir? — ___ hier. (this one, n)
+3. Hast du einen Stift? — Ja, ich habe ___. (one, m)
+4. Ich habe ___. (none, m)
+5. ___ Auto hast du? — Einen VW. (what kind of)
+6. ___ Auto nimmst du, das rote oder das blaue? (which)
+7. Hat ___ angerufen? (anybody)
+8. Brauchst du Äpfel? — Ja, ich brauche ___. (some, pl.)
 ## 1. The rule in one picture
 
 ```
@@ -58,16 +64,49 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Possessive pronouns** — 1. Ist das Ihr Koffer? — Ja, das ist ___. 2. Meine Eltern wohnen in Rio. Wo wohnen ___? (yours, du) 3. Mein Handy ist kaputt. Kann ich ___ benutzen? (yours, du, n ▲) 4. Das ist nicht ihr Auto, das ist ___. (his) 5. Wir nehmen nicht euer Auto, wir nehmen ___. (ours) 6. Mit welchem Fahrrad? — Mit ___. (mine, ■ n)
+**4.1 Possessive pronouns**
 
-**4.2 einer / keiner / welche / dieser** — 1. Hast du einen Regenschirm? — Nein, ich habe ___. 2. Ist noch Kaffee da? — Ja, ich habe noch ___. (some, m ▲) 3. Brauchst du Briefmarken? — Ja, ich brauche ___. 4. Welchen Tisch möchten Sie? — ___ am Fenster. (this one, ▲) 5. Hat ___ von euch Zeit? (one of you) 6. Gibt es hier ein Café? — Ja, da vorne ist ___.
+1. Ist das Ihr Koffer? — Ja, das ist ___.
+2. Meine Eltern wohnen in Rio. Wo wohnen ___? (yours, du)
+3. Mein Handy ist kaputt. Kann ich ___ benutzen? (yours, du, n ▲)
+4. Das ist nicht ihr Auto, das ist ___. (his)
+5. Wir nehmen nicht euer Auto, wir nehmen ___. (ours)
+6. Mit welchem Fahrrad? — Mit ___. (mine, ■ n)
 
-**4.3 welch- / was für ein** — 1. ___ Sprachen sprichst du? — Deutsch und Portugiesisch. 2. ___ Sprache lernst du gerade, Deutsch oder Französisch? 3. ___ Musik hörst du gern? — Jazz. 4. ___ Film wollt ihr sehen, den neuen oder den alten? 5. ___ Auto ist das? — Ein alter Golf. 6. In ___ Stadt wohnst du? (which, ■ f)
+**4.2 einer / keiner / welche / dieser**
 
-**4.4 Indefinite** — jemand / niemand / alle / alles / etwas / nichts / einige / ein paar: 1. Ich habe ___ gehört, aber ich weiß nicht, wer es war. 2. ___ war zu Hause, ich habe dreimal geklingelt. 3. Ist ___ in Ordnung? — Ja, ___ ist gut. 4. ___ Kollegen sind schon im Urlaub, aber nicht ___. 5. Ich habe ___ Fragen. (a few) 6. Möchten Sie noch ___? — Nein danke, ___ mehr.
+1. Hast du einen Regenschirm? — Nein, ich habe ___.
+2. Ist noch Kaffee da? — Ja, ich habe noch ___. (some, m ▲)
+3. Brauchst du Briefmarken? — Ja, ich brauche ___.
+4. Welchen Tisch möchten Sie? — ___ am Fenster. (this one, ▲)
+5. Hat ___ von euch Zeit? (one of you)
+6. Gibt es hier ein Café? — Ja, da vorne ist ___.
 
-**4.5 Sprachbausteine-style** — 1. Ist das dein Schlüssel? — Nein, ___ ist zu Hause. (a) mein (b) meiner (c) meins 2. ___ Termin passt Ihnen besser, Montag oder Dienstag? (a) Welcher (b) Was für ein (c) Welchen 3. Haben Sie noch Tickets? — Ja, wir haben noch ___. (a) welche (b) eine (c) einige 4. ___ hat sich beschwert, aber ich weiß nicht wer. (a) Niemand (b) Jemand (c) Man 5. ___ Wohnung suchen Sie? — Eine ruhige mit Balkon. (a) Welche (b) Was für eine (c) Diese
+**4.3 welch- / was für ein**
 
+1. ___ Sprachen sprichst du? — Deutsch und Portugiesisch.
+2. ___ Sprache lernst du gerade, Deutsch oder Französisch?
+3. ___ Musik hörst du gern? — Jazz.
+4. ___ Film wollt ihr sehen, den neuen oder den alten?
+5. ___ Auto ist das? — Ein alter Golf.
+6. In ___ Stadt wohnst du? (which, ■ f)
+
+**4.4 Indefinite** — jemand / niemand / alle / alles / etwas / nichts / einige / ein paar:
+
+1. Ich habe ___ gehört, aber ich weiß nicht, wer es war.
+2. ___ war zu Hause, ich habe dreimal geklingelt.
+3. Ist ___ in Ordnung? — Ja, ___ ist gut.
+4. ___ Kollegen sind schon im Urlaub, aber nicht ___.
+5. Ich habe ___ Fragen. (a few)
+6. Möchten Sie noch ___? — Nein danke, ___ mehr.
+
+**4.5 Sprachbausteine-style**
+
+1. Ist das dein Schlüssel? — Nein, ___ ist zu Hause. (a) mein (b) meiner (c) meins
+2. ___ Termin passt Ihnen besser, Montag oder Dienstag? (a) Welcher (b) Was für ein (c) Welchen
+3. Haben Sie noch Tickets? — Ja, wir haben noch ___. (a) welche (b) eine (c) einige
+4. ___ hat sich beschwert, aber ich weiß nicht wer. (a) Niemand (b) Jemand (c) Man
+5. ___ Wohnung suchen Sie? — Eine ruhige mit Balkon. (a) Welche (b) Was für eine (c) Diese
 ## 5. Answer key
 
 <details>
@@ -83,7 +122,12 @@
 
 **4.4** 1 etwas 2 Niemand 3 alles / alles 4 Einige / alle 5 ein paar 6 etwas / nichts
 
-**4.5** 1 b 2 a 3 a 4 b 5 b
+**4.5**
+1. **b** (*meiner* — standalone possessive pronoun for *der Schlüssel* (● m) takes `-er`)
+2. **a** (*Welcher* — choosing from specific options (Mon/Tue) + ● m *Termin* → *Welcher*)
+3. **a** (*welche* — indefinite pronoun 'some' replacing a plural noun → *welche*)
+4. **b** (*Jemand* — 'someone' (positive, unknown person) → *Jemand*)
+5. **b** (*Was für eine* — asking 'what kind of' (a quiet one with balcony) → *Was für eine*)
 
 </details>
 
@@ -93,8 +137,8 @@ A dialogue in a shop (6 lines): *Welches …? / Was für ein …? / Dieses. / Ic
 
 ## 7. Cards
 
-`A2-17-01` … `A2-17-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-17`.
+`A2-17-01` … `A2-17-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-17`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-17: question–answer pairs where I answer with a standalone pronoun in the right case; welcher vs was für ein by meaning; PT *o meu / alguém / ninguém / qual* to translate.
+> Drill me on A2-17: question–answer pairs where I answer with a standalone pronoun in the right case; `welcher` vs `was für ein` by meaning; phrases with *mine / someone / nobody / which one* from my active contrast language(s) to translate.

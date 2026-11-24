@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Ich bin krank. ___ bleibe ich zu Hause. (therefore) 2. Es regnet. ___ gehen wir spazieren. (nevertheless) 3. Zuerst frühstücke ich, ___ dusche ich. 4. Das Hotel ist schön. ___ ist es billig. (moreover) 5. Beeil dich, ___ verpassen wir den Zug! (otherwise) 6. Rewrite with *deshalb*: Ich lerne Deutsch, weil ich in Berlin arbeite. 7. Rewrite with *trotzdem*: Ich gehe joggen, obwohl es kalt ist. 8. Position 3: Ich bin müde. Ich (deshalb) gehe ins Bett. → Ich gehe ___ ins Bett.
-
+1. Ich bin krank. ___ bleibe ich zu Hause. (therefore)
+2. Es regnet. ___ gehen wir spazieren. (nevertheless)
+3. Zuerst frühstücke ich, ___ dusche ich.
+4. Das Hotel ist schön. ___ ist es billig. (moreover)
+5. Beeil dich, ___ verpassen wir den Zug! (otherwise)
+6. Rewrite with *deshalb*: Ich lerne Deutsch, weil ich in Berlin arbeite.
+7. Rewrite with *trotzdem*: Ich gehe joggen, obwohl es kalt ist.
+8. Position 3: Ich bin müde. Ich (deshalb) gehe ins Bett. → Ich gehe ___ ins Bett.
 ## 1. The rule in one picture
 
 ```
@@ -63,16 +69,45 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Which adverb?** — deshalb / trotzdem / dann / außerdem / sonst / vorher: 1. Ich habe kein Geld. ___ kann ich nicht in Urlaub fahren. 2. Das Essen war schlecht. ___ war der Service unfreundlich. 3. Nimm einen Schirm mit, ___ wirst du nass. 4. Er hat wenig geschlafen. ___ ist er gut gelaunt. 5. Wir gehen essen, ___ ins Kino. 6. Ich muss noch einkaufen, ___ kann ich nicht kochen. 7. Ruf mich bitte an, ___ komme ich nicht. 8. Ich muss ___ noch tanken. (before that)
+**4.1 Which adverb?** — deshalb / trotzdem / dann / außerdem / sonst / vorher:
 
-**4.2 Position 1 and position 3** — Write both versions: 1. Ich bin müde. (deshalb) Ich gehe früh ins Bett. 2. Es ist kalt. (trotzdem) Wir gehen schwimmen. 3. Wir essen. (danach) Wir spülen.
+1. Ich habe kein Geld. ___ kann ich nicht in Urlaub fahren.
+2. Das Essen war schlecht. ___ war der Service unfreundlich.
+3. Nimm einen Schirm mit, ___ wirst du nass.
+4. Er hat wenig geschlafen. ___ ist er gut gelaunt.
+5. Wir gehen essen, ___ ins Kino.
+6. Ich muss noch einkaufen, ___ kann ich nicht kochen.
+7. Ruf mich bitte an, ___ komme ich nicht.
+8. Ich muss ___ noch tanken. (before that)
 
-**4.3 Three ways** — Rewrite each sentence in the two other forms: 1. Ich bleibe zu Hause, weil ich krank bin. (→ denn, → deshalb) 2. Wir fahren ans Meer, obwohl es regnet. (→ aber, → trotzdem) 3. Er lernt viel. Deshalb besteht er die Prüfung. (→ weil, → denn) 4. Sie ist müde, aber sie arbeitet weiter. (→ obwohl, → trotzdem)
+**4.2 Position 1 and position 3** — Write both versions:
 
-**4.4 Reorder** — 1. deshalb / ich / nehmen / den Bus 2. trotzdem / sie / haben / gut geschlafen 3. dann / wir / gehen / nach Hause 4. außerdem / das Hotel / haben / einen Pool 5. sonst / du / verpassen / den Termin
+1. Ich bin müde. (deshalb) Ich gehe früh ins Bett.
+2. Es ist kalt. (trotzdem) Wir gehen schwimmen.
+3. Wir essen. (danach) Wir spülen.
 
-**4.5 Sprachbausteine-style** — Choose by word order: 1. Ich habe den Zug verpasst, ___ bin ich zu spät gekommen. (a) weil (b) deshalb (c) denn 2. Ich habe den Zug verpasst, ___ ich zu spät aufgestanden bin. (a) deshalb (b) denn (c) weil 3. Das Restaurant war teuer, ___ das Essen war sehr gut. (a) trotzdem (b) obwohl (c) aber 4. Der Kurs war schwer, ___ habe ich viel gelernt. (a) trotzdem (b) obwohl (c) aber 5. Bitte antworten Sie bis Freitag, ___ verfällt die Reservierung. (a) sonst (b) dann (c) deshalb
+**4.3 Three ways** — Rewrite each sentence in the two other forms:
 
+1. Ich bleibe zu Hause, weil ich krank bin. (→ denn, → deshalb)
+2. Wir fahren ans Meer, obwohl es regnet. (→ aber, → trotzdem)
+3. Er lernt viel. Deshalb besteht er die Prüfung. (→ weil, → denn)
+4. Sie ist müde, aber sie arbeitet weiter. (→ obwohl, → trotzdem)
+
+**4.4 Reorder**
+
+1. deshalb / ich / nehmen / den Bus
+2. trotzdem / sie / haben / gut geschlafen
+3. dann / wir / gehen / nach Hause
+4. außerdem / das Hotel / haben / einen Pool
+5. sonst / du / verpassen / den Termin
+
+**4.5 Sprachbausteine-style** — Choose by word order:
+
+1. Ich habe den Zug verpasst, ___ bin ich zu spät gekommen. (a) weil (b) deshalb (c) denn
+2. Ich habe den Zug verpasst, ___ ich zu spät aufgestanden bin. (a) deshalb (b) denn (c) weil
+3. Das Restaurant war teuer, ___ das Essen war sehr gut. (a) trotzdem (b) obwohl (c) aber
+4. Der Kurs war schwer, ___ habe ich viel gelernt. (a) trotzdem (b) obwohl (c) aber
+5. Bitte antworten Sie bis Freitag, ___ verfällt die Reservierung. (a) sonst (b) dann (c) deshalb
 ## 5. Answer key
 
 <details>
@@ -88,7 +123,12 @@
 
 **4.4** 1 Deshalb nehme ich den Bus. 2 Trotzdem hat sie gut geschlafen. 3 Dann gehen wir nach Hause. 4 Außerdem hat das Hotel einen Pool. 5 Sonst verpasst du den Termin.
 
-**4.5** 1 b 2 c 3 c 4 a 5 a
+**4.5**
+1. **b** (*deshalb* — verb `bin` directly follows → Pos. 1 linking adverb *deshalb*)
+2. **c** (*weil* — verb `bin` is at the end → Subjunktor *weil*)
+3. **c** (*aber* — subject `das Essen` follows before verb `war` → Pos. 0 Konjunktor *aber*)
+4. **a** (*trotzdem* — verb `habe` directly follows → Pos. 1 concessive adverb *trotzdem*)
+5. **a** (*sonst* — 'otherwise' + V2 inversion → *sonst verfällt…*)
 
 </details>
 
@@ -98,7 +138,7 @@ A complaint e-mail fragment: what went wrong (2 sentences), *deshalb* + what you
 
 ## 7. Cards
 
-`A2-16-01` … `A2-16-06` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-16`.
+`A2-16-01` … `A2-16-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-16`.
 
 ## 8. Live drill prompt
 

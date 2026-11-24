@@ -5,8 +5,14 @@
 
 ## 0. Diagnostic (3 min)
 
-1. ich (sein) ___ müde. 2. du (haben) ___ Zeit? 3. ihr (sein) ___ hier. 4. du (sprechen) ___ Deutsch. 5. er (fahren) ___ nach Berlin. 6. sie (she) (nehmen) ___ den Bus. 7. du (lesen) ___ viel. 8. wir (essen) ___ Pizza.
-
+1. ich (sein) ___ müde.
+2. du (haben) ___ Zeit?
+3. ihr (sein) ___ hier.
+4. du (sprechen) ___ Deutsch.
+5. er (fahren) ___ nach Berlin.
+6. sie (she) (nehmen) ___ den Bus.
+7. du (lesen) ___ viel.
+8. wir (essen) ___ Pizza.
 ## 1. The rule in one picture
 
 ```
@@ -58,15 +64,43 @@ The s-merge from A1-02 applies: *du isst, du liest* (no extra s). Stems in -t no
 
 > Nico spricht gut Deutsch. Er liest jeden Morgen die Zeitung und fährt dann mit dem Bus zur Arbeit. Seine Schwester schläft lange. Sie nimmt das Auto. Was isst du zum Frühstück? Ich esse Brot und trinke Kaffee.
 
-**4.2 sein or haben** — 1. Ich ___ Hunger. 2. Wir ___ müde. 3. ___ du Zeit? 4. Ihr ___ zu spät. 5. Sie (formal) ___ sehr freundlich. 6. Er ___ 30 Jahre alt. 7. ___ ihr ein Auto? 8. Es ___ kalt. 9. Ich ___ Lehrer. 10. Sie (they) ___ kein Geld.
+**4.2 sein or haben**
 
-**4.3 Fill in the irregular form** — 1. du (essen) ___ 2. er (schlafen) ___ 3. du (lesen) ___ 4. sie (she) (nehmen) ___ 5. du (fahren) ___ 6. er (helfen) ___ 7. du (sehen) ___ 8. es (geben) ___ 9. er (laufen) ___ 10. du (halten) ___ 11. er (wissen) ___ 12. du (werden) ___
+1. Ich ___ Hunger.
+2. Wir ___ müde.
+3. ___ du Zeit?
+4. Ihr ___ zu spät.
+5. Sie (formal) ___ sehr freundlich.
+6. Er ___ 30 Jahre alt.
+7. ___ ihr ein Auto?
+8. Es ___ kalt.
+9. Ich ___ Lehrer.
+10. Sie (they) ___ kein Geld.
+
+**4.3 Fill in the irregular form**
+
+1. du (essen) ___
+2. er (schlafen) ___
+3. du (lesen) ___
+4. sie (she) (nehmen) ___
+5. du (fahren) ___
+6. er (helfen) ___
+7. du (sehen) ___
+8. es (geben) ___
+9. er (laufen) ___
+10. du (halten) ___
+11. er (wissen) ___
+12. du (werden) ___
 
 **4.4 Transform** — Change *ich → du → er*:
-1. Ich spreche Portugiesisch. 2. Ich fahre nach Hamburg. 3. Ich esse gern Fisch. 4. Ich lese ein Buch. 5. Ich nehme den Zug. 6. Ich bin Student und habe wenig Geld.
+1. Ich spreche Portugiesisch.
+2. Ich fahre nach Hamburg.
+3. Ich esse gern Fisch.
+4. Ich lese ein Buch.
+5. Ich nehme den Zug.
+6. Ich bin Student und habe wenig Geld.
 
 **4.5 Produce** — One sentence each: *er + sehen*, *du + tragen*, *sie (she) + vergessen*, *Sie + sein*, *ihr + haben*.
-
 ## 5. Answer key
 
 <details>
@@ -98,8 +132,8 @@ Describe a friend's morning in 5 sentences using at least four vowel-changing ve
 
 ## 7. Cards
 
-`A1-03-01` … `A1-03-10` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-03`.
+`A1-03-01` … `A1-03-10` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-03`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-03: rapid-fire du/er forms of vowel-changing verbs mixed with regular ones (so I must decide whether the vowel changes), then sein/haben gaps where Portuguese ser/estar/ter would mislead.
+> Drill me on A1-03: rapid-fire du/er forms of vowel-changing verbs mixed with regular ones (so I must decide whether the vowel changes), then sein/haben gaps where my active contrast language(s) would mislead.

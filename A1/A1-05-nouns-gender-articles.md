@@ -7,8 +7,14 @@
 
 Article (der/die/das) or "–" for no article. ≥ 7/8 → `✔`.
 
-1. ___ Zeitung 2. ___ Mädchen 3. ___ Computer 4. ___ Freundin 5. ___ Auto 6. Ich bin ___ Lehrer. 7. ___ Montag 8. ___ Wohnung
-
+1. ___ Zeitung
+2. ___ Mädchen
+3. ___ Computer
+4. ___ Freundin
+5. ___ Auto
+6. Ich bin ___ Lehrer.
+7. ___ Montag
+8. ___ Wohnung
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,56 @@ Article (der/die/das) or "–" for no article. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Guess the gender from the ending** — 1. Wohnung 2. Mädchen 3. Freiheit 4. Information 5. Universität 6. Büro 7. Lehrer 8. Studentin 9. Zentrum 10. Blume 11. Musik 12. Frühling 13. Bäckerei 14. Gebäude 15. Motor
+**4.1 Guess the gender from the ending**
 
-**4.2 der / ein / –** — 1. Das ist ___ Buch. ___ Buch ist neu. 2. Ich bin ___ Ingenieur. 3. Sie spricht ___ Spanisch. 4. ___ Kind schläft. (specific child) 5. Hast du ___ Auto? 6. Wir wohnen in ___ Schweiz. 7. Er ist ___ Brasilianer. 8. Da ist ___ Frau. ___ Frau heißt Anna. 9. Ich trinke gern ___ Tee. 10. Das sind ___ Bücher.
+1. Wohnung
+2. Mädchen
+3. Freiheit
+4. Information
+5. Universität
+6. Büro
+7. Lehrer
+8. Studentin
+9. Zentrum
+10. Blume
+11. Musik
+12. Frühling
+13. Bäckerei
+14. Gebäude
+15. Motor
 
-**4.3 Compounds** — Give the article: 1. Schlafzimmer (das Zimmer) 2. Haustür (die Tür) 3. Wohnungsschlüssel (der Schlüssel) 4. Kinderbuch (das Buch) 5. Bahnhof (der Hof) 6. Arbeitsplatz (der Platz)
+**4.2 der / ein / –**
 
-**4.4 Female forms** — 1. der Arzt → 2. der Student → 3. der Kollege → 4. der Freund → 5. der Chef → 6. der Verkäufer →
+1. Das ist ___ Buch. ___ Buch ist neu.
+2. Ich bin ___ Ingenieur.
+3. Sie spricht ___ Spanisch.
+4. ___ Kind schläft. (specific child)
+5. Hast du ___ Auto?
+6. Wir wohnen in ___ Schweiz.
+7. Er ist ___ Brasilianer.
+8. Da ist ___ Frau. ___ Frau heißt Anna.
+9. Ich trinke gern ___ Tee.
+10. Das sind ___ Bücher.
+
+**4.3 Compounds** — Give the article:
+
+1. Schlafzimmer (das Zimmer)
+2. Haustür (die Tür)
+3. Wohnungsschlüssel (der Schlüssel)
+4. Kinderbuch (das Buch)
+5. Bahnhof (der Hof)
+6. Arbeitsplatz (der Platz)
+
+**4.4 Female forms**
+
+1. der Arzt →
+2. der Student →
+3. der Kollege →
+4. der Freund →
+5. der Chef →
+6. der Verkäufer →
 
 **4.5 Produce** — Write 6 sentences *Das ist ein/eine … . Der/Die/Das … ist …* about objects in your room, with a different noun each time (two of each gender).
-
 ## 5. Answer key
 
 <details>
@@ -92,7 +138,7 @@ Make a list of 15 nouns from your daily life as 3-word units (*der Tisch, -e*), 
 
 ## 7. Cards
 
-`A1-05-01` … `A1-05-08` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-05`.
+`A1-05-01` … `A1-05-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-05`.
 
 ## 8. Live drill prompt
 

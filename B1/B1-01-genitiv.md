@@ -1,14 +1,20 @@
 # B1-01 — Genitiv ◆: articles, noun `-s/-es`, names, `wegen / trotz / während`
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-09, A2-01, A2-03 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-09, A2-01, A2-03 · **Nicos Weg B1:** [Wegen des Wetters](https://learngerman.dw.com/de/wegen-des-wetters/l-38489408) (Einh. 10), [Einh. 15 *Politik*, Lekt. 1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can recognise and form the Genitiv ◆ for possession and after `wegen, trotz, während, (an)statt`, and choose between ◆ and `von + ■` by register.
 
 ## 0. Diagnostic (3 min)
 
 ≥ 7/8 → `✔`.
 
-1. Das ist das Auto (der Chef) ___. 2. Die Wohnung (meine Schwester) ___ ist groß. 3. Das Spielzeug (das Kind) ___ liegt auf dem Boden. 4. Die Namen (die Teilnehmer) ___ stehen auf der Liste. 5. (Anna) ___ Bruder wohnt in München. 6. Wegen (der Regen) ___ bleiben wir zu Hause. 7. Trotz (die Kälte) ___ geht er joggen. 8. Während (der Urlaub) ___ habe ich viel gelesen.
-
+1. Das ist das Auto (der Chef) ___.
+2. Die Wohnung (meine Schwester) ___ ist groß.
+3. Das Spielzeug (das Kind) ___ liegt auf dem Boden.
+4. Die Namen (die Teilnehmer) ___ stehen auf der Liste.
+5. (Anna) ___ Bruder wohnt in München.
+6. Wegen (der Regen) ___ bleiben wir zu Hause.
+7. Trotz (die Kälte) ___ geht er joggen.
+8. Während (der Urlaub) ___ habe ich viel gelesen.
 ## 1. The rule in one picture
 
 ```
@@ -61,16 +67,56 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Decline in ◆** — 1. (der Vater) 2. (das Haus) 3. (die Firma) 4. (die Kinder) 5. (mein Bruder) 6. (unsere Schule) 7. (dieser Tag) 8. (ein Kollege — n-noun!) 9. (das Jahr) 10. (der Arzt)
+**4.1 Decline in ◆**
 
-**4.2 Express possession** — Join into one noun phrase: 1. das Büro / der Chef 2. die Telefonnummer / die Ärztin 3. der Preis / das Ticket 4. die Meinungen / die Experten 5. das Ergebnis / die Prüfung 6. die Öffnungszeiten / das Museum 7. das Fahrrad / Maria 8. der Anfang / der Kurs
+1. (der Vater)
+2. (das Haus)
+3. (die Firma)
+4. (die Kinder)
+5. (mein Bruder)
+6. (unsere Schule)
+7. (dieser Tag)
+8. (ein Kollege — n-noun!)
+9. (das Jahr)
+10. (der Arzt)
 
-**4.3 Prepositions with ◆ (`wegen, trotz, während, statt`)** — Fill in preposition + ◆ noun phrase: 1. (because of / der Streik) ___ fahren heute keine Busse. 2. (despite / das schlechte Wetter) ___ gehen wir wandern. 3. (during / die Besprechung) ___ bitte das Handy ausschalten. 4. (instead of / ein Geschenk) ___ wünscht er sich Geld. 5. (because of / ihre Krankheit) ___ konnte sie nicht teilnehmen. 6. (despite / die hohen Preise) ___ ist das Hotel ausgebucht. 7. (during / mein Studium) ___ habe ich in Köln gewohnt. 8. (because of / ein Unfall) ___ war die Autobahn gesperrt.
+**4.2 Express possession** — Join into one noun phrase:
 
-**4.4 Transform (`von + ■` → `◆`, or clause → preposition + ◆)** — 1. Das ist der Schlüssel von der Wohnung. → 2. Die Tasche von meinem Freund liegt hier. → 3. Weil es stark schneit (der starke Schnee), bleiben wir hier. → *Wegen …* 4. Obwohl er wenig Zeit hat (seine wenige Zeit), hilft er mir. → *Trotz …* 5. Als der Film lief (der Film), schlief er ein. → *Während …*
+1. das Büro / der Chef
+2. die Telefonnummer / die Ärztin
+3. der Preis / das Ticket
+4. die Meinungen / die Experten
+5. das Ergebnis / die Prüfung
+6. die Öffnungszeiten / das Museum
+7. das Fahrrad / Maria
+8. der Anfang / der Kurs
 
-**4.5 Sprachbausteine-style** — 1. Wegen ___ starken Regens musste das Fest abgesagt werden. (a) dem (b) des (c) der 2. Am Ende ___ Monats bekomme ich mein Gehalt. (a) des (b) dem (c) den 3. Trotz ___ hohen Kosten haben wir uns für den Kurs entschieden. (a) die (b) den (c) der 4. Während ___ Reise nach Wien haben wir viele Museen besucht. (a) unserer (b) unseres (c) unseren 5. Ich schicke Ihnen die Kopie ___ Vertrags per E-Mail. (a) dem (b) des (c) der
+**4.3 Prepositions with ◆ (`wegen, trotz, während, statt`)** — Fill in preposition + ◆ noun phrase:
 
+1. (because of / der Streik) ___ fahren heute keine Busse.
+2. (despite / das schlechte Wetter) ___ gehen wir wandern.
+3. (during / die Besprechung) ___ bitte das Handy ausschalten.
+4. (instead of / ein Geschenk) ___ wünscht er sich Geld.
+5. (because of / ihre Krankheit) ___ konnte sie nicht teilnehmen.
+6. (despite / die hohen Preise) ___ ist das Hotel ausgebucht.
+7. (during / mein Studium) ___ habe ich in Köln gewohnt.
+8. (because of / ein Unfall) ___ war die Autobahn gesperrt.
+
+**4.4 Transform (`von + ■` → `◆`, or clause → preposition + ◆)**
+
+1. Das ist der Schlüssel von der Wohnung. →
+2. Die Tasche von meinem Freund liegt hier. →
+3. Weil es stark schneit (der starke Schnee), bleiben wir hier. → *Wegen …*
+4. Obwohl er wenig Zeit hat (seine wenige Zeit), hilft er mir. → *Trotz …*
+5. Als der Film lief (der Film), schlief er ein. → *Während …*
+
+**4.5 Sprachbausteine-style**
+
+1. Wegen ___ starken Regens musste das Fest abgesagt werden. (a) dem (b) des (c) der
+2. Am Ende ___ Monats bekomme ich mein Gehalt. (a) des (b) dem (c) den
+3. Trotz ___ hohen Kosten haben wir uns für den Kurs entschieden. (a) die (b) den (c) der
+4. Während ___ Reise nach Wien haben wir viele Museen besucht. (a) unserer (b) unseres (c) unseren
+5. Ich schicke Ihnen die Kopie ___ Vertrags per E-Mail. (a) dem (b) des (c) der
 ## 5. Answer key
 
 <details>
@@ -86,7 +132,12 @@
 
 **4.4** 1 Das ist der Schlüssel der Wohnung. 2 Die Tasche meines Freundes liegt hier. 3 Wegen des starken Schnees bleiben wir hier. 4 Trotz seiner wenigen Zeit hilft er mir. 5 Während des Films schlief er ein.
 
-**4.5** 1 b 2 a 3 c 4 a 5 b
+**4.5**
+1. **b** (*des* — `wegen + ◆`; *der Regen* m → *des starken Regens*)
+2. **a** (*des* — possession ◆; *der Monat* m → *des Monats*)
+3. **c** (*der* — `trotz + ◆`; *die Kosten* pl → *der hohen Kosten*)
+4. **a** (*unserer* — `während + ◆`; *die Reise* f → *unserer Reise*)
+5. **b** (*des* — possession ◆; *der Vertrag* m → *des Vertrags*)
 
 </details>
 
@@ -96,7 +147,7 @@ Write a 4-sentence formal excuse to a course provider or employer explaining a d
 
 ## 7. Cards
 
-`B1-01-01` … `B1-01-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-01`.
+`B1-01-01` … `B1-01-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-01`.
 
 ## 8. Live drill prompt
 

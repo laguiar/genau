@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Wo ist der Schlüssel? — ___ liegt auf dem Tisch. 2. Wie findest du die Lampe? — Ich finde ___ schön. 3. In Deutschland trinkt ___ viel Bier. (one/people) 4. ___ regnet. 5. Hast du ___ gegessen? (something) 6. Nein, ich habe ___ gegessen. (nothing) 7. Ist ___ zu Hause? (anybody) 8. Das Buch? Ich habe ___ gelesen.
-
+1. Wo ist der Schlüssel? — ___ liegt auf dem Tisch.
+2. Wie findest du die Lampe? — Ich finde ___ schön.
+3. In Deutschland trinkt ___ viel Bier. (one/people)
+4. ___ regnet.
+5. Hast du ___ gegessen? (something)
+6. Nein, ich habe ___ gegessen. (nothing)
+7. Ist ___ zu Hause? (anybody)
+8. Das Buch? Ich habe ___ gelesen.
 ## 1. The rule in one picture
 
 ```
@@ -55,16 +61,47 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Replace with a pronoun (●)** — 1. Der Bus kommt. → ___ kommt. 2. Die Wohnung ist teuer. 3. Das Kind schläft. 4. Die Kinder spielen. 5. Der Computer ist kaputt. 6. Die Milch ist alt.
+**4.1 Replace with a pronoun (●)**
 
-**4.2 Replace with a pronoun (▲ / ■)** — 1. Ich kaufe den Tisch. 2. Ich lese das Buch. 3. Ich finde die Jacke schön. 4. Ich helfe der Frau. 5. Das Auto gehört dem Mann. 6. Ich sehe die Kinder.
+1. Der Bus kommt. → ___ kommt.
+2. Die Wohnung ist teuer.
+3. Das Kind schläft.
+4. Die Kinder spielen.
+5. Der Computer ist kaputt.
+6. Die Milch ist alt.
 
-**4.3 man / es / das** — 1. In der Schweiz spricht ___ vier Sprachen. 2. ___ ist meine Lehrerin. 3. ___ ist heute sehr warm. 4. Wie sagt ___ „obrigado“ auf Deutsch? 5. ___ sind meine Freunde aus Brasilien. 6. ___ gibt hier keinen Bus. 7. Hier darf ___ nicht parken. 8. ___ tut mir leid.
+**4.2 Replace with a pronoun (▲ / ■)**
 
-**4.4 etwas / nichts / alles / jemand / niemand / alle / viel** — 1. Möchtest du ___ trinken? 2. Nein danke, ich möchte ___. 3. ___ hat angerufen, aber ich weiß nicht, wer. 4. ___ ist zu Hause, die Wohnung ist leer. 5. ___ Gute zum Geburtstag! 6. ___ sind da, wir können anfangen. 7. Ich habe heute ___ gearbeitet. 8. Gibt es ___ Neues?
+1. Ich kaufe den Tisch.
+2. Ich lese das Buch.
+3. Ich finde die Jacke schön.
+4. Ich helfe der Frau.
+5. Das Auto gehört dem Mann.
+6. Ich sehe die Kinder.
+
+**4.3 man / es / das**
+
+1. In der Schweiz spricht ___ vier Sprachen.
+2. ___ ist meine Lehrerin.
+3. ___ ist heute sehr warm.
+4. Wie sagt ___ „obrigado“ auf Deutsch?
+5. ___ sind meine Freunde aus Brasilien.
+6. ___ gibt hier keinen Bus.
+7. Hier darf ___ nicht parken.
+8. ___ tut mir leid.
+
+**4.4 etwas / nichts / alles / jemand / niemand / alle / viel**
+
+1. Möchtest du ___ trinken?
+2. Nein danke, ich möchte ___.
+3. ___ hat angerufen, aber ich weiß nicht, wer.
+4. ___ ist zu Hause, die Wohnung ist leer.
+5. ___ Gute zum Geburtstag!
+6. ___ sind da, wir können anfangen.
+7. Ich habe heute ___ gearbeitet.
+8. Gibt es ___ Neues?
 
 **4.5 Produce** — 6 sentences: two with *der/die/das* as stressed pronoun answering a question, one with *man*, one weather *es*, one *etwas + adjective*, one *niemand*.
-
 ## 5. Answer key
 
 <details>
@@ -90,8 +127,8 @@ Answer 5 questions about your city with a stressed *der/die/das* pronoun (*Wie i
 
 ## 7. Cards
 
-`A1-20-01` … `A1-20-06` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-20`.
+`A1-20-01` … `A1-20-06` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-20`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-20: nouns with article to replace by pronoun in ●/▲/■; PT sentences with *a gente / se / chove / ninguém* to translate; then etwas/nichts + adjective.
+> Drill me on A1-20: nouns with article to replace by pronoun in ●/▲/■; sentences from my active contrast language(s) with impersonal subjects (*one / people / it rains / nobody*) to translate; then `etwas/nichts` + adjective.

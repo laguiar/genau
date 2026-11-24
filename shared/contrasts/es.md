@@ -50,10 +50,7 @@ Master reference for Spanish speakers (or learners who know Spanish as an L1/L2/
 
 ## 5. Spelling, sounds, and false friends
 
-- **Spelling & sounds:** Never write Spanish upside-down question/exclamation marks (`¿ ¡`) or acute accents (`á, é, í, ó, ú`) in German! German `v` is pronounced "f" (*Vater*), while `w` is pronounced "v" (*Wasser* — do not pronounce `w` like English/Spanish *gu/u*!). German `z` is sharp "ts" (*Zeit*). German `h` at the start of a word is aspirated (*Haus*), and after a vowel makes it long (*wohnen*). `ie` = long "ee" (*Liebe*); `ei` = "ai" (*mein* — like Spanish *aire*).
-- **Cognates & False friends ES ↔ DE:**
-  - Latin cognates help in Lesen: *die Information, die Universität, die Situation, die Kultur, die Familie, die Natur, das Problem, das Konzert*.
-  - False friends: *der Termin* = appointment (not *término/end*), *das Gymnasium* = academic high school (not gym = *das Fitnessstudio*), *bekommen* = receive (*recibir*, not become!), *der Chef* = boss (*el jefe*, not cook = *der Koch*), *aktuell* = current (*actual*), *eventuell* = possibly (*posiblemente*, not *eventualmente*), *sympathisch* = nice/likeable (*simpático*), *die Kaution* = deposit (*fianza*).
+- **Spelling & sounds:** Never write Spanish upside-down question/exclamation marks (`¿ ¡`) or acute accents (`á, é, í, ó, ú`) in German! German `v` is pronounced "f" (*Vater*), while `w` is pronounced "v" (*Wasser* — do not pronounce `w` like English/Spanish *gu/u*!). German `z` is sharp "ts" (*Zeit*). German `h` at the start of a word is aspirated (*Haus*), and after a vowel makes it long (*wohnen*). `ie` = long "ee" (*Liebe*); `ei` = "ai" (*mein* — like Spanish *aire*). · **Cognates & False friends ES ↔ DE:** · Latin cognates help in Lesen: *die Information, die Universität, die Situation, die Kultur, die Familie, die Natur, das Problem, das Konzert*. · False friends: *der Termin* = appointment (not *término/end*), *das Gymnasium* = academic high school (not gym = *das Fitnessstudio*), *bekommen* = receive (*recibir*, not become!), *der Chef* = boss (*el jefe*, not cook = *der Koch*), *aktuell* = current (*actual*), *eventuell* = possibly (*posiblemente*, not *eventualmente*), *sympathisch* = nice/likeable (*simpático*), *die Kaution* = deposit (*fianza*).
 
 ## 6. Grammar terminology (`Deutsch / English / Español`)
 
@@ -138,18 +135,10 @@ Like Spanish indirect objects (*Le doy el libro **al niño*** — note that Germ
 Spanish marks location vs destination with two different prepositions: ***en*** for location (*El libro está **en** la mesa / Estoy **en** el cine*) vs ***a*** for movement (*Pongo el libro **en/sobre** la mesa / Voy **al** cine*). German uses the **same** preposition (`auf, in, an, über, unter, vor, hinter, neben, zwischen`) for both and switches the **case**: **wo?** (location) → **`■` Dativ** (*auf **dem** Tisch, **im** Kino*); **wohin?** (destination) → **`▲` Akkusativ** (*auf **den** Tisch, **ins** Kino*).
 
 ### A2-03
-Spanish ***para*** and ***por*** split by meaning in German:
-- *para* (recipient / benefit / duration: *para ti, para tres días*) → **für + `▲`** (*für dich, für drei Tage*).
-- *para / a* (destination: *voy para Berlín / al médico*) → **nach / zu + `■`** (*nach Berlin, zum Arzt*).
-- *por* (through space / cause: *por el parque*) → **durch + `▲`** (*durch den Park*).
-- *sin* → **ohne + `▲`**; *con* → **mit + `■`**; *desde (origen)* → **aus / von + `■`**; *desde hace (tiempo)* → **seit + `■`**.
+Spanish ***para*** and ***por*** split by meaning in German: *para* (recipient / benefit / duration: *para ti, para tres días*) → **für + `▲`** (*für dich, für drei Tage*) · *para / a* (destination: *voy para Berlín / al médico*) → **nach / zu + `■`** (*nach Berlin, zum Arzt*) · *por* (through space / cause: *por el parque*) → **durch + `▲`** (*durch den Park*) · *sin* → **ohne + `▲`**; *con* → **mit + `■`**; *desde (origen)* → **aus / von + `■`**; *desde hace (tiempo)* → **seit + `■`**.
 
 ### A2-04
-Compare Spanish time expressions with German:
-- *Hace tres años que vivo aquí / Llevo tres años viviendo aquí* (still true!) → **`seit + ■` + Präsens** (*Ich **wohne** seit drei Jahren hier*).
-- *Vine hace tres años* (finished in the past, "ago") → **`vor + ■` + Perfekt/Präteritum** (*Ich bin **vor** drei Jahren gekommen*).
-- *Dentro de una hora* (in an hour from now) → **`in + ■`** (*in einer Stunde*).
-- *Solo* splits in two: **nur** for quantity (*solo dos → **nur** zwei*) vs **erst** for time "not until / only so far" (*solo llega a las 10 → er kommt **erst** um 10 Uhr*).
+Compare Spanish time expressions with German: *Hace tres años que vivo aquí / Llevo tres años viviendo aquí* (still true!) → **`seit + ■` + Präsens** (*Ich **wohne** seit drei Jahren hier*) · *Vine hace tres años* (finished in the past, "ago") → **`vor + ■` + Perfekt/Präteritum** (*Ich bin **vor** drei Jahren gekommen*) · *Dentro de una hora* (in an hour from now) → **`in + ■`** (*in einer Stunde*) · *Solo* splits in two: **nur** for quantity (*solo dos → **nur** zwei*) vs **erst** for time "not until / only so far" (*solo llega a las 10 → er kommt **erst** um 10 Uhr*).
 
 ### A2-05
 Because Spanish forms every compound past tense with *haber* (*he viajado, me he mudado, ha pasado, me he quedado*), your instinct will be to use `haben` for everything. Train the **`sein` reflex**: whenever there is **intransitive movement from A to B** (*gehen, fahren, fliegen, kommen, umziehen*) or a **change of state** (*aufwachen, einschlafen, wachsen, sterben, werden*) or **`sein / bleiben / passieren`**, use **`sein`** (*Me he mudado → Ich **bin** umgezogen*). Conversely, all **reflexive verbs** take **`haben`** (*Me he cambiado de ropa → Ich **habe** mich umgezogen*).
@@ -207,10 +196,7 @@ Watch two contrasts between Spanish and German articles/quantifiers:
 **Reversed double-pronoun order:** In Spanish, you always put the indirect object clitic (*me, te, le/se, nos*) before the direct object clitic (*lo, la, los, las*): ***Me lo** explicó / **Se la** regalé*. In German, whenever both objects are pronouns, the **`▲` direct pronoun (`ihn, es, sie`) comes FIRST** and the **`■` indirect pronoun (`mir, dir, ihm, ihr, uns, Ihnen`) comes SECOND**: *Er hat **es mir** erklärt / Ich habe **sie ihm** geschenkt*!
 
 ### A2-21
-In Spanish, you use *preposición + pronombre / qué / quién* for both things and people (*¿En qué piensas? — Pienso en eso / ¿En quién piensas? — Pienso en ella*). German splits **things** from **people**:
-- **Thing:** fuse **`wo(r)-`** (question) and **`da(r)-`** (pronoun): ***Woran** denkst du? — Ich denke **daran*** (never ~~an es~~!).
-- **Person:** keep **preposition + `wen / wem` or personal pronoun**: ***An wen** denkst du? — Ich denke **an sie***.
-Also note key Spanish → German preposition mismatches: *agradecer por → sich bedanken **für ▲***, *pedir algo (no prep in ES!) → bitten **um ▲***, *participar en → teilnehmen **an ■***, *depender de → abhängen **von ■***.
+In Spanish, you use *preposición + pronombre / qué / quién* for both things and people (*¿En qué piensas? — Pienso en eso / ¿En quién piensas? — Pienso en ella*). German splits **things** from **people**: Also note key Spanish → German preposition mismatches: *agradecer por → sich bedanken **für ▲***, *pedir algo (no prep in ES!) → bitten **um ▲***, *participar en → teilnehmen **an ■***, *depender de → abhängen **von ■***. **Thing:** fuse **`wo(r)-`** (question) and **`da(r)-`** (pronoun): ***Woran** denkst du? — Ich denke **daran*** (never ~~an es~~!) · **Person:** keep **preposition + `wen / wem` or personal pronoun**: ***An wen** denkst du? — Ich denke **an sie***.
 
 ### B1-01
 Spanish ***de / del / de la / de los / de las*** maps directly to the German `◆ Genitiv`: *la oficina **del** jefe → das Büro **des** Chefs*; *a causa **de la** lluvia → wegen **des** Regens*; *a pesar **del** frío → trotz **der** Kälte*; *durante **el** curso → während **des** Kurses*; *en vez **de un** regalo → statt **eines** Geschenks*. Don't forget to add **`-(e)s`** to masculine and neuter singular nouns too (*des Chef**s**, des Kind**es***).
@@ -234,16 +220,10 @@ Two key Spanish ↔ German matches in Futur I:
 2. Just as Spanish uses the *futuro simple* for **conjecture about the present** (*¿Dónde está Pedro? — **Estará** en un atasco* = "He's probably in a traffic jam right now"), German uses **`werden + (wohl) + Infinitiv`**: *Er **wird wohl** im Stau **stehen***!
 
 ### B1-06
-Spanish and German have a near-perfect structural parallel for unreal conditionals:
-- **Present unreal:** Spanish *Si **tuviera** (`imperfecto de subjuntivo`) más tiempo, **aprendería** (`condicional`) otro idioma* → German uses **Konjunktiv II in BOTH clauses**: *Wenn ich mehr Zeit **hätte**, **würde** ich noch eine Sprache **lernen***.
-- **Past unreal:** Spanish *Si me **hubieras avisado**, te **habría ayudado*** → German uses **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn du mir Bescheid **gesagt hättest**, **hätte** ich dir **geholfen*** (*Si lo hubiera sabido, habría venido → Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***).
-- **Past modal advice:** *¡Deberías haberme llamado! → Du **hättest** mich anrufen **sollen**!*
+Spanish and German have a near-perfect structural parallel for unreal conditionals: **Present unreal:** Spanish *Si **tuviera** (`imperfecto de subjuntivo`) más tiempo, **aprendería** (`condicional`) otro idioma* → German uses **Konjunktiv II in BOTH clauses**: *Wenn ich mehr Zeit **hätte**, **würde** ich noch eine Sprache **lernen*** · **Past unreal:** Spanish *Si me **hubieras avisado**, te **habría ayudado*** → German uses **`hätte / wäre + Partizip II` in BOTH clauses**: *Wenn du mir Bescheid **gesagt hättest**, **hätte** ich dir **geholfen*** (*Si lo hubiera sabido, habría venido → Wenn ich das **gewusst hätte**, **wäre** ich **gekommen***) · **Past modal advice:** *¡Deberías haberme llamado! → Du **hättest** mich anrufen **sollen**!*.
 
 ### B1-07
-**Your best Spanish anchor for the Passive:** Spanish clearly separates **ser + participio** (process/action: *La puerta **es / fue** cerrada a las 8*) from **estar + participio** (resulting state: *La puerta **está / estaba** cerrada*). Map them 1:1 to German:
-- Spanish **ser + participio** (action) = German **`werden` + Partizip II** (*Die Tür **wird / wurde** um 8 Uhr geschlossen; **ist** geschlossen **worden***).
-- Spanish **estar + participio** (state) = German **`sein` + Partizip II** (*Die Tür **ist / war** geschlossen*).
-- Spanish *pasiva refleja* with ***se*** (*Aquí no **se** fuma / **Se** reparan coches*) = German **`man`** or **`wird + Partizip II`** (*Hier raucht **man** nicht / Hier **wird** nicht geraucht*).
+**Your best Spanish anchor for the Passive:** Spanish clearly separates **ser + participio** (process/action: *La puerta **es / fue** cerrada a las 8*) from **estar + participio** (resulting state: *La puerta **está / estaba** cerrada*). Map them 1:1 to German: Spanish **ser + participio** (action) = German **`werden` + Partizip II** (*Die Tür **wird / wurde** um 8 Uhr geschlossen; **ist** geschlossen **worden***) · Spanish **estar + participio** (state) = German **`sein` + Partizip II** (*Die Tür **ist / war** geschlossen*) · Spanish *pasiva refleja* with ***se*** (*Aquí no **se** fuma / **Se** reparan coches*) = German **`man`** or **`wird + Partizip II`** (*Hier raucht **man** nicht / Hier **wird** nicht geraucht*).
 
 ### B1-08
 Spanish *para / sin / en vez de + infinitivo* (*para ahorrar, sin decir nada, en vez de quejarse*) maps directly to **`um … zu / ohne … zu / (an)statt … zu + Infinitiv`** whenever both clauses have the **same subject**! Place `um / ohne / statt` right after the comma, and `zu + Infinitiv` at the very end (*…, **um** Geld **zu sparen***). Notice also that Spanish *No tienes que / No hace falta venir* can be expressed with **`nicht brauchen + zu + Infinitiv`** (*Du **brauchst** nicht **zu kommen***).
@@ -254,13 +234,7 @@ Two big wins for Spanish speakers:
 2. Spanish **gerundio of manner/means** (*Se ahorra energía **apagando** la luz*) has no gerund equivalent in German; always translate it with **`indem + subject + verb at end`** (*Man spart Energie, **indem man** das Licht **ausschaltet***).
 
 ### B1-10
-Map the six two-part connectors to Spanish:
-- *tanto … como* → **sowohl … als auch**
-- *no solo …, sino también* → **nicht nur …, sondern auch**
-- *o (bien) … o (bien)* → **entweder … oder**
-- *ni … ni* → **weder … noch** (Trap: in Spanish, when *ni … ni* follows the verb, you must put ***no*** before the verb: ***No** tengo **ni** tiempo **ni** ganas*. In German, **never add `nicht` or `kein`** with `weder … noch`: *Ich habe **weder** Zeit **noch** Lust*!)
-- *si bien / es cierto que …, (pero)* → **zwar …, aber**
-- *cuanto más …, (tanto) más …* (*Cuanto más practico, mejor hablo*) → **je + comparative (+ V-END!), desto + comparative (+ V2!)** (*Je mehr ich **übe**, desto besser **spreche ich***).
+Map the six two-part connectors to Spanish: *tanto … como* → **sowohl … als auch** · *no solo …, sino también* → **nicht nur …, sondern auch** · *o (bien) … o (bien)* → **entweder … oder** · *ni … ni* → **weder … noch** (Trap: in Spanish, when *ni … ni* follows the verb, you must put ***no*** before the verb: ***No** tengo **ni** tiempo **ni** ganas*. In German, **never add `nicht` or `kein`** with `weder … noch`: *Ich habe **weder** Zeit **noch** Lust*!) · *si bien / es cierto que …, (pero)* → **zwar …, aber** · *cuanto más …, (tanto) más …* (*Cuanto más practico, mejor hablo*) → **je + comparative (+ V-END!), desto + comparative (+ V2!)** (*Je mehr ich **übe**, desto besser **spreche ich***).
 
 ### B1-11
 In Spanish, *porque (denn/weil)*, *por eso (deshalb)*, *aunque (obwohl)*, and *sin embargo / a pesar de eso (trotzdem)* all allow `Subject + Verb` right after them. In German, choosing the right connector in telc Sprachbausteine is a **verb-position check first**: verb at the end → Column 2 Subjunktor (`weil, da, obwohl, sodass, damit`); verb right after the gap → Column 3 Adverb (`deshalb, trotzdem, sonst`); subject + verb after the gap → Column 1 Konjunktor (`denn, aber, sondern`). Also notice that Spanish ***sino*** (after negation: *no hoy, **sino** mañana*) is the exact match of German **`sondern`** (*nicht heute, **sondern** morgen*)!
@@ -293,13 +267,7 @@ Three essential Spanish → German negation rules:
 Spanish *participio pasado* used as an adjective (*el contrato firmado, la mercancía entregada*) corresponds to German **Partizip II + adjective ending** (*der unterschrieben**e** Vertrag, die geliefert**e** Ware*), while active ongoing descriptions (*los niños que ríen / el próximo lunes / la semana siguiente*) use **Partizip I** (`Infinitiv + -d + ending`: *die lachend**en** Kinder, am kommend**en** Montag, in der folgend**en** Woche*). In B1 reading texts, remember that German puts the entire modifier **before** the noun (*el correo enviado ayer por usted → der **gestern von Ihnen geschickte** Brief*).
 
 ### B1-20
-Compare high-frequency B1 prepositions with Spanish:
-- *en un plazo de 14 días / dentro de una semana* → **innerhalb von 14 Tagen / innerhalb einer Woche (`◆`)**; *fuera del horario de apertura* → **außerhalb der Öffnungszeiten (`◆`)**.
-- *excepto yo / salvo mi hermano* → **außer mir / außer meinem Bruder (`■`)**.
-- *enfrente de la estación* → **gegenüber dem Bahnhof (`■`)**.
-- *a lo largo del río* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!).
-- *en mi opinión / según mi opinión* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!).
-- *en el campo / al campo* → **auf dem Land / aufs Land**; *en la playa / a la playa* → **am Strand / an den Strand**.
+Compare high-frequency B1 prepositions with Spanish: *en un plazo de 14 días / dentro de una semana* → **innerhalb von 14 Tagen / innerhalb einer Woche (`◆`)**; *fuera del horario de apertura* → **außerhalb der Öffnungszeiten (`◆`)** · *excepto yo / salvo mi hermano* → **außer mir / außer meinem Bruder (`■`)** · *enfrente de la estación* → **gegenüber dem Bahnhof (`■`)** · *a lo largo del río* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!) · *en mi opinión / según mi opinión* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!) · *en el campo / al campo* → **auf dem Land / aufs Land**; *en la playa / a la playa* → **am Strand / an den Strand**.
 
 ### B1-21
 Three key letter-format differences between Spanish and German:

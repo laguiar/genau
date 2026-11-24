@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Berlin ist (groß) ___ als Köln. 2. Mein Bruder ist so alt ___ ich. 3. Der Winter ist die (kalt) ___ Jahreszeit. 4. Ich fahre am (gern) ___ mit dem Zug. 5. gut → ___ → am ___ 6. Das ist ein (schnell) ___ Auto als meins. 7. viel → ___ → am ___ 8. Dieser Weg ist am (kurz) ___.
-
+1. Berlin ist (groß) ___ als Köln.
+2. Mein Bruder ist so alt ___ ich.
+3. Der Winter ist die (kalt) ___ Jahreszeit.
+4. Ich fahre am (gern) ___ mit dem Zug.
+5. gut → ___ → am ___
+6. Das ist ein (schnell) ___ Auto als meins.
+7. viel → ___ → am ___
+8. Dieser Weg ist am (kurz) ___.
 ## 1. The rule in one picture
 
 ```
@@ -63,16 +69,55 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Forms** — Comparative and superlative (am …): 1. klein 2. alt 3. teuer 4. gut 5. gern 6. groß 7. hoch 8. viel 9. dunkel 10. heiß 11. nah 12. interessant
+**4.1 Forms** — Comparative and superlative (am …):
 
-**4.2 als / wie** — 1. Mein Auto ist schneller ___ deins. 2. Ich bin genauso müde ___ du. 3. Er verdient mehr ___ ich. 4. Das Hotel ist nicht so teuer ___ das andere. 5. Lieber Tee ___ Kaffee. 6. Sie spricht besser Deutsch ___ ihr Mann.
+1. klein
+2. alt
+3. teuer
+4. gut
+5. gern
+6. groß
+7. hoch
+8. viel
+9. dunkel
+10. heiß
+11. nah
+12. interessant
 
-**4.3 Superlative** — 1. Der Mount Everest ist der (hoch) ___ Berg. 2. Im Sommer sind die Tage am (lang) ___. 3. Das ist mein (gut) ___ Freund. 4. Welche Stadt ist am (schön) ___? 5. Am (gern) ___ esse ich Pasta. 6. Die (viel) ___ Leute fahren mit dem Auto.
+**4.2 als / wie**
 
-**4.4 Before a noun** — 1. Ich brauche ein (groß, comparative) ___ Zimmer. 2. Das ist die (gut, superlative) ___ Pizza der Stadt. 3. Hast du einen (alt, comp.) ___ Bruder? 4. Wir wohnen jetzt in einer (klein, comp.) ___ Wohnung. 5. Das (schnell, sup.) ___ Auto gewinnt. 6. Mit (wenig, comp.) ___ Stress lebt man (gesund, comp.) ___.
+1. Mein Auto ist schneller ___ deins.
+2. Ich bin genauso müde ___ du.
+3. Er verdient mehr ___ ich.
+4. Das Hotel ist nicht so teuer ___ das andere.
+5. Lieber Tee ___ Kaffee.
+6. Sie spricht besser Deutsch ___ ihr Mann.
 
-**4.5 Sprachbausteine-style** — 1. Die Miete in München ist ___ als in Leipzig. (a) mehr hoch (b) höher (c) hocher 2. Ich finde das Buch genauso spannend ___ den Film. (a) als (b) wie (c) so 3. Am ___ fahre ich mit dem Fahrrad. (a) liebsten (b) lieber (c) gernsten 4. Das war der ___ Tag des Jahres. (a) heißeste (b) heißte (c) am heißesten 5. Wir suchen eine ___ Wohnung. (a) größer (b) größere (c) größte
+**4.3 Superlative**
 
+1. Der Mount Everest ist der (hoch) ___ Berg.
+2. Im Sommer sind die Tage am (lang) ___.
+3. Das ist mein (gut) ___ Freund.
+4. Welche Stadt ist am (schön) ___?
+5. Am (gern) ___ esse ich Pasta.
+6. Die (viel) ___ Leute fahren mit dem Auto.
+
+**4.4 Before a noun**
+
+1. Ich brauche ein (groß, comparative) ___ Zimmer.
+2. Das ist die (gut, superlative) ___ Pizza der Stadt.
+3. Hast du einen (alt, comp.) ___ Bruder?
+4. Wir wohnen jetzt in einer (klein, comp.) ___ Wohnung.
+5. Das (schnell, sup.) ___ Auto gewinnt.
+6. Mit (wenig, comp.) ___ Stress lebt man (gesund, comp.) ___.
+
+**4.5 Sprachbausteine-style**
+
+1. Die Miete in München ist ___ als in Leipzig. (a) mehr hoch (b) höher (c) hocher
+2. Ich finde das Buch genauso spannend ___ den Film. (a) als (b) wie (c) so
+3. Am ___ fahre ich mit dem Fahrrad. (a) liebsten (b) lieber (c) gernsten
+4. Das war der ___ Tag des Jahres. (a) heißeste (b) heißte (c) am heißesten
+5. Wir suchen eine ___ Wohnung. (a) größer (b) größere (c) größte
 ## 5. Answer key
 
 <details>
@@ -88,7 +133,12 @@
 
 **4.4** 1 größeres 2 beste 3 älteren 4 kleineren 5 schnellste 6 weniger / gesünder
 
-**4.5** 1 b 2 b 3 a 4 a 5 b
+**4.5**
+1. **b** (*höher* — irregular comparative of *hoch* drops the `c` and adds umlaut)
+2. **b** (*wie* — equality uses `(genau)so … wie`, never *als*)
+3. **a** (*liebsten* — irregular superlative of *gern*: *gern – lieber – am liebsten*)
+4. **a** (*heißeste* — stem in `-ß` adds `-est-` + weak `-e` after *der*)
+5. **b** (*größere* — attributive comparative needs adjective ending `-e` for *eine Wohnung* f)
 
 </details>
 
@@ -98,8 +148,8 @@ Compare your city with the city you live in now (or two cities you know): 6 sent
 
 ## 7. Cards
 
-`A2-10-01` … `A2-10-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-10`.
+`A2-10-01` … `A2-10-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-10`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-10: adjectives → three forms at speed (umlaut cases and irregulars), PT *mais … do que / tão … quanto* sentences to translate, then comparatives before nouns with endings.
+> Drill me on A2-10: adjectives → three forms at speed (umlaut cases and irregulars), comparison sentences (*more … than / as … as*) from my active contrast language(s) to translate, then comparatives before nouns with endings.

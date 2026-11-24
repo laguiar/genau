@@ -1,14 +1,20 @@
 # B1-20 — Prepositions III: `innerhalb, außerhalb, trotz, wegen, statt, gegenüber, entlang, außer` and place-preposition mastery
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-14, A2-02, A2-03, A2-04, B1-01 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A1-14, A2-02, A2-03, A2-04, B1-01 · **Nicos Weg B1:** [Wegen des Wetters](https://learngerman.dw.com/de/wegen-des-wetters/l-38489408) (Einh. 10), [Einh. 15 *Politik*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can use the B1 prepositions (`innerhalb, außerhalb, außer, gegenüber, entlang, zufolge, laut`) with their required cases and word positions, and choose `in / auf / an / nach / zu / bei` for any destination or location.
 
 ## 0. Diagnostic (3 min)
 
 Fill in the preposition or decline the noun in the required case. ≥ 7/8 → `✔`.
 
-1. Bitte überweisen Sie den Betrag **innerhalb** (eine Woche) ___ ___. 2. **Außerhalb** (die Sprechzeiten, pl.) ___ ___ erreichen Sie den Notdienst. 3. **Außer** (mein Bruder) ___ ___ war niemand zu Hause. 4. Die Apotheke liegt dem Bahnhof **gegenüber** — or: **gegenüber** (der Bahnhof) ___ ___. 5. Wir gehen (der Fluss) ___ ___ **entlang**. 6. Place check (Wohin? / Wo? / Woher?): *Ich gehe ___ Bank (or ___ die Bank), bin ___ der Bank und komme ___ der Bank.* 7. *Wir fahren im Sommer ___ die Küste (to the coast) und machen Urlaub ___ einer Insel.* 8. **Meiner Meinung** ___ (according to my opinion) sollte man mehr lesen.
-
+1. Bitte überweisen Sie den Betrag **innerhalb** (eine Woche) ___ ___.
+2. **Außerhalb** (die Sprechzeiten, pl.) ___ ___ erreichen Sie den Notdienst.
+3. **Außer** (mein Bruder) ___ ___ war niemand zu Hause.
+4. Die Apotheke liegt dem Bahnhof **gegenüber** — or: **gegenüber** (der Bahnhof) ___ ___.
+5. Wir gehen (der Fluss) ___ ___ **entlang**.
+6. Place check (Wohin? / Wo? / Woher?): *Ich gehe ___ Bank (or ___ die Bank), bin ___ der Bank und komme ___ der Bank.*
+7. *Wir fahren im Sommer ___ die Küste (to the coast) und machen Urlaub ___ einer Insel.*
+8. **Meiner Meinung** ___ (according to my opinion) sollte man mehr lesen.
 ## 1. The rule in one picture
 
 ```
@@ -68,9 +74,9 @@ Do not confuse them! **außerhalb** means physically or temporally "outside of" 
 - **Insel:** islands take **auf**: *Wir fliegen **auf** eine Insel; wir machen Urlaub **auf** Mallorca / **auf** Rügen.*
 - **Water & edges (`Meer, See, Strand, Küste, Fluss, Grenze, Haltestelle, Kasse, Schalter`):** always **an** (*ans Meer / am Meer, an die Küste / an der Küste, an der Haltestelle, am Schalter*).
 
-> 🇧🇷 **Portuguese contrast** — - PT *dentro de / no prazo de 14 dias* → **innerhalb von 14 Tagen** (or *innerhalb zwei**er** Wochen*). - PT *fora do horário de atendimento* → **außerhalb der Öffnungszeiten**; *exceto eu* → **außer mir** (■!). - PT *ao longo do rio* → **den Fluss entlang** (postposed!); *em frente ao banco* → **gegenüber der Bank** (no *de/von*!). - PT *no campo (interior)* → **auf dem Land**; *na praia* → **am Strand** (not *in*!).
-> 🇪🇸 **Spanish contrast** — Compare high-frequency B1 prepositions with Spanish: - *en un plazo de 14 días / dentro de una semana* → **innerhalb von 14 Tagen / innerhalb einer Woche (`◆`)**; *fuera del horario de apertura* → **außerhalb der Öffnungszeiten (`◆`)**. - *excepto yo / salvo mi hermano* → **außer mir / außer meinem Bruder (`■`)**. - *enfrente de la estación* → **gegenüber dem Bahnhof (`■`)**. - *a lo largo del río* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!). - *en mi opinión / según mi opinión* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!). - *en el campo / al campo* → **auf dem Land / aufs Land**; *en la playa / a la playa* → **am Strand / an den Strand**.
-> 🇫🇷 **French contrast** — Compare key B1 prepositions with French: - *dans un délai de 14 jours* → **innerhalb von 14 Tagen** (*innerhalb/außerhalb* + `◆`: *außerhalb der Öffnungszeiten* = outside opening hours). - *sauf moi / à part mon frère* → **außer mir / außer meinem Bruder** (`■` Dativ!). - *en face de la gare* → **gegenüber dem Bahnhof** (or *dem Bahnhof gegenüber*, `■`). - *le long du fleuve* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!). - *à mon avis / selon moi* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!). - *à la campagne* → **auf dem Land** (direction: **aufs Land**); *à la plage* → **am Strand** (direction: **an den Strand**).
+> 🇧🇷 **Portuguese contrast** — PT *dentro de / no prazo de 14 dias* → **innerhalb von 14 Tagen** (or *innerhalb zwei**er** Wochen*) · PT *fora do horário de atendimento* → **außerhalb der Öffnungszeiten**; *exceto eu* → **außer mir** (■!) · PT *ao longo do rio* → **den Fluss entlang** (postposed!); *em frente ao banco* → **gegenüber der Bank** (no *de/von*!) · PT *no campo (interior)* → **auf dem Land**; *na praia* → **am Strand** (not *in*!).
+> 🇪🇸 **Spanish contrast** — Compare high-frequency B1 prepositions with Spanish: *en un plazo de 14 días / dentro de una semana* → **innerhalb von 14 Tagen / innerhalb einer Woche (`◆`)**; *fuera del horario de apertura* → **außerhalb der Öffnungszeiten (`◆`)** · *excepto yo / salvo mi hermano* → **außer mir / außer meinem Bruder (`■`)** · *enfrente de la estación* → **gegenüber dem Bahnhof (`■`)** · *a lo largo del río* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!) · *en mi opinión / según mi opinión* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!) · *en el campo / al campo* → **auf dem Land / aufs Land**; *en la playa / a la playa* → **am Strand / an den Strand**.
+> 🇫🇷 **French contrast** — Compare key B1 prepositions with French: *dans un délai de 14 jours* → **innerhalb von 14 Tagen** (*innerhalb/außerhalb* + `◆`: *außerhalb der Öffnungszeiten* = outside opening hours) · *sauf moi / à part mon frère* → **außer mir / außer meinem Bruder** (`■` Dativ!) · *en face de la gare* → **gegenüber dem Bahnhof** (or *dem Bahnhof gegenüber*, `■`) · *le long du fleuve* → **den Fluss entlang** (`▲`, *entlang* stands **after** the noun!) · *à mon avis / selon moi* → **meiner Meinung nach** (*nach* stands **after** *Meinung*!) · *à la campagne* → **auf dem Land** (direction: **aufs Land**); *à la plage* → **am Strand** (direction: **an den Strand**).
 > 🇬🇧 **English contrast** — English *except me / besides him* matches *außer mir / außer ihm* (■). English *in the countryside* uses *in*; German uses **auf dem Land** (*im Land* means "in the country/nation").
 
 ## 3. Watch out
@@ -112,8 +118,13 @@ Do not confuse them! **außerhalb** means physically or temporally "outside of" 
 5. ___ morgen gilt der neue Fahrplan. (from … on, future/present)
 6. ___ zwei Jahren wohne ich in dieser Straße. (for/since, still true)
 
-**4.5 Sprachbausteine-style** — 1. Bitte überweisen Sie die Kursgebühr ___ von zehn Tagen auf unser Konto. (a) außerhalb (b) innerhalb (c) während 2. ___ der regulären Sprechzeiten wenden Sie sich bitte an den ärztlichen Notdienst. (a) Außer (b) Gegenüber (c) Außerhalb 3. Meiner Meinung ___ wäre es sinnvoll, den Termin auf nächste Woche zu verschieben. (a) nach (b) zufolge (c) laut 4. Wenn Sie immer den Fluss ___ gehen, kommen Sie direkt zum Museum. (a) gegenüber (b) entlang (c) durch 5. Im nächsten Urlaub möchten wir gern ein Haus ___ dem Land oder ___ Meer mieten. (a) in / im (b) auf / am (c) an / auf
+**4.5 Sprachbausteine-style**
 
+1. Bitte überweisen Sie die Kursgebühr ___ von zehn Tagen auf unser Konto. (a) außerhalb (b) innerhalb (c) während
+2. ___ der regulären Sprechzeiten wenden Sie sich bitte an den ärztlichen Notdienst. (a) Außer (b) Gegenüber (c) Außerhalb
+3. Meiner Meinung ___ wäre es sinnvoll, den Termin auf nächste Woche zu verschieben. (a) nach (b) zufolge (c) laut
+4. Wenn Sie immer den Fluss ___ gehen, kommen Sie direkt zum Museum. (a) gegenüber (b) entlang (c) durch
+5. Im nächsten Urlaub möchten wir gern ein Haus ___ dem Land oder ___ Meer mieten. (a) in / im (b) auf / am (c) an / auf
 ## 5. Answer key
 
 <details>
@@ -129,7 +140,12 @@ Do not confuse them! **außerhalb** means physically or temporally "outside of" 
 
 **4.4** 1 Wegen 2 Trotz 3 Während 4 Statt / Anstatt 5 Ab 6 Seit
 
-**4.5** 1 b 2 c 3 a 4 b 5 b
+**4.5**
+1. **b** (*innerhalb* — 'within 10 days' → *innerhalb von zehn Tagen*)
+2. **c** (*Außerhalb* — 'outside office hours' + ◆ → *Außerhalb der Sprechzeiten*)
+3. **a** (*nach* — postposed fixed phrase *Meiner Meinung nach*)
+4. **b** (*entlang* — 'along the river', postposed after ▲ *den Fluss entlang*)
+5. **b** (*auf / am* — fixed place prepositions: *auf dem Land*, *am Meer*)
 
 </details>
 
@@ -139,7 +155,7 @@ Write 5 sentences giving directions, opening hours and payment terms in a formal
 
 ## 7. Cards
 
-`B1-20-01` … `B1-20-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-20`.
+`B1-20-01` … `B1-20-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-20`.
 
 ## 8. Live drill prompt
 

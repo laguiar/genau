@@ -50,4 +50,4 @@ Templates and Redemittel: [writing-templates.md](writing-templates.md).
 
 ## Mock schedule (exam phase)
 
-Week 1–2: one Sprachbausteine set + one Lesen Teil per session. Week 3+: one full written mock per week under time (start with [mock-exam-telc-b1.md](mock-exam-telc-b1.md)), then two days of error-driven revision. Log scores in `PROGRESS.md`.
+Week 1–2: work through the 4 extra sets in [sprachbausteine-bank.md](sprachbausteine-bank.md) and the B1 texts in [reading-practice.md](reading-practice.md). Week 3+: one full written mock per week under time (start with [mock-exam-telc-b1.md](mock-exam-telc-b1.md), then [mock-exam-2-telc-b1.md](mock-exam-2-telc-b1.md)), followed by two days of error-driven revision. Log scores in `PROGRESS.md`.

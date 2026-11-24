@@ -7,8 +7,14 @@
 
 Perfekt, 3rd person singular. ≥ 7/8 → `✔`.
 
-1. bekommen 2. umziehen 3. sich anmelden 4. reparieren 5. denken 6. einschlafen 7. verlieren 8. mitbringen
-
+1. bekommen
+2. umziehen
+3. sich anmelden
+4. reparieren
+5. denken
+6. einschlafen
+7. verlieren
+8. mitbringen
 ## 1. The rule in one picture
 
 ```
@@ -57,16 +63,59 @@ Perfekt, 3rd person singular. ≥ 7/8 → `✔`.
 
 ## 4. Exercises (no peeking)
 
-**4.1 Partizip II** — 1. erzählen 2. abholen 3. organisieren 4. verlieren 5. wissen 6. stattfinden 7. sich beeilen 8. empfehlen 9. anbieten 10. entscheiden 11. informieren 12. zurückkommen 13. bringen 14. vorbereiten 15. gehören
+**4.1 Partizip II**
 
-**4.2 haben or sein** — 1. Ich ___ gestern umgezogen. 2. Wir ___ uns im Park getroffen. 3. Der Film ___ um 20 Uhr angefangen. 4. Sie ___ zwei Stunden im Wartezimmer gesessen. 5. Er ___ gestern eingeschlafen. 6. ___ du das Auto in die Garage gefahren? 7. Was ___ passiert? 8. Die Kinder ___ schnell gewachsen. 9. Ich ___ mich gut erholt. 10. Der Zug ___ pünktlich abgefahren.
+1. erzählen
+2. abholen
+3. organisieren
+4. verlieren
+5. wissen
+6. stattfinden
+7. sich beeilen
+8. empfehlen
+9. anbieten
+10. entscheiden
+11. informieren
+12. zurückkommen
+13. bringen
+14. vorbereiten
+15. gehören
 
-**4.3 Rewrite in the Perfekt** — 1. Ich bekomme eine E-Mail von meinem Chef. 2. Sie zieht nach München um. 3. Wir reservieren einen Tisch. 4. Er vergisst seinen Termin. 5. Ich melde mich für den Kurs an. 6. Das Konzert findet im Park statt. 7. Ich denke oft an dich. 8. Sie steigt in Köln um. 9. Kennst du ihn? 10. Die Firma stellt ein neues Produkt vor.
+**4.2 haben or sein**
+
+1. Ich ___ gestern umgezogen.
+2. Wir ___ uns im Park getroffen.
+3. Der Film ___ um 20 Uhr angefangen.
+4. Sie ___ zwei Stunden im Wartezimmer gesessen.
+5. Er ___ gestern eingeschlafen.
+6. ___ du das Auto in die Garage gefahren?
+7. Was ___ passiert?
+8. Die Kinder ___ schnell gewachsen.
+9. Ich ___ mich gut erholt.
+10. Der Zug ___ pünktlich abgefahren.
+
+**4.3 Rewrite in the Perfekt**
+
+1. Ich bekomme eine E-Mail von meinem Chef.
+2. Sie zieht nach München um.
+3. Wir reservieren einen Tisch.
+4. Er vergisst seinen Termin.
+5. Ich melde mich für den Kurs an.
+6. Das Konzert findet im Park statt.
+7. Ich denke oft an dich.
+8. Sie steigt in Köln um.
+9. Kennst du ihn?
+10. Die Firma stellt ein neues Produkt vor.
 
 **4.4 Text** — Put the verbs in the Perfekt: *Letzten Monat (umziehen) ich nach Hamburg. Zuerst (suchen) ich eine Wohnung im Internet und (besichtigen) fünf Wohnungen. Am Ende (sich entscheiden) ich für eine kleine Wohnung im Zentrum. Meine Freunde (helfen) mir beim Umzug. Wir (tragen) die Möbel und (aufbauen) das Bett. Danach (bestellen) wir Pizza und (feiern) bis Mitternacht.*
 
-**4.5 Sprachbausteine-style** — 1. Ich habe die Rechnung schon ___. (a) gebezahlt (b) bezahlt (c) bezahlen 2. Wann ___ ihr angekommen? (a) habt (b) seid (c) sind 3. Er hat mir das Restaurant ___. (a) empfehlt (b) geempfohlen (c) empfohlen 4. Wir haben uns lange nicht ___. (a) gesehen (b) sehen (c) gesieht 5. Das Meeting hat gestern ___. (a) stattgefunden (b) gestattfunden (c) stattfindet
+**4.5 Sprachbausteine-style**
 
+1. Ich habe die Rechnung schon ___. (a) gebezahlt (b) bezahlt (c) bezahlen
+2. Wann ___ ihr angekommen? (a) habt (b) seid (c) sind
+3. Er hat mir das Restaurant ___. (a) empfehlt (b) geempfohlen (c) empfohlen
+4. Wir haben uns lange nicht ___. (a) gesehen (b) sehen (c) gesieht
+5. Das Meeting hat gestern ___. (a) stattgefunden (b) gestattfunden (c) stattfindet
 ## 5. Answer key
 
 <details>
@@ -82,7 +131,12 @@ Perfekt, 3rd person singular. ≥ 7/8 → `✔`.
 
 **4.4** bin … umgezogen · habe … gesucht · habe … besichtigt · habe … mich … entschieden (Am Ende habe ich mich für … entschieden) · haben … geholfen · haben … getragen · haben … aufgebaut · haben … bestellt · haben … gefeiert
 
-**4.5** 1 b 2 b 3 c 4 a 5 a
+**4.5**
+1. **b** (*bezahlt* — inseparable prefix `be-` takes no *ge-*)
+2. **b** (*seid* — `ankommen` = movement/change of location → auxiliary *sein*; *ihr seid*)
+3. **c** (*empfohlen* — inseparable prefix `emp-`, irregular participle, no *ge-*)
+4. **a** (*gesehen* — strong verb *sehen → gesehen*)
+5. **a** (*stattgefunden* — separable verb `statt|finden` puts `-ge-` between prefix and stem)
 
 </details>
 
@@ -92,7 +146,7 @@ An e-mail to a friend (7 sentences) about a recent move, trip or new job: at lea
 
 ## 7. Cards
 
-`A2-05-01` … `A2-05-08` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-05`.
+`A2-05-01` … `A2-05-08` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-05`.
 
 ## 8. Live drill prompt
 

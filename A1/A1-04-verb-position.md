@@ -71,19 +71,38 @@ Build the sentence from the pieces, starting with the underlined part. ≥ 7/8 �
 ## 4. Exercises (no peeking)
 
 **4.1 Recognise** — Mark slot 1, the verb, and the subject in each sentence:
-1. Morgen fahre ich nach Hamburg. 2. Meine Eltern wohnen in Porto Alegre. 3. Am Wochenende spielen wir Tennis. 4. Wann beginnt der Kurs? 5. Trinkst du Kaffee?
+1. Morgen fahre ich nach Hamburg.
+2. Meine Eltern wohnen in Porto Alegre.
+3. Am Wochenende spielen wir Tennis.
+4. Wann beginnt der Kurs?
+5. Trinkst du Kaffee?
 
 **4.2 Reorder** — Start with the underlined element:
-1. ich / _jetzt_ / Deutsch / lernen 2. _mein Bruder_ / in Brasilien / wohnen 3. _am Abend_ / wir / Pizza / essen 4. _die Kinder_ / heute / nicht / spielen 5. _in Berlin_ / man / viel Bier / trinken 6. _um acht Uhr_ / der Film / beginnen
+1. ich / _jetzt_ / Deutsch / lernen
+2. _mein Bruder_ / in Brasilien / wohnen
+3. _am Abend_ / wir / Pizza / essen
+4. _die Kinder_ / heute / nicht / spielen
+5. _in Berlin_ / man / viel Bier / trinken
+6. _um acht Uhr_ / der Film / beginnen
 
 **4.3 Make the question** — Write the question that the underlined part answers:
-1. Ich wohne _in München_. 2. Er heißt _Paul_. 3. Wir kommen _aus Brasilien_. 4. Sie arbeitet _bei Bosch_. 5. Der Kurs beginnt _um neun Uhr_. 6. Ich bin _32 Jahre alt_. 7. Sie fahren _nach Wien_. 8. Ich lerne Deutsch, _weil ich in Deutschland arbeite_.
+1. Ich wohne _in München_.
+2. Er heißt _Paul_.
+3. Wir kommen _aus Brasilien_.
+4. Sie arbeitet _bei Bosch_.
+5. Der Kurs beginnt _um neun Uhr_.
+6. Ich bin _32 Jahre alt_.
+7. Sie fahren _nach Wien_.
+8. Ich lerne Deutsch, _weil ich in Deutschland arbeite_.
 
 **4.4 Yes/no questions** — Turn into a question:
-1. Du kommst aus Portugal. 2. Sie sprechen Englisch. (formal) 3. Ihr wohnt in Köln. 4. Das Kind schläft. 5. Er hat Zeit.
+1. Du kommst aus Portugal.
+2. Sie sprechen Englisch. (formal)
+3. Ihr wohnt in Köln.
+4. Das Kind schläft.
+5. Er hat Zeit.
 
 **4.5 Produce** — Write: two statements starting with a time expression, two W-questions with *wohin/woher*, one yes/no question to a stranger (*Sie*).
-
 ## 5. Answer key
 
 <details>
@@ -109,8 +128,8 @@ Write a 6-line dialogue at a party: three questions (one *wo/woher/wohin*, one *
 
 ## 7. Cards
 
-`A1-04-01` … `A1-04-07` in [review/cards/A1.md](../review/cards/A1.md). Queue with `python3 review/review.py add A1-04`.
+`A1-04-01` … `A1-04-07` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-04`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-04: give me scrambled sentences with a time or place to put first, then Portuguese questions to translate (watch the verb-first rule), then answers for which I must write the W-question.
+> Drill me on A1-04: give me scrambled sentences with a time or place to put first, then questions from my active contrast language(s) to translate (watch the verb-first rule), then answers for which I must write the W-question.

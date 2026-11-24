@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. ein (alt) ___ Mann 2. ein (klein) ___ Kind 3. eine (jung) ___ Frau 4. Ich habe einen (neu) ___ Job. 5. mit meinem (alt) ___ Auto 6. keine (gut) ___ Ideen 7. (frisch) ___ Brot (no article, n) 8. (gut) ___ Freunde (no article, pl.)
-
+1. ein (alt) ___ Mann
+2. ein (klein) ___ Kind
+3. eine (jung) ___ Frau
+4. Ich habe einen (neu) ___ Job.
+5. mit meinem (alt) ___ Auto
+6. keine (gut) ___ Ideen
+7. (frisch) ___ Brot (no article, n)
+8. (gut) ___ Freunde (no article, pl.)
 ## 1. The rule in one picture
 
 ```
@@ -54,16 +60,59 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Rule B, ●** — 1. ein (groß) ___ Haus 2. eine (schön) ___ Wohnung 3. ein (neu) ___ Kollege 4. kein (gut) ___ Wetter 5. mein (alt) ___ Freund 6. unsere (klein) ___ Tochter 7. ein (interessant) ___ Buch 8. keine (frisch) ___ Brötchen
+**4.1 Rule B, ●**
 
-**4.2 Rule B, ▲ and ■** — 1. Ich habe einen (neu) ___ Computer. 2. Sie sucht eine (ruhig) ___ Wohnung. 3. Er kauft ein (schnell) ___ Auto. 4. mit meiner (best) ___ Freundin 5. in einem (klein) ___ Dorf 6. mit seinen (alt) ___ Freunden 7. ohne ein (gut) ___ Wörterbuch 8. bei einer (groß) ___ Firma
+1. ein (groß) ___ Haus
+2. eine (schön) ___ Wohnung
+3. ein (neu) ___ Kollege
+4. kein (gut) ___ Wetter
+5. mein (alt) ___ Freund
+6. unsere (klein) ___ Tochter
+7. ein (interessant) ___ Buch
+8. keine (frisch) ___ Brötchen
 
-**4.3 Rule C** — 1. Ich esse gern (italienisch) ___ Essen. 2. Trinken Sie (schwarz) ___ Kaffee? 3. Wir haben (nett) ___ Nachbarn. 4. mit (frisch) ___ Obst 5. Sie hat (blau) ___ Augen. 6. (Lieb) ___ Grüße aus Berlin! 7. Ich wünsche dir (gut) ___ Besserung. 8. (Herzlich) ___ Glückwunsch!
+**4.2 Rule B, ▲ and ■**
 
-**4.4 All three rules — decide first which rule** — 1. der (rot) ___ Apfel 2. ein (rot) ___ Apfel 3. (rot) ___ Äpfel 4. mit dem (rot) ___ Apfel 5. mit einem (rot) ___ Apfel 6. mit (rot) ___ Äpfeln 7. viele (rot) ___ Äpfel 8. alle (rot) ___ Äpfel 9. Ich esse einen (rot) ___ Apfel. 10. Ich esse den (rot) ___ Apfel.
+1. Ich habe einen (neu) ___ Computer.
+2. Sie sucht eine (ruhig) ___ Wohnung.
+3. Er kauft ein (schnell) ___ Auto.
+4. mit meiner (best) ___ Freundin
+5. in einem (klein) ___ Dorf
+6. mit seinen (alt) ___ Freunden
+7. ohne ein (gut) ___ Wörterbuch
+8. bei einer (groß) ___ Firma
 
-**4.5 Sprachbausteine-style** — 1. Ich suche eine ___ Wohnung mit Balkon. (a) kleine (b) kleinen (c) kleines 2. Wir hatten einen ___ Urlaub. (a) schöner (b) schönen (c) schöne 3. Mit ___ Grüßen, Anna Müller. (a) freundliche (b) freundlichen (c) freundlichem 4. Das ist ein ___ Angebot. (a) gutes (b) gute (c) guter 5. Ich habe ___ Freunde in Berlin. (a) viele nette (b) viele netten (c) vielen netten
+**4.3 Rule C**
 
+1. Ich esse gern (italienisch) ___ Essen.
+2. Trinken Sie (schwarz) ___ Kaffee?
+3. Wir haben (nett) ___ Nachbarn.
+4. mit (frisch) ___ Obst
+5. Sie hat (blau) ___ Augen.
+6. (Lieb) ___ Grüße aus Berlin!
+7. Ich wünsche dir (gut) ___ Besserung.
+8. (Herzlich) ___ Glückwunsch!
+
+**4.4 All three rules — decide first which rule**
+
+1. der (rot) ___ Apfel
+2. ein (rot) ___ Apfel
+3. (rot) ___ Äpfel
+4. mit dem (rot) ___ Apfel
+5. mit einem (rot) ___ Apfel
+6. mit (rot) ___ Äpfeln
+7. viele (rot) ___ Äpfel
+8. alle (rot) ___ Äpfel
+9. Ich esse einen (rot) ___ Apfel.
+10. Ich esse den (rot) ___ Apfel.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich suche eine ___ Wohnung mit Balkon. (a) kleine (b) kleinen (c) kleines
+2. Wir hatten einen ___ Urlaub. (a) schöner (b) schönen (c) schöne
+3. Mit ___ Grüßen, Anna Müller. (a) freundliche (b) freundlichen (c) freundlichem
+4. Das ist ein ___ Angebot. (a) gutes (b) gute (c) guter
+5. Ich habe ___ Freunde in Berlin. (a) viele nette (b) viele netten (c) vielen netten
 ## 5. Answer key
 
 <details>
@@ -79,7 +128,12 @@
 
 **4.4** 1 rote (A) 2 roter (B) 3 rote (C) 4 roten (A) 5 roten (B) 6 roten (C) 7 rote (C) 8 roten (A) 9 roten (B) 10 roten (A)
 
-**4.5** 1 a 2 b 3 b 4 a 5 a
+**4.5**
+1. **a** (*kleine* — after `eine` (▲ f), ending is `-e`)
+2. **b** (*schönen* — after `einen` (▲ m), ending is `-en`)
+3. **b** (*freundlichen* — zero article ■ plural (`mit + ■`) takes strong ending `-en`)
+4. **a** (*gutes* — `ein` hides neuter gender, so adjective shows `-es`)
+5. **a** (*viele nette* — zero article ▲ plural takes strong `-e` on both words)
 
 </details>
 
@@ -89,7 +143,7 @@ A flat-search advert: *Ich suche eine … Wohnung mit … Balkon in einem … Vi
 
 ## 7. Cards
 
-`A2-09-01` … `A2-09-07` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-09`.
+`A2-09-01` … `A2-09-07` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-09`.
 
 ## 8. Live drill prompt
 

@@ -1,14 +1,20 @@
 # B1-09 — Subordinate clauses III: `obwohl, während, seit(dem), bis, sobald, falls, so dass, indem`
 
-**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-11, A2-12, B1-04 · **Nicos Weg B1:** [Nicos Weg B1](https://learngerman.dw.com/de/nicos-weg/c-36519718)
+**Level:** B1 · **Time:** 2 sessions · **Prerequisites:** A2-11, A2-12, B1-04 · **Nicos Weg B1:** [Einh. 6 *Paare* (*obwohl*) & Einh. 1 *Zeitpunkte*](https://learngerman.dw.com/de/nicos-weg/c-36519718)
 **Can-do:** I can connect clauses of concession, time, condition, consequence and manner with the B1 subordinating conjunctions (verb at the end).
 
 ## 0. Diagnostic (3 min)
 
 Fill in the conjunction (`obwohl, während, seitdem, bis, sobald, falls, so dass, indem`). ≥ 7/8 → `✔`.
 
-1. Er geht zur Arbeit, ___ er stark erkältet ist. (although) 2. Ich warte hier, ___ du fertig bist. (until) 3. Ruf mich bitte an, ___ du gelandet bist! (as soon as) 4. ___ wir in Köln wohnen, fahren wir oft mit dem Rad. (since) 5. Nehmen Sie einen Schirm mit, ___ es später regnet. (in case) 6. Der Bus hatte Verspätung, ___ ich den Zug verpasst habe. (so that / with the result that) 7. Man spart Energie, ___ man das Licht ausschaltet. (by -ing) 8. Norddeutschland ist flach, ___ es im Süden hohe Berge gibt. (whereas)
-
+1. Er geht zur Arbeit, ___ er stark erkältet ist. (although)
+2. Ich warte hier, ___ du fertig bist. (until)
+3. Ruf mich bitte an, ___ du gelandet bist! (as soon as)
+4. ___ wir in Köln wohnen, fahren wir oft mit dem Rad. (since)
+5. Nehmen Sie einen Schirm mit, ___ es später regnet. (in case)
+6. Der Bus hatte Verspätung, ___ ich den Zug verpasst habe. (so that / with the result that)
+7. Man spart Energie, ___ man das Licht ausschaltet. (by -ing)
+8. Norddeutschland ist flach, ___ es im Süden hohe Berge gibt. (whereas)
 ## 1. The rule in one picture
 
 ```
@@ -46,7 +52,7 @@ Fill in the conjunction (`obwohl, während, seitdem, bis, sobald, falls, so dass
 
 **Means / manner: `indem` (by doing).** Answers *Wie? Wodurch?* ("How do you achieve X? — By doing Y"): *Man kann die Umwelt schützen, **indem** man weniger Plastik **kauft**.*
 
-> 🇧🇷 **Portuguese contrast** — - *embora + subjuntivo* (*embora esteja chovendo*) → **obwohl + Indikativ** (*obwohl es regnet* — normal present/past tense, no subjunctive!). - *desde que (tempo)* → **seit(dem)**; *assim que / logo que* → **sobald**; *até que* → **bis**; *caso (venha)* → **falls** (+ Indikativ). - *fazendo / ao fazer* (gerúndio de meio: *aprende lendo*) → German has no gerund for means; use **indem + subject + verb at end** (*…, indem er liest*).
+> 🇧🇷 **Portuguese contrast** — *embora + subjuntivo* (*embora esteja chovendo*) → **obwohl + Indikativ** (*obwohl es regnet* — normal present/past tense, no subjunctive!) · *desde que (tempo)* → **seit(dem)**; *assim que / logo que* → **sobald**; *até que* → **bis**; *caso (venha)* → **falls** (+ Indikativ) · *fazendo / ao fazer* (gerúndio de meio: *aprende lendo*) → German has no gerund for means; use **indem + subject + verb at end** (*…, indem er liest*).
 > 🇪🇸 **Spanish contrast** — Two big wins for Spanish speakers: 1. In Spanish, *aunque (hipotético), hasta que (futuro), en cuanto / tan pronto como, en caso de que* require the **subjuntivo** (*Llámame en cuanto **llegues** / En caso de que **tenga** preguntas*). In German, `obwohl, bis, sobald, falls` **always take the normal Indikativ** (with the verb at the end: *Ruf mich an, sobald du **ankommst** / Falls Sie Fragen **haben***)! 2. Spanish **gerundio of manner/means** (*Se ahorra energía **apagando** la luz*) has no gerund equivalent in German; always translate it with **`indem + subject + verb at end`** (*Man spart Energie, **indem man** das Licht **ausschaltet***).
 > 🇫🇷 **French contrast** — Two great simplifications compared to French: 1. In French, *bien que (obwohl), jusqu'à ce que (bis), pour que (damit), sans que (ohne dass)* require the **subjonctif** (*bien qu'il **soit** malade*). In German, **all** of these take the normal **Indikativ** (with the verb at the end: *obwohl er krank **ist***)! 2. French **`en + participe présent`** (gérondif of manner/means: *On économise de l'énergie **en éteignant** la lumière*) translates into German as **`indem + subject + verb at end`** (*…, **indem man** das Licht **ausschaltet***).
 > 🇬🇧 **English contrast** — English uses *by + -ing* (*by pressing the button*), *since + -ing / clause*, and *until*. In German, **indem** always requires a full clause with a subject and a conjugated verb at the end: *…, **indem Sie** auf den Knopf **drücken***.
@@ -63,16 +69,49 @@ Fill in the conjunction (`obwohl, während, seitdem, bis, sobald, falls, so dass
 
 ## 4. Exercises (no peeking)
 
-**4.1 Pick the right Subjunktor (`obwohl, während, seitdem, bis, sobald, falls, so dass, indem`)** — 1. Bitte bleiben Sie sitzen, ___ der Bus ganz hält. 2. ___ sie ihr Studium beendet hat, sucht sie eine Stelle. 3. Ich gebe dir meinen Schlüssel, ___ ich heute Abend später nach Hause komme. 4. Sie hat die Prüfung bestanden, ___ sie kaum gelernt hatte. 5. Man verbessert seinen Wortschatz, ___ man viel liest. 6. Ich melde mich bei Ihnen, ___ ich eine Antwort vom Chef habe. 7. Er sprach so leise, ___ ihn niemand verstehen konnte. 8. Meine Schwester trinkt gern Kaffee, ___ ich lieber Tee trinke.
+**4.1 Pick the right Subjunktor (`obwohl, während, seitdem, bis, sobald, falls, so dass, indem`)**
 
-**4.2 Join the two sentences with the given connector** — 1. Das Wetter war sehr schlecht. Wir sind wandern gegangen. (*obwohl* — put the *obwohl*-clause first!) 2. Man drückt auf diesen grünen Knopf. Man schaltet die Maschine ein. (*indem*) 3. Es gab einen langen Stau auf der Autobahn. Ich kam eine Stunde zu spät. (*so dass*) 4. Die Aufgabe war sehr schwer. Niemand konnte sie lösen. (*so … dass*) 5. Du bist mit der Arbeit fertig. Wir können zusammen essen gehen. (*sobald*) 6. Sie haben noch weitere Fragen. Sie können mir jederzeit schreiben. (*falls*)
+1. Bitte bleiben Sie sitzen, ___ der Bus ganz hält.
+2. ___ sie ihr Studium beendet hat, sucht sie eine Stelle.
+3. Ich gebe dir meinen Schlüssel, ___ ich heute Abend später nach Hause komme.
+4. Sie hat die Prüfung bestanden, ___ sie kaum gelernt hatte.
+5. Man verbessert seinen Wortschatz, ___ man viel liest.
+6. Ich melde mich bei Ihnen, ___ ich eine Antwort vom Chef habe.
+7. Er sprach so leise, ___ ihn niemand verstehen konnte.
+8. Meine Schwester trinkt gern Kaffee, ___ ich lieber Tee trinke.
 
-**4.3 Preposition (`trotz / während / seit / bis`) or Subjunktor (`obwohl / während / seitdem / bis`)?** — 1. (Trotz / Obwohl) ___ seiner Erkältung geht er zum Training. 2. (Trotz / Obwohl) ___ er erkältet ist, geht er zum Training. 3. (Seit / Seitdem) ___ letztem Monat habe ich einen neuen Job. 4. (Seit / Seitdem) ___ ich den neuen Job habe, verdiene ich mehr. 5. Ich warte (bis / bis dass) ___ 18 Uhr. 6. Ich warte, (bis / bis zu) ___ der Zug ankommt.
+**4.2 Join the two sentences with the given connector**
 
-**4.4 `so dass` (consequence) vs `damit` (purpose)** — Fill in `so dass` or `damit`: 1. Ich erkläre es dir noch einmal, ___ du keinen Fehler machst. (purpose) 2. Der Nebel war extrem dicht, ___ der Flughafen geschlossen werden musste. (result) 3. Sie spricht sehr deutlich, ___ alle Teilnehmer sie gut verstehen können. (purpose) 4. Mein Laptop ist gestern kaputtgegangen, ___ ich die Präsentation nicht fertigmachen konnte. (result)
+1. Das Wetter war sehr schlecht. Wir sind wandern gegangen. (*obwohl* — put the *obwohl*-clause first!)
+2. Man drückt auf diesen grünen Knopf. Man schaltet die Maschine ein. (*indem*)
+3. Es gab einen langen Stau auf der Autobahn. Ich kam eine Stunde zu spät. (*so dass*)
+4. Die Aufgabe war sehr schwer. Niemand konnte sie lösen. (*so … dass*)
+5. Du bist mit der Arbeit fertig. Wir können zusammen essen gehen. (*sobald*)
+6. Sie haben noch weitere Fragen. Sie können mir jederzeit schreiben. (*falls*)
 
-**4.5 Sprachbausteine-style** — 1. Bitte informieren Sie uns sofort, ___ sich Ihre Adresse ändert. (a) falls (b) obwohl (c) indem 2. ___ die Wohnung sehr zentral liegt, ist die Miete relativ günstig. (a) Trotz (b) Obwohl (c) Während 3. Sie können Heizkosten sparen, ___ Sie die Fenster nicht dauernd gekippt lassen. (a) damit (b) sodass (c) indem 4. Ich werde im Büro warten, ___ der Techniker das Gerät repariert hat. (a) bis (b) seitdem (c) obwohl 5. ___ wir vor drei Jahren aufs Land gezogen sind, leben wir viel ruhiger. (a) Bis (b) Seitdem (c) Sobald
+**4.3 Preposition (`trotz / während / seit / bis`) or Subjunktor (`obwohl / während / seitdem / bis`)?**
 
+1. (Trotz / Obwohl) ___ seiner Erkältung geht er zum Training.
+2. (Trotz / Obwohl) ___ er erkältet ist, geht er zum Training.
+3. (Seit / Seitdem) ___ letztem Monat habe ich einen neuen Job.
+4. (Seit / Seitdem) ___ ich den neuen Job habe, verdiene ich mehr.
+5. Ich warte (bis / bis dass) ___ 18 Uhr.
+6. Ich warte, (bis / bis zu) ___ der Zug ankommt.
+
+**4.4 `so dass` (consequence) vs `damit` (purpose)** — Fill in `so dass` or `damit`:
+
+1. Ich erkläre es dir noch einmal, ___ du keinen Fehler machst. (purpose)
+2. Der Nebel war extrem dicht, ___ der Flughafen geschlossen werden musste. (result)
+3. Sie spricht sehr deutlich, ___ alle Teilnehmer sie gut verstehen können. (purpose)
+4. Mein Laptop ist gestern kaputtgegangen, ___ ich die Präsentation nicht fertigmachen konnte. (result)
+
+**4.5 Sprachbausteine-style**
+
+1. Bitte informieren Sie uns sofort, ___ sich Ihre Adresse ändert. (a) falls (b) obwohl (c) indem
+2. ___ die Wohnung sehr zentral liegt, ist die Miete relativ günstig. (a) Trotz (b) Obwohl (c) Während
+3. Sie können Heizkosten sparen, ___ Sie die Fenster nicht dauernd gekippt lassen. (a) damit (b) sodass (c) indem
+4. Ich werde im Büro warten, ___ der Techniker das Gerät repariert hat. (a) bis (b) seitdem (c) obwohl
+5. ___ wir vor drei Jahren aufs Land gezogen sind, leben wir viel ruhiger. (a) Bis (b) Seitdem (c) Sobald
 ## 5. Answer key
 
 <details>
@@ -88,7 +127,12 @@ Fill in the conjunction (`obwohl, während, seitdem, bis, sobald, falls, so dass
 
 **4.4** 1 damit 2 so dass / sodass 3 damit 4 so dass / sodass
 
-**4.5** 1 a 2 b 3 c 4 a 5 b
+**4.5**
+1. **a** (*falls* — conditional 'in case / if' → *falls*)
+2. **b** (*Obwohl* — concession before a full clause with verb (`liegt`) → *Obwohl*, not prep *Trotz*)
+3. **c** (*indem* — 'by doing X' (means/method) → *indem* + V-END)
+4. **a** (*bis* — 'until' a future endpoint → *bis*)
+5. **b** (*Seitdem* — ongoing result starting 3 years ago → *Seitdem*)
 
 </details>
 
@@ -98,8 +142,8 @@ Write 5 sentences for a semi-formal letter to a landlord or company using five d
 
 ## 7. Cards
 
-`B1-09-01` … `B1-09-07` in [review/cards/B1.md](../review/cards/B1.md). Queue with `python3 review/review.py add B1-09`.
+`B1-09-01` … `B1-09-07` in [review/cards/B1.md](../review/cards/B1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add B1-09`.
 
 ## 8. Live drill prompt
 
-> Drill me on B1-09: choosing between `obwohl / während / seitdem / bis / sobald / falls / so dass / indem`, distinguishing `trotz + ◆` vs `obwohl + V-END`, `damit` vs `so dass`, and translating PT gerunds (*economiza-se desligando*) with `indem`.
+> Drill me on B1-09: choosing between `obwohl / während / seitdem / bis / sobald / falls / so dass / indem`, distinguishing `trotz + ◆` vs `obwohl + V-END`, `damit` vs `so dass`, and translating *by doing X* constructions from my active contrast language(s) with `indem`.

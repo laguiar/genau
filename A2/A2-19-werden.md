@@ -7,8 +7,14 @@
 
 ≥ 7/8 → `✔`.
 
-1. Es ___ kalt. (is getting) 2. Mein Bruder ___ Arzt. (is going to be) 3. Ich ___ dich morgen anrufen. (will) 4. Wir ___ nächstes Jahr heiraten. (will) 5. Präteritum: Sie ___ 2015 Chefin. 6. Perfekt: Er ist alt ___. 7. Konjunktiv: Ich ___ das nicht machen. (wouldn't) 8. Recognise: *Das Haus wird renoviert.* — active or passive?
-
+1. Es ___ kalt. (is getting)
+2. Mein Bruder ___ Arzt. (is going to be)
+3. Ich ___ dich morgen anrufen. (will)
+4. Wir ___ nächstes Jahr heiraten. (will)
+5. Präteritum: Sie ___ 2015 Chefin.
+6. Perfekt: Er ist alt ___.
+7. Konjunktiv: Ich ___ das nicht machen. (wouldn't)
+8. Recognise: *Das Haus wird renoviert.* — active or passive?
 ## 1. The rule in one picture
 
 ```
@@ -50,16 +56,47 @@
 
 ## 4. Exercises (no peeking)
 
-**4.1 Conjugate werden (full verb)** — 1. Ich ___ langsam alt. 2. Du ___ bestimmt ein guter Vater. 3. Es ___ Winter. 4. Ihr ___ nass. 5. Die Tage ___ kürzer. 6. Was ___ dein Sohn? — Er ___ Mechaniker.
+**4.1 Conjugate werden (full verb)**
 
-**4.2 Präsens or werden-Futur?** — Write the natural form: 1. (morgen / ich / zum Arzt gehen) 2. (promise: ich / dir helfen) 3. (prediction: es / heute Abend / schneien) 4. (nächste Woche / wir / umziehen) 5. (intention: ich / ab jetzt / jeden Tag lernen) 6. (Wir / sehen — "we'll see")
+1. Ich ___ langsam alt.
+2. Du ___ bestimmt ein guter Vater.
+3. Es ___ Winter.
+4. Ihr ___ nass.
+5. Die Tage ___ kürzer.
+6. Was ___ dein Sohn? — Er ___ Mechaniker.
 
-**4.3 Past forms** — 1. Gestern (werden) ___ es sehr spät. 2. Sie (werden, Perfekt) ___ Lehrerin ___. 3. Meine Oma (werden) ___ letztes Jahr 90. 4. Wann (werden, Perfekt) ___ du krank ___?
+**4.2 Präsens or werden-Futur?** — Write the natural form:
 
-**4.4 Future / passive / become?** — Label each: 1. Er wird Lehrer. 2. Er wird Lehrer werden. 3. Der Brief wird geschrieben. 4. Ich werde den Brief schreiben. 5. Es wird kalt. 6. Das Fenster wird geschlossen.
+1. (morgen / ich / zum Arzt gehen)
+2. (promise: ich / dir helfen)
+3. (prediction: es / heute Abend / schneien)
+4. (nächste Woche / wir / umziehen)
+5. (intention: ich / ab jetzt / jeden Tag lernen)
+6. (Wir / sehen — "we'll see")
 
-**4.5 Sprachbausteine-style** — 1. Ich ___ mich sofort um das Problem kümmern. (a) werde (b) wurde (c) würde 2. Mein Bruder ___ nächstes Jahr 18. (a) wird (b) werde (c) werdet 3. Das Paket ___ morgen geliefert. (a) wird (b) ist (c) werden 4. Letztes Jahr ___ ich Vater. (a) wurde (b) würde (c) werde 5. Wir ___ Sie über den Termin informieren. (a) werden (b) wird (c) wurden
+**4.3 Past forms**
 
+1. Gestern (werden) ___ es sehr spät.
+2. Sie (werden, Perfekt) ___ Lehrerin ___.
+3. Meine Oma (werden) ___ letztes Jahr 90.
+4. Wann (werden, Perfekt) ___ du krank ___?
+
+**4.4 Future / passive / become?** — Label each:
+
+1. Er wird Lehrer.
+2. Er wird Lehrer werden.
+3. Der Brief wird geschrieben.
+4. Ich werde den Brief schreiben.
+5. Es wird kalt.
+6. Das Fenster wird geschlossen.
+
+**4.5 Sprachbausteine-style**
+
+1. Ich ___ mich sofort um das Problem kümmern. (a) werde (b) wurde (c) würde
+2. Mein Bruder ___ nächstes Jahr 18. (a) wird (b) werde (c) werdet
+3. Das Paket ___ morgen geliefert. (a) wird (b) ist (c) werden
+4. Letztes Jahr ___ ich Vater. (a) wurde (b) würde (c) werde
+5. Wir ___ Sie über den Termin informieren. (a) werden (b) wird (c) wurden
 ## 5. Answer key
 
 <details>
@@ -75,7 +112,12 @@
 
 **4.4** 1 become 2 future (of become) 3 passive 4 future 5 become 6 passive
 
-**4.5** 1 a 2 a 3 a 4 a 5 a
+**4.5**
+1. **a** (*werde* — Futur I promise *ich werde … kümmern*)
+2. **a** (*wird* — irregular 3rd-person singular of *werden* is *er/mein Bruder wird*)
+3. **a** (*wird* — Präsens Passiv for a future action: *wird … geliefert*)
+4. **a** (*wurde* — past change of state (*Letztes Jahr*), Präteritum of *werden*)
+5. **a** (*werden* — Futur I announcement *wir werden … informieren*)
 
 </details>
 
@@ -85,8 +127,8 @@ Plans for next year: 3 sentences with Präsens + time word, 2 promises with *wer
 
 ## 7. Cards
 
-`A2-19-01` … `A2-19-06` in [review/cards/A2.md](../review/cards/A2.md). Queue with `python3 review/review.py add A2-19`.
+`A2-19-01` … `A2-19-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-19`.
 
 ## 8. Live drill prompt
 
-> Drill me on A2-19: PT *ficar/virar/vou + infinitivo* to translate (decide Präsens vs werden), forms of werden across tenses, and sentences to label future / passive / become.
+> Drill me on A2-19: sentences from my active contrast language(s) expressing *become / get / going to + verb* to translate (decide Präsens vs `werden`), forms of `werden` across tenses, and sentences to label future / passive / become.
