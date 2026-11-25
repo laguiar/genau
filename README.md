@@ -17,6 +17,7 @@ Open **[https://laguiar.github.io/genau/](https://laguiar.github.io/genau/)** on
 - Browse all **65 lessons** (`A1`, `A2`, `B1`) and reference sheets in a clean editorial reader.
 - Toggle which **contrast languages** (`🇧🇷 BR`, `🇪🇸 ES`, `🇫🇷 FR`, `🇬🇧 EN`) appear in every lesson with one click.
 - **Track your progress** across A1–B1 automatically in your browser (with backup/restore).
+- Open **Practice** for an A2-04 diagnostic with fresh follow-up questions, timed B1 listening, paired speaking role cards, and writing revisions. [Practice guide](practice/README.md)
 - Review **interactive spaced-repetition flashcards** directly in the browser — or tap **Add to Home Screen** on your phone to use it like an app.
 - Click **"Copy for AI Tutor"** inside any lesson to practice it interactively in ChatGPT, Claude, or Gemini, or click **Print** to print cheat sheets & mock exams cleanly.
 

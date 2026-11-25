@@ -22,7 +22,7 @@ Fix or complete each letter element. ≥ 7/8 → `✔`.
 
    [Ort, Datum] (optional in e-mail)                                           Berlin, 24. November 2026
    [Anrede + COMMA!]                  Sehr geehrte Damen und Herren,  /  Sehr geehrte Frau Weber,  /  Liebe Anna,
-                                      ↓ (next line starts LOWERCASE unless it is a noun, "Ich", or "Sie"!)
+                                      ↓ (next line starts lowercase unless the word normally has a capital)
    [Einleitung: 1–2 sentences]        vielen Dank für Ihre E-Mail. Ich schreibe Ihnen, weil …
    [Leitpunkt 1]                    Zunächst möchte ich Ihnen mitteilen, dass … (Connector 1)
    [Leitpunkt 2]                    Außerdem habe ich folgendes Problem: … Deshalb … (Connector 2)
@@ -64,9 +64,9 @@ For practice, develop a point by adding a reason, detail, or example where it he
 **3. The 5-Minute Final Proofreading Checklist (do this on every letter!).**
 1. **Content check.** Make sure your response addresses each of the four points clearly.
 2. **Verb position check:** In every main clause (especially after *Deshalb, Trotzdem, Außerdem, Am Montag*, or a fronted *Weil/Wenn*-clause), is the conjugated verb in **Position 2**? In every *dass / weil / wenn / ob / obwohl / relative* clause, is the conjugated verb at the **very end**?
-3. **Register & Capitalisation check:** Every **Sie / Ihnen / Ihr-** capitalised? Every **noun** capitalised (including *das Lesen, vielen Dank, am Montag, Zeit, Recht*)? Lowercase word on the line right after the salutation comma (unless *Ich / Sie* or a noun)?
+3. **Register & capitalisation check.** Capitalise nouns and formal **Sie / Ihnen / Ihr-**. After the salutation comma, keep the usual spelling of the first word, for example *ich*, *vielen Dank*, or *Sie*.
 
-> 🇧🇷 **Portuguese contrast** — In Portuguese e-mails, the first line after *Prezado Sr. Silva,* starts with a capital letter (*Venho por meio desta…*). In German, the salutation ends with a **comma**, so the first word of the body continues the sentence and is **lowercase** (*vielen Dank… / leider muss ich…*) — unless that first word is **Ich**, **Sie**, or a noun! · In Portuguese, there is a comma after *Atenciosamente,*. In German, **Mit freundlichen Grüßen** has **no comma and no full stop**!
+> 🇧🇷 **Portuguese contrast** — In Portuguese e-mails, the first line after *Prezado Sr. Silva,* starts with a capital letter (*Venho por meio desta…*). After a German salutation comma, keep the usual spelling of the first word (*ich schreibe Ihnen …*, *vielen Dank …*, *Sie haben …*). In Portuguese, there is a comma after *Atenciosamente,*. In German, **Mit freundlichen Grüßen** has **no comma and no full stop**.
 > 🇪🇸 **Spanish contrast** — Three key letter-format differences between Spanish and German: 1. **Punctuation after the salutation:** In Spanish, you use a colon (*Estimada señora Weber:**`***) and start the next line with a **capital** letter. In German, you use a **comma** (*Sehr geehrte Frau Weber**,***) and start the first word of the body in **lowercase** (*vielen Dank… / leider muss ich…*) unless it is a noun or `Sie`! 2. **Closing formula:** Unlike Spanish *Atentamente**,*** (with a comma), German **Mit freundlichen Grüßen** has **no comma and no full stop**. 3. **Capital `Sie / Ihnen / Ihr`:** Formal pronouns and possessives (*usted / ustedes / su*) are always capitalised in German.
 > 🇫🇷 **French contrast** — Watch three strict differences between French and German formal letters: 1. **Salutation & first line:** In French, you write *Madame, Monsieur,* and start the next paragraph with a **capital** letter (*Je vous écris…*). In German, after *Sehr geehrte Damen und Herren,* the first word of the body starts **lowercase** (*ich schreibe Ihnen… / vielen Dank…*) unless it is a noun or `Sie`! 2. **Closing formula:** Instead of long French closings (*Je vous prie d'agréer…*), German uses concise **Mit freundlichen Grüßen** with **no comma** after it. 3. **Capital `Sie / Ihnen / Ihr`:** Unlike French *vous / votre* (lowercase), formal `Sie, Ihnen, Ihr-` is always capitalised.
 > 🇬🇧 **English contrast** — English capitalises every word in *Dear Mr. Smith,* and puts a comma after *Best regards,*. German writes *Sehr **g**eehrter Herr Schmidt,* (lowercase *geehrter*!) and **no comma** after *Mit freundlichen Grüßen*.
@@ -112,7 +112,7 @@ For practice, develop a point by adding a reason, detail, or example where it he
 <details>
 <summary><b>Click to reveal answer key</b></summary>
 
-**0.** 1 geehrte Damen … Herren 2 lowercase **ich** (follows the comma after the salutation; only capitalised if you prefer to treat *Ich* as a line break, wait — in German, *ich* is ALWAYS lowercase except after a full stop, so after a salutation comma it MUST be lowercase **ich**!) 3 freundlichen Grüßen 4 *Könnten **Sie** mir bitte **Ihr** Angebot zuschicken?* 5 *Ich schreibe Ihnen, weil ich Ihre Anzeige gelesen habe und …* 6 *… Leider funktioniert **er** nicht. Außerdem fehlt **darin** das Kabel.* 7 *darum … zu* 8 I. Behandeln der Leitpunkte (Content), II. Kommunikative Gestaltung (Cohesion & Register), III. Formale Richtigkeit (Grammar & Spelling).
+**0.** 1 geehrte Damen … Herren 2 lowercase **ich** (the salutation comma continues the sentence on the next line) 3 freundlichen Grüßen 4 *Könnten **Sie** mir bitte **Ihr** Angebot zuschicken?* 5 *Ich schreibe Ihnen, weil ich Ihre Anzeige gelesen habe und …* 6 *… Leider funktioniert **er** nicht. Außerdem fehlt **darin** das Kabel.* 7 *darum … zu* 8 I. Aufgabenbewältigung (Task fulfilment), II. Kommunikative Gestaltung (Cohesion & Register), III. Formale Richtigkeit (Grammar & Spelling).
 
 **4.1**
 1. *Sehr **g**eehrte Damen und Herren**,*** (lowercase *geehrte*, comma instead of `!` if next line is lowercase)

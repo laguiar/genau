@@ -81,7 +81,7 @@ jobs:
           mkdir -p dist/genau
           git archive HEAD -- README.md METHOD.md PLAN.md PROGRESS.md PROMPT.md AGENTS.md LICENSE \
             A1 A2 B1 shared review/review.py review/README.md review/schedule.md review/error-log.md \
-            review/adaptations.md review/cards review/anki \
+            review/adaptations.md review/cards review/anki practice/README.md practice/content.json practice/audio \
             writing/README.md writing/corrections/.gitkeep writing/submissions/.gitkeep |
             tar -x -C dist/genau
           python3 dist/genau/review/review.py reset --yes --clean-profile

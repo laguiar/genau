@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "ongoing-since",
+      "topic": "A2-04",
+      "label": "Ongoing duration with seit + dative"
+    },
+    {
+      "id": "past-ago",
+      "topic": "A2-04",
+      "label": "Finished event with vor + dative"
+    },
+    {
+      "id": "deadline-until",
+      "topic": "A2-04",
+      "label": "Deadlines with bis or bis zu"
+    },
+    {
+      "id": "future-in",
+      "topic": "A2-04",
+      "label": "Time until a future event with in + dative"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a2-04-diagnostic",
+      "revision": 1,
+      "title": "Temporal prepositions · A2-04",
+      "kind": "diagnostic",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-d-01",
+          "rule": "ongoing-since",
+          "prompt": "Wir wohnen ___ April in Hamburg. (since April, still there)",
+          "accepted": [
+            "seit"
+          ],
+          "hint": "Look for a starting point in the past that still applies.",
+          "explanation": "Use seit for a situation that began in the past and continues in the present.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-02",
+          "rule": "past-ago",
+          "prompt": "Ich habe ___ zwei Monaten meinen Führerschein bekommen. (two months ago)",
+          "accepted": [
+            "vor"
+          ],
+          "hint": "The event is already finished.",
+          "explanation": "Use vor + dative for how long ago a finished event happened.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-03",
+          "rule": "deadline-until",
+          "prompt": "Du musst das Formular ___ Ende des Monats abschicken. (by the end of the month)",
+          "accepted": [
+            "bis",
+            "bis zum"
+          ],
+          "hint": "The sentence names the last day when you can act.",
+          "explanation": "Both bis Ende des Monats and bis zum Ende des Monats are standard ways to express this deadline.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-04",
+          "rule": "future-in",
+          "prompt": "Der Zug kommt ___ zehn Minuten an. (ten minutes from now)",
+          "accepted": [
+            "in"
+          ],
+          "hint": "The ten minutes are still ahead of you.",
+          "explanation": "Use in + dative to say how long it will be until an event happens.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-05",
+          "rule": "ongoing-since",
+          "prompt": "Das Büro ist seit ___ (eine Woche) geschlossen. Write the whole phrase after seit.",
+          "accepted": [
+            "einer Woche"
+          ],
+          "hint": "Seit governs the dative. Woche is feminine.",
+          "explanation": "The feminine dative of eine Woche is einer Woche.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-06",
+          "rule": "past-ago",
+          "prompt": "Wir haben vor ___ (ein Jahr) geheiratet. Write the whole phrase after vor.",
+          "accepted": [
+            "einem Jahr"
+          ],
+          "hint": "Use the dative. Jahr is neuter.",
+          "explanation": "The neuter dative of ein Jahr is einem Jahr.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-07",
+          "rule": "deadline-until",
+          "prompt": "Das Büro bleibt ___ 18 Uhr geöffnet. (until 6 p.m.)",
+          "accepted": [
+            "bis"
+          ],
+          "hint": "The clock time is the endpoint.",
+          "explanation": "Before a clock time without an article, use bis 18 Uhr.",
+          "review": null
+        },
+        {
+          "id": "a2-04-d-08",
+          "rule": "future-in",
+          "prompt": "Ich rufe in ___ (eine Stunde) zurück. Write the whole phrase after in.",
+          "accepted": [
+            "einer Stunde"
+          ],
+          "hint": "A time span after future in takes the dative.",
+          "explanation": "Stunde is feminine, so eine Stunde becomes einer Stunde.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-follow-up",
+      "revision": 1,
+      "title": "Temporal prepositions · seven-day follow-up",
+      "kind": "follow-up",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-f-01",
+          "rule": "past-ago",
+          "prompt": "Mara ist ___ drei Wochen nach Köln gezogen. (three weeks ago)",
+          "accepted": [
+            "vor"
+          ],
+          "hint": "The move took place in the past.",
+          "explanation": "Vor + dative gives the elapsed time since a finished event.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-02",
+          "rule": "future-in",
+          "prompt": "Der Film beginnt ___ zwanzig Minuten. (twenty minutes from now)",
+          "accepted": [
+            "in"
+          ],
+          "hint": "The interval leads up to a future event.",
+          "explanation": "Use in + dative for the interval until a future event.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-03",
+          "rule": "ongoing-since",
+          "prompt": "Ich arbeite ___ September bei dieser Firma. (since September, still there)",
+          "accepted": [
+            "seit"
+          ],
+          "hint": "The job started in the past and continues now.",
+          "explanation": "Seit links a past starting point to an ongoing situation.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-04",
+          "rule": "deadline-until",
+          "prompt": "Die Bibliothek schließt um 16 Uhr. Du kannst sie also ___ 16 Uhr besuchen. (until)",
+          "accepted": [
+            "bis"
+          ],
+          "hint": "The given time is the endpoint.",
+          "explanation": "Use bis directly before a bare clock time.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-05",
+          "rule": "future-in",
+          "prompt": "Der Kurs beginnt in ___ (ein Monat). Write the whole phrase after in.",
+          "accepted": [
+            "einem Monat"
+          ],
+          "hint": "Use the masculine dative of ein.",
+          "explanation": "Monat is masculine, so ein Monat becomes einem Monat.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-06",
+          "rule": "ongoing-since",
+          "prompt": "Wir warten seit ___ (eine Stunde). Write the whole phrase after seit.",
+          "accepted": [
+            "einer Stunde"
+          ],
+          "hint": "Seit governs the dative. Stunde is feminine.",
+          "explanation": "Use einer Stunde in the feminine dative.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-07",
+          "rule": "deadline-until",
+          "prompt": "Sie können sich ___ Ende der Woche anmelden. (until the end of the week)",
+          "accepted": [
+            "bis",
+            "bis zum"
+          ],
+          "hint": "The end of the week is the deadline.",
+          "explanation": "Both bis Ende der Woche and bis zum Ende der Woche fit this meaning.",
+          "review": null
+        },
+        {
+          "id": "a2-04-f-08",
+          "rule": "past-ago",
+          "prompt": "Lea war vor ___ (ein Monat) in Wien. Write the whole phrase after vor.",
+          "accepted": [
+            "einem Monat"
+          ],
+          "hint": "Vor takes dative here. Monat is masculine.",
+          "explanation": "The masculine dative of ein Monat is einem Monat.",
+          "review": null
+        }
+      ],
+      "follows": "a2-04-diagnostic"
+    },
+    {
+      "id": "a2-04-review-01",
+      "revision": 1,
+      "title": "Ongoing duration with seit + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-01",
+          "rule": "ongoing-since",
+          "prompt": "Mein Bruder arbeitet ___ Mai in Dresden. (since May, still working there)",
+          "accepted": [
+            "seit"
+          ],
+          "hint": "His work started in May and continues now.",
+          "explanation": "Use seit for an ongoing situation with a past starting point.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-02",
+      "revision": 1,
+      "title": "Ongoing duration with seit + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-02",
+          "rule": "ongoing-since",
+          "prompt": "Der Aufzug ist seit ___ (ein Tag) kaputt. Write the whole phrase after seit.",
+          "accepted": [
+            "einem Tag"
+          ],
+          "hint": "Tag is masculine. Seit governs the dative.",
+          "explanation": "The masculine dative of ein Tag is einem Tag.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-03",
+      "revision": 1,
+      "title": "Finished event with vor + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-03",
+          "rule": "past-ago",
+          "prompt": "Wir sind ___ fünf Tagen angekommen. (five days ago)",
+          "accepted": [
+            "vor"
+          ],
+          "hint": "The arrival is a finished event.",
+          "explanation": "Vor + dative expresses time ago.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-04",
+      "revision": 1,
+      "title": "Finished event with vor + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-04",
+          "rule": "past-ago",
+          "prompt": "Nina ist vor ___ (eine Woche) abgereist. Write the whole phrase after vor.",
+          "accepted": [
+            "einer Woche"
+          ],
+          "hint": "Woche is feminine. Vor governs the dative here.",
+          "explanation": "The feminine dative of eine Woche is einer Woche.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-05",
+      "revision": 1,
+      "title": "Deadlines with bis or bis zu",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-05",
+          "rule": "deadline-until",
+          "prompt": "Heute können Sie ___ 21 Uhr anrufen. (until 9 p.m.)",
+          "accepted": [
+            "bis"
+          ],
+          "hint": "The time is the end of the calling period.",
+          "explanation": "Use bis without zu before the clock time.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-06",
+      "revision": 1,
+      "title": "Deadlines with bis or bis zu",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-06",
+          "rule": "deadline-until",
+          "prompt": "Bitte zahlen Sie ___ Ende des Jahres. (by the end of the year)",
+          "accepted": [
+            "bis",
+            "bis zum"
+          ],
+          "hint": "You are given a deadline.",
+          "explanation": "Both bis Ende des Jahres and bis zum Ende des Jahres are possible.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-07",
+      "revision": 1,
+      "title": "Time until a future event with in + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-07",
+          "rule": "future-in",
+          "prompt": "Der Bus fährt ___ fünf Minuten los. (five minutes from now)",
+          "accepted": [
+            "in"
+          ],
+          "hint": "Count forward from now.",
+          "explanation": "Use in + dative for a future interval.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a2-04-review-08",
+      "revision": 1,
+      "title": "Time until a future event with in + dative",
+      "kind": "rule-review",
+      "topic": "A2-04",
+      "items": [
+        {
+          "id": "a2-04-r-08",
+          "rule": "future-in",
+          "prompt": "Ich komme in ___ (eine Woche) wieder. Write the whole phrase after in.",
+          "accepted": [
+            "einer Woche"
+          ],
+          "hint": "Woche is feminine, and this time expression takes the dative.",
+          "explanation": "The feminine dative of eine Woche is einer Woche.",
+          "review": null
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "b1-listen-announcements",
+      "revision": 1,
+      "title": "Selective listening · short announcements",
+      "audio": "practice/audio/b1-announcements.mp3",
+      "seconds": 240,
+      "maxPlays": 2,
+      "items": [
+        {
+          "id": "b1-listen-01",
+          "prompt": "Der Zug nach Bonn fährt heute von Gleis sieben ab.",
+          "accepted": [
+            "true"
+          ],
+          "transcript": "Achtung an Gleis vier. Der Regionalexpress nach Bonn fährt heute wegen Bauarbeiten von Gleis sieben ab. Die Abfahrtszeit bleibt gleich.",
+          "explanation": "The announcement changes the platform from four to seven and keeps the departure time.",
+          "review": null
+        },
+        {
+          "id": "b1-listen-02",
+          "prompt": "Heute kann man in der Stadtbibliothek bis achtzehn Uhr Bücher ausleihen.",
+          "accepted": [
+            "false"
+          ],
+          "transcript": "Hier ist die Stadtbibliothek. Heute schließen wir ausnahmsweise schon um sechzehn Uhr. Bücher können Sie danach noch am Rückgabeautomaten vor dem Eingang abgeben.",
+          "explanation": "The library closes at 16:00. After that you can return books at the machine.",
+          "review": null
+        },
+        {
+          "id": "b1-listen-03",
+          "prompt": "Der neue Treffpunkt für den Lauftreff ist vor dem Schwimmbad.",
+          "accepted": [
+            "true"
+          ],
+          "transcript": "Hallo zusammen. Für unseren Lauftreff am Samstag treffen wir uns diesmal vor dem Schwimmbad. Am Rathaus ist gerade eine Baustelle. Wir starten wie immer um neun Uhr.",
+          "explanation": "The meeting point moves to the swimming pool. The start time remains nine.",
+          "review": null
+        },
+        {
+          "id": "b1-listen-04",
+          "prompt": "Die Kundin kann das Fahrrad heute abholen.",
+          "accepted": [
+            "false"
+          ],
+          "transcript": "Guten Tag, hier ist die Fahrradwerkstatt. Das Ersatzteil ist noch nicht angekommen. Ihr Fahrrad ist deshalb erst morgen ab vierzehn Uhr fertig.",
+          "explanation": "The bicycle will be ready tomorrow from 14:00.",
+          "review": null
+        },
+        {
+          "id": "b1-listen-05",
+          "prompt": "Für Kinder unter zwölf Jahren ist der Eintritt frei.",
+          "accepted": [
+            "true"
+          ],
+          "transcript": "Willkommen beim Sommerfest im Stadtpark. Erwachsene zahlen vier Euro. Kinder unter zwölf Jahren brauchen keine Eintrittskarte.",
+          "explanation": "Adults pay four euros. Children under twelve do not need a ticket.",
+          "review": null
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "b1-speaking-neighbourhood",
+      "title": "Paired speaking practice",
+      "tasks": [
+        {
+          "title": "Teil 1 · Getting to know each other",
+          "a": "Stellen Sie sich kurz vor. Erzählen Sie, wo Sie wohnen und was Sie in Ihrer Freizeit gern machen. Stellen Sie Ihrem Partner oder Ihrer Partnerin eine Anschlussfrage.",
+          "b": "Stellen Sie sich kurz vor. Erzählen Sie, wie Sie Deutsch lernen und was Sie am Wochenende gern machen. Fragen Sie nach einer Gemeinsamkeit."
+        },
+        {
+          "title": "Teil 2 · Discussing a topic",
+          "a": "Mina fährt mit dem Fahrrad zur Arbeit. Sie spart Geld, bewegt sich jeden Tag und ist in der Innenstadt oft schneller. Bei starkem Regen nimmt sie den Bus. Geben Sie Minas Meinung wieder und sprechen Sie über Ihre eigenen Erfahrungen.",
+          "b": "Jonas fährt mit der Straßenbahn zur Arbeit. Er kann unterwegs lesen und kommt auch bei schlechtem Wetter trocken an. Abends fährt die Bahn für ihn zu selten. Geben Sie Jonas' Meinung wieder und sprechen Sie über Ihre eigenen Erfahrungen."
+        },
+        {
+          "title": "Teil 3 · Planning together",
+          "a": "Organisieren Sie gemeinsam einen Nachmittag für neue Nachbarinnen und Nachbarn. Sie können nur am Samstag, haben einen Raum für 15 Personen und können Getränke mitbringen. Einigen Sie sich auf Zeit, Ort, Essen und Einladungen.",
+          "b": "Organisieren Sie gemeinsam einen Nachmittag für neue Nachbarinnen und Nachbarn. Sie können am Samstag erst ab 15 Uhr. Sie kennen etwa 20 Interessierte und können etwas zu essen mitbringen. Einigen Sie sich auf Zeit, Ort, Essen und Einladungen."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "b1-writing-community-class",
+      "title": "Writing draft and revision",
+      "situation": "Sie haben einen Abendkurs im Nachbarschaftszentrum besucht. Frau Sommer, die Kursleiterin, bittet Sie um eine kurze Rückmeldung. Schreiben Sie ihr eine E-Mail.",
+      "points": [
+        "Sagen Sie, welchen Kurs Sie besucht haben und warum.",
+        "Beschreiben Sie etwas, das Sie im Kurs gelernt haben.",
+        "Erklären Sie, was Ihnen Schwierigkeiten gemacht hat.",
+        "Machen Sie einen Vorschlag für den nächsten Kurs."
+      ]
+    }
+  ]
+}

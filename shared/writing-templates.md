@@ -22,7 +22,7 @@ Grußformel                      Mit freundlichen Grüßen          (formal)
 Name                            Vorname Nachname
 ```
 
-After `Sehr geehrte …,` the next line starts **lowercase** (it continues the sentence) unless it begins with a noun or `Sie/Ich`.
+The next line after `Sehr geehrte …,` continues the sentence. Use the word's usual spelling, for example *ich schreibe Ihnen …*, *vielen Dank …*, or *Sie haben …*.
 
 ## 2. Redemittel by function
 

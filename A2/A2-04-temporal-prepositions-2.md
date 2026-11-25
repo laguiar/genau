@@ -63,7 +63,7 @@
 - ~~Ich lerne seit zwei Jahre~~ → *seit zwei Jahre**n*** (■ plural *-n*). *seit einem Jahr, seit einer Woche, seit einem Monat*.
 - ~~Ich habe seit 2020 hier gewohnt~~ (if still) → *Ich wohne seit 2020 hier.*
 - ~~zwei Jahre vor~~ → ***vor** zwei Jahren.*
-- ~~bis zum Freitag~~ → *bis Freitag* (no article with days); *bis zum Wochenende* (article noun).
+- *bis Freitag* is the usual short form. *Bis zum Freitag* is also possible, especially when a specific Friday has been identified. Compare *bis zum Wochenende*.
 - *nach* = after, *nachher* = afterwards (adverb): *nach dem Essen* / *Wir essen, nachher gehen wir.*
 - *erst* vs *nur*: *erst* = only (time, later than expected); *nur* = only (quantity).
 
@@ -115,7 +115,7 @@
 
 1. Ich arbeite ___ fünf Jahren bei dieser Firma. (a) vor (b) seit (c) ab
 2. Die Konferenz dauert ___ 9 ___ 17 Uhr. (a) ab / bis (b) von / bis (c) seit / bis
-3. ___ Ende des Monats muss ich die Wohnung finden. (a) Bis (b) Bis zum (c) Seit
+3. ___ Ende des Monats muss ich die Wohnung finden. (a) Bis (b) Bis zum (c) Seit. Choose all forms that express the deadline.
 4. Ich melde mich ___ zwei Tagen wieder. (a) in (b) nach (c) seit
 5. ___ dem Meeting habe ich keine Zeit. (a) Während (b) Vor (c) Zwischen — (choose the one that fits "during", colloquial ■)
 ## 5. Answer key
@@ -136,7 +136,7 @@
 **4.5**
 1. **b** (*seit* — started 5 years ago and still true + Präsens → *seit ■*)
 2. **b** (*von / bis* — time span with start and end: *von 9 bis 17 Uhr*)
-3. **b** (*Bis zum* — deadline before a noun with article: *bis zu dem = bis zum Ende*)
+3. **a and b** (*Bis Ende des Monats* and *Bis zum Ende des Monats* both express the deadline.)
 4. **a** (*in* — future point 'in two days from now' → *in + ■ zwei Tagen*)
 5. **a** (*Während* — 'during' the meeting)
 

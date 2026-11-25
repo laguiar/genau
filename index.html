@@ -513,6 +513,39 @@
     font-family: var(--font-serif); font-size: 28px; font-weight: 600;
     letter-spacing: -0.02em; margin: 0;
   }
+  .sidebar-top .practice-link { margin-bottom: 10px; }
+  .practice-panel h2 {
+    font-family: var(--font-serif); font-size: 22px; line-height: 1.3;
+    margin: 20px 0 8px;
+  }
+  .practice-panel h3 { margin: 18px 0 4px; }
+  .practice-panel p { margin: 8px 0 12px; }
+  .practice-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center; }
+  .practice-panel .top-btn, .practice-link { text-decoration: none; }
+  .practice-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 255px), 1fr)); gap: 12px; margin-top: 14px; }
+  .practice-card { border: 1px solid var(--border); border-radius: 10px; padding: 14px; background: var(--bg); }
+  .practice-card h2 { margin-top: 0; }
+  .practice-card .top-btn { margin: 0 8px 6px 0; }
+  .practice-panel form { margin-bottom: 12px; }
+  .practice-panel label { display: block; margin: 10px 0; font-weight: 600; }
+  .practice-panel input[type="text"], .practice-panel textarea, .practice-panel select {
+    display: block; width: 100%; margin-top: 4px; padding: 9px 11px; font: inherit;
+    color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 7px;
+  }
+  .practice-panel [readonly] { background: var(--surface-2); }
+  .practice-panel textarea { resize: vertical; }
+  .practice-panel input:focus-visible, .practice-panel textarea:focus-visible, .practice-panel select:focus-visible {
+    outline: 2px solid var(--primary); outline-offset: 2px;
+  }
+  .practice-results { padding-left: 24px; }
+  .practice-results > li, .practice-reviews > li { margin: 0 0 12px; }
+  .practice-panel fieldset { min-width: 0; border: 1px solid var(--border); border-radius: 7px; }
+  .practice-panel fieldset label, .practice-panel .practice-check { display: inline-flex; gap: 6px; margin-right: 14px; }
+  .practice-panel audio { display: block; max-width: 100%; }
+  .practice-panel audio[hidden], .practice-status:empty { display: none; }
+  .practice-panel summary { cursor: pointer; }
+  .practice-clock { display: inline-block; font-family: var(--font-mono); font-variant-numeric: tabular-nums; margin: 8px 10px 12px 0; }
+  .practice-status { color: var(--primary); }
   .fc-tabs {
     display: flex; gap: 8px; margin-bottom: 18px;
     border-bottom: 1px solid var(--border); padding-bottom: 14px; flex-wrap: wrap;
@@ -686,12 +719,13 @@
 <div class="layout">
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-top">
+      <a class="top-btn primary practice-link" href="#practice=home" id="practiceNav">Practice</a>
       <div class="search-wrap">
         <input type="search" class="search-input" id="searchInput" placeholder="Search 65 lessons & guides…">
       </div>
       <div class="progress-mini">
         <div class="progress-mini-row">
-          <span>Course Progress</span>
+          <span>Lessons marked done or known</span>
           <strong id="progressSummary">0 / 65</strong>
         </div>
         <div class="bar-track"><div class="bar-fill" id="progressBar" style="width:0%"></div></div>
@@ -705,8 +739,8 @@
       <span><b class="sym-gen">◆</b> Gen</span>
     </div>
     <div class="sidebar-footer">
-      <button class="link-btn" id="exportProgressBtn" title="Download progress & flashcard backup">⬇ Backup</button>
-      <button class="link-btn" id="importProgressBtn" title="Restore progress from backup file">⬆ Restore</button>
+      <button class="link-btn" id="exportProgressBtn" title="Download progress, flashcards and practice backup">⬇ Backup</button>
+      <button class="link-btn" id="importProgressBtn" title="Restore progress and practice from backup file">⬆ Restore</button>
       <input type="file" id="importFileInput" accept=".json" style="display:none">
     </div>
   </aside>
@@ -720,6 +754,8 @@
 
 <div class="toast" id="toast"></div>
 
+<script src="practice/model.js"></script>
+<script src="practice/view.js"></script>
 <script>
 (() => {
   const COURSE = {
@@ -865,11 +901,14 @@
       schedule: isScheduleRow,
       collapsed: (key, value) => SIDEBAR_GROUPS.includes(key) && typeof value === "boolean"
     };
-    const fields = Object.keys(validators).filter(key => Object.hasOwn(candidate, key));
+    const fields = [...Object.keys(validators), "practice"].filter(key => Object.hasOwn(candidate, key));
     if (strict && fields.length === 0) throw new Error("Missing progress data");
     for (const key of fields) {
       const value = candidate[key];
-      if (key === "langs" || key === "theme") {
+      if (key === "practice") {
+        try { next.practice = GenauPracticeModel.normalizePractice(value); }
+        catch (err) { if (strict) throw err; }
+      } else if (key === "langs" || key === "theme") {
         if (validators[key](value)) next[key] = key === "langs" ? [...new Set(value)] : value;
         else if (strict) throw new Error(`Invalid ${key}`);
       } else if (isRecord(value)) {
@@ -890,7 +929,8 @@
       progress: {},
       schedule: {},
       theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
-      collapsed: {}
+      collapsed: {},
+      practice: GenauPracticeModel.emptyPractice()
     };
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
@@ -908,6 +948,7 @@
   let allCardsPromise = null;
   let navigationId = 0;
   let currentPath = "README.md";
+  let closePractice = () => {};
 
   // Toast helper
   let toastTimer;
@@ -979,7 +1020,7 @@
           </div>
           <ul class="nav-list">
             ${items.map(it => {
-              const active = location.hash !== "#flashcards" && currentPath === it.path;
+              const active = !location.hash.startsWith("#practice=") && location.hash !== "#flashcards" && currentPath === it.path;
               const st = g.isLesson ? (state.progress[it.id] || "☐") : "";
               return `
                 <li>
@@ -1285,7 +1326,7 @@
         html += `
           <div class="lesson-toolbar">
             <div class="status-group">
-              <span class="status-label">Status</span>
+              <span class="status-label">Study status</span>
               ${[
                 ["☐", "Not started"],
                 ["◐", "In progress"],
@@ -1296,6 +1337,7 @@
               `).join("")}
             </div>
             <div class="toolbar-actions">
+              ${lesson.id === "A2-04" ? '<a class="top-btn practice-link" href="#practice=a2-04-diagnostic">Browser diagnostic</a>' : ""}
               <button class="top-btn" id="queueLessonBtn">🃏 Queue Cards</button>
               <button class="top-btn" id="copyAiBtn">🤖 Copy for AI Tutor</button>
               <button class="top-btn" id="printDocBtn" title="Print or save as PDF">🖨 Print</button>
@@ -1784,11 +1826,46 @@ ${md}`;
   window.addEventListener("scroll", updateReadProgress, { passive: true });
 
   // Router
+  async function openPractice(page, requestId) {
+    closeMobileSidebar();
+    renderSidebar(document.getElementById("searchInput").value);
+    const container = document.getElementById("mainContainer");
+    container.textContent = "Loading practice…";
+    try {
+      const bank = GenauPracticeModel.validateCatalogue(JSON.parse(await fetchDoc("practice/content.json")));
+      if (requestId !== navigationId) return;
+      closePractice = GenauPracticeView.mount({
+        container, page, bank,
+        getPractice: () => state.practice,
+        savePractice(practice) {
+          const next = { ...state, practice };
+          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(next)); }
+          catch { return false; }
+          state = next;
+          return true;
+        }
+      });
+      window.scrollTo({ top: 0, behavior: "instant" });
+    } catch {
+      if (requestId !== navigationId) return;
+      const notice = document.createElement("div");
+      notice.className = "notice";
+      notice.textContent = "Could not load practice. Use the hosted app or reload this page.";
+      container.replaceChildren(notice);
+    }
+  }
+
   function route() {
+    closePractice();
+    closePractice = () => {};
     const requestId = ++navigationId;
     const h = location.hash || "#doc=README.md";
+    if (h.startsWith("#practice=")) document.getElementById("practiceNav").setAttribute("aria-current", "page");
+    else document.getElementById("practiceNav").removeAttribute("aria-current");
     if (h === "#flashcards") {
       openFlashcards(requestId);
+    } else if (h.startsWith("#practice=")) {
+      openPractice(h.slice("#practice=".length), requestId);
     } else if (h.startsWith("#doc=")) {
       const path = decodeURIComponent(h.slice(5));
       openDoc(path, requestId);

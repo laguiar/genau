@@ -1,0 +1,27 @@
+name: Check Practice Content
+
+on:
+  push:
+    paths:
+      - 'practice/**'
+      - 'index.html'
+      - '.github/workflows/practice.yml'
+  pull_request:
+    paths:
+      - 'practice/**'
+      - 'index.html'
+      - '.github/workflows/practice.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --check practice/view.js
+      - run: node --test practice/model.test.js
