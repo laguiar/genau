@@ -6,7 +6,7 @@ Personal file. If you fork Genau, reset it (or run `python3 review/review.py res
 
 ## Status legend
 
-`☐` not started · `◐` explanation read · `◑` exercises done · `●` done (cards in queue, 5 sentences written) · `✔` known (diagnostic ≥ 90 %, cards still queued)
+`☐` not started · `◐` explanation read · `◑` exercises done · `●` done (cards in queue, 5 sentences written) · `✔` known (at least 7/8 on the core diagnostic, cards still queued)
 
 ## A1
 
@@ -90,14 +90,14 @@ Personal file. If you fork Genau, reset it (or run `python3 review/review.py res
 
 ## Weak rules (live)
 
-Maintained by the tutor after every live session (see the adaptation rule in [AGENTS.md](AGENTS.md)). A rule enters when it produces ≥ 2 errors in one session or ≥ 3 cumulative. It leaves (`closed`) after two consecutive sessions without an error on it. Open rules are what forthcoming lessons get reworked around.
+Maintained by the tutor after every live session (see the adaptation rule in [AGENTS.md](AGENTS.md)). A rule enters when it produces ≥ 2 errors in one session or ≥ 3 cumulative. It leaves (`closed`) when the learner passes its core diagnostic and demonstrates the rule without error in two consecutive sessions. Open rules are what forthcoming lessons get reworked around.
 
 | Rule (one line) | Topic | First seen | Last seen | Errors | Status |
 |-----------------|-------|------------|-----------|-------:|--------|
 
 ## Strong rules (skip / compress)
 
-Rules with diagnostic ≥ 90 % and no errors in two sessions. Forthcoming lessons that re-enter these rules get compressed (shorter explanation, fewer exercises, higher difficulty).
+Rules whose core diagnostic was passed (at least 7/8) and that the learner demonstrated without error in two consecutive sessions. Forthcoming lessons that re-enter these rules get compressed (shorter explanation, fewer exercises, higher difficulty).
 
 | Rule | Topic | Confirmed on |
 |------|-------|--------------|

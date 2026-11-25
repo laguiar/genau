@@ -811,8 +811,8 @@
       { id: "EXAM", title: "telc Deutsch B1 Exam Guide", path: "shared/exam-telc-b1.md" },
       { id: "READ", title: "Graded Reading Practice (A1 → B1)", path: "shared/reading-practice.md" },
       { id: "SBANK", title: "Sprachbausteine Exam Drill Bank (40 items)", path: "shared/sprachbausteine-bank.md" },
-      { id: "MOCK1", title: "Full Timed Written Mock Exam 1", path: "shared/mock-exam-telc-b1.md" },
-      { id: "MOCK2", title: "Full Timed Written Mock Exam 2", path: "shared/mock-exam-2-telc-b1.md" },
+      { id: "MOCK1", title: "Timed telc B1 Practice Mock 1", path: "shared/mock-exam-telc-b1.md" },
+      { id: "MOCK2", title: "Timed telc B1 Practice Mock 2", path: "shared/mock-exam-2-telc-b1.md" },
       { id: "GLOSS", title: "Multilingual Grammar Glossary", path: "shared/glossary.md" },
       { id: "LANGS", title: "Contrast Language Packs", path: "shared/contrasts/README.md" }
     ]
@@ -835,27 +835,68 @@
     return new Date(d - tz).toISOString().slice(0, 10);
   }
 
-  function loadState() {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const s = JSON.parse(raw);
-        return {
-          langs: Array.isArray(s.langs) && s.langs.length ? s.langs : ["pt-BR", "es", "fr", "en"],
-          progress: s.progress || {},
-          schedule: s.schedule || {},
-          theme: s.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"),
-          collapsed: s.collapsed || {}
-        };
+  const LANGUAGES = ["pt-BR", "es", "fr", "en"];
+  const LESSON_IDS = new Set(ALL_LESSONS.map(lesson => lesson.id));
+  const STATUSES = ["☐", "◐", "◑", "●", "✔"];
+  const SIDEBAR_GROUPS = ["start", "A1", "A2", "B1", "shared"];
+
+  function isRecord(value) {
+    return value !== null && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function isScheduleRow(id, row) {
+    if (!isRecord(row) || row.id !== id || !LESSON_IDS.has(row.topic) || !id.startsWith(row.topic + "-")) return false;
+    if (!/^(?:A[12]|B1)-\d{2}-(?:[a-zA-Z]+(?:-[a-zA-Z]+)*-)?\d{2,}$/.test(id)) return false;
+    if (typeof row.due !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(row.due)) return false;
+    const date = new Date(row.due);
+    return Number.isFinite(date.valueOf()) && date.toISOString().slice(0, 10) === row.due
+      && Number.isInteger(row.step) && row.step >= 0 && row.step < LADDER.length
+      && Number.isSafeInteger(row.reviews) && row.reviews >= 0
+      && Number.isSafeInteger(row.correct) && row.correct >= 0 && row.correct <= row.reviews;
+  }
+
+  function normalizeState(candidate, fallback, strict = false) {
+    if (!isRecord(candidate)) throw new Error("Invalid progress data");
+    const next = { ...fallback };
+    const validators = {
+      langs: value => Array.isArray(value) && value.length > 0 && value.every(lang => LANGUAGES.includes(lang)),
+      theme: value => value === "light" || value === "dark",
+      progress: (id, status) => LESSON_IDS.has(id) && STATUSES.includes(status),
+      schedule: isScheduleRow,
+      collapsed: (key, value) => SIDEBAR_GROUPS.includes(key) && typeof value === "boolean"
+    };
+    const fields = Object.keys(validators).filter(key => Object.hasOwn(candidate, key));
+    if (strict && fields.length === 0) throw new Error("Missing progress data");
+    for (const key of fields) {
+      const value = candidate[key];
+      if (key === "langs" || key === "theme") {
+        if (validators[key](value)) next[key] = key === "langs" ? [...new Set(value)] : value;
+        else if (strict) throw new Error(`Invalid ${key}`);
+      } else if (isRecord(value)) {
+        const entries = Object.entries(value);
+        const valid = entries.filter(([id, entry]) => validators[key](id, entry));
+        if (strict && valid.length !== entries.length) throw new Error(`Invalid ${key}`);
+        next[key] = Object.fromEntries(valid);
+      } else if (strict) {
+        throw new Error(`Invalid ${key}`);
       }
-    } catch {}
-    return {
-      langs: ["pt-BR", "es", "fr", "en"],
+    }
+    return next;
+  }
+
+  function loadState() {
+    const defaults = {
+      langs: [...LANGUAGES],
       progress: {},
       schedule: {},
       theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
       collapsed: {}
     };
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) return normalizeState(JSON.parse(raw), defaults);
+    } catch {}
+    return defaults;
   }
   let state = loadState();
   function saveState() {
@@ -864,9 +905,9 @@
   }
 
   const docCache = new Map();
-  let allCardsCache = null;
+  let allCardsPromise = null;
+  let navigationId = 0;
   let currentPath = "README.md";
-  let currentRawMd = "";
 
   // Toast helper
   let toastTimer;
@@ -1041,6 +1082,31 @@
     return null;
   }
 
+  const LIST_ITEM = /^( *)(?:(\d+)\.|[-*+])[ \t]+(.*)$/;
+
+  function renderList(lines, start, baseFile) {
+    const first = lines[start].match(LIST_ITEM);
+    const indent = first[1].length;
+    const ordered = first[2] !== undefined;
+    const tag = ordered ? "ol" : "ul";
+    const startAttr = ordered && Number(first[2]) !== 1 ? ` start="${Number(first[2])}"` : "";
+    const items = [];
+    let end = start;
+    while (end < lines.length) {
+      const item = lines[end].match(LIST_ITEM);
+      if (!item || item[1].length !== indent || (item[2] !== undefined) !== ordered) break;
+      let content = formatInline(item[3], baseFile);
+      end++;
+      while (end < lines.length && (lines[end].match(LIST_ITEM)?.[1].length ?? 0) > indent) {
+        const nested = renderList(lines, end, baseFile);
+        content += nested.html;
+        end = nested.end;
+      }
+      items.push(`<li>${content}</li>`);
+    }
+    return { html: `<${tag}${startAttr}>${items.join("")}</${tag}>`, end };
+  }
+
   function renderMarkdown(md, baseFile) {
     // Strip HTML comments (e.g. <!-- adapted ... -->)
     const cleaned = md.replace(/<!--[\s\S]*?-->/g, "");
@@ -1059,7 +1125,9 @@
         i++;
         let summaryHtml = "Click to reveal";
         if (i < lines.length && /^<summary>/i.test(lines[i].trim())) {
-          summaryHtml = lines[i].trim().replace(/^<summary>/i, "").replace(/<\/summary>$/i, "");
+          const summary = lines[i].trim().replace(/^<summary>/i, "").replace(/<\/summary>$/i, "");
+          const bold = summary.match(/^<b>(.*)<\/b>$/i);
+          summaryHtml = bold ? `<b>${formatInline(bold[1], baseFile)}</b>` : formatInline(summary, baseFile);
           i++;
         }
         const inner = [];
@@ -1093,7 +1161,7 @@
       }
 
       // Headings
-      const hm = line.match(/^(#{1,4})\s+(.+)$/);
+      const hm = line.match(/^(#{1,6})\s+(.+)$/);
       if (hm) {
         const lvl = hm[1].length;
         out.push(`<h${lvl}>${formatInline(hm[2].trim(), baseFile)}</h${lvl}>`);
@@ -1143,30 +1211,17 @@
         continue;
       }
 
-      // Unordered list
-      if (/^\s*[-*]\s+/.test(line)) {
-        const items = [];
-        while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
-          items.push(lines[i].replace(/^\s*[-*]\s+/, ""));
-          i++;
-        }
-        out.push(`<ul>${items.map(it => `<li>${formatInline(it, baseFile)}</li>`).join("")}</ul>`);
-        continue;
-      }
-
-      // Ordered list
-      if (/^\s*\d+\.\s+/.test(line)) {
-        const items = [];
-        while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
-          items.push(lines[i].replace(/^\s*\d+\.\s+/, ""));
-          i++;
-        }
-        out.push(`<ol>${items.map(it => `<li>${formatInline(it, baseFile)}</li>`).join("")}</ol>`);
+      // Lists, including choices nested under exam questions.
+      if (LIST_ITEM.test(line)) {
+        const list = renderList(lines, i, baseFile);
+        out.push(list.html);
+        i = list.end;
         continue;
       }
 
       // Paragraph
-      const para = [];
+      const para = [line];
+      i++;
       while (
         i < lines.length &&
         lines[i].trim() &&
@@ -1175,8 +1230,7 @@
         !lines[i].trim().startsWith("```") &&
         !lines[i].trim().startsWith("|") &&
         !/^---+$/.test(lines[i].trim()) &&
-        !/^\s*[-*]\s+/.test(lines[i]) &&
-        !/^\s*\d+\.\s+/.test(lines[i]) &&
+        !LIST_ITEM.test(lines[i]) &&
         !/^<details>/i.test(lines[i].trim())
       ) {
         para.push(lines[i]);
@@ -1199,7 +1253,7 @@
   }
 
   // Load and render a Markdown document
-  async function openDoc(path) {
+  async function openDoc(path, requestId) {
     currentPath = path;
     renderSidebar(document.getElementById("searchInput").value);
     closeMobileSidebar();
@@ -1222,7 +1276,7 @@
     container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-muted)">Loading ${escapeHtml(path)}…</div>`;
     try {
       const md = await fetchDoc(path);
-      currentRawMd = md;
+      if (requestId !== navigationId) return;
       const lesson = LESSON_BY_PATH[path];
       let html = "";
 
@@ -1287,8 +1341,12 @@
         });
 
         document.getElementById("queueLessonBtn").addEventListener("click", async () => {
-          const added = await queueTopicCards(lesson.id);
-          showToast(added > 0 ? `Added ${added} card(s) for ${lesson.id} to Flashcards` : `Cards for ${lesson.id} are already queued`);
+          try {
+            const added = await queueTopicCards(lesson.id);
+            showToast(added > 0 ? `Added ${added} card(s) for ${lesson.id} to Flashcards` : `No new cards for ${lesson.id}`);
+          } catch (err) {
+            showToast(err.message);
+          }
         });
 
         document.getElementById("copyAiBtn").addEventListener("click", async () => {
@@ -1296,11 +1354,11 @@
           const payload =
 `You are my German grammar tutor for the Genau A1→B1 course (telc Deutsch B1 focus).
 Contrast languages I want: ${langNames}.
-Rules: Ask ONE item at a time (never reveal the answer key before I try). Start with the Diagnostic (6–8 items); if I score ≥ 90%, tell me I can mark it Known ✔. Otherwise explain in short dual-coded chunks, drill exercises one by one, correct mistakes with the rule, and finish with the 5-minute writing prompt.
+Rules: Ask ONE item at a time and keep the answer key hidden. For a regular lesson, start with the eight core diagnostic items. If I score at least 7/8, tell me I can mark it Known ✔. Review any extra diagnostic items separately. Otherwise explain in short dual-coded chunks, drill exercises one by one, correct mistakes with the rule, and finish with the 5-minute writing prompt. For a consolidation lesson, follow its test and scoring instructions.
 
 Here is lesson ${lesson.id}:
 
-${currentRawMd}`;
+${md}`;
           try {
             await navigator.clipboard.writeText(payload);
             showToast("Lesson + AI tutor prompt copied! Paste into ChatGPT, Claude, or Gemini.");
@@ -1310,7 +1368,9 @@ ${currentRawMd}`;
         });
       }
     } catch (err) {
-      container.innerHTML = `<div class="notice">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(err.message)}).</div>`;
+      if (requestId === navigationId) {
+        container.innerHTML = `<div class="notice">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(err.message)}).</div>`;
+      }
     }
   }
 
@@ -1337,8 +1397,8 @@ ${currentRawMd}`;
     return out;
   }
 
-  async function loadAllCards() {
-    if (allCardsCache) return allCardsCache;
+  function loadAllCards() {
+    if (allCardsPromise) return allCardsPromise;
     const files = [
       ["review/cards/A1.md", null],
       ["review/cards/A2.md", null],
@@ -1348,12 +1408,17 @@ ${currentRawMd}`;
       ["review/cards/contrasts/fr.md", "fr"],
       ["review/cards/contrasts/en.md", "en"]
     ];
-    const results = await Promise.all(files.map(async ([p, lang]) => {
-      try { return parseCardsMd(await fetchDoc(p), lang); }
-      catch { return []; }
-    }));
-    allCardsCache = results.flat();
-    return allCardsCache;
+    allCardsPromise = Promise.allSettled(files.map(async ([path, lang]) => {
+      return parseCardsMd(await fetchDoc(path), lang);
+    })).then(results => {
+      const failed = files.filter((_, index) => results[index].status === "rejected");
+      if (failed.length) {
+        allCardsPromise = null;
+        throw new Error(`Could not load ${failed.map(([path]) => path).join(", ")}. Try again.`);
+      }
+      return results.flatMap(result => result.value);
+    });
+    return allCardsPromise;
   }
 
   async function queueTopicCards(topicId) {
@@ -1388,7 +1453,7 @@ ${currentRawMd}`;
 
   let fcSession = { mode: "due", queue: [], idx: 0, revealed: false, reviewed: 0, practiceTopic: "A1-01" };
 
-  async function openFlashcards() {
+  async function openFlashcards(requestId) {
     closeMobileSidebar();
     renderSidebar(document.getElementById("searchInput").value);
     const container = document.getElementById("mainContainer");
@@ -1398,8 +1463,18 @@ ${currentRawMd}`;
       return;
     }
 
-    container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-muted)">Loading 533 flashcards…</div>`;
-    const cards = await loadAllCards();
+    container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-muted)">Loading flashcards…</div>`;
+    let cards;
+    try {
+      cards = await loadAllCards();
+    } catch (err) {
+      if (requestId !== navigationId) return;
+      container.innerHTML = `<div class="notice">${escapeHtml(err.message)}
+        <button class="top-btn" id="retryFlashcardsBtn">Retry</button></div>`;
+      document.getElementById("retryFlashcardsBtn").addEventListener("click", route);
+      return;
+    }
+    if (requestId !== navigationId) return;
     const cardMap = Object.fromEntries(cards.map(c => [c.id, c]));
 
     function buildDueQueue() {
@@ -1423,6 +1498,7 @@ ${currentRawMd}`;
     }
 
     function renderFc() {
+      if (requestId !== navigationId) return;
       const today = todayISO();
       const totalQueued = Object.keys(state.schedule).length;
       const dueCount = Object.values(state.schedule).filter(r => r.due <= today).length;
@@ -1670,21 +1746,30 @@ ${currentRawMd}`;
   document.getElementById("importFileInput").addEventListener("change", e => {
     const file = e.target.files[0];
     if (!file) return;
+    e.target.value = "";
     const reader = new FileReader();
     reader.onload = () => {
+      let restored;
       try {
-        const imported = JSON.parse(reader.result);
-        state = { ...state, ...imported };
-        saveState();
-        applyTheme();
-        renderLangPills();
-        renderSidebar(document.getElementById("searchInput").value);
-        route();
-        showToast("Progress restored!");
+        restored = normalizeState(JSON.parse(reader.result), state, true);
       } catch {
         showToast("Invalid backup file.");
+        return;
       }
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(restored));
+      } catch {
+        showToast("Could not save this backup in your browser.");
+        return;
+      }
+      state = restored;
+      updateBadges();
+      applyTheme();
+      renderLangPills();
+      route();
+      showToast("Progress restored!");
     };
+    reader.onerror = () => showToast("Could not read the backup file.");
     reader.readAsText(file);
   });
 
@@ -1700,14 +1785,15 @@ ${currentRawMd}`;
 
   // Router
   function route() {
+    const requestId = ++navigationId;
     const h = location.hash || "#doc=README.md";
     if (h === "#flashcards") {
-      openFlashcards();
+      openFlashcards(requestId);
     } else if (h.startsWith("#doc=")) {
       const path = decodeURIComponent(h.slice(5));
-      openDoc(path);
+      openDoc(path, requestId);
     } else {
-      openDoc("README.md");
+      openDoc("README.md", requestId);
     }
     setTimeout(updateReadProgress, 60);
   }

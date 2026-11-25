@@ -12,7 +12,7 @@ writing/
 2. Below the text, one line per error: **rule** in one sentence + **topic id** to re-read.
 3. A clean corrected version.
 4. One thing that was good (a structure used correctly).
-5. For telc-format letters: grade **Inhalt / Aufbau / Richtigkeit / Register** 0–5 each, and word count.
+5. For telc B1 e-mails, grade **Aufgabenbewältigung**, **Kommunikative Gestaltung** (including organisation and register), and **Formale Richtigkeit** at 5, 3, 1, or 0 points each. Multiply the sum by 3 for the score out of 45.
 6. Add every error to `review/error-log.md`.
 
 ## What to write, by level

@@ -88,8 +88,8 @@
 4. (a) dessen (b) deren (c) der
 5. (a) Obwohl (b) Deshalb (c) Trotzdem
 6. (a) war (b) wird (c) wäre
-7. (a) hätte (b) wurde (c) wäre
-8. (a) sodass (b) damit (c) indem
+7. (a) hätte (b) hättest (c) hätten
+8. (a) um (b) damit (c) deshalb
 9. (a) geben (b) gegeben (c) zu geben
 10. (a) Grüßen (b) Grüße (c) Gruß
 
@@ -138,7 +138,7 @@ Behandeln Sie folgende vier Punkte:
 3. **Erklären Sie, warum Sie die Jacke dringend brauchen (z. B. Urlaub / Geschenk).**
 4. **Sagen Sie, was die Firma jetzt tun soll und bis wann Sie eine Lösung erwarten.**
 
-*Time yourself: 5 min plan → 20 min write → 5 min check (verb position, endings, capitals, 4 points × 2+ sentences).*
+*Plan for 5 minutes, write for 20, then spend 5 checking that you addressed all four points clearly and checking verb position, endings and capitals.*
 
 ---
 
@@ -183,4 +183,4 @@ Behandeln Sie folgende vier Punkte:
 
 ## 6. Next step: the Exam Phase
 
-Log your scores in [PROGRESS.md](../PROGRESS.md) under `B1-22` and `Mock exams`. Run `python3 review/review.py check` to verify that all completed topics have their cards queued in `review/schedule.md`. For your first full 90+30 minute simulation (Lesen Teil 1–3, Sprachbausteine Teil 1–2, Schreiben), open [shared/mock-exam-telc-b1.md](../shared/mock-exam-telc-b1.md).
+Log your scores in [PROGRESS.md](../PROGRESS.md) under `B1-22` and `Mock exams`. Run `python3 review/review.py check` to verify that all completed topics have their cards queued in `review/schedule.md`. For a timed simulation of Lesen, Sprachbausteine, and Schreiben, open [Practice Mock 1](../shared/mock-exam-telc-b1.md).

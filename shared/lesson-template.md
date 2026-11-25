@@ -5,7 +5,7 @@
 
 ## 0. Diagnostic (3 min, before reading anything)
 
-Answer from memory, then check in §5. Score ≥ 7/8 → mark `✔` in PROGRESS.md, add the cards, move on.
+Answer the eight core items from memory, then check in §5. Score at least 7/8 to mark `✔` in PROGRESS.md, add the cards, and move on. Review any extra items from an adaptation separately.
 
 1. …
 8. …

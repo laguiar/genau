@@ -14,7 +14,7 @@ One topic takes two days on average. Some take one, some three. Nothing breaks i
 
 ## 2. The lesson loop (one topic)
 
-1. **Diagnostic first (3 min).** Every topic starts with 6–8 quick items. Score ≥ 90 %: mark the topic `✔ known`, still add its cards, move on. Score below: study it. If you are already around A2, expect to skip a third of A1 this way.
+1. **Diagnostic first (3 min).** Regular lessons start with eight core items. With at least 7/8 correct, mark the topic `✔ known`, add its cards, and move on. Review any extra diagnostic items from an adaptation separately. Consolidation lessons have their own tests and scoring instructions.
 2. **Explanation, dual-coded.** Every rule is presented twice: in words, and as a table, bracket diagram, or symbol code. The case code is used everywhere:
    `●` Nominativ · `▲` Akkusativ · `■` Dativ · `◆` Genitiv. Word order uses bracket diagrams: `[Pos 1] [VERB] [Mitte…] [VERB-END]`.
 3. **Retrieval before re-reading.** Do the exercises *without* looking back at the tables. Check with the key. Only then re-read the parts you got wrong.
@@ -53,7 +53,7 @@ Grammar sticks when you meet it in texts. Alongside the topics:
 
 - **Nicos Weg** (DW): do the linked lesson after each topic; it is free and A1/A2-aligned.
 - **Graded readers / DW "Langsam gesprochene Nachrichten" texts** from A2 on: read 10 minutes, 3 times a week, and copy out two sentences that use a structure you are studying (comprehensible input).
-- From B1 on, every writing task is a telc-format letter: 4 content points, semi-formal, ~150 words, 30 minutes.
+- For a full B1 writing simulation, allow 30 minutes for an informal or semi-formal e-mail addressing all four content points. Around 150 words is a course practice target.
 
 ## 6. Explanation language: English, with multilingual L1/L2 contrast boxes
 
@@ -71,7 +71,7 @@ Design decision: explanations in English; contrast boxes for your active languag
 ## 7. Exam-specific rules (telc B1)
 
 - The **Sprachbausteine** section tests grammar directly: 10 multiple-choice gaps (connectors, prepositions, verb forms, pronouns) and 10 gaps filled from a bank of 15 words. Lessons B1-11 and B1-22 are built around it, but every topic from A2 on ends with 3 Sprachbausteine-style items.
-- **Schreiben** is one letter, 4 content points, 30 minutes, graded on content, organisation, accuracy, and register. From A2-22 on, every writing task uses that format.
+- **Schreiben** is one e-mail with four content points in 30 minutes. telc scores task fulfilment, communicative design (including organisation and register), and formal accuracy. The course introduces this format at A2-22.
 - **Lesen** is the biggest block (75 of 225 written points). Reading input (§5) is not optional.
 
 Details and strategy: [shared/exam-telc-b1.md](shared/exam-telc-b1.md).

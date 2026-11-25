@@ -26,6 +26,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: course-release
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -41,10 +45,15 @@ jobs:
           BUMP: ${{ inputs.bump }}
           CUSTOM: ${{ inputs.custom_version }}
         run: |
+          STABLE_VERSION='^v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'
           if [ -n "$CUSTOM" ]; then
+            if [[ "$CUSTOM" == -* ]] || ! git check-ref-format "refs/tags/$CUSTOM"; then
+              echo "Invalid Git tag: $CUSTOM" >&2
+              exit 1
+            fi
             NEXT="$CUSTOM"
           else
-            LATEST=$(git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n 1)
+            LATEST=$(git tag --sort=-v:refname | grep -m1 -E "$STABLE_VERSION" || true)
             if [ -z "$LATEST" ]; then
               NEXT="v1.0.0"
             else
@@ -58,23 +67,24 @@ jobs:
               esac
             fi
           fi
+          if TAG_SHA=$(git rev-parse --verify --quiet "refs/tags/$NEXT^{commit}"); then
+            if [ "$TAG_SHA" != "$(git rev-parse HEAD)" ]; then
+              echo "$NEXT already points to a different commit." >&2
+              exit 1
+            fi
+          fi
           echo "Next release version: $NEXT"
           echo "tag=$NEXT" >> "$GITHUB_OUTPUT"
 
       - name: Package clean course ZIP
         run: |
           mkdir -p dist/genau
-          for item in README.md METHOD.md PLAN.md PROGRESS.md PROMPT.md AGENTS.md A1 A2 B1 shared review writing; do
-            if [ -e "$item" ]; then
-              cp -R "$item" dist/genau/
-            fi
-          done
-          if [ -f LICENSE ]; then
-            cp LICENSE dist/genau/
-          fi
-          find dist/genau -name ".DS_Store" -delete
-          find dist/genau -name "__pycache__" -type d -exec rm -rf {} +
-          rm -f dist/genau/review/anki-export.tsv
+          git archive HEAD -- README.md METHOD.md PLAN.md PROGRESS.md PROMPT.md AGENTS.md LICENSE \
+            A1 A2 B1 shared review/review.py review/README.md review/schedule.md review/error-log.md \
+            review/adaptations.md review/cards review/anki \
+            writing/README.md writing/corrections/.gitkeep writing/submissions/.gitkeep |
+            tar -x -C dist/genau
+          python3 dist/genau/review/review.py reset --yes --clean-profile
           (cd dist && zip -r -q genau.zip genau)
           ls -lh dist/genau.zip
 
@@ -84,20 +94,18 @@ jobs:
           VERSION: ${{ steps.version.outputs.tag }}
           NOTES: ${{ inputs.notes }}
         run: |
+          args=(
+            --target "$(git rev-parse HEAD)"
+            --title "Genau $VERSION"
+            --latest
+          )
           if [ -n "$NOTES" ]; then
-            gh release create "$VERSION" \
-              dist/genau.zip \
-              review/anki/genau-all-core.tsv \
-              review/anki/genau-complete-all-languages.tsv \
-              --title "Genau $VERSION" \
-              --notes "$NOTES" \
-              --latest
+            args+=(--notes "$NOTES")
           else
-            gh release create "$VERSION" \
-              dist/genau.zip \
-              review/anki/genau-all-core.tsv \
-              review/anki/genau-complete-all-languages.tsv \
-              --title "Genau $VERSION" \
-              --generate-notes \
-              --latest
+            args+=(--generate-notes)
           fi
+          gh release create "$VERSION" \
+            dist/genau.zip \
+            dist/genau/review/anki/genau-all-core.tsv \
+            dist/genau/review/anki/genau-complete-all-languages.tsv \
+            "${args[@]}"

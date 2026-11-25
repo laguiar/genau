@@ -24,10 +24,10 @@ Fix or complete each letter element. ≥ 7/8 → `✔`.
    [Anrede + COMMA!]                  Sehr geehrte Damen und Herren,  /  Sehr geehrte Frau Weber,  /  Liebe Anna,
                                       ↓ (next line starts LOWERCASE unless it is a noun, "Ich", or "Sie"!)
    [Einleitung: 1–2 sentences]        vielen Dank für Ihre E-Mail. Ich schreibe Ihnen, weil …
-   [Leitpunkt 1: 2–3 sentences]       Zunächst möchte ich Ihnen mitteilen, dass … (Connector 1)
-   [Leitpunkt 2: 2–3 sentences]       Außerdem habe ich folgendes Problem: … Deshalb … (Connector 2)
-   [Leitpunkt 3: 2–3 sentences]       Könnten Sie mir bitte sagen, ob / wann …? (Indirect question + KII)
-   [Leitpunkt 4: 2–3 sentences]       Zum Schluss möchte ich vorschlagen, dass … / Ich bitte Sie darum, … zu …
+   [Leitpunkt 1]                    Zunächst möchte ich Ihnen mitteilen, dass … (Connector 1)
+   [Leitpunkt 2]                    Außerdem habe ich folgendes Problem: … Deshalb … (Connector 2)
+   [Leitpunkt 3]                    Könnten Sie mir bitte sagen, ob / wann …? (Indirect question + KII)
+   [Leitpunkt 4]                    Zum Schluss möchte ich vorschlagen, dass … / Ich bitte Sie darum, … zu …
    [Schlusssatz: 1 sentence]          Ich freue mich auf Ihre Antwort und bedanke mich im Voraus.
    [Grußformel — NO comma!]           Mit freundlichen Grüßen  (formal)   /   Liebe Grüße  (informal)
    [Unterschrift]                     Vorname Nachname         (formal)   /   Vorname      (informal)
@@ -42,7 +42,7 @@ Fix or complete each letter element. ≥ 7/8 → `✔`.
 
 **How the 45 points of telc B1 *Schriftlicher Ausdruck* are awarded.**
 Your letter is graded on three criteria (15 points each, see [shared/exam-telc-b1.md](../shared/exam-telc-b1.md)):
-1. **Criterion I — Behandeln der Leitpunkte (Content):** Did you cover **all 4 bullet points** with **at least two full sentences each**? A single short sentence or copying the prompt word-for-word loses points.
+1. **Criterion I — Aufgabenbewältigung (Task fulfilment).** Did you respond to all four points clearly and adequately? One short sentence can fulfil a point. If the task asks why you are cancelling, include the reason.
 2. **Criterion II — Kommunikative Gestaltung (Cohesion & Register):** Is the register (`Sie` vs `du`, greeting, closing) 100 % consistent? Are the 4 points ordered logically and connected with varied linkers instead of *Ich … Ich … Ich …*?
 3. **Criterion III — Formale Richtigkeit (Grammar & Spelling):** Do you show B1 structures (`weil/dass/ob/wenn`, Konjunktiv II `könnten/würde/wäre`, infinitive with `zu`, relative clauses, `da-` compounds) with accurate verb positions, case endings and noun/pronoun capitals?
 
@@ -53,8 +53,8 @@ If 8 of your 10 sentences start with *Ich …*, your Criterion II score drops. U
 - Use **pronouns and `da(r)-` adverbs** to refer back without repeating nouns:
   - Noun (*der Kurs*) → ***Er** findet abends statt; ich habe mich schon **dafür** (= für den Kurs) angemeldet; **dort** (= in der Schule) gibt es auch …*
 
-**2. Expanding each of the 4 Leitpunkte into 2–3 B1 sentences.**
-Never write just one clause per bullet point. Use the **"Statement + Reason/Detail/Example"** rule:
+**2. Developing the four Leitpunkte.**
+For practice, develop a point by adding a reason, detail, or example where it helps answer the prompt.
 - *Prompt bullet:* **Sagen Sie, warum Sie schreiben / absagen.**
   - *Too short (A1):* ~~Ich kann am Freitag nicht kommen.~~
   - *B1 expansion (2 sentences, 26 words):* *Leider muss ich unseren Termin am kommenden Freitag absagen, **weil** mein Chef mich kurzfristig auf eine Geschäftsreise geschickt hat. **Deshalb** bin ich erst am Montag wieder in Berlin.*
@@ -62,7 +62,7 @@ Never write just one clause per bullet point. Use the **"Statement + Reason/Deta
   - *B1 expansion:* ***Könnten** Sie mir bitte mitteilen, **ob** in der folgenden Woche noch ein Platz frei **ist**? **Am besten würde** mir der Dienstagvormittag passen.*
 
 **3. The 5-Minute Final Proofreading Checklist (do this on every letter!).**
-1. **4 points check:** Count 4 paragraphs / blocks, ≥ 2 sentences each.
+1. **Content check.** Make sure your response addresses each of the four points clearly.
 2. **Verb position check:** In every main clause (especially after *Deshalb, Trotzdem, Außerdem, Am Montag*, or a fronted *Weil/Wenn*-clause), is the conjugated verb in **Position 2**? In every *dass / weil / wenn / ob / obwohl / relative* clause, is the conjugated verb at the **very end**?
 3. **Register & Capitalisation check:** Every **Sie / Ihnen / Ihr-** capitalised? Every **noun** capitalised (including *das Lesen, vielen Dank, am Montag, Zeit, Recht*)? Lowercase word on the line right after the salutation comma (unless *Ich / Sie* or a noun)?
 
@@ -90,7 +90,7 @@ Never write just one clause per bullet point. Use the **"Statement + Reason/Deta
 **4.2 Break the "Ich-Staccato" (Cohesion & Fronting)** — Rewrite this 5-sentence paragraph so that **at most ONE** sentence starts with *Ich*, using connectors (*Da, Deshalb, Außerdem, Darüber hinaus*) and pronouns/*da(r)-*:
 > *Ich habe am Samstag eine Waschmaschine in Ihrem Geschäft gekauft. Ich war gestern zu Hause und die Waschmaschine wurde geliefert. Ich habe die Waschmaschine eingeschaltet, aber die Waschmaschine macht laute Geräusche. Ich habe sofort bei Ihrem Kundenservice angerufen. Ich habe dort leider niemanden erreicht.*
 
-**4.3 Turn the 4 exam Leitpunkte into B1 sentence pairs (≥ 2 sentences each)** —
+**4.3 Practise developing each Leitpunkt into a B1 sentence pair** —
 *Situation: Your neighbour Frau Schneider accepted a parcel for you while you were on holiday, and watered your plants. Write an e-mail to her (`Sie` + `Liebe Frau Schneider,`):*
 1. **Bedanken Sie sich für die Hilfe.** (use *sich bedanken für / dafür, dass …*)
 2. **Erzählen Sie kurz, wie Ihr Urlaub war.** (use *zwar … aber* or *nachdem / obwohl*)

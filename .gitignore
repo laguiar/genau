@@ -1,5 +1,6 @@
 # Generated exports
 review/anki-export.tsv
+review/lesson-baselines/
 
 # Python & OS artifacts
 __pycache__/

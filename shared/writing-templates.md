@@ -1,6 +1,6 @@
 # Writing templates and Redemittel
 
-Goal format: the telc B1 letter — one situation, **4 content points**, ~150 words, 30 minutes, usually `Sie`. The same skeleton works for Goethe B1 Schreiben Teil 1/3 and for A2 exams (with 3 points, ~40–60 words).
+The telc B1 writing task is an e-mail that addresses **four content points** in 30 minutes. Choose `du` or `Sie` to match the situation. Around 150 words is a course practice target.
 
 ## 1. Letter skeleton
 
@@ -13,8 +13,8 @@ Anrede                          Sehr geehrte Frau Müller,        (formal, name 
                                 Liebe Anna, / Hallo Tom,         (informal)
 
 Einleitung (1–2 sentences)      why you write + reference to the situation
-Hauptteil                       4 content points, each ≥ 2 sentences, in a logical order,
-                                one paragraph per point, linked with connectors
+Hauptteil                       address all four points clearly in a logical order,
+                                add details and connectors where they help the reader
 Schluss (1–2 sentences)         request / wish / thanks + closing formula
 
 Grußformel                      Mit freundlichen Grüßen          (formal)
@@ -79,7 +79,7 @@ Use a different linker for each point so the reader sees the structure:
 
 1. **Read (3 min):** underline the 4 points and the register clues (Sie/du, company/friend).
 2. **Plan (2 min):** one line per point, in order; decide opening and closing formula.
-3. **Write (20 min):** paragraph per point, 2–3 sentences each; use at least one Nebensatz (weil/dass/wenn) and one Konjunktiv II (könnten/würde/wäre).
+3. **Write (20 min).** Address each point clearly. Add a reason, detail, or example when the reader needs one, and choose structures that suit what you want to say.
 4. **Check (5 min):** verb position in every sentence; `Sie/Ihnen/Ihr` capitalised; nouns capitalised; endings after prepositions; a closing formula and a name.
 
 ## 5. Model letter (telc format)

@@ -19,7 +19,9 @@ Commands:
   add-error <row>              turn error-log row into a card in cards/errors.md and queue it
   lang [list|set <codes>|sync] list language packs, switch active contrast languages, or sync lesson boxes
   check [--fix]                verify PROGRESS.md against queued cards and card definitions
-  reset [--lang <codes>] [--yes] reset personal progress, schedule, error log, and optionally switch languages
+  snapshot <topic> [...]       save each lesson's baseline before adapting it
+  reset [--lang <codes>] [--clean-profile] [--yes]
+                               reset personal progress, review files, and adapted lessons
   export                       write Anki tab-separated export to review/anki-export.tsv
 """
 import sys, re, random, datetime, pathlib
@@ -32,10 +34,12 @@ CONTRAST_CARDS_DIR = CARDS_DIR / "contrasts"
 CONTRASTS_DIR = ROOT / "shared" / "contrasts"
 ERROR_LOG = HERE / "error-log.md"
 ADAPTATIONS = HERE / "adaptations.md"
+LESSON_BASELINES = HERE / "lesson-baselines"
 PROGRESS = ROOT / "PROGRESS.md"
 LADDER = [1, 3, 7, 14, 30, 60, 120]
 TODAY = datetime.date.today()
 DEFAULT_LANGS = ["pt-BR", "es", "fr", "en"]
+ADAPTATION_MARKER = re.compile(r"^\s*<!-- adapted \d{4}-\d{2}-\d{2} from ", re.M)
 
 # ---------- language packs ----------
 
@@ -185,29 +189,33 @@ def topic_of(card_id):
 
 # ---------- commands ----------
 
+def queue_cards(rows, topic, card_ids):
+    new_ids = [cid for cid in card_ids if cid not in rows]
+    for cid in new_ids:
+        rows[cid] = {
+            "id": cid,
+            "topic": topic,
+            "added": TODAY.isoformat(),
+            "due": TODAY.isoformat(),
+            "step": "0",
+            "reviews": "0",
+            "correct": "0",
+            "last_grade": "-",
+            "history": "",
+        }
+    return len(new_ids)
+
 def cmd_add(raw_topic):
     topic = normalize_topic(raw_topic)
     langs = active_langs()
     cards = load_cards(langs=langs)
     rows, hdr = load_schedule()
-    n = 0
-    for cid in cards:
-        if topic_of(cid) == topic and cid not in rows:
-            rows[cid] = {
-                "id": cid,
-                "topic": topic,
-                "added": TODAY.isoformat(),
-                "due": TODAY.isoformat(),
-                "step": "0",
-                "reviews": "0",
-                "correct": "0",
-                "last_grade": "-",
-                "history": "",
-            }
-            n += 1
-    save_schedule(rows, hdr)
+    topic_cards = [cid for cid in cards if topic_of(cid) == topic]
+    n = queue_cards(rows, topic, topic_cards)
+    if n:
+        save_schedule(rows, hdr)
     print(f"queued {n} new card(s) for {topic} (languages: {', '.join(langs)}); queue size {len(rows)}")
-    if n == 0 and not any(topic_of(c) == topic for c in cards):
+    if not topic_cards:
         print(f"  (no cards found for {topic} in {CARDS_DIR}/ — write some first)")
 
 def parse_limit(args):
@@ -356,19 +364,8 @@ def cmd_add_error(row_no):
                 block = f"\n### {cid}\nQ: Fix it: *{wrong}*  ({rule})\nA: {right}\nT: error {norm_topic}\n"
                 p.write_text(p.read_text(encoding="utf-8").rstrip() + "\n" + block, encoding="utf-8")
             rows, hdr = load_schedule()
-            already_queued = cid in rows
-            if not already_queued:
-                rows[cid] = {
-                    "id": cid,
-                    "topic": norm_topic,
-                    "added": TODAY.isoformat(),
-                    "due": TODAY.isoformat(),
-                    "step": "0",
-                    "reviews": "0",
-                    "correct": "0",
-                    "last_grade": "-",
-                    "history": "",
-                }
+            added = queue_cards(rows, norm_topic, [cid])
+            if added:
                 save_schedule(rows, hdr)
             while len(cells) < 7:
                 cells.append("")
@@ -376,7 +373,7 @@ def cmd_add_error(row_no):
                 cells[6] = cid
                 lines[idx] = "| " + " | ".join(cells) + " |"
                 ERROR_LOG.write_text("\n".join(lines) + "\n", encoding="utf-8")
-            if already_queued and cid in existing_cards:
+            if not added and cid in existing_cards:
                 print(f"card {cid} already exists and is queued (topic {norm_topic})")
             else:
                 print(f"card {cid} created and queued under topic {norm_topic}")
@@ -461,20 +458,22 @@ def cmd_check(args=()):
     cards = load_cards(langs=langs)
     all_cards = load_cards(include_all_contrasts=True)
     rows, hdr = load_schedule()
-    queued_topics = {r["topic"] for r in rows.values()} | {topic_of(cid) for cid in rows}
+    missing_by_topic = {}
+    for cid in cards:
+        if cid not in rows:
+            missing_by_topic.setdefault(topic_of(cid), []).append(cid)
     missing_defs = [cid for cid in rows if cid not in all_cards]
 
     status_counts = {"☐": 0, "◐": 0, "◑": 0, "●": 0, "✔": 0}
-    unqueued_done = []
+    incomplete_topics = {}
     if PROGRESS.exists():
         for line in PROGRESS.read_text(encoding="utf-8").splitlines():
             m = re.match(r"^\|\s*([AB][12]-\d{2})\s*\|[^|]+\|\s*([☐◐◑●✔])\s*\|", line)
             if m:
                 tid, st = m.group(1), m.group(2)
                 status_counts[st] = status_counts.get(st, 0) + 1
-                topic_cards = [c for c in cards if topic_of(c) == tid]
-                if st in ("●", "✔") and topic_cards and tid not in queued_topics:
-                    unqueued_done.append(tid)
+                if st in ("●", "✔") and tid in missing_by_topic:
+                    incomplete_topics[tid] = missing_by_topic[tid]
 
     total_topics = sum(status_counts.values())
     done_topics = status_counts["●"] + status_counts["✔"]
@@ -483,34 +482,92 @@ def cmd_check(args=()):
 
     if missing_defs:
         print(f"warning: {len(missing_defs)} queued card(s) missing from {CARDS_DIR}/: {', '.join(missing_defs)}")
-    if unqueued_done:
-        if fix:
-            for tid in unqueued_done:
-                cmd_add(tid)
-        else:
-            print(f"warning: completed topic(s) without queued cards: {', '.join(unqueued_done)} (run: check --fix)")
-    if not missing_defs and not unqueued_done:
+    if incomplete_topics and fix:
+        for tid, missing in incomplete_topics.items():
+            added = queue_cards(rows, tid, missing)
+            print(f"queued {added} missing card(s) for {tid}")
+        save_schedule(rows, hdr)
+    elif incomplete_topics:
+        detail = ", ".join(f"{tid} ({len(missing)} missing)" for tid, missing in incomplete_topics.items())
+        print(f"warning: completed topic(s) with incomplete queues: {detail} (run: check --fix)")
+    if not missing_defs and (fix or not incomplete_topics):
         print("all checks passed ✔")
+
+def lesson_files():
+    return {
+        "-".join(path.name.split("-")[:2]): path
+        for level in ("A1", "A2", "B1")
+        for path in sorted((ROOT / level).glob(f"{level}-*.md"))
+    }
+
+def cmd_snapshot(args):
+    lessons = lesson_files()
+    snapshots = {}
+    for tid in dict.fromkeys(arg.upper() for arg in args):
+        if tid not in lessons:
+            sys.exit(f"unknown lesson: {tid}")
+        path = lessons[tid]
+        baseline = LESSON_BASELINES / path.name
+        if baseline.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if ADAPTATION_MARKER.search(text):
+            sys.exit(f"{path.name} is already adapted. Save an unadapted copy to {baseline} before taking a snapshot.")
+        snapshots[baseline] = text
+    if snapshots:
+        LESSON_BASELINES.mkdir(exist_ok=True)
+        for baseline, text in snapshots.items():
+            try:
+                with baseline.open("x", encoding="utf-8") as f:
+                    f.write(text)
+            except FileExistsError:
+                continue
+    print(f"saved {len(snapshots)} lesson baseline(s)")
 
 def cmd_reset(args=()):
     lang_codes = None
+    clean_profile = "--clean-profile" in args
     i = 0
     while i < len(args):
         if args[i] == "--lang" and i + 1 < len(args):
             lang_codes = [c.strip() for c in args[i + 1].split(",") if c.strip()]
+            if not lang_codes:
+                sys.exit("--lang requires at least one language code")
             i += 2
-        else:
+        elif args[i] in ("--yes", "--clean-profile"):
             i += 1
+        else:
+            sys.exit(f"unrecognised reset argument: {args[i]}")
+    if clean_profile and lang_codes is None:
+        lang_codes = DEFAULT_LANGS
+    restored_lessons = {}
+    baselines = {}
+    for path in lesson_files().values():
+        baseline = LESSON_BASELINES / path.name
+        if baseline.exists():
+            baselines[path] = baseline
+        if not ADAPTATION_MARKER.search(path.read_text(encoding="utf-8")):
+            continue
+        if not baseline.exists():
+            sys.exit(f"Reset requires an unadapted copy of {path.name} at {baseline}.")
+        text = baseline.read_text(encoding="utf-8")
+        if ADAPTATION_MARKER.search(text):
+            sys.exit(f"Reset requires an unadapted baseline at {baseline}.")
+        restored_lessons[path] = text
+    if restored_lessons and lang_codes is None:
+        lang_codes = active_langs()
     if lang_codes:
         packs = load_all_packs()
         missing = [c for c in lang_codes if c not in packs]
         if missing:
             sys.exit(f"language pack(s) not found in {CONTRASTS_DIR}/: {', '.join(missing)}")
     if "--yes" not in args:
-        ans = input("Reset PROGRESS.md, schedule.md, error-log.md, adaptations.md, and cards/errors.md? [y/N] ").strip().lower()
+        ans = input("Reset the progress tracker and review files, and restore adapted lessons from their baselines? [y/N] ").strip().lower()
         if ans != "y":
             print("aborted.")
             return
+    for path, text in restored_lessons.items():
+        path.write_text(text, encoding="utf-8")
     SCHEDULE.write_text(
         "# Review schedule (managed by review.py — edit by hand only if you know what you are doing)\n\n"
         "| id | topic | added | due | step | reviews | correct | last_grade | history |\n"
@@ -547,9 +604,16 @@ def cmd_reset(args=()):
         for line in PROGRESS.read_text(encoding="utf-8").splitlines():
             if line.startswith("## "):
                 section = line[3:].strip()
-            m = re.match(r"^(\|\s*[AB][12]-\d{2}\s*\|[^|]+\|)\s*[^|]*\|\s*[^|]*\|\s*[^|]*\|\s*[^|]*\|$", line)
+            m = re.match(r"^(\|\s*[AB][12]-\d{2}\s*\|[^|]+\|).*\|\s*$", line)
             if m:
                 out.append(f"{m.group(1)} ☐ | | | |")
+                continue
+            if clean_profile and line.startswith("**Learner:**"):
+                out.append(
+                    "**Learner:** <your name> · **Native language:** <your L1> · "
+                    f"**Contrast languages:** {', '.join(lang_codes)} · **Target:** telc Deutsch B1 · "
+                    "**Start:** YYYY-MM-DD · **Daily budget:** 30 min"
+                )
                 continue
             if section in ("Weak rules (live)", "Strong rules (skip / compress)", "Mock exams", "Session log"):
                 if line.startswith("|") and not line.startswith("| Rule") and not line.startswith("| Date") and not re.match(r"^\|\s*-", line):
@@ -559,6 +623,10 @@ def cmd_reset(args=()):
     if lang_codes:
         set_active_langs(lang_codes)
         cmd_lang_sync(lang_codes)
+    for baseline in baselines.values():
+        baseline.unlink(missing_ok=True)
+    if restored_lessons:
+        print(f"restored {len(restored_lessons)} adapted lesson(s)")
     print("reset complete ✔")
 
 def cmd_export():
@@ -590,6 +658,8 @@ def main(argv):
         cmd_lang(args)
     elif cmd == "check":
         cmd_check(args)
+    elif cmd == "snapshot" and args:
+        cmd_snapshot(args)
     elif cmd == "reset":
         cmd_reset(args)
     elif cmd == "export":

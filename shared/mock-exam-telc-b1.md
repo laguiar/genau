@@ -1,12 +1,12 @@
-# Full Timed Written Mock Exam — telc Deutsch B1 (Leseverstehen, Sprachbausteine, Schriftlicher Ausdruck)
+# Timed telc Deutsch B1 Practice Mock — Lesen, Sprachbausteine and Schreiben
 
-Use this full mock during the **Exam Phase** ([PLAN.md](../PLAN.md), [shared/exam-telc-b1.md](exam-telc-b1.md)) after finishing B1-22.
+Use this mock during the **Exam Phase** ([PLAN.md](../PLAN.md), [shared/exam-telc-b1.md](exam-telc-b1.md)) after finishing B1-22. Use telc's official mock and audio for the listening and speaking sections.
 - **Total time:** **90 minutes** for *Leseverstehen + Sprachbausteine*, plus **30 minutes** for *Schriftlicher Ausdruck*.
 - **Scoring:**
-  - *Leseverstehen Teil 1–3:* 20 items × 5 points = **75 points** (wait: Teil 1 = 5 × 5 = 25 pts; Teil 2 = 5 × 5 = 25 pts; Teil 3 = 10 × 2.5 = 25 pts → **75 points**)
+  - *Leseverstehen Teil 1–3:* **75 points** (Teil 1 and 2 each have 5 items × 5 points, Teil 3 has 10 items × 2.5 points).
   - *Sprachbausteine Teil 1–2:* 20 items × 1.5 points = **30 points**
-  - *Schriftlicher Ausdruck:* **45 points** (Inhalt 15 · Kommunikative Gestaltung 15 · Formale Richtigkeit 15)
-  - **Written subtotal here:** **150 points** (passing threshold = **60 % = 90 / 150 points**; in the real exam, *Hörverstehen* adds 75 points for 225 total).
+  - *Schriftlicher Ausdruck:* **45 points** (Aufgabenbewältigung · Kommunikative Gestaltung · Formale Richtigkeit).
+  - **Practice benchmark:** **90/150** across these three subtests. The official written pass mark is **135/225**, including *Hörverstehen*.
 
 Log your score in [PROGRESS.md](../PROGRESS.md) under **Mock exams**, and add every grammar mistake to `review/error-log.md`.
 
@@ -125,7 +125,7 @@ Log your score in [PROGRESS.md](../PROGRESS.md) under **Mock exams**, and add ev
 > Liebe Grüße
 > Sofia
 
-21. (a) noch nicht bei (b) nicht mehr bei (c) nicht bei
+21. (a) kein bei (b) nichts bei (c) nicht bei
 22. (a) der (b) das (c) die
 23. (a) wurde (b) geworden (c) wird
 24. (a) aber (b) sondern (c) als
@@ -184,7 +184,7 @@ Schreiben Sie eine Antwort-E-Mail an Herrn Mertens (ca. 150 Wörter, `Sie` + `Li
 - **Teil 3 (10 × 2.5 = 25 pts):** 11 **f** (*Senioren ab 60, Di/Fr 9:30–10:30*) · 12 **k** (*sonntags ab 19:30 Uhr Konzertabend + warme Gerichte*; *i* is closed Sundays!) · 13 **l** (*Wochenend-Intensivkurs 5–8 Jahre*; *b* has no weekend courses!) · 14 **d** (*täglich bis 24:00 Uhr*) · 15 **a** (*vermieten komplette Wanderausrüstungen und Zelte*) · 16 **g** (*Flohmarkt für gebrauchte Skier/Tennisschläger*) · 17 **c** (*Gesunder Rücken, mittwochs 18:30 Uhr*) · 18 **h** (*Sommer-Fußballcamp im August, 10–14 Jahre*) · 19 **j** (*ADFC Sonntagstour 35 km*) · 20 **X** (*e* only has group courses Mon/Wed, on Friday only private wedding lessons!).
 
 ### Block B — Sprachbausteine (30 points)
-- **Teil 1 (10 × 1.5 = 15 pts):** 21 **a** (*so lange noch nicht bei dir gemeldet*) · 22 **c** (*die Wohnung* f → *die*) · 23 **a** (*renoviert wurde*, Präteritum Passiv) · 24 **b** (*nicht nur …, sondern auch*) · 25 **b** (*jemandem dabei helfen*) · 26 **c** (*Seitdem wir hier wohnen*) · 27 **b** (*brauche … nur … zu gehen*, B1-08/15) · 28 **a** (*am kommenden Samstag*, B1-19) · 29 **b** (*eine Party* f, *einladen zu + ■* → *zu der*, B1-12) · 30 **c** (*Bescheid sagen, ob …*, A2-12).
+- **Teil 1 (10 × 1.5 = 15 pts):** 21 **c** (*so lange nicht bei dir gemeldet*) · 22 **c** (*die Wohnung* f → *die*) · 23 **a** (*renoviert wurde*, Präteritum Passiv) · 24 **b** (*nicht nur …, sondern auch*) · 25 **b** (*jemandem dabei helfen*) · 26 **c** (*Seitdem wir hier wohnen*) · 27 **b** (*brauche … nur … zu gehen*, B1-08/15) · 28 **a** (*am kommenden Samstag*, B1-19) · 29 **b** (*eine Party* f, *einladen zu + ■* → *zu der*, B1-12) · 30 **c** (*Bescheid sagen, ob …*, A2-12).
 - **Teil 2 (10 × 1.5 = 15 pts):** 31 **k** (*Artikel über ▲*) · 32 **c** (*meine Meinung dazu*) · 33 **a** (*damit* purpose) · 34 **e** (*finde es nicht fair, dass …*, B1-17) · 35 **h** (*bezahlen sollen*) · 36 **n** (*weil* + V-END) · 37 **m** (*weder Busse noch Bahnen*, B1-10) · 38 **i** (*Statt … zu erhöhen*, B1-08) · 39 **g** (*meiner Meinung nach*, B1-20) · 40 **d** (*Je öfter …, desto mehr*, B1-10).
 
 ### Block C — Model Letter (~165 words · 45 points)

@@ -1,8 +1,8 @@
-# Full Timed Written Mock Exam 2 — telc Deutsch B1 (Leseverstehen, Sprachbausteine, Schriftlicher Ausdruck)
+# Timed telc Deutsch B1 Practice Mock 2 — Lesen, Sprachbausteine and Schreiben
 
-Use this second full mock exam during Week 2–3 of your **Exam Phase** ([PLAN.md](../PLAN.md), [shared/exam-telc-b1.md](exam-telc-b1.md)) to benchmark your progress after [Mock Exam 1](mock-exam-telc-b1.md).
+Use this second mock during Week 2–3 of your **Exam Phase** ([PLAN.md](../PLAN.md), [shared/exam-telc-b1.md](exam-telc-b1.md)) after [Mock Exam 1](mock-exam-telc-b1.md). Use telc's official mock and audio for the listening and speaking sections.
 - **Total time:** **90 minutes** for *Leseverstehen + Sprachbausteine*, plus **30 minutes** for *Schriftlicher Ausdruck*.
-- **Scoring:** Lesen 75 pts + Sprachbausteine 30 pts + Schreiben 45 pts = **150 pts** (together with 75 pts Hören = 225 pts written total; pass requires ≥ 60 %, i.e. ≥ 90/150 on this reading+grammar+writing subset).
+- **Scoring:** Lesen 75 pts + Sprachbausteine 30 pts + Schreiben 45 pts = **150 pts**. Use **90/150** as a practice benchmark. The official written pass mark is **135/225**, including *Hörverstehen*.
 - **Rule:** Do not peek at the answer key until your timer stops. Record your score in [PROGRESS.md](../PROGRESS.md) under *Mock exams*.
 
 ---
@@ -135,7 +135,7 @@ Use this second full mock exam during Week 2–3 of your **Exam Phase** ([PLAN.m
 26. (a) war (b) wäre (c) hätte
 27. (a) bevor (b) während (c) sobald
 28. (a) über (b) für (c) um
-29. (a) ab (b) seit (c) vor
+29. (a) ab (b) seit (c) aus
 30. (a) Grüße (b) Gruß (c) Grüßen
 
 ---
@@ -175,7 +175,7 @@ Schreiben Sie eine E-Mail an Frau Körner (ca. 150 Wörter, formelle Anrede `Sie
 3. **Stellen Sie mindestens zwei Fragen zum Kurs (z. B. Preis, Zutaten, Teilnehmerzahl, Startdatum).**
 4. **Sagen Sie, ab wann Sie teilnehmen können, und bitten Sie um Informationen zur Anmeldung.**
 
-*Check before time is up: 4 points × ≥ 2 sentences · ~150 words · verb position (V2 / V-END) · noun capitals · `Sie / Ihnen / Ihr` capitalised · lowercase after salutation comma.*
+*Before time is up, check that you addressed all four points clearly. Check verb position, noun capitals, formal `Sie / Ihnen / Ihr`, and the opening after the salutation comma.*
 
 ---
 

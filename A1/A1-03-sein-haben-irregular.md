@@ -5,6 +5,8 @@
 
 ## 0. Diagnostic (3 min)
 
+≥ 7/8 → `✔`.
+
 1. ich (sein) ___ müde.
 2. du (haben) ___ Zeit?
 3. ihr (sein) ___ hier.

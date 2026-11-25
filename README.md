@@ -41,7 +41,7 @@ You don't need to run any scripts to use Anki. Ready-to-import decks for A1, A2,
 Read [METHOD.md](METHOD.md) once (10 minutes) for the full learning protocol and the cognitive science behind it. In short:
 
 1. **5 min — Review flashcards:** Review today's due cards in the **Genau Web App** or in **Anki** ([review/anki/](review/anki/README.md)).
-2. **20 min — Topic work:** Pick the next topic in [PLAN.md](PLAN.md). Start with the 3-minute diagnostic (score ≥ 90 %? mark it `✔` and move on). Study the dual-coded rule, do the exercises without peeking, then open the collapsible answer key.
+2. **20 min — Topic work:** Pick the next topic in [PLAN.md](PLAN.md). Score at least 7/8 on the regular lesson diagnostic to mark it `✔` and move on. Otherwise, study the dual-coded rule, do the exercises, then open the collapsible answer key. Consolidation lessons have their own tests and scoring instructions.
 3. **5 min — Write:** Write 3–5 sentences (or a telc-style letter paragraph from A2-22 on) using today's grammar. Get feedback with your AI tutor.
 
 Pause for a week or a month whenever life gets busy — nothing breaks, and your tracker tells you exactly where to resume.
@@ -61,7 +61,7 @@ genau/
 ├── AGENTS.md          ← session & onboarding protocol for AI tutors
 ├── A1/  A2/  B1/      ← 65 self-contained grammar lessons + consolidation tests
 ├── shared/            ← reference sheets (cases, verbs, connectors, word order, prepositions,
-│                        telc B1 exam guide, full timed mock exam, writing templates, contrasts/)
+│                        telc B1 exam guide, timed practice mocks, writing templates, contrasts/)
 ├── review/            ← 533 spaced-repetition flashcards, ready-to-import Anki decks (anki/),
 │                        error log, schedule, and optional review.py CLI
 └── writing/           ← your texts (submissions/) and their corrections (corrections/)
