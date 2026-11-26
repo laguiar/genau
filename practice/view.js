@@ -24,6 +24,38 @@
     return el;
   }
 
+  // Shared with the lesson diagnostic: progress pips and a German-letter keypad.
+  function progressHead(set, session, current) {
+    const head = element("div", undefined, { className: "dx-head" });
+    head.append(element("span", "Question " + (set.items.indexOf(current) + 1) + " of " + set.items.length, { className: "dx-count" }));
+    const pips = element("ol", undefined, { className: "dx-pips" });
+    pips.setAttribute("aria-hidden", "true");
+    for (const question of set.items) {
+      const attempt = session.answers[question.id];
+      const state = question === current && !attempt ? "now"
+        : attempt ? (M.correctAnswer(question, attempt.text) ? "ok" : "miss") : "";
+      pips.append(element("li", undefined, { className: state }));
+    }
+    head.append(pips);
+    return head;
+  }
+
+  function letterKeys(field) {
+    const keys = element("div", undefined, { className: "dx-keys" });
+    keys.setAttribute("role", "group");
+    keys.setAttribute("aria-label", "Insert German letters");
+    for (const ch of ["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"]) {
+      const key = element("button", ch, { type: "button", className: "dx-key", tabIndex: -1 });
+      key.addEventListener("click", () => {
+        const at = field.selectionStart ?? field.value.length;
+        field.setRangeText(ch, at, field.selectionEnd ?? at, "end");
+        field.focus();
+      });
+      keys.append(key);
+    }
+    return keys;
+  }
+
   function list(tag, texts) {
     const el = element(tag);
     el.append(...texts.map(text => element("li", text)));
@@ -39,7 +71,7 @@
     status.setAttribute("role", "status");
     const content = element("div");
     const nav = element("div", undefined, { className: "practice-actions" });
-    nav.append(link("Practice overview", "home"));
+    if (page !== "home") nav.append(link("← All practice", "home"));
     panel.append(nav, status, content);
     container.replaceChildren(panel);
 
@@ -69,7 +101,7 @@
           content.append(element("p", "Diagnostic met the 7/8 Known threshold. Check retention with the follow-up."));
         }
       } else {
-        content.append(element("p", "This practice attempt has item feedback. Tracked scores require independently reviewed items that are new to you."));
+        content.append(element("p", "This practice set gives feedback on every answer. It isn't scored."));
       }
     }
 
@@ -146,7 +178,7 @@
       }
       if (!session) {
         content.append(element("p", M.isReviewed(set) ? "Submit one answer at a time. The diagnostic records your first unassisted answers."
-          : "These items are available for practice feedback while they await independent review."));
+          : "A practice set: you get feedback on every answer, but nothing here counts toward a score."));
         content.append(action("Begin", () => {
           if (update(next => { next.sessions[M.sessionKey(set)] = M.startSession(set, "grammar", Date.now(), next); })) showGrammar(set);
         }, true));
@@ -173,13 +205,15 @@
         content.append(answers, link("Back to practice", "home"));
         return;
       }
-      content.append(element("p", "Question " + (set.items.indexOf(item) + 1) + " of " + set.items.length),
-        element("h2", item.prompt));
+      const prompt = element("h2", item.prompt, { className: "dx-prompt" });
+      prompt.lang = "de";
+      content.append(progressHead(set, session, item), prompt);
       const answer = session.answers[item.id];
       if (!answer) {
         const form = element("form");
         const field = element("input", undefined, { type: "text", maxLength: M.ANSWER_LIMIT, autocomplete: "off", spellcheck: false });
-        form.append(label("Your answer", field), element("button", "Check answer", { className: "top-btn primary" }));
+        field.lang = "de";
+        form.append(label("Your answer", field), letterKeys(field), element("button", "Check answer", { className: "top-btn primary" }));
         function submit(text) {
           const now = Date.now();
           if (updateSession(set, draft => {
@@ -209,27 +243,47 @@
         return;
       }
       const right = M.correctAnswer(item, answer.text);
-      content.append(element("p", "First answer: " + (answer.text || "Skipped") + (right ? " · Correct" : " · Review")),
-        element("p", item.explanation));
-      if (!right && answer.retry === null) {
-        const retry = element("form");
+      const retried = answer.retry !== null;
+      const retryRight = retried && M.correctAnswer(item, answer.retry);
+      const verdict = element("div", undefined, { className: "dx-verdict " + (right || retryRight ? "ok" : "miss") });
+      verdict.setAttribute("role", "status");
+      if (right) {
+        verdict.append(element("strong", "Richtig."), document.createTextNode(" " + answer.text));
+      } else {
+        verdict.append(element("span", retried ? (retryRight ? "Right on the second try" : "Still not quite") : (answer.text ? "Not quite" : "Skipped"),
+          { className: "dx-verdict-label" }));
+        if (answer.text) {
+          const you = element("p", "You wrote ", { className: "dx-you" });
+          you.append(element("span", answer.text));
+          verdict.append(you);
+        }
+        if (retried) verdict.append(element("p", "Second try: " + answer.retry, { className: "dx-you" }));
+      }
+      verdict.append(element("p", item.explanation, { className: "dx-rule" }));
+      content.append(verdict);
+      const next = action(pending ? "Next question" : "See my result", () => {
+        feedbackId = undefined;
+        showGrammar(set);
+      }, right || retried);
+      if (!right && !retried) {
+        const retry = element("form", undefined, { className: "dx-retry" });
         const field = element("input", undefined, { type: "text", maxLength: M.ANSWER_LIMIT, autocomplete: "off", spellcheck: false });
-        retry.append(label("Try again", field), element("button", "Check retry", { className: "top-btn" }));
+        field.lang = "de";
+        const row = element("div", undefined, { className: "practice-actions" });
+        row.append(element("button", "Check again", { className: "top-btn primary" }), next);
+        retry.append(label("Use the rule and try once more", field), letterKeys(field), row);
         retry.addEventListener("submit", event => {
           event.preventDefault();
-          if (!field.value.trim()) return;
+          if (!field.value.trim()) { field.focus(); return; }
           if (updateSession(set, draft => { draft.answers[item.id].retry = field.value; })) showGrammar(set);
         });
         content.append(retry);
+        field.focus();
       } else {
-        content.append(element("p", "Accepted: " + item.accepted.join(" / ")));
-        if (answer.retry !== null) content.append(element("p", "Retry: " + answer.retry
-          + (M.correctAnswer(item, answer.retry) ? " · Correct" : " · Review")));
+        if (!right) content.append(element("p", "Accepted: " + item.accepted.join(" / "), { className: "dx-accepted" }));
+        content.append(next);
+        next.focus();
       }
-      content.append(action(pending ? "Next question" : "View feedback", () => {
-        feedbackId = undefined;
-        showGrammar(set);
-      }, true));
     }
 
     function showListening(set) {

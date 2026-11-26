@@ -41,7 +41,7 @@
     --text: #161513;
     --text-secondary: #3c3a35;
     --text-muted: #6c675d;
-    --text-faint: #989286;
+    --text-faint: #777267;
 
     /* Disciplined Editorial Accents */
     --ink-btn: #18181b;
@@ -58,7 +58,7 @@
     --accent-soft: rgba(184, 50, 39, 0.08);
     --accent-border: rgba(184, 50, 39, 0.24);
 
-    --gold: #b88214;
+    --gold: #8f6410;
     --gold-soft: rgba(184, 130, 20, 0.11);
     --gold-border: rgba(184, 130, 20, 0.3);
 
@@ -68,7 +68,7 @@
 
     /* Dual-Coding Case Colors */
     --case-nom: #2355a4;
-    --case-akk: #c05618;
+    --case-akk: #b04e12;
     --case-dat: #1b6f4e;
     --case-gen: #6a3d9a;
 
@@ -103,9 +103,11 @@
     --sidebar-w: 292px;
     --header-h: 58px;
     --radius: 10px;
+    --scroll-shade: rgba(22, 21, 19, 0.12);
   }
 
   [data-theme="dark"] {
+    --scroll-shade: rgba(0, 0, 0, 0.55);
     /* Dark Mode — Warm Charcoal Graphite & Parchment Ink */
     --paper: #121316;
     --bg: #0e0f12;
@@ -122,7 +124,7 @@
     --text: #f0ede6;
     --text-secondary: #cbc6bc;
     --text-muted: #908c84;
-    --text-faint: #64615b;
+    --text-faint: #8d8981;
 
     --ink-btn: #f0ede6;
     --ink-btn-hover: #ffffff;
@@ -223,9 +225,9 @@
     padding: 0 18px; gap: 12px;
   }
   .read-progress {
-    position: absolute; bottom: -1px; left: 0; height: 2px; width: 0%;
-    background: var(--accent);
-    transition: width .08s linear; pointer-events: none;
+    position: absolute; bottom: -1px; left: 0; height: 2px; width: 100%;
+    background: var(--accent); transform: scaleX(0); transform-origin: left;
+    pointer-events: none;
   }
 
   .brand-group {
@@ -258,29 +260,14 @@
   .top-controls {
     display: flex; align-items: center; gap: 10px; min-width: 0;
   }
-  .lang-bar {
-    display: flex; align-items: center; gap: 7px;
-  }
-  .lang-bar-label {
-    font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
-    color: var(--text-faint); white-space: nowrap;
-  }
-  .lang-pills {
-    display: inline-flex; align-items: center; gap: 2px;
-    background: var(--surface-2); padding: 3px; border-radius: 9px; border: 1px solid var(--border);
-  }
-  .lang-pill {
-    display: inline-flex; align-items: center; gap: 5px;
-    border: 1px solid transparent; background: transparent; color: var(--text-muted);
-    font-family: var(--font-sans); font-size: 12px; font-weight: 600;
-    padding: 4px 8px; border-radius: 6px; cursor: pointer;
-    transition: all .14s ease; white-space: nowrap; opacity: 0.58;
-  }
-  .lang-pill:hover { color: var(--text); opacity: 0.9; }
-  .lang-pill.active {
-    background: var(--surface); color: var(--text);
-    border-color: var(--border); box-shadow: var(--shadow-xs); opacity: 1;
-  }
+  .lang-summary { gap: 8px; }
+  .lang-summary-flags { display: inline-flex; gap: 3px; }
+  .lang-summary-flags .flag-svg { width: 16px; height: 11px; border-radius: 2px; }
+  .lang-menu .more-list { min-width: 244px; }
+  .more-note { margin: 4px 11px 6px; font-size: 12.5px; line-height: 1.45; color: var(--text-muted); }
+  .lang-pill .lang-check { margin-left: auto; color: var(--ok); visibility: hidden; }
+  .lang-pill.active .lang-check { visibility: visible; }
+  .lang-pill.active { color: var(--text); }
 
   .top-actions {
     display: flex; align-items: center; gap: 8px; flex-shrink: 0;
@@ -307,7 +294,7 @@
 
   .badge {
     background: var(--accent); color: #fff;
-    font-family: var(--font-mono); font-size: 10.5px; padding: 1px 6px;
+    font-family: var(--font-mono); font-size: 11.5px; padding: 1px 6px;
     border-radius: 999px; font-weight: 600; line-height: 1.45;
   }
   .top-btn.primary .badge {
@@ -316,6 +303,7 @@
   [data-theme="dark"] .top-btn.primary .badge {
     background: rgba(18, 19, 22, 0.16); color: var(--ink-btn-text);
   }
+  .badge[hidden], .nav-pill-count[hidden] { display: none; }
   .badge.has-due,
   .top-btn.primary .badge.has-due,
   [data-theme="dark"] .top-btn.primary .badge.has-due {
@@ -360,7 +348,7 @@
   .primary-nav-item .svg-icon { color: var(--text-muted); width: 15px; height: 15px; }
   .primary-nav-item.active .svg-icon, .primary-nav-item[aria-current="page"] .svg-icon { color: var(--accent); }
   .nav-pill-count {
-    font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+    font-family: var(--font-mono); font-size: 11.5px; font-weight: 600;
     padding: 1px 6px; border-radius: 999px;
     background: var(--surface-2); color: var(--text-muted);
   }
@@ -380,21 +368,40 @@
   }
   .search-input::placeholder { color: var(--text-faint); }
   .search-input:focus { border-color: var(--text-muted); box-shadow: 0 0 0 3px var(--primary-soft); }
+  .search-input:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; border-color: var(--primary); }
+  .skip-link {
+    position: fixed; left: 12px; top: -60px; z-index: 200;
+    background: var(--ink-btn); color: var(--ink-btn-text); padding: 10px 14px; border-radius: 8px;
+    font: 600 14px var(--font-sans); text-decoration: none; transition: top .16s ease-out;
+  }
+  .skip-link:focus { top: 10px; outline: 2px solid var(--primary); outline-offset: 2px; }
+  #mainContainer:focus { outline: none; }
+  :focus-visible { outline-color: var(--primary); }
+  .top-btn:focus-visible, .sidebar-toggle:focus-visible, .lang-choice:focus-visible, .dx-key:focus-visible, .link-quiet:focus-visible {
+    outline: 2px solid var(--primary); outline-offset: 2px;
+  }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+  ::selection { background: var(--gold-soft); color: var(--text); }
+  html { accent-color: var(--primary); caret-color: var(--accent); }
 
   .progress-mini { margin-top: 11px; font-size: 12px; color: var(--text-muted); }
   .progress-mini-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
   .progress-mini-row strong { font-family: var(--font-mono); font-size: 11px; color: var(--text); font-weight: 600; }
   .bar-track { height: 4px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
   .bar-fill {
-    height: 100%; background: linear-gradient(90deg, var(--ok), #38a577);
-    border-radius: 99px; transition: width .35s ease;
+    height: 100%; width: 100%; background: var(--ok);
+    border-radius: 99px; transform: scaleX(0); transform-origin: left;
+    transition: transform .35s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .sidebar-nav { flex: 1; overflow-y: auto; padding: 8px 10px 24px; }
   .nav-group { margin-bottom: 10px; }
   .nav-group-hdr {
     display: flex; align-items: center; justify-content: space-between;
-    padding: 6px 8px; font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+    padding: 6px 8px; font-size: 11.5px; font-weight: 700; text-transform: uppercase;
     letter-spacing: 0.08em; color: var(--text-muted); cursor: pointer; user-select: none;
     border-radius: 6px; transition: background .12s, color .12s;
   }
@@ -404,7 +411,7 @@
     width: 12px; height: 12px; color: var(--text-faint); transition: transform .15s ease;
   }
   .nav-group.collapsed .nav-group-chev { transform: rotate(-90deg); }
-  .nav-group-count { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-faint); font-weight: 500; }
+  .nav-group-count { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-faint); font-weight: 500; }
   .nav-list { list-style: none; margin: 2px 0 0; padding: 0; }
   .nav-group.collapsed .nav-list { display: none; }
 
@@ -476,7 +483,6 @@
     margin-left: var(--sidebar-w); flex: 1;
     padding: 36px 40px 104px;
     min-width: 0;
-    transition: margin-left .24s cubic-bezier(.22, 1, .36, 1);
   }
   body.sidebar-collapsed main.content { margin-left: 0; }
   .container { max-width: 810px; margin: 0 auto; }
@@ -486,55 +492,60 @@
     padding: 8px 0 30px;
     border-bottom: 1px solid var(--border);
   }
-  .home-eyebrow {
-    display: inline-flex; align-items: center; gap: 8px;
-    font-family: var(--font-mono); font-size: 11.5px; font-weight: 600;
-    letter-spacing: 0.08em; text-transform: uppercase;
-    color: var(--text-muted); margin-bottom: 16px;
-  }
   .home-title {
-    font-family: var(--font-serif); font-size: clamp(32px, 5vw, 44px);
-    font-weight: 500; line-height: 1.12; letter-spacing: -0.028em;
-    color: var(--text); margin: 0 0 16px;
+    font-family: var(--font-serif); font-size: clamp(34px, 5.2vw, 50px);
+    font-weight: 600; line-height: 1.08; letter-spacing: -0.03em;
+    color: var(--text); margin: 6px 0 18px; max-width: 20ch; text-wrap: balance;
   }
   .home-title em {
-    font-style: italic; font-weight: 400; color: var(--text-secondary);
+    display: block; font-style: italic; font-weight: 400; color: var(--text-secondary);
   }
   .home-lead {
-    font-size: 16.5px; line-height: 1.68; color: var(--text-secondary);
-    max-width: 64ch; margin: 0 0 24px;
+    font-size: 17px; line-height: 1.65; color: var(--text-secondary);
+    max-width: 36em; margin: 0 0 26px;
   }
   .home-lead strong { color: var(--text); font-weight: 600; }
-  .home-cta-row {
-    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  .home-cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+  .top-btn.big { padding: 12px 18px; font-size: 14.5px; border-radius: 9px; white-space: normal; text-align: left; }
+  .home-text-link {
+    font-size: 14px; font-weight: 500; color: var(--text-secondary);
+    text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px;
   }
-  .home-cta-row .top-btn { padding: 9px 16px; font-size: 13.5px; }
+  .home-text-link:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  .home-today-note { margin: 16px 0 0; font-size: 13.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
-  /* Editorial Specs Strip */
-  .home-metrics {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    gap: 16px; padding: 22px 0;
-    border-bottom: 1px solid var(--border);
+  .lang-first {
+    margin: 0 0 26px; padding: 18px 0 2px; border-top: 1px solid var(--border);
+    max-width: 38em;
   }
-  .metric-item { display: flex; flex-direction: column; gap: 2px; }
-  .metric-val {
-    font-family: var(--font-serif); font-size: 26px; font-weight: 600;
-    line-height: 1.15; letter-spacing: -0.02em; color: var(--text);
-    font-variant-numeric: tabular-nums;
+  .lang-first-title { font-family: var(--font-serif); font-size: 19px; font-weight: 600; color: var(--text); margin: 0 0 4px; }
+  .lang-first-body { font-size: 14px; line-height: 1.55; color: var(--text-muted); margin: 0 0 12px; }
+  .lang-first-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .lang-choice {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 40px;
+    padding: 8px 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--border-strong); background: transparent; color: var(--text-secondary);
+    font: 600 13.5px var(--font-sans);
+    transition: background-color .14s, border-color .14s, color .14s;
   }
-  .metric-lbl { font-size: 12.5px; color: var(--text-muted); line-height: 1.35; }
+  .lang-choice .flag-svg { opacity: 0.45; transition: opacity .14s; }
+  .lang-choice:hover { border-color: var(--text-muted); color: var(--text); }
+  .lang-choice .lang-tick { width: 15px; height: 15px; margin-left: -2px; display: none; }
+  .lang-choice.active { background: var(--ink-btn); border-color: var(--ink-btn); color: var(--ink-btn-text); }
+  .lang-choice.active .lang-tick { display: inline-block; }
+  .lang-choice.active:hover { color: var(--ink-btn-text); background: var(--ink-btn-hover); }
+  .lang-choice.active .flag-svg { opacity: 1; }
+  .lang-choice:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 
-  .home-section {
-    padding: 32px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .home-section:last-child { border-bottom: none; padding-bottom: 8px; }
+  .home-section { padding: 34px 0; border-top: 1px solid var(--border); }
+  .home-hero { padding: 8px 0 34px; }
+  .home-section:last-child { padding-bottom: 8px; }
   .home-sec-head {
     display: flex; justify-content: space-between; align-items: baseline;
-    gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
+    gap: 12px; margin-bottom: 14px; flex-wrap: wrap;
   }
   .home-sec-title {
-    font-family: var(--font-serif); font-size: 23px; font-weight: 600;
+    font-family: var(--font-serif); font-size: 24px; font-weight: 600;
     letter-spacing: -0.018em; margin: 0; color: var(--text);
   }
   .home-sec-link {
@@ -543,124 +554,185 @@
   }
   .home-sec-link:hover { color: var(--accent); }
 
-  /* Level Cards */
-  .level-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+  /* Today's plan: a timed, ruled list */
+  .plan { list-style: none; margin: 0; padding: 0; }
+  .plan-step {
+    display: grid; grid-template-columns: 76px 1fr; gap: 16px;
+    padding: 14px 0; border-top: 1px solid var(--border-subtle);
   }
-  .level-card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 18px 18px 16px; display: flex; flex-direction: column; justify-content: space-between;
-    text-decoration: none; color: inherit;
-    transition: border-color .16s, transform .16s, box-shadow .16s;
+  .plan-step:first-child { border-top: 0; }
+  .plan-min {
+    font-family: var(--font-serif); font-size: 17px; font-style: italic; color: var(--accent);
+    font-variant-numeric: tabular-nums; padding-top: 1px;
   }
-  .level-card:hover {
-    border-color: var(--border-strong); transform: translateY(-2px); box-shadow: var(--shadow-sm);
+  .plan-title { margin: 0 0 2px; font-size: 15.5px; font-weight: 650; color: var(--text); }
+  .plan-title a { color: inherit; text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
+  .plan-title a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  .plan-body { margin: 0; font-size: 14px; line-height: 1.55; color: var(--text-muted); max-width: 38em; }
+  .plan-body a { color: var(--primary); font-weight: 600; }
+  .plan-step.quiet .plan-min { color: var(--text-muted); }
+
+  /* Contents: ruled table of contents */
+  .toc { list-style: none; margin: 0; padding: 0; border-top: 1.5px solid var(--text); }
+  .toc-row { border-bottom: 1px solid var(--border); }
+  .toc-row a {
+    display: grid; grid-template-columns: 42px minmax(0, 1fr) 128px 140px; gap: 18px; align-items: center;
+    padding: 16px 4px; text-decoration: none; color: inherit;
+    transition: background-color .14s;
   }
-  .level-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .toc-row a:hover { background: var(--bg); }
+  .toc-row a:hover .toc-cta { color: var(--accent); }
   .level-code {
-    font-family: var(--font-mono); font-size: 11.5px; font-weight: 700;
-    padding: 2px 7px; border-radius: 5px; letter-spacing: 0.04em;
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700; text-align: center;
+    padding: 3px 0; border-radius: 5px; letter-spacing: 0.04em;
   }
   .level-code.a1 { background: var(--ok-soft); color: var(--ok); }
   .level-code.a2 { background: var(--primary-soft); color: var(--primary); }
   .level-code.b1 { background: var(--accent-soft); color: var(--accent); }
-  .level-count { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-faint); }
-  .level-card h3 {
-    font-family: var(--font-serif); font-size: 18.5px; font-weight: 600;
-    margin: 0 0 6px; color: var(--text); line-height: 1.25;
-  }
-  .level-card p {
-    font-size: 13.5px; line-height: 1.55; color: var(--text-muted); margin: 0 0 14px;
-  }
-  .level-foot {
-    display: flex; align-items: center; justify-content: space-between;
-    padding-top: 10px; border-top: 1px solid var(--border-subtle);
-    font-size: 12.5px; font-weight: 600; color: var(--text);
-  }
-  .level-bar { height: 3px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-bottom: 12px; }
-  .level-bar > span { display: block; height: 100%; background: var(--ok); border-radius: 99px; }
-
-  /* 30-Minute Routine Grid */
-  .routine-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;
-  }
-  .routine-step {
-    padding: 16px 0 4px; border-top: 2px solid var(--border-strong);
-  }
-  .routine-meta {
-    display: flex; align-items: baseline; justify-content: space-between;
-    font-family: var(--font-mono); font-size: 11.5px; color: var(--text-faint);
-    margin-bottom: 8px;
-  }
-  .routine-meta strong { color: var(--accent); font-weight: 600; }
-  .routine-step h3 {
-    font-family: var(--font-sans); font-size: 15px; font-weight: 700;
-    margin: 0 0 6px; color: var(--text);
-  }
-  .routine-step p {
-    font-size: 13.5px; line-height: 1.6; color: var(--text-muted); margin: 0 0 10px;
-  }
-  .routine-step a {
-    font-size: 12.5px; font-weight: 600; color: var(--primary); text-decoration: none;
+  .toc-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .toc-title { font-family: var(--font-serif); font-size: 19px; font-weight: 600; color: var(--text); }
+  .toc-desc { font-size: 13.5px; line-height: 1.5; color: var(--text-muted); }
+  .toc-progress { display: flex; flex-direction: column; gap: 6px; }
+  .toc-count { font-size: 12.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  .level-bar { height: 3px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+  .level-bar > span { display: block; height: 100%; background: var(--ok); border-radius: 99px; transform-origin: left; }
+  .toc-cta {
+    display: inline-flex; align-items: center; justify-content: flex-end; gap: 6px;
+    font-size: 13.5px; font-weight: 600; color: var(--text);
   }
 
-  /* Contrast Pack Showcase on Home */
-  .home-contrasts {
-    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-    gap: 14px; padding: 18px 20px; border-radius: var(--radius);
-    background: var(--bg); border: 1px solid var(--border);
+  .also-list { list-style: none; margin: 14px 0 0; padding: 0; columns: 2 300px; column-gap: 40px; }
+  .also-list li { break-inside: avoid; padding: 10px 0 12px; border-top: 1px solid var(--border-subtle); }
+  .also-list a {
+    display: inline-block; margin-bottom: 2px; font-weight: 650; font-size: 14.5px; color: var(--text);
+    text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px;
   }
-  .home-contrasts p {
-    margin: 0; font-size: 14px; color: var(--text-secondary); max-width: 48ch; line-height: 1.55;
-  }
-  .home-contrasts strong { color: var(--text); }
+  .also-list a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  .also-list span { display: block; font-size: 13.5px; line-height: 1.5; color: var(--text-muted); }
 
-  /* Secondary Study Options */
-  .tools-grid {
-    display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
-  }
-  .tool-row {
-    display: flex; align-items: flex-start; gap: 12px;
-    padding: 14px 16px; border-radius: var(--radius);
-    background: var(--surface); border: 1px solid var(--border);
-    text-decoration: none; color: inherit; transition: border-color .14s, background .14s;
-  }
-  .tool-row:hover { border-color: var(--border-strong); background: var(--bg); }
-  .tool-icon {
-    width: 32px; height: 32px; border-radius: 8px; flex-shrink: 0;
-    background: var(--surface-2); color: var(--text-secondary);
-    display: inline-flex; align-items: center; justify-content: center;
-  }
-  .tool-row h4 { font-size: 14px; font-weight: 650; margin: 0 0 2px; color: var(--text); }
-  .tool-row p { font-size: 13px; line-height: 1.5; color: var(--text-muted); margin: 0; }
-
-  .home-colophon {
-    font-size: 13px; line-height: 1.65; color: var(--text-muted);
-  }
+  .home-colophon { margin: 0; font-size: 13px; line-height: 1.65; color: var(--text-muted); max-width: 44em; }
   .home-colophon a { color: var(--text-secondary); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
 
   /* ==================== LESSON TOOLBAR ==================== */
   .lesson-toolbar {
-    background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 9px 12px; margin-bottom: 28px;
-    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 0 0 14px; margin-bottom: 26px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
   }
-  .status-group { display: flex; align-items: center; gap: 3px; flex-wrap: wrap; }
-  .status-label {
-    font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.06em; color: var(--text-faint); margin-right: 6px;
+  .status-group { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .status-label { font-size: 12.5px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+  .status-seg {
+    display: inline-flex; gap: 2px; padding: 3px; border-radius: 9px;
+    background: var(--surface-2); border: 1px solid var(--border-subtle);
   }
   .status-btn {
     border: 1px solid transparent; background: transparent; color: var(--text-muted);
-    font-family: var(--font-sans); font-size: 12px; font-weight: 600;
-    padding: 4.5px 9px; border-radius: 6px; cursor: pointer; transition: all .14s;
+    font-family: var(--font-sans); font-size: 12.5px; font-weight: 600; white-space: nowrap;
+    padding: 5px 10px; border-radius: 6px; cursor: pointer;
+    transition: background-color .14s, color .14s, border-color .14s;
   }
+  .status-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
+
+  .more-menu { position: relative; flex-shrink: 0; }
+  .more-menu > summary { list-style: none; }
+  .more-menu > summary::-webkit-details-marker { display: none; }
+  .more-menu[open] > summary { background: var(--surface-2); color: var(--text); border-color: var(--border-strong); }
+  .more-list {
+    position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; min-width: 268px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow-md); padding: 5px;
+  }
+  .more-item {
+    display: flex; align-items: center; gap: 10px; width: 100%;
+    padding: 9px 11px; border: 0; border-radius: 7px; background: transparent;
+    font: 500 13.5px/1.3 var(--font-sans); color: var(--text-secondary);
+    text-align: left; text-decoration: none; cursor: pointer;
+  }
+  .more-item .svg-icon { color: var(--text-muted); flex-shrink: 0; }
+  .more-item:hover, .more-item:focus-visible { background: var(--surface-2); color: var(--text); outline: none; }
+
+  /* ==================== LESSON DIAGNOSTIC ==================== */
+  article.md .dx-static { display: none; }
+  .dx {
+    margin: 6px 0 8px; padding: 20px 22px 18px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    box-shadow: var(--shadow-xs);
+  }
+  .dx p { margin: 0; }
+  .dx .dx-lede { font-size: 15px; line-height: 1.6; color: var(--text-secondary); max-width: 36em; }
+  .dx .dx-last { margin-top: 8px; font-size: 13.5px; color: var(--text-muted); }
+  .dx-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; align-items: center; }
+  .dx-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 14px; }
+  .dx-count { font-size: 12.5px; font-weight: 600; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  .dx-pips { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
+  article.md .dx-pips li { margin: 0; padding: 0; }
+  .dx-pips li { width: 18px; height: 4px; border-radius: 2px; background: var(--border); }
+  .dx-pips li.now { background: var(--text-muted); }
+  .dx-pips li.ok { background: var(--ok); }
+  .dx-pips li.miss { background: var(--accent); }
+  .dx-prompt {
+    display: block; font-family: var(--font-serif); font-size: 21px; line-height: 1.4;
+    color: var(--text); margin-bottom: 14px; letter-spacing: -0.005em;
+  }
+  .dx .dx-prompt-sm { font-size: 16px; color: var(--text-secondary); margin-bottom: 10px; }
+  .dx-row { display: flex; gap: 8px; }
+  .dx-input {
+    flex: 1; min-width: 0; font: 500 16px/1.3 var(--font-sans); color: var(--text);
+    background: var(--paper); border: 1px solid var(--border-strong); border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .dx-input::placeholder { color: var(--text-muted); }
+  .dx-input:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; border-color: var(--primary); }
+  .dx-keys { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .dx-key {
+    min-width: 32px; height: 30px; border-radius: 6px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--bg); color: var(--text-secondary);
+    font: 500 14px/1 var(--font-sans);
+  }
+  .dx-key:hover { background: var(--surface-2); color: var(--text); }
+  .link-quiet {
+    margin-top: 12px; padding: 4px 0; border: 0; background: none; cursor: pointer;
+    font: 500 13px var(--font-sans); color: var(--text-muted);
+    text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--border-strong);
+  }
+  .link-quiet:hover { color: var(--text); }
+  .dx-verdict { border-radius: 9px; padding: 14px 16px; }
+  .dx-verdict.ok { background: var(--ok-soft); color: var(--text); }
+  .dx-verdict.ok strong { color: var(--ok); margin-right: 6px; }
+  .dx-verdict.miss { background: var(--accent-soft); border: 1px solid var(--accent-border); }
+  .dx-verdict-label { display: block; font-size: 12.5px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+  .dx .dx-answer { font-family: var(--font-serif); font-size: 21px; color: var(--text); line-height: 1.4; }
+  .dx .dx-you, .practice-panel .dx-you { margin: 6px 0 0; font-size: 13.5px; color: var(--text-muted); }
+  .practice-panel .dx-verdict { margin: 4px 0 16px; }
+  .practice-panel h2.dx-prompt { font-family: var(--font-serif); font-size: 22px; font-weight: 500; margin: 0 0 6px; }
+  .practice-panel .dx-keys { margin: -4px 0 12px; }
+  .practice-panel .dx-rule { margin: 10px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--text-secondary); }
+  .practice-panel .dx-accepted { font-size: 14px; color: var(--text-muted); }
+  .practice-panel .dx-retry label { font-weight: 600; }
+  .dx .dx-you span, .practice-panel .dx-you span { text-decoration: line-through; text-decoration-color: var(--accent); color: var(--text-secondary); }
+  .dx .dx-honest { margin-top: 10px; font-size: 13.5px; color: var(--text-muted); }
+  article.md .dx-peek { margin: 12px 0 0; background: var(--bg); }
+  article.md .dx-peek > summary { font-size: 13.5px; padding: 10px 14px; }
+  article.md .dx-peek figure.diagram { margin: 0; border: 0; border-radius: 0; }
+  article.md .dx-peek .link-quiet { margin: 6px 14px 10px; }
+  .dx .dx-honest:empty { display: none; }
+  .dx-score { display: flex; gap: 18px; align-items: center; }
+  .dx-score-num {
+    font-family: var(--font-serif); font-size: 52px; font-weight: 600; line-height: 1;
+    color: var(--text); font-variant-numeric: tabular-nums; letter-spacing: -0.03em;
+  }
+  .dx-score-num span { font-size: 24px; color: var(--text-muted); font-weight: 500; }
+  .dx-score.pass .dx-score-num { color: var(--ok); }
+  .dx .dx-score-title { font-family: var(--font-serif); font-size: 20px; font-weight: 600; color: var(--text); }
+  .dx .dx-score-sub { margin-top: 4px; font-size: 14px; color: var(--text-secondary); max-width: 33em; }
+  article.md .dx-missed { margin: 16px 0 0; background: var(--bg); }
+  article.md .dx-missed summary { font-size: 13.5px; padding: 10px 14px; }
+  .dx-missed ol { margin: 0; padding: 12px 16px 6px 36px !important; }
+  .dx-missed li { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .dx-missed-a { color: var(--ok); font-weight: 600; }
   .status-btn:hover { background: var(--surface-2); color: var(--text); }
   .status-btn.active { background: var(--ok-soft); color: var(--ok); border-color: var(--ok-border); }
   .status-btn.active[data-status="◐"] { background: var(--gold-soft); color: var(--gold); border-color: var(--gold-border); }
   .status-btn.active[data-status="☐"] { background: var(--surface); color: var(--text); border-color: var(--border-strong); }
-  .toolbar-actions { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-  .toolbar-actions .top-btn { padding: 5.5px 10px; font-size: 12.5px; }
 
   /* ==================== LESSON MASTHEAD ==================== */
   .lesson-masthead {
@@ -691,13 +763,13 @@
     margin: 0 0 16px; color: var(--text);
   }
   .cando-box {
-    border-left: 2.5px solid var(--ok);
-    background: var(--bg);
-    padding: 11px 16px; border-radius: 0 8px 8px 0;
+    border: 1px solid var(--ok-border);
+    background: var(--ok-soft);
+    padding: 11px 16px; border-radius: 8px;
     font-size: 14.5px; line-height: 1.6; color: var(--text-secondary);
   }
   .cando-label {
-    display: block; font-family: var(--font-mono); font-size: 10.5px; font-weight: 700;
+    display: block; font-family: var(--font-mono); font-size: 11.5px; font-weight: 700;
     letter-spacing: 0.08em; text-transform: uppercase; color: var(--ok);
     margin-bottom: 3px;
   }
@@ -718,6 +790,7 @@
   .practice-panel h3 { margin: 18px 0 4px; font-size: 15.5px; }
   .practice-panel p { margin: 8px 0 12px; color: var(--text-secondary); }
   .practice-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
+  .practice-actions:empty { display: none; }
   .practice-panel .top-btn { text-decoration: none; }
   .practice-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px; margin-top: 18px; }
   .practice-card {
@@ -783,6 +856,26 @@
     letter-spacing: 0.06em; color: var(--text-muted); margin: 22px 0 8px;
   }
   article.md p { margin: 0 0 15px; color: var(--text-secondary); }
+  /* Reading measure: about 70 characters of prose; diagrams and tables may use the full column */
+  article.md .contrast-group { max-width: 44em; }
+  article.md > p, article.md > ul, article.md > ol, article.md > blockquote,
+  article.md > h3, article.md .details-body > p,
+  article.md .details-body > ul, article.md .details-body > ol { max-width: 34em; }
+  .cando-box, .dx .dx-lede { max-width: 40em; }
+  /* Lesson prose is set like a book; controls, tables and callouts keep the sans */
+  article.md.is-lesson > p, article.md.is-lesson > ul, article.md.is-lesson > ol,
+  article.md.is-lesson > blockquote, article.md.is-lesson .details-body > p,
+  article.md.is-lesson .details-body > ul, article.md.is-lesson .details-body > ol,
+  article.md:not(.is-lesson) > p, article.md:not(.is-lesson) > ul, article.md:not(.is-lesson) > ol {
+    font-family: var(--font-serif); font-size: 18.5px; line-height: 1.62;
+    font-optical-sizing: auto; font-variant-numeric: oldstyle-nums proportional-nums;
+  }
+  article.md.is-lesson > p strong, article.md.is-lesson > ul strong, article.md.is-lesson > ol strong,
+  article.md:not(.is-lesson) > p strong { font-weight: 650; }
+  article.md li::marker { font-family: var(--font-serif); font-size: 0.92em; }
+  article.md > p code, article.md > ul code, article.md > ol code, article.md .details-body code { font-size: 0.76em; }
+  article.md h2, .lesson-masthead h1 { text-wrap: balance; }
+  article.md p, article.md li { text-wrap: pretty; }
   article.md p strong { color: var(--text); font-weight: 650; }
   article.md ul, article.md ol { margin: 0 0 18px; padding-left: 22px; color: var(--text-secondary); }
   article.md li { margin-bottom: 7px; padding-left: 3px; }
@@ -794,7 +887,7 @@
     text-decoration-color: var(--primary-border); text-underline-offset: 3px;
     font-weight: 500; transition: text-decoration-color .15s, color .15s;
   }
-  .routine-step a:hover, .masthead-meta a:hover { color: var(--accent); text-decoration: underline; }
+  .masthead-meta a:hover { color: var(--accent); text-decoration: underline; }
   .home-colophon a:hover { color: var(--accent); }
   article.md a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   article.md del { color: var(--text-faint); text-decoration-color: var(--accent); }
@@ -804,7 +897,7 @@
     padding: 1.5px 5.5px; border-radius: 4.5px;
     font-family: var(--font-mono); font-size: 0.84em; font-weight: 500;
   }
-  /* Warm Architectural Grammar Diagram Block */
+  /* Grammar diagrams: text panels, bracket grids (Satzklammer), paradigms */
   article.md pre {
     background: var(--diagram-bg); color: var(--diagram-text);
     border: 1px solid var(--diagram-border);
@@ -813,13 +906,96 @@
   }
   article.md pre code {
     background: transparent; padding: 0; color: inherit;
-    font-size: 11.2px; font-weight: 450;
+    font-size: 12px; font-weight: 450;
   }
+  article.md figure.diagram {
+    margin: 20px 0 28px; max-width: 100%;
+    background: var(--diagram-bg); color: var(--diagram-text);
+    border: 1px solid var(--diagram-border); border-radius: var(--radius);
+    overflow: hidden;
+  }
+  article.md figure.diagram > * + * { border-top: 1px solid var(--diagram-border); }
+  article.md figure.diagram .dia-text {
+    padding: 14px 18px; font-family: var(--font-mono); font-size: 12.5px; line-height: 1.7;
+  }
+  .dl {
+    display: block; white-space: pre-wrap; overflow-wrap: anywhere;
+    padding-left: calc(var(--in, 0ch) + 3ch); text-indent: -3ch;
+  }
+  .dl-gap { height: 0.85em; }
+  .dia-label { font-weight: 700; color: var(--text); letter-spacing: 0.03em; }
+  .dia-bad { color: var(--accent); font-weight: 700; }
+  .dia-good { color: var(--ok); font-weight: 700; }
+
+  .dia-scroll {
+    overflow-x: auto; overscroll-behavior-x: contain;
+    background:
+      linear-gradient(90deg, var(--diagram-bg) 40%, transparent) left / 28px 100% no-repeat local,
+      linear-gradient(270deg, var(--diagram-bg) 40%, transparent) right / 28px 100% no-repeat local,
+      linear-gradient(90deg, var(--scroll-shade), transparent) left / 12px 100% no-repeat scroll,
+      linear-gradient(270deg, var(--scroll-shade), transparent) right / 12px 100% no-repeat scroll;
+  }
+  article.md .dia-scroll table {
+    width: auto; min-width: 100%; border-collapse: separate; border-spacing: 0;
+    font-size: 14px; margin: 0;
+  }
+  article.md .dia-scroll th, article.md .dia-scroll td {
+    border: 0; padding: 7px 14px; white-space: nowrap; vertical-align: baseline;
+    background: transparent;
+  }
+  article.md .dia-scroll tbody tr:hover { background: transparent; }
+  article.md .dia-scroll thead th {
+    font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+    letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted);
+    padding-top: 16px; padding-bottom: 9px;
+  }
+
+  /* Satzklammer: the verb bracket is drawn across the column heads */
+  article.md .klammer thead th { position: relative; }
+  article.md .klammer thead th.k-open,
+  article.md .klammer thead th.k-mid,
+  article.md .klammer thead th.k-close { border-top: 2px solid var(--accent); }
+  article.md .klammer thead th.k-open { border-left: 2px solid var(--accent); border-top-left-radius: 7px; }
+  article.md .klammer thead th.k-close { border-right: 2px solid var(--accent); border-top-right-radius: 7px; }
+  article.md .klammer thead th.k-verb { color: var(--accent); }
+  article.md .klammer td.k-verb, article.md .klammer th.k-verb { background: var(--accent-soft); }
+  article.md .klammer td.k-verb { color: var(--text); font-weight: 650; }
+  article.md .klammer td { color: var(--text-secondary); }
+  article.md .klammer td.k-note {
+    font-size: 12.5px; color: var(--text-muted); font-style: italic;
+  }
+  article.md .klammer tr.k-gloss td {
+    font-family: var(--font-serif); font-style: italic; font-size: 14.5px;
+    color: var(--text-muted); padding-top: 0; padding-bottom: 12px; white-space: normal;
+  }
+  article.md .klammer tbody tr:last-child td { padding-bottom: 14px; }
+
+  /* Paradigm tables: gender columns, case-tinted when the block names a case */
+  article.md .paradigm { --case: var(--text-muted); }
+  article.md .paradigm.case-nom { --case: var(--case-nom); }
+  article.md .paradigm.case-akk { --case: var(--case-akk); }
+  article.md .paradigm.case-dat { --case: var(--case-dat); }
+  article.md .paradigm.case-gen { --case: var(--case-gen); }
+  article.md .paradigm thead th { border-bottom: 1.5px solid var(--case); }
+  article.md .paradigm thead th.p-title {
+    font-family: var(--font-sans); text-transform: none; letter-spacing: 0;
+    font-size: 13px; font-weight: 700; color: var(--text);
+  }
+  article.md .paradigm tbody th {
+    font-family: var(--font-sans); font-weight: 500; font-size: 13px;
+    color: var(--text-muted); text-align: left; text-transform: none; letter-spacing: 0;
+  }
+  article.md .paradigm thead th:not(.p-title) { text-transform: none; font-size: 12.5px; color: var(--text); }
+  article.md .paradigm tbody td { color: var(--text); font-weight: 500; white-space: normal; min-width: 8ch; }
+  article.md .paradigm tr.p-span td { color: var(--text-secondary); font-weight: 450; }
+  article.md .paradigm tbody th { white-space: normal; min-width: 12ch; }
+  article.md .paradigm tbody tr + tr > * { border-top: 1px solid var(--diagram-border); }
+  article.md .paradigm tr.p-cont td { color: var(--text-muted); font-style: italic; font-weight: 400; }
 
   article.md blockquote {
     margin: 18px 0 22px; padding: 14px 18px;
-    border-left: 2.5px solid var(--gold);
-    background: var(--bg); border-radius: 0 8px 8px 0;
+    border: 1px solid var(--gold-border);
+    background: var(--gold-soft); border-radius: 8px;
     color: var(--text-secondary);
   }
   article.md blockquote p { margin-bottom: 8px; }
@@ -831,16 +1007,15 @@
   }
   article.md .contrast-box {
     border: 1px solid var(--border);
-    border-left: 3px solid var(--primary);
     background: var(--primary-soft);
-    padding: 13px 16px; border-radius: 0 9px 9px 0;
+    padding: 13px 16px; border-radius: 9px;
     font-size: 14.5px; line-height: 1.65;
     color: var(--text-secondary);
   }
-  article.md .contrast-box[data-lang="pt-BR"] { border-left-color: var(--c-pt-border); background: var(--c-pt-bg); }
-  article.md .contrast-box[data-lang="es"]    { border-left-color: var(--c-es-border); background: var(--c-es-bg); }
-  article.md .contrast-box[data-lang="fr"]    { border-left-color: var(--c-fr-border); background: var(--c-fr-bg); }
-  article.md .contrast-box[data-lang="en"]    { border-left-color: var(--c-en-border); background: var(--c-en-bg); }
+  article.md .contrast-box[data-lang="pt-BR"] { border-color: color-mix(in srgb, var(--c-pt-border) 30%, transparent); background: var(--c-pt-bg); }
+  article.md .contrast-box[data-lang="es"]    { border-color: color-mix(in srgb, var(--c-es-border) 30%, transparent); background: var(--c-es-bg); }
+  article.md .contrast-box[data-lang="fr"]    { border-color: color-mix(in srgb, var(--c-fr-border) 30%, transparent); background: var(--c-fr-bg); }
+  article.md .contrast-box[data-lang="en"]    { border-color: color-mix(in srgb, var(--c-en-border) 30%, transparent); background: var(--c-en-bg); }
   article.md .contrast-box strong { color: var(--text); }
   article.md .contrast-box.hidden-lang { display: none; }
   .contrast-hdr {
@@ -897,6 +1072,14 @@
   article.md details[open] summary { border-bottom: 1px solid var(--border); }
   article.md details > .details-body { padding: 18px 20px 6px; }
 
+  .case-key {
+    display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 14px 0 0;
+    font-size: 13px; color: var(--text-muted);
+  }
+  .case-key > div { display: inline-flex; align-items: baseline; gap: 6px; }
+  .case-key dt { font-weight: 700; }
+  .case-key dd { margin: 0; }
+
   /* Case symbol dual-coding */
   .sym-nom { color: var(--case-nom); font-weight: 700; }
   .sym-akk { color: var(--case-akk); font-weight: 700; }
@@ -910,23 +1093,21 @@
   }
 
   /* ==================== FLASHCARDS STUDIO ==================== */
-  .fc-tabs {
-    display: flex; gap: 8px; margin-bottom: 18px;
-    border-bottom: 1px solid var(--border); padding-bottom: 14px; flex-wrap: wrap;
+  .fc-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px 16px; flex-wrap: wrap; }
+  .fc-summary { margin: 6px 0 18px; font-size: 14.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  .fc-summary strong { color: var(--text); font-weight: 650; }
+  .fc-tabs { margin: 10px 0 16px; }
+  .fc-tabs .status-btn.active { background: var(--surface); color: var(--text); border-color: var(--border-strong); box-shadow: var(--shadow-xs); }
+  .fc-wide { width: 100%; justify-content: center; padding: 12px; font-size: 14px; }
+  .grade-q { margin: 16px 0 0; font-size: 13.5px; font-weight: 600; color: var(--text-secondary); }
+  .fc-add { margin-top: 22px; border-top: 1px solid var(--border); }
+  .fc-add > summary {
+    display: flex; align-items: center; gap: 8px; padding: 14px 0; cursor: pointer; list-style: none;
+    font-size: 14px; font-weight: 600; color: var(--text-secondary);
   }
-  .fc-stats {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    gap: 10px; margin: 20px 0 22px;
-  }
-  .stat-card {
-    background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 13px 15px;
-  }
-  .stat-val {
-    font-family: var(--font-serif); font-size: 26px; font-weight: 600;
-    line-height: 1.15; color: var(--text); font-variant-numeric: tabular-nums;
-  }
-  .stat-lbl { font-size: 12px; color: var(--text-muted); margin-top: 3px; font-weight: 500; }
+  .fc-add > summary::-webkit-details-marker { display: none; }
+  .fc-add[open] .summary-chev { transform: rotate(90deg); }
+  .fc-add > summary:hover { color: var(--text); }
 
   .flashcard {
     position: relative; overflow: hidden;
@@ -957,11 +1138,11 @@
   }
   .fc-a {
     border-top: 1px dashed var(--border-strong); padding-top: 18px; margin-top: 14px;
-    font-size: 16.5px; color: var(--ok); font-weight: 600; line-height: 1.55;
-    animation: fadeUp .16s ease;
+    font-family: var(--font-serif); font-size: 20px; color: var(--text); font-weight: 500; line-height: 1.5;
+    animation: fadeUp .22s cubic-bezier(0.16, 1, 0.3, 1);
   }
   @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(4px); }
+    from { opacity: 0.35; transform: translateY(6px); }
     to   { opacity: 1; transform: translateY(0); }
   }
 
@@ -985,7 +1166,7 @@
   .grade-btn.g3:hover { background: var(--primary-soft); }
 
   .kbd {
-    font-family: var(--font-mono); font-size: 10.5px; padding: 1px 5px;
+    font-family: var(--font-mono); font-size: 11.5px; padding: 1px 5px;
     border-radius: 4px; border: 1px solid currentColor; opacity: .65; margin-left: 4px;
   }
 
@@ -998,13 +1179,22 @@
   select.select:focus { border-color: var(--text-muted); }
 
   .fc-empty {
-    text-align: center; padding: 38px 20px; background: var(--bg);
-    border: 1px solid var(--border); border-radius: 12px; margin-top: 14px;
+    padding: 28px 28px 24px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 12px; margin-top: 6px;
   }
-  .fc-empty-icon {
-    width: 40px; height: 40px; border-radius: 10px; margin: 0 auto 12px;
-    background: var(--ok-soft); color: var(--ok);
-    display: flex; align-items: center; justify-content: center;
+  .fc-empty-title {
+    margin: 0 0 6px; font-family: var(--font-serif); font-size: 28px; font-weight: 600;
+    letter-spacing: -0.02em; color: var(--text);
+  }
+  .fc-empty.done .fc-empty-title { color: var(--ok); animation: settle .6s cubic-bezier(0.16, 1, 0.3, 1); }
+  @keyframes settle {
+    from { opacity: 0; letter-spacing: 0.04em; filter: blur(3px); }
+    to   { opacity: 1; letter-spacing: -0.02em; filter: blur(0); }
+  }
+  .fc-empty-body { margin: 0; font-size: 15px; line-height: 1.6; color: var(--text-secondary); max-width: 34em; }
+  @media (prefers-reduced-motion: reduce) {
+    .fc-a, .fc-empty.done .fc-empty-title { animation: none; }
+    * { scroll-behavior: auto !important; }
   }
 
   .notice {
@@ -1024,7 +1214,6 @@
   /* ==================== RESPONSIVE: IPAD & TABLET (<= 1024px) ==================== */
   @media (max-width: 1024px) {
     .brand-sub { display: none; }
-    .lang-bar-label { display: none; }
     aside.sidebar {
       transform: translateX(-100%);
       box-shadow: var(--shadow-lg);
@@ -1036,59 +1225,63 @@
 
   /* ==================== RESPONSIVE: IPHONE & MOBILE (<= 720px) ==================== */
   @media (max-width: 720px) {
-    :root { --header-h: 94px; }
-    .topbar-main {
-      height: auto;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      grid-template-rows: 52px 40px;
-      padding: 0;
-      gap: 0;
-    }
-    .brand-group {
-      grid-column: 1; grid-row: 1;
-      padding-left: 12px; gap: 8px;
-    }
+    :root { --header-h: 56px; }
+    .topbar-main { padding: 0 10px 0 8px; gap: 8px; }
+    .brand-group { gap: 4px; }
     .brand-word { font-size: 21px; }
-    .top-controls { display: contents; }
-    .top-actions {
-      grid-column: 2; grid-row: 1;
-      padding-right: 12px; gap: 6px;
-      justify-self: end; align-self: center;
-    }
-    .top-actions .top-btn { padding: 6px 10px; font-size: 12.5px; }
-    .top-actions .icon-btn { width: 34px; height: 34px; padding: 0; }
-    .lang-bar {
-      grid-column: 1 / -1; grid-row: 2;
-      border-top: 1px solid var(--border-subtle);
-      background: var(--bg);
-      padding: 0 12px;
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 8px; width: 100%;
-    }
-    .lang-bar-label {
-      display: inline-block; font-size: 10px; letter-spacing: 0.06em;
-    }
-    .lang-pills {
-      background: transparent; border: none; padding: 0; gap: 4px;
-    }
-    .lang-pill {
-      padding: 4px 8px; font-size: 11.5px; gap: 4px;
-      background: var(--surface); border-color: var(--border); opacity: 0.6;
-    }
-    .lang-pill.active {
-      border-color: var(--border-strong); opacity: 1;
-    }
+    .top-controls { gap: 6px; }
+    .top-actions { gap: 6px; }
+    .lang-summary-label { display: none; }
+    .lang-summary { padding: 0 10px; height: 44px; }
+    .top-actions .top-btn { height: 44px; padding: 0 12px; font-size: 13px; }
+    .top-actions .icon-btn, .sidebar-toggle { width: 44px; height: 44px; padding: 0; }
+    .lang-menu .more-list { position: fixed; left: 10px; right: 10px; top: calc(var(--header-h) + 4px); min-width: 0; }
+    .lang-menu .more-item { padding: 12px 11px; }
 
     main.content { padding: 22px 16px 76px; }
-    .home-metrics { grid-template-columns: repeat(2, 1fr); gap: 14px 12px; }
-    .level-grid { grid-template-columns: 1fr; }
-    .routine-grid { grid-template-columns: 1fr; gap: 16px; }
-    .tools-grid { grid-template-columns: 1fr; }
-    .fc-stats { grid-template-columns: repeat(2, 1fr); }
+    .toc-row a { grid-template-columns: 38px minmax(0, 1fr); gap: 6px 14px; padding: 14px 2px; }
+    .toc-progress, .toc-cta { grid-column: 2; }
+    .toc-cta { justify-content: flex-start; }
+    .plan-step { grid-template-columns: 58px 1fr; gap: 12px; }
+    .top-btn.big { width: 100%; justify-content: space-between; }
+    .top-actions #fcNavBtn > span:not(.badge) { display: none; }
+    .fc-empty { padding: 22px 18px 18px; }
+    .fc-tabs { display: flex; }
+    .fc-tabs .status-btn { flex: 1; }
     .grade-row { grid-template-columns: repeat(2, 1fr); }
     .flashcard { padding: 22px 18px; }
     article.md pre { padding: 15px 14px; font-size: 12.5px; }
+    .lesson-toolbar { gap: 8px; }
+    .status-label { display: none; }
+    .status-group, .status-seg { flex: 1; }
+    .status-btn { flex: 1; padding: 9px 4px; font-size: 12.5px; }
+    .more-menu > summary.icon-btn { width: 42px; height: 42px; }
+    .dx { padding: 16px 14px 14px; margin-left: -4px; margin-right: -4px; }
+    .dx-prompt, .dx .dx-answer { font-size: 19px; }
+    .dx-input { font-size: 17px; }
+    .dx-row .top-btn { padding: 0 16px; }
+    .dx-key { min-width: 38px; height: 36px; }
+    .dx-score-num { font-size: 44px; }
+  }
+  @media (max-width: 560px) {
+    article.md .paradigm, article.md .paradigm tbody, article.md .paradigm tr { display: block; min-width: 0; width: 100%; }
+    article.md .paradigm thead tr { display: block; }
+    article.md .paradigm thead th:not(.p-title) { display: none; }
+    article.md .paradigm thead th.p-title { display: block; padding: 14px 16px 10px; }
+    article.md .paradigm thead th.p-title:empty { display: none; }
+    article.md .paradigm tbody tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px 16px 12px; gap: 4px 14px; }
+    article.md .paradigm tbody tr + tr > * { border-top: 0; }
+    article.md .paradigm tbody tr + tr { border-top: 1px solid var(--diagram-border); }
+    article.md .paradigm tbody th, article.md .paradigm tbody td { display: block; padding: 0; min-width: 0; }
+    article.md .paradigm tbody th { grid-column: 1 / -1; padding-bottom: 4px; }
+    article.md .paradigm tbody td::before {
+      content: attr(data-g); display: inline-block; min-width: 2.6ch; margin-right: 6px;
+      font: 600 11.5px var(--font-mono); color: var(--text-muted);
+    }
+    article.md .paradigm tr.p-span td, article.md .paradigm tr.p-cont td { grid-column: 1 / -1; }
+    article.md .paradigm td:not([data-g])::before, article.md .paradigm td[data-g=""]::before { display: none; }
+    article.md .paradigm td.p-blank { display: none; }
+    article.md .klammer td.k-note { white-space: normal; min-width: 18ch; }
   }
 
   /* ==================== PRINT ==================== */
@@ -1115,10 +1308,15 @@
     }
     article.md .contrast-box.hidden-lang { display: none; }
     article.md details:not([open]) { border: 1px dashed #bbb; }
+    .dx { display: none; }
+    article.md .dx-static { display: block; }
+    article.md figure.diagram { break-inside: avoid; background: #fff; border-color: #ccc; }
+    .dia-scroll { overflow: visible; background: none; }
   }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#mainContainer">Skip to content</a>
 <header class="topbar">
   <div class="topbar-tricolor" aria-hidden="true"></div>
   <div class="topbar-main">
@@ -1138,27 +1336,35 @@
     </div>
 
     <div class="top-controls">
-      <div class="lang-bar" title="Choose contrast languages shown in lessons">
-        <span class="lang-bar-label">Contrasts</span>
-        <div class="lang-pills">
-          <button class="lang-pill" data-lang="pt-BR" type="button" aria-label="Toggle Portuguese contrast">
-            <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#1E824C"/><polygon points="10,2 17.5,7 10,12 2.5,7" fill="#F2C12E"/><circle cx="10" cy="7" r="2.7" fill="#1E3A8A"/></svg>
-            <span>BR</span>
-          </button>
-          <button class="lang-pill" data-lang="es" type="button" aria-label="Toggle Spanish contrast">
-            <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#C92A2A"/><rect width="20" height="7" y="3.5" fill="#F0BD2D"/></svg>
-            <span>ES</span>
-          </button>
-          <button class="lang-pill" data-lang="fr" type="button" aria-label="Toggle French contrast">
-            <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="6.7" height="14" x="0" fill="#1D428A"/><rect width="6.7" height="14" x="6.65" fill="#F8F8F6"/><rect width="6.7" height="14" x="13.3" fill="#C92A2A"/></svg>
-            <span>FR</span>
-          </button>
-          <button class="lang-pill" data-lang="en" type="button" aria-label="Toggle English contrast">
-            <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#1B3A7A"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#F8F8F6" stroke-width="2.6"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#C92A2A" stroke-width="1.2"/><path d="M10,0 V14 M0,7 H20" stroke="#F8F8F6" stroke-width="4"/><path d="M10,0 V14 M0,7 H20" stroke="#C92A2A" stroke-width="2.2"/></svg>
-            <span>EN</span>
-          </button>
+      <details class="more-menu lang-menu">
+        <summary class="top-btn lang-summary" aria-label="Contrast languages" title="Contrast languages shown in lessons">
+          <span class="lang-summary-label">Contrasts</span>
+          <span class="lang-summary-flags" id="langSummaryFlags"></span>
+        </summary>
+        <div class="more-list" role="menu" aria-label="Contrast languages">
+          <p class="more-note">Lessons show contrast notes for the languages you know.</p>
+            <button class="more-item lang-pill" data-lang="pt-BR" type="button" role="menuitemcheckbox">
+              <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#1E824C"/><polygon points="10,2 17.5,7 10,12 2.5,7" fill="#F2C12E"/><circle cx="10" cy="7" r="2.7" fill="#1E3A8A"/></svg>
+              <span>Portuguese (Brazil)</span>
+              <svg class="svg-icon lang-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </button>
+            <button class="more-item lang-pill" data-lang="es" type="button" role="menuitemcheckbox">
+              <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#C92A2A"/><rect width="20" height="7" y="3.5" fill="#F0BD2D"/></svg>
+              <span>Spanish</span>
+              <svg class="svg-icon lang-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </button>
+            <button class="more-item lang-pill" data-lang="fr" type="button" role="menuitemcheckbox">
+              <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="6.7" height="14" x="0" fill="#1D428A"/><rect width="6.7" height="14" x="6.65" fill="#F8F8F6"/><rect width="6.7" height="14" x="13.3" fill="#C92A2A"/></svg>
+              <span>French</span>
+              <svg class="svg-icon lang-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </button>
+            <button class="more-item lang-pill" data-lang="en" type="button" role="menuitemcheckbox">
+              <svg class="flag-svg" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#1B3A7A"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#F8F8F6" stroke-width="2.6"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#C92A2A" stroke-width="1.2"/><path d="M10,0 V14 M0,7 H20" stroke="#F8F8F6" stroke-width="4"/><path d="M10,0 V14 M0,7 H20" stroke="#C92A2A" stroke-width="2.2"/></svg>
+              <span>English</span>
+              <svg class="svg-icon lang-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </button>
         </div>
-      </div>
+      </details>
 
       <div class="top-actions">
         <button class="top-btn primary" id="fcNavBtn" type="button">
@@ -1210,7 +1416,7 @@
           <span>Course progress</span>
           <strong id="progressSummary">0 / 65</strong>
         </div>
-        <div class="bar-track"><div class="bar-fill" id="progressBar" style="width:0%"></div></div>
+        <div class="bar-track"><div class="bar-fill" id="progressBar"></div></div>
       </div>
     </div>
 
@@ -1236,7 +1442,7 @@
   </aside>
 
   <main class="content">
-    <div class="container" id="mainContainer">
+    <div class="container" id="mainContainer" tabindex="-1">
       <div style="padding:48px 0; text-align:center; color:var(--text-muted)">Loading Genau…</div>
     </div>
   </main>
@@ -1244,8 +1450,8 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="practice/model.js"></script>
-<script src="practice/view.js"></script>
+<script src="practice/model.js?v=2026-11-26"></script>
+<script src="practice/view.js?v=2026-11-26"></script>
 <script>
 (() => {
   const ICONS = {
@@ -1263,7 +1469,9 @@
     bot: `<svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 3v3"/><rect x="4" y="6" width="16" height="14" rx="3"/><circle cx="9.5" cy="13" r="1"/><circle cx="14.5" cy="13" r="1"/></svg>`,
     download: `<svg class="svg-icon" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>`,
     code: `<svg class="svg-icon" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>`,
-    diagnostic: `<svg class="svg-icon" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>`
+    diagnostic: `<svg class="svg-icon" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>`,
+    more: `<svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="19" cy="12" r="1.4"/></svg>`,
+    x: `<svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`
   };
 
   const FLAGS = {
@@ -1275,10 +1483,10 @@
   };
 
   const LANG_META = {
-    "pt-BR": { code: "BR", label: "Portuguese contrast" },
-    es: { code: "ES", label: "Spanish contrast" },
-    fr: { code: "FR", label: "French contrast" },
-    en: { code: "EN", label: "English contrast" }
+    "pt-BR": { code: "BR", label: "Portuguese contrast", name: "Portuguese (Brazil)" },
+    es: { code: "ES", label: "Spanish contrast", name: "Spanish" },
+    fr: { code: "FR", label: "French contrast", name: "French" },
+    en: { code: "EN", label: "English contrast", name: "English" }
   };
 
   const COURSE = {
@@ -1399,6 +1607,17 @@
   const STATUSES = ["☐", "◐", "◑", "●", "✔"];
   const SIDEBAR_GROUPS = ["start", "A1", "A2", "B1", "shared"];
   const DRAWER_MQ = window.matchMedia("(max-width: 1024px)");
+  function closeMenus(except, restoreFocus) {
+    document.querySelectorAll("details.more-menu[open]").forEach(menu => {
+      if (menu === except) return;
+      const hadFocus = menu.contains(document.activeElement);
+      menu.open = false;
+      if (restoreFocus && hadFocus) menu.querySelector("summary").focus();
+    });
+  }
+  document.addEventListener("click", e => closeMenus(e.target.closest("details.more-menu")));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeMenus(null, true); });
+  window.addEventListener("hashchange", () => closeMenus());
 
   function isRecord(value) {
     return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -1424,7 +1643,15 @@
       sidebarCollapsed: value => typeof value === "boolean",
       progress: (id, status) => LESSON_IDS.has(id) && STATUSES.includes(status),
       schedule: isScheduleRow,
-      collapsed: (key, value) => SIDEBAR_GROUPS.includes(key) && typeof value === "boolean"
+      collapsed: (key, value) => SIDEBAR_GROUPS.includes(key) && typeof value === "boolean",
+      diagnostics: (id, value) => LESSON_IDS.has(id) && isRecord(value) &&
+        Number.isInteger(value.score) && Number.isInteger(value.total) &&
+        value.score >= 0 && value.score <= value.total && typeof value.date === "string",
+      activity: (date, value) => /^\d{4}-\d{2}-\d{2}$/.test(date) && isRecord(value) &&
+        Number.isInteger(value.cards) && Array.isArray(value.lessons) &&
+        value.lessons.every(id => LESSON_IDS.has(id)),
+      langsChosen: value => typeof value === "boolean",
+      lastLesson: value => typeof value === "string" && LESSON_IDS.has(value)
     };
     const fields = [...Object.keys(validators), "practice"].filter(key => Object.hasOwn(candidate, key));
     if (strict && fields.length === 0) throw new Error("Missing progress data");
@@ -1433,7 +1660,7 @@
       if (key === "practice") {
         try { next.practice = GenauPracticeModel.normalizePractice(value); }
         catch (err) { if (strict) throw err; }
-      } else if (key === "langs" || key === "theme" || key === "sidebarCollapsed") {
+      } else if (key === "langs" || key === "theme" || key === "sidebarCollapsed" || key === "langsChosen" || key === "lastLesson") {
         if (validators[key](value)) next[key] = key === "langs" ? [...new Set(value)] : value;
         else if (strict) throw new Error(`Invalid ${key}`);
       } else if (isRecord(value)) {
@@ -1448,19 +1675,35 @@
     return next;
   }
 
+  // First visit: preselect contrast languages from the browser's languages, always with English.
+  function detectLangs() {
+    const prefs = (navigator.languages || [navigator.language || ""]).map(l => l.toLowerCase());
+    const found = LANGUAGES.filter(code => prefs.some(p => p.startsWith(code.slice(0, 2).toLowerCase())));
+    return [...new Set([...found, "en"])];
+  }
+
   function loadState() {
     const defaults = {
-      langs: [...LANGUAGES],
+      langs: detectLangs(),
       progress: {},
       schedule: {},
       theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
       sidebarCollapsed: false,
       collapsed: {},
+      diagnostics: {},
+      activity: {},
+      langsChosen: false,
       practice: GenauPracticeModel.emptyPractice()
     };
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) return normalizeState(JSON.parse(raw), defaults);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        const next = normalizeState(parsed, defaults);
+        // Learners from before the first-run language choice already picked theirs.
+        if (!Object.hasOwn(parsed, "langsChosen") && Object.keys(next.progress).length) next.langsChosen = true;
+        return next;
+      }
     } catch {}
     return defaults;
   }
@@ -1502,26 +1745,54 @@
       document.body.classList.remove("sidebar-collapsed");
       const open = sidebar.classList.contains("drawer-open");
       toggleBtn.setAttribute("aria-expanded", String(open));
+      setDrawerModal(open);
     } else {
+      setDrawerModal(false);
       sidebar.classList.remove("drawer-open");
       document.getElementById("backdrop").classList.remove("open");
       document.body.classList.toggle("sidebar-collapsed", !!state.sidebarCollapsed);
       toggleBtn.setAttribute("aria-expanded", String(!state.sidebarCollapsed));
     }
   }
+  // In drawer mode the sidebar is modal: the page behind it is inert until it closes.
+  function setDrawerModal(open) {
+    const sidebar = document.getElementById("sidebar");
+    const modal = open && DRAWER_MQ.matches;
+    // A closed drawer is off-screen: keep its links out of the tab order.
+    sidebar.inert = DRAWER_MQ.matches && !open;
+    document.querySelector("main.content").inert = modal;
+    document.querySelector(".topbar-main .top-controls").inert = modal;
+    if (modal) { sidebar.setAttribute("role", "dialog"); sidebar.setAttribute("aria-modal", "true"); }
+    else { sidebar.removeAttribute("role"); sidebar.removeAttribute("aria-modal"); }
+  }
   function closeDrawerSidebar() {
-    document.getElementById("sidebar").classList.remove("drawer-open");
+    const sidebar = document.getElementById("sidebar");
+    const wasOpen = sidebar.classList.contains("drawer-open");
+    const hadFocus = sidebar.contains(document.activeElement);
+    sidebar.classList.remove("drawer-open");
     document.getElementById("backdrop").classList.remove("open");
+    setDrawerModal(false);
     if (DRAWER_MQ.matches) {
-      document.getElementById("sidebarToggleBtn").setAttribute("aria-expanded", "false");
+      const toggle = document.getElementById("sidebarToggleBtn");
+      toggle.setAttribute("aria-expanded", "false");
+      if (wasOpen && hadFocus) toggle.focus({ preventScroll: true });
     }
   }
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && document.getElementById("sidebar").classList.contains("drawer-open")) closeDrawerSidebar();
+  });
   document.getElementById("sidebarToggleBtn").addEventListener("click", () => {
     if (DRAWER_MQ.matches) {
       const sidebar = document.getElementById("sidebar");
       const open = sidebar.classList.toggle("drawer-open");
       document.getElementById("backdrop").classList.toggle("open", open);
       document.getElementById("sidebarToggleBtn").setAttribute("aria-expanded", String(open));
+      setDrawerModal(open);
+      if (open) {
+        const current = sidebar.querySelector(".nav-item.active, [aria-current='page']");
+        if (current) current.scrollIntoView({ block: "center" });
+        (current || sidebar.querySelector("a, button, input")).focus({ preventScroll: true });
+      }
     } else {
       state.sidebarCollapsed = !state.sidebarCollapsed;
       saveState();
@@ -1537,8 +1808,10 @@
       const code = btn.dataset.lang;
       const active = state.langs.includes(code);
       btn.classList.toggle("active", active);
-      btn.setAttribute("aria-pressed", String(active));
+      btn.setAttribute("aria-checked", String(active));
     });
+    const summary = document.getElementById("langSummaryFlags");
+    if (summary) summary.innerHTML = state.langs.map(code => FLAGS[code]).join("");
     document.querySelectorAll(".contrast-box").forEach(box => {
       const code = box.dataset.lang;
       box.classList.toggle("hidden-lang", !state.langs.includes(code));
@@ -1554,16 +1827,20 @@
   function updateBadges() {
     const done = ALL_LESSONS.filter(l => ["●", "✔"].includes(state.progress[l.id])).length;
     document.getElementById("progressSummary").textContent = `${done} / ${ALL_LESSONS.length}`;
-    document.getElementById("progressBar").style.width = `${Math.round((done / ALL_LESSONS.length) * 100)}%`;
+    document.getElementById("progressBar").style.transform = `scaleX(${done / ALL_LESSONS.length})`;
 
     const due = getDueCount();
+    const fcBtn = document.getElementById("fcNavBtn");
+    if (fcBtn) fcBtn.setAttribute("aria-label", due > 0 ? `Flashcards, ${due} due` : "Flashcards, none due");
     const dueEl = document.getElementById("dueBadge");
     dueEl.textContent = due;
     dueEl.classList.toggle("has-due", due > 0);
+    dueEl.hidden = due === 0;
 
     const sideDue = document.getElementById("sideDueBadge");
     if (sideDue) {
-      sideDue.textContent = due > 0 ? `${due} due` : "533";
+      sideDue.textContent = due > 0 ? `${due} due` : "";
+      sideDue.hidden = due === 0;
       sideDue.classList.toggle("due", due > 0);
     }
   }
@@ -1617,8 +1894,8 @@
               const st = g.isLesson ? (state.progress[it.id] || "☐") : "";
               return `
                 <li>
-                  <a class="nav-item ${active ? "active" : ""}" href="#doc=${encodeURIComponent(it.path)}">
-                    ${g.isLesson ? `<span class="nav-dot" data-st="${st}" title="${statusLabel(st)}"></span><span class="nav-id">${it.id}</span>` : ""}
+                  <a class="nav-item ${active ? "active" : ""}" href="#doc=${encodeURIComponent(it.path)}"${active ? ' aria-current="page"' : ""}>
+                    ${g.isLesson ? `<span class="nav-dot" data-st="${st}" title="${statusLabel(st)}"></span><span class="sr-only">${statusLabel(st)}: </span><span class="nav-id">${it.id}</span>` : ""}
                     <span class="nav-title">${escapeHtml(it.title)}</span>
                   </a>
                 </li>
@@ -1802,14 +2079,185 @@
       nicosHtml ? `<span class="meta-sep">·</span><span>DW Nicos Weg: ${nicosHtml}</span>` : ""
     ].filter(Boolean).join("");
 
+    const usedCases = Object.entries(CASE_SYM).filter(([sym]) => md.includes(sym));
+    const legendHtml = usedCases.length
+      ? `<dl class="case-key" aria-label="Case symbols in this lesson">${usedCases.map(([sym, key]) =>
+          `<div><dt class="sym-${key}">${sym}</dt><dd>${CASE_NAME[key]}</dd></div>`).join("")}</dl>`
+      : "";
+
     const mastheadHtml = `
       <div class="lesson-masthead">
         <div class="masthead-meta">${pills}</div>
         <h1>${formatInline(cleanTitle, baseFile)}</h1>
         ${candoHtml ? `<div class="cando-box"><span class="cando-label">Learning Goal</span>${candoHtml}</div>` : ""}
+        ${legendHtml}
       </div>
     `;
     return { mastheadHtml, restMd: lines.slice(i).join("\n") };
+  }
+
+  // ==================== GRAMMAR DIAGRAMS ====================
+  // Fenced blocks are hand-aligned ASCII diagrams. Two shapes are rebuilt as real
+  // structures: bracket (word-order) grids and gender paradigms. Everything else
+  // stays monospace, with case symbols and ✔/✘ marks coloured.
+  const CASE_SYM = { "●": "nom", "▲": "akk", "■": "dat", "◆": "gen" };
+  const CASE_NAME = { nom: "Nominativ", akk: "Akkusativ", dat: "Dativ", gen: "Genitiv" };
+
+  function diaInline(text) {
+    return escapeHtml(text)
+      .replace(/[●▲■◆]/g, sym => `<span class="sym-${CASE_SYM[sym]}">${sym}</span>`)
+      .replace(/✘/g, '<span class="dia-bad">✘</span>')
+      .replace(/✔/g, '<span class="dia-good">✔</span>');
+  }
+
+  function diaSegments(line) {
+    const segs = [];
+    const re = /\S+(?: \S+)*/g;
+    let m;
+    while ((m = re.exec(line))) segs.push({ start: m.index, text: m[0] });
+    return segs;
+  }
+
+  function assignToColumns(line, starts) {
+    const cells = starts.map(() => []);
+    for (const seg of diaSegments(line)) {
+      let col = 0;
+      for (let c = 0; c < starts.length; c++) if (starts[c] <= seg.start + 3) col = c;
+      cells[col].push(seg.text);
+    }
+    return cells.map(parts => parts.join(" "));
+  }
+
+  const BRACKET_HEADER = /^\s*(?:\[[^\]]+\]\s*){2,}$/;
+
+  function isParadigmHeader(line) {
+    const cells = line.trim().split(/\s{2,}/).map(c => c.toLowerCase().replace(/\s*\(.*\)$/, ""));
+    return ["m", "n", "f"].every(g => cells.includes(g));
+  }
+
+  function renderBracketGrid(header, rows) {
+    const cols = [];
+    const re = /\[\s*([^\]]+?)\s*\]/g;
+    let m;
+    while ((m = re.exec(header))) cols.push({ start: m.index, label: m[1] });
+    const isVerb = l => /\bV\b|\bV2\b|V-END|VERB|conjugated|Partizip|Infinitiv/i.test(l);
+    const isLink = l => /Subjunktor|Relativ|Fragewort|Article|Artikel/i.test(l);
+    cols.forEach(c => { c.verb = isVerb(c.label); c.end = /END/i.test(c.label); });
+    let open = cols.findIndex(c => (c.verb && !c.end) || isLink(c.label));
+    let close = -1;
+    cols.forEach((c, idx) => { if (c.verb && idx > open) close = idx; });
+    if (open === -1 || close === -1) { open = -1; close = -1; }
+
+    const starts = cols.map(c => c.start);
+    const thead = cols.map((c, idx) => {
+      const cls = ["k-col"];
+      if (c.verb) cls.push("k-verb");
+      if (idx === open) cls.push("k-open");
+      else if (idx === close) cls.push("k-close");
+      else if (open > -1 && idx > open && idx < close) cls.push("k-mid");
+      return `<th scope="col" class="${cls.join(" ")}"><span>${diaInline(c.label)}</span></th>`;
+    }).join("") + `<th class="k-note-h" aria-hidden="true"></th>`;
+
+    const body = rows.map(row => {
+      const trimmed = row.trim();
+      if (/^=/.test(trimmed)) {
+        return `<tr class="k-gloss"><td colspan="${cols.length + 1}">${diaInline(trimmed)}</td></tr>`;
+      }
+      const cells = assignToColumns(row, starts);
+      let note = "";
+      const last = cells.length - 1;
+      const noteMatch = cells[last].match(/^(.*?\S)?\s*(\([^()]*\)|←.*)$/);
+      if (noteMatch && noteMatch[1]) { cells[last] = noteMatch[1]; note = noteMatch[2]; }
+      else if (noteMatch && !noteMatch[1] && cells[last].startsWith("(")) { note = cells[last]; cells[last] = ""; }
+      return `<tr>${cells.map((cell, idx) =>
+        `<td class="${cols[idx].verb ? "k-verb" : ""}">${diaInline(cell)}</td>`
+      ).join("")}<td class="k-note">${diaInline(note)}</td></tr>`;
+    }).join("");
+
+    return `<div class="dia-scroll"><table class="klammer" lang="de"><thead><tr>${thead}</tr></thead><tbody>${body}</tbody></table></div>`;
+  }
+
+  function renderParadigm(header, rows) {
+    const segs = diaSegments(header);
+    const genderIdx = segs.findIndex(s => /^(m|n|f|pl)\b/i.test(s.text));
+    const titleText = genderIdx > 0 ? segs.slice(0, genderIdx).map(s => s.text).join(" ") : "";
+    const gender = segs.slice(genderIdx);
+    const starts = [0, ...gender.map(s => s.start)];
+    const caseSym = (titleText.match(/[●▲■◆]/) || [])[0];
+    const caseKey = caseSym ? CASE_SYM[caseSym] : "";
+
+    const thead = `<th scope="col" class="p-title">${diaInline(titleText)}</th>` +
+      gender.map(g => `<th scope="col">${diaInline(g.text)}</th>`).join("");
+    const genderLabels = gender.map(g => g.text.replace(/\s*\(.*\)$/, ""));
+    const body = rows.map(row => {
+      const cells = assignToColumns(row, starts);
+      const filled = cells.filter(Boolean).length;
+      if (!cells[0] && filled === 1) {
+        const at = cells.findIndex(Boolean);
+        return `<tr class="p-cont"><td class="p-blank"></td><td colspan="${cells.length - 1}">${diaInline(cells[at])}</td></tr>`;
+      }
+      // A single example list that runs across the gender columns gets one full-width cell.
+      const used = cells.map((c, idx) => idx).filter(idx => idx > 0 && cells[idx]);
+      if (used.length === 1) {
+        const k = used[0];
+        const room = (starts[k + 1] ?? starts[k] + 14) - starts[k];
+        if (cells[k].length > room + 4) {
+          return `<tr class="p-span"><th scope="row">${diaInline(cells[0])}</th><td colspan="${cells.length - 1}">${diaInline(cells[k])}</td></tr>`;
+        }
+      }
+      const rowSym = (cells[0].match(/[●▲■◆]/) || [])[0];
+      return `<tr${rowSym ? ` class="case-row case-${CASE_SYM[rowSym]}"` : ""}><th scope="row">${diaInline(cells[0])}</th>${
+        cells.slice(1).map((c, idx) => `<td data-g="${escapeHtml(genderLabels[idx] || "")}">${diaInline(c)}</td>`).join("")}</tr>`;
+    }).join("");
+
+    return `<div class="dia-scroll"><table lang="de" class="paradigm${caseKey ? ` case-${caseKey}` : ""}"${caseKey ? ` aria-label="${CASE_NAME[caseKey]} paradigm"` : ""}><thead><tr>${thead}</tr></thead><tbody>${body}</tbody></table></div>`;
+  }
+
+  function renderDiagram(codeLines) {
+    const parts = [];
+    let textBuf = [];
+    const flushText = () => {
+      while (textBuf.length && !textBuf[textBuf.length - 1].trim()) textBuf.pop();
+      while (textBuf.length && !textBuf[0].trim()) textBuf.shift();
+      if (!textBuf.length) return;
+      const minIndent = Math.min(...textBuf.filter(l => l.trim()).map(l => l.match(/^ */)[0].length));
+      // Each line keeps its indent as a hanging indent, so long lines wrap instead of clipping.
+      const html = textBuf.map(l => {
+        const line = l.slice(minIndent);
+        if (!line.trim()) return `<span class="dl dl-gap"></span>`;
+        const indent = line.match(/^ */)[0].length;
+        const text = line.trim();
+        const isLabel = /^[A-ZÄÖÜ0-9●▲■◆][A-ZÄÖÜẞ0-9 ●▲■◆&+\-—–·/().,'"!?]*[:A-ZÄÖÜ)]\s*$/.test(text) && /[A-ZÄÖÜ]{3}/.test(text);
+        return `<span class="dl${isLabel ? " dia-label" : ""}" style="--in:${indent}ch">${diaInline(text)}</span>`;
+      }).join("");
+      parts.push(`<div class="dia-text" lang="de">${html}</div>`);
+      textBuf = [];
+    };
+
+    let i = 0;
+    while (i < codeLines.length) {
+      const line = codeLines[i];
+      const bracket = BRACKET_HEADER.test(line);
+      const paradigm = !bracket && isParadigmHeader(line);
+      if (bracket || paradigm) {
+        const rows = [];
+        let j = i + 1;
+        while (j < codeLines.length && codeLines[j].trim() && !BRACKET_HEADER.test(codeLines[j])) {
+          rows.push(codeLines[j]);
+          j++;
+        }
+        if (rows.length) {
+          flushText();
+          parts.push(bracket ? renderBracketGrid(line, rows) : renderParadigm(line, rows));
+          i = j;
+          continue;
+        }
+      }
+      textBuf.push(line);
+      i++;
+    }
+    flushText();
+    return `<figure class="diagram">${parts.join("")}</figure>`;
   }
 
   function renderMarkdown(md, baseFile) {
@@ -1852,7 +2300,7 @@
           i++;
         }
         if (i < lines.length) i++;
-        out.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+        out.push(renderDiagram(codeLines));
         continue;
       }
 
@@ -1871,7 +2319,7 @@
         if (lvl === 2) {
           const numMatch = text.match(/^(\d+)\.\s+(.+)$/);
           if (numMatch) {
-            out.push(`<h2><span class="sec-num">${numMatch[1].padStart(2, "0")}</span><span>${formatInline(numMatch[2], baseFile)}</span></h2>`);
+            out.push(`<h2><span class="sec-num" aria-hidden="true">${numMatch[1].padStart(2, "0")}</span><span>${formatInline(numMatch[2], baseFile)}</span></h2>`);
             i++;
             continue;
           }
@@ -1968,6 +2416,22 @@
     return list.find(l => !["●", "✔"].includes(state.progress[l.id])) || list[0];
   }
 
+  // The lesson to offer next: the one you were working on, else the first unfinished one after it.
+  function resumeLesson() {
+    const isDone = l => ["●", "✔"].includes(state.progress[l.id]);
+    const last = state.lastLesson && LESSON_BY_ID[state.lastLesson];
+    if (last && !isDone(last)) return last;
+    if (last) {
+      const after = ALL_LESSONS.slice(ALL_LESSONS.indexOf(last) + 1).find(l => !isDone(l));
+      if (after) return after;
+    }
+    return nextLessonFor(ALL_LESSONS);
+  }
+  function hasStarted(lesson) {
+    return state.lastLesson === lesson.id || !!state.diagnostics[lesson.id] ||
+      ["◐", "◑", "●", "✔"].includes(state.progress[lesson.id]);
+  }
+
   function renderHome() {
     currentPath = "README.md";
     updatePrimaryNavActive();
@@ -1975,195 +2439,139 @@
     closeDrawerSidebar();
 
     const totalDone = ALL_LESSONS.filter(l => ["●", "✔"].includes(state.progress[l.id])).length;
-    const nextOverall = nextLessonFor(ALL_LESSONS);
+    const nextOverall = resumeLesson();
     const due = getDueCount();
+    const queued = Object.keys(state.schedule).length;
+    const returning = totalDone > 0 || queued > 0 || Object.keys(state.diagnostics).length > 0;
+    const lastDx = state.diagnostics[nextOverall.id];
+    const today = state.activity[todayISO()];
+    const streak = studyStreak();
+    const lessonHref = `#doc=${encodeURIComponent(nextOverall.path)}`;
 
-    const levelCards = [
-      {
-        code: "A1", cls: "a1", title: "Foundations",
-        desc: "Sentence skeleton, verb-second word order, gender endings, Nominativ, Akkusativ, and first past forms.",
-        list: COURSE.A1
-      },
-      {
-        code: "A2", cls: "a2", title: "Core Structures",
-        desc: "Dativ, two-way prepositions, adjective endings, subordinate clauses, Konjunktiv II, and relative clauses.",
-        list: COURSE.A2
-      },
-      {
-        code: "B1", cls: "b1", title: "Exam Readiness",
-        desc: "Genitiv, Passiv, two-part connectors, Sprachbausteine patterns, and telc B1 Schreiben & Lesen strategy.",
-        list: COURSE.B1
-      }
-    ].map(lv => {
+    const levels = [
+      { code: "A1", cls: "a1", title: "Foundations", list: COURSE.A1,
+        desc: "Sentence skeleton, verb-second word order, gender, Nominativ and Akkusativ, first past forms." },
+      { code: "A2", cls: "a2", title: "Core Structures", list: COURSE.A2,
+        desc: "Dativ, two-way prepositions, adjective endings, subordinate clauses, Konjunktiv II, relative clauses." },
+      { code: "B1", cls: "b1", title: "Exam Readiness", list: COURSE.B1,
+        desc: "Genitiv, Passiv, two-part connectors, Sprachbausteine patterns, telc B1 writing and reading strategy." }
+    ];
+    const contents = levels.map(lv => {
       const done = lv.list.filter(l => ["●", "✔"].includes(state.progress[l.id])).length;
-      const pct = Math.round((done / lv.list.length) * 100);
       const target = nextLessonFor(lv.list);
-      const cta = done === 0 ? `Start ${target.id}` : (done === lv.list.length ? `Review ${lv.code}` : `Continue ${target.id}`);
+      const cta = done === 0 ? `Start ${target.id}` : done === lv.list.length ? `Review ${lv.code}` : `Continue ${target.id}`;
       return `
-        <a class="level-card" href="#doc=${encodeURIComponent(target.path)}">
-          <div>
-            <div class="level-top">
-              <span class="level-code ${lv.cls}">${lv.code}</span>
-              <span class="level-count">${done} / ${lv.list.length} lessons</span>
-            </div>
-            <h3>${lv.title}</h3>
-            <p>${lv.desc}</p>
-          </div>
-          <div>
-            <div class="level-bar"><span style="width:${pct}%"></span></div>
-            <div class="level-foot">
-              <span>${cta}</span>
-              ${ICONS.arrowRight}
-            </div>
-          </div>
-        </a>
-      `;
+        <li class="toc-row">
+          <a href="#doc=${encodeURIComponent(target.path)}">
+            <span class="level-code ${lv.cls}">${lv.code}</span>
+            <span class="toc-main">
+              <span class="toc-title">${lv.title}</span>
+              <span class="toc-desc">${lv.desc}</span>
+            </span>
+            <span class="toc-progress"><span class="toc-count">${done} of ${lv.list.length}</span>
+              <span class="level-bar" aria-hidden="true"><span style="width:${Math.round((done / lv.list.length) * 100)}%"></span></span></span>
+            <span class="toc-cta">${cta}${ICONS.arrowRight}</span>
+          </a>
+        </li>`;
     }).join("");
 
-    const activeLangBadges = state.langs.map(code => {
-      const m = LANG_META[code];
-      return `<span class="meta-pill">${FLAGS[code]} ${m.code}</span>`;
-    }).join(" ");
+    const primary = due > 0
+      ? `<a class="top-btn primary big" href="#flashcards">${ICONS.cards}<span>Review ${due} due ${due === 1 ? "card" : "cards"}</span></a>`
+      : `<a class="top-btn primary big" href="${lessonHref}"><span>${hasStarted(nextOverall) ? "Continue" : "Start"} ${nextOverall.id}: ${escapeHtml(nextOverall.title)}</span>${ICONS.arrowRight}</a>`;
+
+    const step = (mins, title, body, tone = "") => `
+      <li class="plan-step ${tone}">
+        <span class="plan-min">${mins}</span>
+        <div><p class="plan-title">${title}</p><p class="plan-body">${body}</p></div>
+      </li>`;
+    const plan = `
+      <ol class="plan">
+        ${step("5 min", "Review cards",
+          due > 0 ? `<a href="#flashcards">${due} ${due === 1 ? "card is" : "cards are"} due today.</a>`
+            : queued > 0 ? "Nothing due today. Your next cards come back on their own schedule."
+            : "Cards arrive when you pass a lesson's check, so this step starts empty.",
+          due > 0 ? "" : "quiet")}
+        ${step("20 min", `<a href="${lessonHref}">${nextOverall.id} · ${escapeHtml(nextOverall.title)}</a>`,
+          lastDx ? `Last check: ${lastDx.score} of ${lastDx.total}. Study the rule, then take it again.`
+            : "Open with the eight-item check. Score 7 or more and you can mark it Known and move on.")}
+        ${step("5 min", "Write five sentences", "Use today's structure in a short text. For live practice, copy the lesson for an AI tutor from its ⋯ menu.")}
+      </ol>`;
+
+    const langChooser = state.langsChosen ? "" : `
+      <div class="lang-first" role="group" aria-labelledby="langFirstTitle">
+        <p class="lang-first-title" id="langFirstTitle">Which of these languages do you know?</p>
+        <p class="lang-first-body">Lessons explain German in English and add short notes where a language you know helps, or sets a trap. You can change this later under Contrasts.</p>
+        <div class="lang-first-chips">
+          ${LANGUAGES.map(code => `<button type="button" class="lang-choice${state.langs.includes(code) ? " active" : ""}" data-lang="${code}" aria-pressed="${state.langs.includes(code)}">${FLAGS[code]}<span>${LANG_META[code].name}</span><svg class="svg-icon lang-tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button>`).join("")}
+        </div>
+      </div>`;
 
     const container = document.getElementById("mainContainer");
     container.innerHTML = `
       <section class="home-hero">
-        <div class="home-eyebrow">
-          ${FLAGS.de}
-          <span>German Grammar · A1 → B1</span>
-        </div>
-        <h1 class="home-title">Genau: <em>Structured German grammar for long-term recall.</em></h1>
-        <p class="home-lead">
-          A free, science-based self-study course from <strong>A1 to B1</strong>, designed for passing a B1 German exam
-          (modeled on <strong>telc Deutsch B1</strong>, and equally useful for Goethe, ÖSD, and DTZ).
-          Study reading and writing with dual-coded diagrams, hidden answer keys, multilingual contrast notes, and built-in spaced repetition.
-        </p>
+        <h1 class="home-title">${returning ? "Willkommen zurück." : "Genau."} <em>${returning ? "Here is today's half hour." : "German grammar from A1 to B1, built to stick."}</em></h1>
+        ${returning ? "" : `<p class="home-lead">
+          A free self-study course for the <strong>telc Deutsch B1</strong> exam, equally useful for Goethe, ÖSD and DTZ.
+          Each lesson opens with a short check, teaches the rule with case-coloured diagrams, and feeds spaced-repetition cards. Thirty minutes a day.
+        </p>`}
+        ${langChooser}
         <div class="home-cta-row">
-          <a class="top-btn primary" href="#doc=${encodeURIComponent(nextOverall.path)}">
-            <span>${totalDone === 0 ? `Start Lesson ${nextOverall.id}` : `Continue ${nextOverall.id}`}</span>
-            ${ICONS.arrowRight}
-          </a>
-          <a class="top-btn" href="#practice=home">
-            ${ICONS.diagnostic}
-            <span>Practice Hub</span>
-          </a>
-          <a class="top-btn" href="#flashcards">
-            ${ICONS.cards}
-            <span>${due > 0 ? `Review ${due} Due Cards` : "Flashcards"}</span>
-          </a>
-          <a class="top-btn ghost" href="#doc=PLAN.md">
-            <span>Full Syllabus</span>
-          </a>
+          ${primary}
+          ${due > 0 ? `<a class="home-text-link" href="${lessonHref}">or go straight to ${nextOverall.id}</a>` : ""}
         </div>
+        ${today && (today.cards || today.lessons.length) ? `<p class="home-today-note">Today so far: ${today.cards} ${today.cards === 1 ? "card" : "cards"}${today.lessons.length ? `, ${today.lessons.join(", ")}` : ""}${streak > 1 ? ` · ${streak}-day streak` : ""}</p>` : ""}
       </section>
 
-      <section class="home-metrics" aria-label="Course overview">
-        <div class="metric-item">
-          <span class="metric-val">65</span>
-          <span class="metric-lbl">Structured lessons (A1–B1)</span>
-        </div>
-        <div class="metric-item">
-          <span class="metric-val">533</span>
-          <span class="metric-lbl">Spaced-repetition cards</span>
-        </div>
-        <div class="metric-item">
-          <span class="metric-val">4</span>
-          <span class="metric-lbl">Contrast languages (BR · ES · FR · EN)</span>
-        </div>
-        <div class="metric-item">
-          <span class="metric-val">30 min</span>
-          <span class="metric-lbl">Daily study routine</span>
-        </div>
-      </section>
-
-      <section class="home-section">
+      <section class="home-section" aria-labelledby="planTitle">
         <div class="home-sec-head">
-          <h2 class="home-sec-title">Choose your starting level</h2>
-          <a class="home-sec-link" href="#doc=PLAN.md">View full 65-topic syllabus ${ICONS.arrowRight}</a>
+          <h2 class="home-sec-title" id="planTitle">${returning ? "Today's 30 minutes" : "How a day works"}</h2>
+          <a class="home-sec-link" href="#doc=METHOD.md">Why this order works ${ICONS.arrowRight}</a>
         </div>
-        <div class="level-grid">${levelCards}</div>
+        ${plan}
       </section>
 
-      <section class="home-section">
+      <section class="home-section" aria-labelledby="tocTitle">
         <div class="home-sec-head">
-          <h2 class="home-sec-title">The daily 30-minute routine</h2>
-          <a class="home-sec-link" href="#doc=METHOD.md">Read the cognitive science ${ICONS.arrowRight}</a>
+          <h2 class="home-sec-title" id="tocTitle">Contents</h2>
+          <a class="home-sec-link" href="#doc=PLAN.md">All ${ALL_LESSONS.length} lessons ${ICONS.arrowRight}</a>
         </div>
-        <div class="routine-grid">
-          <div class="routine-step">
-            <div class="routine-meta"><span>STEP 01</span><strong>5 MIN</strong></div>
-            <h3>Review due flashcards</h3>
-            <p>Clear today’s spaced-repetition queue from memory before opening new grammar. Intervals expand from 1 to 120 days.</p>
-            <a href="#flashcards">Open Flashcards →</a>
-          </div>
-          <div class="routine-step">
-            <div class="routine-meta"><span>STEP 02</span><strong>20 MIN</strong></div>
-            <h3>Diagnostic, rule &amp; retrieval</h3>
-            <p>Take each lesson’s 8-item diagnostic first. Score 7/8 to mark it Known and move on; otherwise study the diagram and exercises before revealing the key.</p>
-            <a href="#doc=A1%2FA1-01-alphabet-spelling.md">Start with A1-01 →</a>
-          </div>
-          <div class="routine-step">
-            <div class="routine-meta"><span>STEP 03</span><strong>5 MIN</strong></div>
-            <h3>Write &amp; drill live</h3>
-            <p>Write 3–5 sentences using today’s structure — or use the built-in <strong>Copy for AI Tutor</strong> button to drill interactively with ChatGPT, Claude, or Gemini.</p>
-            <a href="#doc=PROMPT.md">View AI Tutor Prompt →</a>
-          </div>
-        </div>
+        <ol class="toc">${contents}</ol>
+      </section>
+
+      <section class="home-section" aria-labelledby="alsoTitle">
+        <h2 class="home-sec-title" id="alsoTitle">Also in Genau</h2>
+        <ul class="also-list">
+          <li><a href="#practice=home">B1 exam practice</a><span>Timed listening with audio, speaking role cards, and letter-writing with revision.</span></li>
+          <li><a href="#doc=shared%2Fcases.md">Reference sheets and mock exams</a><span>Case tables, irregular verbs, word-order charts, the Sprachbausteine bank, two timed B1 mocks.</span></li>
+          <li><a href="#doc=review%2Fanki%2FREADME.md">Anki decks</a><span>Ready-made decks for A1, A2, B1 and each contrast language.</span></li>
+          <li><a href="#doc=PROMPT.md">AI tutor prompt</a><span>Drill any lesson one item at a time with ChatGPT, Claude or Gemini.</span></li>
+          <li><a href="https://github.com/laguiar/genau" target="_blank" rel="noopener noreferrer">Source on GitHub</a><span>Every lesson is plain Markdown. Download it for Obsidian or study offline.</span></li>
+        </ul>
       </section>
 
       <section class="home-section">
-        <div class="home-contrasts">
-          <p>
-            <strong>Multilingual contrast notes:</strong> Every lesson explains German in clear English and calls out where languages you already know help — or set traps. Use the language toggles in the top bar anytime to filter what you see.
-          </p>
-          <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center">
-            ${activeLangBadges}
-          </div>
-        </div>
-      </section>
-
-      <section class="home-section">
-        <div class="home-sec-head">
-          <h2 class="home-sec-title">Study tools &amp; offline options</h2>
-        </div>
-        <div class="tools-grid">
-          <a class="tool-row" href="#practice=home">
-            <span class="tool-icon">${ICONS.diagnostic}</span>
-            <div>
-              <h4>Interactive Practice</h4>
-              <p>A2-04 diagnostic with 7-day follow-up, timed B1 listening with audio, speaking role cards, and writing revisions.</p>
-            </div>
-          </a>
-          <a class="tool-row" href="#doc=shared%2Fcases.md">
-            <span class="tool-icon">${ICONS.book}</span>
-            <div>
-              <h4>Reference Sheets &amp; Mock Exams</h4>
-              <p>Printable case master tables, irregular verbs, bracket word-order charts, Sprachbausteine bank, and two timed B1 mocks.</p>
-            </div>
-          </a>
-          <a class="tool-row" href="#doc=review%2Fanki%2FREADME.md">
-            <span class="tool-icon">${ICONS.cards}</span>
-            <div>
-              <h4>Ready-to-Import Anki Decks</h4>
-              <p>Prefer Anki on mobile or desktop? Download pre-built .tsv decks for A1, A2, B1, and all four contrast languages.</p>
-            </div>
-          </a>
-          <a class="tool-row" href="https://github.com/laguiar/genau" target="_blank" rel="noopener noreferrer">
-            <span class="tool-icon">${ICONS.code}</span>
-            <div>
-              <h4>Open Source &amp; Offline Notebook</h4>
-              <p>All lessons are plain Markdown. Download a ZIP for Obsidian or browse the repository on GitHub.</p>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="home-section">
-        <div class="home-colophon">
-          <strong>Sources &amp; License.</strong> Grammar inventory aligned with <em>Profile deutsch</em> (Glaboniat et al., CEFR A1–B1), paired with free <a href="https://learngerman.dw.com/de/nicos-weg/c-36519687" target="_blank" rel="noopener noreferrer">DW Nicos Weg</a> lessons and telc Deutsch B1 handbooks. Progress and flashcards are stored privately in your browser (use Backup / Restore in the sidebar anytime). Free to use, copy, and adapt for personal learning and teaching.
-        </div>
+        <p class="home-colophon">
+          <strong>Sources and license.</strong> Grammar inventory aligned with <em>Profile deutsch</em> (Glaboniat et al., CEFR A1–B1), paired with free <a href="https://learngerman.dw.com/de/nicos-weg/c-36519687" target="_blank" rel="noopener noreferrer">DW Nicos Weg</a> lessons and the telc Deutsch B1 handbooks. Your progress and cards stay in this browser; use Backup in the sidebar to keep a copy. Free to use, copy and adapt for personal learning and teaching.
+        </p>
       </section>
     `;
+
+    container.querySelectorAll(".lang-choice").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const code = btn.dataset.lang;
+        const on = state.langs.includes(code);
+        if (on && state.langs.length === 1) { showToast("Keep at least one language on."); return; }
+        state.langs = on ? state.langs.filter(l => l !== code) : [...state.langs, code];
+        btn.classList.toggle("active", !on);
+        btn.setAttribute("aria-pressed", String(!on));
+        state.langsChosen = true;
+        saveState();
+        renderLangPills();
+      });
+    });
+    container.querySelector(".home-cta-row .primary")?.addEventListener("click", () => {
+      if (!state.langsChosen) { state.langsChosen = true; saveState(); }
+    });
     window.scrollTo({ top: 0, behavior: "instant" });
   }
 
@@ -2178,6 +2586,248 @@
   }
 
   // Load and render a Markdown document
+  // ==================== ACTIVITY (today's session) ====================
+  function logActivity(kind, lessonId) {
+    const day = todayISO();
+    const entry = state.activity[day] || (state.activity[day] = { cards: 0, lessons: [] });
+    if (kind === "card") entry.cards += 1;
+    if (kind === "lesson" && lessonId && !entry.lessons.includes(lessonId)) entry.lessons.push(lessonId);
+    const days = Object.keys(state.activity).sort();
+    while (days.length > 90) delete state.activity[days.shift()];
+  }
+
+  function studyStreak() {
+    let streak = 0;
+    const d = new Date();
+    for (;;) {
+      const key = d.toISOString().slice(0, 10);
+      const day = state.activity[key];
+      if (day && (day.cards > 0 || day.lessons.length)) streak++;
+      else if (streak > 0 || key !== todayISO()) break;
+      d.setDate(d.getDate() - 1);
+    }
+    return streak;
+  }
+
+  // ==================== LESSON DIAGNOSTIC ====================
+  function stripMdInline(text) {
+    return text.replace(/`([^`]*)`/g, "$1").replace(/\*\*([^*]+)\*\*/g, "$1")
+      .replace(/(^|[^\w*])\*([^*]+)\*(?!\w)/g, "$1$2").trim();
+  }
+
+  function parseDiagnostic(md) {
+    const clean = md.replace(/<!--[\s\S]*?-->/g, "").replace(/\r\n/g, "\n");
+    const section = clean.match(/^## 0\. Diagnostic[^\n]*\n([\s\S]*?)(?=^## )/m);
+    const keyMatch = clean.match(/^\*\*0\.\*\*\s*([\s\S]*?)\n\s*\n/m);
+    if (!section || !keyMatch) return null;
+    const items = [...section[1].matchAll(/^\s*(\d+)\.\s+(.+)$/gm)].slice(0, 8).map(m => m[2].trim());
+    if (items.length < 8) return null;
+    const instruction = section[1].split("\n").map(l => l.trim())
+      .filter(l => l && !/^\d+\.\s/.test(l)).join(" ")
+      .replace(/\s*≥\s*7\/8\s*→\s*`?✔`?\.?/g, "").trim();
+    const key = keyMatch[1].replace(/\s+/g, " ");
+    const marks = [];
+    let pos = 0;
+    for (let n = 1; n <= items.length; n++) {
+      const re = new RegExp(`(?:^|\\s)${n}[.)]?\\s`, "g");
+      re.lastIndex = pos;
+      const m = re.exec(key);
+      if (!m) return null;
+      marks.push({ at: m.index, body: m.index + m[0].length });
+      pos = m.index + m[0].length;
+    }
+    const answers = marks.map((mk, idx) => key.slice(mk.body, idx + 1 < marks.length ? marks[idx + 1].at : key.length).trim());
+    return { instruction, items, answers };
+  }
+
+  function normalizeGuess(text) {
+    return stripMdInline(text).normalize("NFC").toLowerCase()
+      .replace(/[“”„"'’]/g, "").replace(/\s*([.,!?;:])\s*/g, "$1 ")
+      .replace(/[.!?]+\s*$/, "").replace(/\s+/g, " ").trim();
+  }
+
+  function guessMatches(guess, answer) {
+    const g = normalizeGuess(guess);
+    if (!g) return false;
+    const plain = stripMdInline(answer).replace(/\s*\([^)]*\)\s*$/, "");
+    const variants = [plain, ...plain.split(/\s+\/\s+|\s+·\s+|\s+or\s+/)];
+    return variants.some(v => normalizeGuess(v) === g);
+  }
+
+  function mountDiagnostic(article, lesson, dx, baseFile, onStatus) {
+    const h2 = [...article.querySelectorAll("h2")].find(h => /Diagnostic/i.test(h.textContent));
+    if (!h2) return;
+    // The static list stays for print; the screen gets the one-at-a-time check.
+    let node = h2.nextElementSibling;
+    while (node && node.tagName !== "H2") {
+      node.classList.add("dx-static");
+      node = node.nextElementSibling;
+    }
+    const root = document.createElement("section");
+    root.className = "dx";
+    root.setAttribute("aria-label", `${lesson.id} diagnostic`);
+    root.innerHTML = `<div class="dx-body"></div><p class="sr-only" aria-live="polite"></p>`;
+    const view = root.querySelector(".dx-body");
+    const live = root.querySelector("[aria-live]");
+    const announce = text => { live.textContent = ""; requestAnimationFrame(() => { live.textContent = text; }); };
+    const ruleFigure = article.querySelector("figure.diagram");
+    const ruleHeading = [...article.querySelectorAll("h2")].find(h => /rule in words/i.test(h.textContent));
+    h2.after(root);
+
+    const total = dx.items.length;
+    let idx = 0;
+    let results = [];
+
+    const pips = () => `<ol class="dx-pips" aria-hidden="true">${dx.items.map((_, i) =>
+      `<li class="${results[i] === true ? "ok" : results[i] === false ? "miss" : i === idx ? "now" : ""}"></li>`).join("")}</ol>`;
+
+    function focusFirst(sel) {
+      const el = root.querySelector(sel);
+      if (el) el.focus({ preventScroll: true });
+    }
+
+    function intro() {
+      const last = state.diagnostics[lesson.id];
+      view.innerHTML = `
+        <p class="dx-lede">${dx.instruction ? formatInline(dx.instruction, baseFile) + " " : ""}Eight quick items, about three minutes. Answer from memory: each answer shows right after you try.</p>
+        ${last ? `<p class="dx-last">Last time: <strong>${last.score} of ${last.total}</strong> on ${escapeHtml(last.date)}.</p>` : ""}
+        <div class="dx-actions">
+          <button type="button" class="top-btn primary" data-act="start">${last ? "Take it again" : "Start the check"}${ICONS.arrowRight}</button>
+          <button type="button" class="top-btn ghost" data-act="skip">I'm new to this, teach me first</button>
+        </div>`;
+    }
+
+    function askItem() {
+      view.innerHTML = `
+        <div class="dx-head"><span class="dx-count">Item ${idx + 1} of ${total}</span>${pips()}</div>
+        <form class="dx-form" novalidate>
+          <label class="dx-prompt" for="dxInput-${lesson.id}" lang="de">${formatInline(dx.items[idx], baseFile)}</label>
+          <div class="dx-row">
+            <input id="dxInput-${lesson.id}" class="dx-input" type="text" lang="de" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Your answer">
+            <button type="submit" class="top-btn primary">Check</button>
+          </div>
+          <div class="dx-keys" role="group" aria-label="Insert German letters">
+            ${["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"].map(ch => `<button type="button" class="dx-key" data-ch="${ch}" tabindex="-1">${ch}</button>`).join("")}
+          </div>
+        </form>
+        <button type="button" class="link-quiet" data-act="dontknow">I don't know this one</button>`;
+      focusFirst(".dx-input");
+    }
+
+    function feedback(guess) {
+      const answer = dx.answers[idx];
+      const right = guessMatches(guess, answer);
+      const youSaid = guess.trim() ? `<p class="dx-you">You wrote <span lang="de">${escapeHtml(guess.trim())}</span></p>` : "";
+      if (right) {
+        results[idx] = true;
+        view.innerHTML = `
+          <div class="dx-head"><span class="dx-count">Item ${idx + 1} of ${total}</span>${pips()}</div>
+          <p class="dx-prompt dx-prompt-sm" lang="de">${formatInline(dx.items[idx], baseFile)}</p>
+          <div class="dx-verdict ok" role="status"><strong>Richtig.</strong> <span lang="de">${formatInline(answer, baseFile)}</span></div>
+          <div class="dx-actions"><button type="button" class="top-btn primary" data-act="next">${idx + 1 < total ? "Next item" : "See my result"}${ICONS.arrowRight}</button></div>`;
+        announce(`Richtig: ${stripMdInline(answer)}`);
+        focusFirst("[data-act=next]");
+        return;
+      }
+      view.innerHTML = `
+        <div class="dx-head"><span class="dx-count">Item ${idx + 1} of ${total}</span>${pips()}</div>
+        <p class="dx-prompt dx-prompt-sm" lang="de">${formatInline(dx.items[idx], baseFile)}</p>
+        <div class="dx-verdict miss" role="status">
+          <span class="dx-verdict-label">${guess.trim() ? "Not quite" : "Here's the answer"}</span>
+          <p class="dx-answer" lang="de">${formatInline(answer, baseFile)}</p>
+          ${youSaid}
+        </div>
+        ${ruleFigure ? `<details class="dx-peek"><summary>${ICONS.chevRight}<span>See the rule</span></summary><div class="dx-peek-body"></div>${ruleHeading ? `<button type="button" class="link-quiet" data-act="words">Read the rule in words</button>` : ""}</details>` : ""}
+        <p class="dx-honest">${guess.trim() ? "Only a typo, or another correct form? Count it yourself." : ""}</p>
+        <div class="dx-actions">
+          <button type="button" class="top-btn primary" data-act="miss">${idx + 1 < total ? "Next item" : "See my result"}${ICONS.arrowRight}</button>
+          ${guess.trim() ? `<button type="button" class="top-btn" data-act="count">${ICONS.check}I had it right</button>` : ""}
+        </div>`;
+      const peek = root.querySelector(".dx-peek-body");
+      if (peek) peek.append(ruleFigure.cloneNode(true));
+      announce(`${guess.trim() ? "Not quite" : "Answer"}: ${stripMdInline(answer)}`);
+      focusFirst("[data-act=miss]");
+    }
+
+    function result() {
+      const score = results.filter(Boolean).length;
+      const passed = score >= 7;
+      state.diagnostics[lesson.id] = { score, total, date: todayISO() };
+      logActivity("lesson", lesson.id);
+      const before = state.progress[lesson.id] || "☐";
+      if (!passed && before === "☐") onStatus("◐", true);
+      saveState();
+      const missed = dx.items.map((item, i) => ({ item, answer: dx.answers[i], ok: results[i] })).filter(r => !r.ok);
+      view.innerHTML = `
+        <div class="dx-score ${passed ? "pass" : ""}" role="status">
+          <span class="dx-score-num">${score}<span>/${total}</span></span>
+          <div>
+            <p class="dx-score-title">${passed ? "You already know this." : score >= 5 ? "Close. A short study pass will fix it." : "Good: now you know exactly what to study."}</p>
+            <p class="dx-score-sub">${passed
+              ? `Mark ${lesson.id} as Known and its cards go into your review queue. You can still read the lesson.`
+              : `${before === "☐" ? `${lesson.id} is now In progress. ` : ""}Read the rule, do the exercises, then take the check again.`}</p>
+          </div>
+        </div>
+        ${missed.length ? `<details class="dx-missed"${passed ? "" : " open"}><summary>${ICONS.chevRight}<span>${missed.length === 1 ? "The one you missed" : `The ${missed.length} you missed`}</span></summary>
+          <ol>${missed.map(m => `<li><span lang="de">${formatInline(m.item, baseFile)}</span><span class="dx-missed-a" lang="de">→ ${formatInline(m.answer, baseFile)}</span></li>`).join("")}</ol></details>` : ""}
+        <div class="dx-actions">
+          ${passed
+            ? `<button type="button" class="top-btn primary" data-act="known">${ICONS.check}Mark Known and add cards</button>
+               <button type="button" class="top-btn ghost" data-act="study">Read the lesson anyway</button>`
+            : `<button type="button" class="top-btn primary" data-act="study">Study the rule${ICONS.arrowRight}</button>
+               <button type="button" class="top-btn ghost" data-act="start">Take it again</button>`}
+        </div>`;
+      announce(`Score ${score} of ${total}.`);
+      focusFirst(".dx-actions .primary");
+    }
+
+    function toRule() {
+      const target = [...article.querySelectorAll("h2")].find(h => /rule in one picture|rule in words/i.test(h.textContent)) || h2.nextElementSibling;
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    root.addEventListener("click", async e => {
+      const key = e.target.closest(".dx-key");
+      if (key) {
+        const input = root.querySelector(".dx-input");
+        const at = input.selectionStart ?? input.value.length;
+        input.setRangeText(key.dataset.ch, at, input.selectionEnd ?? at, "end");
+        input.focus();
+        return;
+      }
+      const act = e.target.closest("[data-act]")?.dataset.act;
+      if (!act) return;
+      if (act === "start") { idx = 0; results = []; askItem(); }
+      else if (act === "skip") { if ((state.progress[lesson.id] || "☐") === "☐") onStatus("◐", false); toRule(); }
+      else if (act === "dontknow") { results[idx] = false; feedback(""); }
+      else if (act === "count" || act === "miss" || act === "next") {
+        if (act === "count") results[idx] = true;
+        if (act === "miss") results[idx] = false;
+        idx += 1;
+        if (idx < total) askItem(); else result();
+      }
+      else if (act === "known") {
+        onStatus("✔", false);
+        try {
+          const added = await queueTopicCards(lesson.id);
+          showToast(added > 0 ? `${lesson.id} is Known. ${added} cards added to review.` : `${lesson.id} is Known. Its cards were already in review.`);
+        } catch (err) { showToast(err.message); }
+        intro();
+      }
+      else if (act === "study") toRule();
+      else if (act === "words" && ruleHeading) ruleHeading.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    root.addEventListener("submit", e => {
+      e.preventDefault();
+      const value = root.querySelector(".dx-input").value;
+      if (!value.trim()) { root.querySelector(".dx-input").focus(); return; }
+      feedback(value);
+    });
+
+    intro();
+  }
+
   async function openDoc(path, requestId) {
     if (path === "README.md") {
       renderHome();
@@ -2211,23 +2861,26 @@
         const curSt = state.progress[lesson.id] || "☐";
         html += `
           <div class="lesson-toolbar">
-            <div class="status-group">
-              <span class="status-label">Status</span>
+            <div class="status-group" role="group" aria-labelledby="statusLabel">
+              <span class="status-label" id="statusLabel">My status</span>
+              <div class="status-seg">
               ${[
                 ["☐", "Not started"],
                 ["◐", "In progress"],
                 ["●", "Done"],
                 ["✔", "Known"]
-              ].map(([st, lbl]) => `
-                <button class="status-btn ${curSt === st ? "active" : ""}" data-status="${st}" type="button">${lbl}</button>
-              `).join("")}
+              ].map(([st, lbl]) => `<button class="status-btn ${curSt === st ? "active" : ""}" data-status="${st}" type="button" aria-pressed="${curSt === st}">${lbl}</button>`).join("")}
+              </div>
             </div>
-            <div class="toolbar-actions">
-              ${lesson.id === "A2-04" ? `<a class="top-btn" href="#practice=a2-04-diagnostic">${ICONS.diagnostic}<span>Diagnostic</span></a>` : ""}
-              <button class="top-btn" id="queueLessonBtn" type="button">${ICONS.cards}<span>Queue cards</span></button>
-              <button class="top-btn" id="copyAiBtn" type="button">${ICONS.copy}<span>Copy for AI</span></button>
-              <button class="top-btn" id="printDocBtn" type="button" title="Print or save as PDF">${ICONS.print}<span>Print</span></button>
-            </div>
+            <details class="more-menu">
+              <summary class="top-btn icon-btn" aria-label="More lesson actions" title="More lesson actions">${ICONS.more}</summary>
+              <div class="more-list">
+                ${Object.keys(state.schedule).some(id => id.startsWith(lesson.id + "-")) ? "" : `<button class="more-item" id="queueLessonBtn" type="button">${ICONS.cards}<span>Add this lesson's cards to review</span></button>`}
+                ${lesson.id === "A2-04" ? `<a class="more-item" href="#practice=a2-04-diagnostic">${ICONS.diagnostic}<span>Guided diagnostic with hints</span></a>` : ""}
+                <button class="more-item" id="copyAiBtn" type="button">${ICONS.copy}<span>Copy lesson for an AI tutor</span></button>
+                <button class="more-item" id="printDocBtn" type="button">${ICONS.print}<span>Print or save as PDF</span></button>
+              </div>
+            </details>
           </div>`;
       } else if (path.startsWith("shared/")) {
         html += `
@@ -2266,20 +2919,34 @@
         printBtn.addEventListener("click", () => window.print());
       }
 
+      const moreMenu = container.querySelector(".more-menu");
+      if (moreMenu) {
+        moreMenu.addEventListener("click", e => { if (e.target.closest(".more-item")) moreMenu.open = false; });
+      }
+
+      if (lesson && state.lastLesson !== lesson.id) { state.lastLesson = lesson.id; saveState(); }
+
       if (lesson) {
-        container.querySelectorAll(".status-btn").forEach(btn => {
-          btn.addEventListener("click", () => {
-            state.progress[lesson.id] = btn.dataset.status;
-            saveState();
-            container.querySelectorAll(".status-btn").forEach(b => {
-              b.classList.toggle("active", b === btn);
-            });
-            renderSidebar(document.getElementById("searchInput").value);
-            showToast(`${lesson.id} marked ${btn.textContent}`);
+        const setStatus = (status, quiet) => {
+          state.progress[lesson.id] = status;
+          if (status === "●" || status === "✔") logActivity("lesson", lesson.id);
+          saveState();
+          container.querySelectorAll(".status-btn").forEach(b => {
+            const on = b.dataset.status === status;
+            b.classList.toggle("active", on);
+            b.setAttribute("aria-pressed", String(on));
           });
+          renderSidebar(document.getElementById("searchInput").value);
+          if (!quiet) showToast(`${lesson.id}: ${statusLabel(status)}`);
+        };
+        container.querySelectorAll(".status-btn").forEach(btn => {
+          btn.addEventListener("click", () => setStatus(btn.dataset.status, false));
         });
 
-        document.getElementById("queueLessonBtn").addEventListener("click", async () => {
+        const dx = parseDiagnostic(md);
+        if (dx) mountDiagnostic(container.querySelector("article.md"), lesson, dx, path, setStatus);
+
+        document.getElementById("queueLessonBtn")?.addEventListener("click", async () => {
           try {
             const added = await queueTopicCards(lesson.id);
             showToast(added > 0 ? `Added ${added} card(s) for ${lesson.id} to Flashcards` : `No new cards for ${lesson.id}`);
@@ -2448,74 +3115,108 @@ ${md}`;
 
       const curCard = fcSession.queue[fcSession.idx];
 
+      const nextLesson = resumeLesson();
+      const doneNotQueued = ALL_LESSONS.filter(l => ["●", "✔"].includes(state.progress[l.id]) &&
+        !Object.keys(state.schedule).some(id => id.startsWith(l.id + "-"))).length;
+      const tomorrow = addDaysISO(1);
+      const dueTomorrow = Object.values(state.schedule).filter(r => r.due === tomorrow).length;
+      const todayAct = state.activity[today] || { cards: 0, lessons: [] };
+      const streak = studyStreak();
+      const topicOptions = ALL_LESSONS.filter(l => !l.path.includes("consolidation")).map(l =>
+        `<option value="${l.id}" ${fcSession.practiceTopic === l.id ? "selected" : ""}>${l.id} · ${escapeHtml(l.title)}</option>`).join("");
+
+      let emptyHtml = "";
+      if (!curCard && fcSession.mode === "due" && !totalQueued) {
+        emptyHtml = `
+          <div class="fc-empty first">
+            <p class="fc-empty-title">No cards yet.</p>
+            <p class="fc-empty-body">Cards join your review when you pass a lesson's check. You can also add a lesson's cards yourself and start remembering it today.</p>
+            <div class="dx-actions">
+              ${doneNotQueued
+                ? `<button class="top-btn primary" id="addDoneBtn" type="button">${ICONS.cards}Add cards from your ${doneNotQueued} finished ${doneNotQueued === 1 ? "lesson" : "lessons"}</button>`
+                : `<button class="top-btn primary" id="addNextBtn" type="button" data-topic="${nextLesson.id}">${ICONS.cards}Add ${nextLesson.id}'s cards</button>`}
+              <a class="top-btn ghost" href="#doc=${encodeURIComponent(nextLesson.path)}">Open ${nextLesson.id} first</a>
+            </div>
+          </div>`;
+      } else if (!curCard && fcSession.mode === "due") {
+        const reviewedToday = Math.max(todayAct.cards, fcSession.reviewed);
+        emptyHtml = `
+          <div class="fc-empty done">
+            <p class="fc-empty-title">${reviewedToday ? "Fertig für heute." : "Nothing due today."}</p>
+            <p class="fc-empty-body">${reviewedToday
+              ? `You reviewed ${reviewedToday} ${reviewedToday === 1 ? "card" : "cards"} today${todayAct.lessons.length ? ` and worked on ${todayAct.lessons.join(", ")}` : ""}.${streak > 1 ? ` That's ${streak} days in a row.` : ""}`
+              : "Your cards come back on their own schedule, spaced further apart each time you remember them."}
+              ${dueTomorrow ? ` Tomorrow: ${dueTomorrow} ${dueTomorrow === 1 ? "card" : "cards"}.` : ""}</p>
+            <div class="dx-actions">
+              <a class="top-btn primary" href="#doc=${encodeURIComponent(nextLesson.path)}">Next: ${nextLesson.id} · ${escapeHtml(nextLesson.title)}${ICONS.arrowRight}</a>
+            </div>
+          </div>`;
+      } else if (!curCard) {
+        emptyHtml = `
+          <div class="fc-empty">
+            <p class="fc-empty-title">Topic finished.</p>
+            <p class="fc-empty-body">Pick another topic above, or add this one to your review so it comes back at the right time.</p>
+          </div>`;
+      }
+
       container.innerHTML = `
         <div class="fc-panel">
-          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:4px">
-            <h1>Flashcards &amp; Spaced Repetition</h1>
-            <a class="top-btn" href="#doc=review%2Fanki%2FREADME.md">${ICONS.download}<span>Anki Decks</span></a>
+          <div class="fc-head">
+            <h1>Flashcards</h1>
+            <a class="home-text-link" href="#doc=review%2Fanki%2FREADME.md">Prefer Anki? Get the decks</a>
+          </div>
+          ${totalQueued ? `<p class="fc-summary"><strong>${dueCount}</strong> due today · <strong>${totalQueued}</strong> in your review${totalReviews ? ` · <strong>${acc}</strong> remembered` : ""}</p>` : ""}
+
+          <div class="status-seg fc-tabs" role="group" aria-label="Flashcard mode">
+            <button class="status-btn ${fcSession.mode === "due" ? "active" : ""}" id="tabDue" type="button" aria-pressed="${fcSession.mode === "due"}">Today's review${dueCount ? ` (${dueCount})` : ""}</button>
+            <button class="status-btn ${fcSession.mode === "practice" ? "active" : ""}" id="tabPractice" type="button" aria-pressed="${fcSession.mode === "practice"}">Practise a topic</button>
           </div>
 
-          <div class="fc-stats">
-            <div class="stat-card"><div class="stat-val">${dueCount}</div><div class="stat-lbl">Due today</div></div>
-            <div class="stat-card"><div class="stat-val">${totalQueued}</div><div class="stat-lbl">In queue</div></div>
-            <div class="stat-card"><div class="stat-val">${acc}</div><div class="stat-lbl">Accuracy</div></div>
-            <div class="stat-card"><div class="stat-val">${fcSession.reviewed}</div><div class="stat-lbl">Reviewed today</div></div>
-          </div>
-
-          <div class="fc-tabs">
-            <button class="top-btn ${fcSession.mode === "due" ? "primary" : ""}" id="tabDue" type="button">Daily Review Queue (${dueCount})</button>
-            <button class="top-btn ${fcSession.mode === "practice" ? "primary" : ""}" id="tabPractice" type="button">Free Practice by Topic</button>
-          </div>
-
+          ${fcSession.mode === "practice" ? `
           <div class="fc-controls">
-            <select class="select" id="topicSelect">
-              ${ALL_LESSONS.filter(l => !l.path.includes("consolidation")).map(l =>
-                `<option value="${l.id}" ${fcSession.practiceTopic === l.id ? "selected" : ""}>${l.id} — ${escapeHtml(l.title)}</option>`
-              ).join("")}
-            </select>
-            ${fcSession.mode === "due"
-              ? `<button class="top-btn" id="addTopicBtn" type="button">+ Add Topic</button>
-                 <button class="top-btn" id="addDoneBtn" type="button">+ Add Completed Lessons</button>`
-              : `<button class="top-btn" id="startPracticeBtn" type="button">Load Topic Cards</button>`
-            }
-          </div>
+            <label class="sr-only" for="topicSelect">Topic</label>
+            <select class="select" id="topicSelect">${topicOptions}</select>
+            <button class="top-btn" id="startPracticeBtn" type="button">Load cards</button>
+          </div>` : ""}
 
           ${curCard ? `
             <div class="flashcard" data-level="${curCard.id.split('-')[0]}">
               <div>
                 <div class="fc-meta">
-                  <span class="fc-tag">${curCard.id} · ${curCard.topic}${curCard.lang ? ` · ${curCard.lang}` : ""}</span>
+                  <span class="fc-tag">${curCard.id}${curCard.lang ? ` · ${curCard.lang}` : ""}</span>
                   <span>Card ${fcSession.idx + 1} of ${fcSession.queue.length}</span>
                 </div>
                 <div class="fc-q">${formatInline(curCard.Q, "README.md")}</div>
-                ${fcSession.revealed ? `<div class="fc-a">${formatInline(curCard.A, "README.md")}</div>` : ""}
+                ${fcSession.revealed ? `<div class="fc-a" lang="de">${formatInline(curCard.A, "README.md")}</div>` : ""}
               </div>
               <div>
                 ${!fcSession.revealed
-                  ? `<button class="top-btn primary" id="revealBtn" type="button" style="width:100%; justify-content:center; padding:11px">Show Answer <span class="kbd">Space</span></button>`
+                  ? `<button class="top-btn primary fc-wide" id="revealBtn" type="button">Show answer <span class="kbd">Space</span></button>`
                   : (fcSession.mode === "due"
-                    ? `<div class="grade-row">
-                        <button class="grade-btn g0" data-g="0" type="button"><span>Again <span class="kbd">0</span></span><small>1 day</small></button>
-                        <button class="grade-btn g1" data-g="1" type="button"><span>Hard <span class="kbd">1</span></span><small>step back</small></button>
+                    ? `<p class="grade-q" id="gradeQ">How well did you remember it?</p>
+                      <div class="grade-row" role="group" aria-labelledby="gradeQ">
+                        <button class="grade-btn g0" data-g="0" type="button"><span>Forgot <span class="kbd">0</span></span><small>see it tomorrow</small></button>
+                        <button class="grade-btn g1" data-g="1" type="button"><span>Hard <span class="kbd">1</span></span><small>sooner</small></button>
                         <button class="grade-btn g2" data-g="2" type="button"><span>Good <span class="kbd">2</span></span><small>next step</small></button>
-                        <button class="grade-btn g3" data-g="3" type="button"><span>Easy <span class="kbd">3</span></span><small>skip step</small></button>
+                        <button class="grade-btn g3" data-g="3" type="button"><span>Easy <span class="kbd">3</span></span><small>skip a step</small></button>
                       </div>`
-                    : `<button class="top-btn primary" id="nextPracticeBtn" type="button" style="width:100%; justify-content:center; padding:11px">Next Card ${ICONS.arrowRight} <span class="kbd">Space</span></button>`
+                    : `<button class="top-btn primary fc-wide" id="nextPracticeBtn" type="button">Next card ${ICONS.arrowRight} <span class="kbd">Space</span></button>`
                   )
                 }
               </div>
             </div>
-          ` : `
-            <div class="fc-empty">
-              <div class="fc-empty-icon">${ICONS.check}</div>
-              <strong>${fcSession.mode === "due" ? (totalQueued ? "All caught up for today." : "Your review queue is empty.") : "Practice deck complete."}</strong>
-              <p style="color:var(--text-muted); font-size:14px; margin:8px auto 0; max-width:44ch">
-                ${fcSession.mode === "due"
-                  ? "Pick a topic above and click <strong>+ Add Topic</strong>, or switch to <strong>Free Practice</strong> to test yourself right away."
-                  : "Pick another topic above to keep practicing."}
-              </p>
+          ` : emptyHtml}
+
+          ${fcSession.mode === "due" && totalQueued ? `
+          <details class="fc-add">
+            <summary>${ICONS.chevRight}<span>Add a topic to your review</span></summary>
+            <div class="fc-controls">
+              <label class="sr-only" for="topicSelect">Topic</label>
+              <select class="select" id="topicSelect">${topicOptions}</select>
+              <button class="top-btn" id="addTopicBtn" type="button">Add its cards</button>
+              ${doneNotQueued ? `<button class="top-btn ghost" id="addDoneBtn" type="button">Add all finished lessons (${doneNotQueued})</button>` : ""}
             </div>
-          `}
+          </details>` : ""}
         </div>
       `;
 
@@ -2533,7 +3234,7 @@ ${md}`;
         fcSession.revealed = false;
         renderFc();
       });
-      document.getElementById("topicSelect").addEventListener("change", e => {
+      document.getElementById("topicSelect")?.addEventListener("change", e => {
         fcSession.practiceTopic = e.target.value;
         if (fcSession.mode === "practice") {
           fcSession.queue = buildPracticeQueue(fcSession.practiceTopic);
@@ -2549,6 +3250,18 @@ ${md}`;
           const tid = document.getElementById("topicSelect").value;
           const n = await queueTopicCards(tid);
           showToast(n ? `Queued ${n} cards for ${tid}` : `${tid} cards already queued`);
+          fcSession.queue = buildDueQueue();
+          fcSession.idx = 0;
+          fcSession.revealed = false;
+          renderFc();
+        });
+      }
+
+      const addNextBtn = document.getElementById("addNextBtn");
+      if (addNextBtn) {
+        addNextBtn.addEventListener("click", async () => {
+          const n = await queueTopicCards(addNextBtn.dataset.topic);
+          showToast(n ? `${n} cards from ${addNextBtn.dataset.topic} are ready.` : `${addNextBtn.dataset.topic} cards were already in your review.`);
           fcSession.queue = buildDueQueue();
           fcSession.idx = 0;
           fcSession.revealed = false;
@@ -2602,6 +3315,8 @@ ${md}`;
           const g = Number(btn.dataset.g);
           const row = state.schedule[curCard.id];
           if (row) gradeScheduleRow(row, g);
+          logActivity("card");
+          saveState();
           fcSession.idx++;
           fcSession.revealed = false;
           fcSession.reviewed++;
@@ -2649,12 +3364,13 @@ ${md}`;
       } else {
         state.langs.push(code);
       }
+      state.langsChosen = true;
       saveState();
       renderLangPills();
       if (currentPath === "README.md" && (!location.hash || location.hash === "#doc=README.md")) {
         renderHome();
       }
-      showToast(`Contrast languages: ${state.langs.map(l => LANG_META[l].code).join(", ")}`);
+      showToast(`Contrast notes: ${state.langs.map(l => LANG_META[l].name).join(", ")}`);
     });
   });
 
@@ -2712,7 +3428,7 @@ ${md}`;
     if (!bar) return;
     const h = document.documentElement.scrollHeight - window.innerHeight;
     const pct = h > 40 ? Math.min(100, Math.max(0, (window.scrollY / h) * 100)) : 0;
-    bar.style.width = `${pct}%`;
+    bar.style.transform = `scaleX(${pct / 100})`;
   }
   window.addEventListener("scroll", updateReadProgress, { passive: true });
 
