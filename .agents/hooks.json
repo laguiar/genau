@@ -1,0 +1,11 @@
+{
+  "biome-lint-on-edit": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "./hooks/biome-check.sh",
+        "timeout": 15
+      }
+    ]
+  }
+}
