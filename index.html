@@ -1087,6 +1087,8 @@
   .dx .dx-honest { margin-top: 10px; font-size: 13.5px; color: var(--text-muted); }
   article.md .dx-peek { margin: 12px 0 0; background: var(--bg); }
   article.md .dx-peek figure.diagram { margin: 0; border: 0; border-radius: 0; }
+  article.md .dx-peek .dx-peek-rule { padding: 12px 14px 4px; font-size: 14.5px; line-height: 1.65; color: var(--text-secondary); }
+  article.md .dx-peek .dx-peek-rule p { margin: 0; }
   article.md .dx-peek .link-quiet { margin: 6px 14px 10px; }
   .dx .dx-honest:empty { display: none; }
   .dx-score.pass .dx-score-num { color: var(--ok); }
@@ -2727,6 +2729,69 @@
     const announce = text => { live.textContent = ""; requestAnimationFrame(() => { live.textContent = text; }); };
     const ruleFigure = article.querySelector("figure.diagram");
     const ruleHeading = [...article.querySelectorAll("h2")].find(h => /rule in words/i.test(h.textContent));
+    const watchHeading = [...article.querySelectorAll("h2")].find(h => /watch out/i.test(h.textContent));
+    const RULE_STOP = new Set([
+      "the", "a", "an", "is", "are", "was", "were", "be", "to", "of", "in", "on", "at", "for", "with",
+      "or", "and", "by", "from", "as", "it", "this", "that", "which", "what", "how", "after", "before",
+      "letter", "word", "sentence", "form", "correct", "write", "choose", "complete", "use", "give",
+      "make", "change", "into", "not", "your", "you"
+    ]);
+    const RULE_LOW = new Set([
+      "ich", "du", "er", "sie", "es", "wir", "ihr", "ein", "eine", "einen", "einem", "einer",
+      "der", "die", "das", "den", "dem", "des", "ist", "sind", "hat", "haben", "und", "habe", "habt"
+    ]);
+    const ruleTokens = text => text.toLowerCase()
+      .replace(/[“”„"'’‘`*_(){}[\],.!?;:–—/]/g, " ")
+      .split(/\s+/)
+      .filter(w => (w.length >= 2 && !RULE_STOP.has(w)) || w === "ß");
+    const ruleBlocks = [];
+    for (const startH2 of [ruleHeading, watchHeading]) {
+      if (!startH2) continue;
+      let cur = startH2.nextElementSibling;
+      while (cur && cur.tagName !== "H2") {
+        if (cur.tagName === "P") {
+          const text = cur.textContent.trim();
+          if (text.length > 25) ruleBlocks.push(cur);
+        } else if (cur.tagName === "UL" || cur.tagName === "OL") {
+          for (const li of cur.querySelectorAll(":scope > li")) {
+            if (li.textContent.trim().length > 25) ruleBlocks.push(li);
+          }
+        }
+        cur = cur.nextElementSibling;
+      }
+    }
+    const indexedRuleBlocks = ruleBlocks.map(el => ({
+      el,
+      tokens: new Set(ruleTokens(el.textContent)),
+      emph: new Set([...el.querySelectorAll("strong, em, code")].flatMap(n => ruleTokens(n.textContent)))
+    }));
+    function findRuleSnippet(prompt, answer) {
+      const qTokens = ruleTokens(stripMdInline(prompt));
+      const aTokens = ruleTokens(stripMdInline(answer));
+      const query = new Set([...qTokens, ...aTokens]);
+      const aSet = new Set(aTokens);
+      let best = null;
+      let bestScore = 0;
+      for (const blk of indexedRuleBlocks) {
+        let score = 0;
+        for (const tok of query) {
+          const isLow = RULE_LOW.has(tok) && !aSet.has(tok);
+          const base = isLow ? 0.3 : (aSet.has(tok) ? 3 : 2);
+          if (blk.tokens.has(tok)) {
+            score += base + (!isLow && blk.emph.has(tok) ? 2 : 0);
+          } else if (tok.length >= 4 && !isLow) {
+            for (const bt of blk.tokens) {
+              if (bt.startsWith(tok) || (tok.startsWith(bt) && bt.length >= 4)) {
+                score += base * 0.8 + (blk.emph.has(bt) ? 1.5 : 0);
+                break;
+              }
+            }
+          }
+        }
+        if (score > bestScore) { bestScore = score; best = blk.el; }
+      }
+      return bestScore >= 4 ? best : null;
+    }
     h2.after(root);
 
     const total = dx.items.length;
@@ -2784,6 +2849,9 @@
         focusFirst("[data-act=next]");
         return;
       }
+      const matchedRule = findRuleSnippet(dx.items[idx], answer);
+      const hasPeek = Boolean(matchedRule || ruleFigure);
+      const peekLabel = matchedRule ? "See the rule" : "Lesson rule overview";
       view.innerHTML = `
         <div class="dx-head"><span class="dx-count">Item ${idx + 1} of ${total}</span>${pips()}</div>
         <p class="dx-prompt dx-prompt-sm" lang="de">${formatInline(dx.items[idx], baseFile)}</p>
@@ -2792,14 +2860,25 @@
           <p class="dx-answer" lang="de">${formatInline(answer, baseFile)}</p>
           ${youSaid}
         </div>
-        ${ruleFigure ? `<details class="dx-peek"><summary>${ICONS.chevRight}<span>See the rule</span></summary><div class="dx-peek-body"></div>${ruleHeading ? `<button type="button" class="link-quiet" data-act="words">Read the rule in words</button>` : ""}</details>` : ""}
+        ${hasPeek ? `<details class="dx-peek"><summary>${ICONS.chevRight}<span>${peekLabel}</span></summary><div class="dx-peek-body"></div>${ruleHeading ? `<button type="button" class="link-quiet" data-act="words">Read the rule in words</button>` : ""}</details>` : ""}
         <p class="dx-honest">${guess.trim() ? "Only a typo, or another correct form? Count it yourself." : ""}</p>
         <div class="dx-actions">
           <button type="button" class="top-btn primary" data-act="miss">${idx + 1 < total ? "Next item" : "See my result"}${ICONS.arrowRight}</button>
           ${guess.trim() ? `<button type="button" class="top-btn" data-act="count">${ICONS.check}I had it right</button>` : ""}
         </div>`;
       const peek = root.querySelector(".dx-peek-body");
-      if (peek) peek.append(ruleFigure.cloneNode(true));
+      if (peek) {
+        if (matchedRule) {
+          const box = document.createElement("div");
+          box.className = "dx-peek-rule";
+          const p = document.createElement("p");
+          p.innerHTML = matchedRule.innerHTML;
+          box.append(p);
+          peek.append(box);
+        } else if (ruleFigure) {
+          peek.append(ruleFigure.cloneNode(true));
+        }
+      }
       announce(`${guess.trim() ? "Not quite" : "Answer"}: ${stripMdInline(answer)}`);
       focusFirst("[data-act=miss]");
     }
