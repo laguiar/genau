@@ -1,0 +1,378 @@
+@layer responsive {
+  /* ==================== IPAD & TABLET (<= 1024px) ==================== */
+  @media (width <= 1024px) {
+    .brand-sub {
+      display: none;
+    }
+
+    aside.sidebar {
+      transform: translateX(-100%);
+      box-shadow: var(--shadow-lg);
+
+      &.drawer-open {
+        transform: translateX(0);
+      }
+    }
+
+    .backdrop.open {
+      display: block;
+    }
+
+    main.content,
+    body.sidebar-collapsed main.content {
+      margin-inline-start: 0;
+      padding: 28px 28px 88px;
+    }
+  }
+
+  /* ==================== IPHONE & MOBILE (<= 720px) ==================== */
+  @media (width <= 720px) {
+    :root {
+      --header-h: 56px;
+    }
+
+    .topbar-main {
+      padding-inline: 8px 10px;
+      gap: 8px;
+    }
+
+    .brand-group {
+      gap: 4px;
+    }
+
+    .brand-word {
+      font-size: 21px;
+    }
+
+    .top-controls,
+    .top-actions {
+      gap: 6px;
+    }
+
+    .lang-summary-label {
+      display: none;
+    }
+
+    .lang-summary {
+      padding-inline: 10px;
+      block-size: 44px;
+    }
+
+    .top-actions .top-btn {
+      block-size: 44px;
+      padding-inline: 12px;
+      font-size: 13px;
+    }
+
+    .top-actions .icon-btn,
+    .sidebar-toggle {
+      inline-size: 44px;
+      block-size: 44px;
+      padding: 0;
+    }
+
+    .popover-panel[popover].lang-popover {
+      position: fixed;
+      inset-inline: 10px;
+      inset-block-start: calc(var(--header-h) + 4px);
+      inset-block-end: auto;
+      margin: 0;
+      min-inline-size: 0;
+      max-inline-size: none;
+      inline-size: auto;
+      position-area: none;
+
+      & .more-item {
+        padding: 12px 11px;
+      }
+    }
+
+    main.content {
+      padding: 22px 16px 76px;
+    }
+
+    .toc-row a {
+      grid-template-columns: 38px minmax(0, 1fr);
+      gap: 6px 14px;
+      padding: 14px 2px;
+    }
+
+    .toc-progress,
+    .toc-cta {
+      grid-column: 2;
+    }
+
+    .toc-cta {
+      justify-content: flex-start;
+    }
+
+    .plan-step {
+      grid-template-columns: 58px 1fr;
+      gap: 12px;
+    }
+
+    .top-btn.big {
+      inline-size: 100%;
+      justify-content: space-between;
+    }
+
+    .top-actions #fcNavBtn > span:not(.badge) {
+      display: none;
+    }
+
+    .fc-empty {
+      padding: 22px 18px 18px;
+    }
+
+    .status-btn {
+      flex: 1;
+      padding: 9px 4px;
+      font-size: 12.5px;
+    }
+
+    .fc-tabs {
+      display: flex;
+    }
+
+    .grade-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flashcard {
+      padding: 22px 18px;
+    }
+
+    article.md pre {
+      padding: 15px 14px;
+      font-size: 12.5px;
+    }
+
+    .lesson-toolbar {
+      gap: 8px;
+    }
+
+    .status-label {
+      display: none;
+    }
+
+    .status-group,
+    .status-seg {
+      flex: 1;
+    }
+
+    .lesson-toolbar .icon-btn {
+      inline-size: 42px;
+      block-size: 42px;
+    }
+
+    .dx {
+      padding: 16px 14px 14px;
+      margin-inline: -4px;
+    }
+
+    .dx-prompt,
+    .dx .dx-answer {
+      font-size: 19px;
+    }
+
+    .dx-input {
+      font-size: 17px;
+    }
+
+    .dx-row .top-btn {
+      padding-inline: 16px;
+    }
+
+    .dx-key {
+      min-inline-size: 38px;
+      block-size: 36px;
+    }
+
+    .dx-score-num {
+      font-size: 44px;
+    }
+  }
+
+  /* ==================== NARROW MOBILE PARADIGMS (<= 560px) ==================== */
+  @media (width <= 560px) {
+    article.md .paradigm {
+      display: block;
+      min-inline-size: 0;
+      inline-size: 100%;
+
+      & tbody,
+      & tr,
+      & thead tr {
+        display: block;
+        min-inline-size: 0;
+        inline-size: 100%;
+      }
+
+      & tbody :is(th, td) {
+        display: block;
+        padding: 0;
+        min-inline-size: 0;
+      }
+
+      & tbody th {
+        grid-column: 1 / -1;
+        padding-block-end: 4px;
+      }
+
+      & thead th:not(.p-title) {
+        display: none;
+      }
+
+      & thead th.p-title {
+        display: block;
+        padding: 14px 16px 10px;
+
+        &:empty {
+          display: none;
+        }
+      }
+
+      & tbody tr {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 10px 16px 12px;
+        gap: 4px 14px;
+
+        & + tr {
+          border-block-start: 1px solid var(--diagram-border);
+
+          & > * {
+            border-block-start: 0;
+          }
+        }
+      }
+
+      & tbody td::before {
+        content: attr(data-g);
+        display: inline-block;
+        min-inline-size: 2.6ch;
+        margin-inline-end: 6px;
+        font: 600 11.5px var(--font-mono);
+        color: var(--text-muted);
+      }
+
+      & tr:is(.p-span, .p-cont) td {
+        grid-column: 1 / -1;
+      }
+
+      & td:is(:not([data-g]), [data-g=""])::before {
+        display: none;
+      }
+
+      & td.p-blank {
+        display: none;
+      }
+    }
+
+    article.md .klammer td.k-note {
+      white-space: normal;
+      min-inline-size: 18ch;
+    }
+  }
+}
+
+@layer print {
+  @media print {
+    :root {
+      color-scheme: light;
+    }
+
+    header.topbar,
+    aside.sidebar,
+    .backdrop,
+    .lesson-toolbar,
+    .lesson-footer,
+    .toast,
+    .doc-print-bar,
+    .dx {
+      display: none;
+    }
+
+    html,
+    body {
+      background: #fff;
+      color: #111;
+      font-size: 11pt;
+      line-height: 1.55;
+    }
+
+    .layout {
+      display: block;
+      padding-block-start: 0;
+    }
+
+    main.content,
+    body.sidebar-collapsed main.content {
+      margin-inline-start: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-inline-size: 100%;
+    }
+
+    .lesson-masthead h1,
+    article.md h1,
+    article.md > h1:first-child {
+      font-size: 20pt;
+      color: #000;
+    }
+
+    article.md {
+      & h2 {
+        font-size: 14pt;
+        color: #000;
+        break-after: avoid;
+      }
+
+      & :is(p, li) {
+        color: #111;
+      }
+
+      & a {
+        color: #111;
+        text-decoration: none;
+      }
+
+      & pre {
+        background: #f5f5f5;
+        color: #111;
+        border: 1px solid #ccc;
+        white-space: pre-wrap;
+        break-inside: avoid;
+      }
+
+      & :is(.table-wrap, blockquote, .contrast-box) {
+        break-inside: avoid;
+      }
+
+      & .contrast-box.hidden-lang {
+        display: none;
+      }
+
+      & details:not([open]) {
+        border: 1px dashed #bbb;
+      }
+
+      & .dx-static {
+        display: block;
+      }
+
+      & figure.diagram {
+        break-inside: avoid;
+        background: #fff;
+        border-color: #ccc;
+      }
+    }
+
+    .dia-scroll {
+      overflow: visible;
+      background: none;
+    }
+  }
+}

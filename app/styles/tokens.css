@@ -1,0 +1,109 @@
+@layer tokens, base, layout, components, views, responsive, print;
+
+@layer tokens {
+  :root {
+    color-scheme: light dark;
+    interpolate-size: allow-keywords;
+
+    &:has(> head > meta[name="color-scheme"][content="dark"]) {
+      color-scheme: dark;
+    }
+
+    &:has(> head > meta[name="color-scheme"][content="light"]) {
+      color-scheme: light;
+    }
+
+    /* Warm Archival Paper (light) & Warm Charcoal Graphite (dark) */
+    --paper: light-dark(#fdfcfa, #121316);
+    --bg: light-dark(#f6f4ef, #0e0f12);
+    --sidebar-bg: light-dark(#f4f1ea, #0f1013);
+    --surface: light-dark(#ffffff, #181a1f);
+    --surface-2: light-dark(#efece4, #20232a);
+    --surface-hover: light-dark(#e7e2d7, #282c35);
+    --topbar-bg: light-dark(rgb(253 252 250 / 0.92), rgb(18 19 22 / 0.92));
+
+    --border: light-dark(#e5e0d5, #24272f);
+    --border-subtle: light-dark(#eeeae1, #1d2027);
+    --border-strong: light-dark(#cfc8b8, #353944);
+
+    --text: light-dark(#161513, #f0ede6);
+    --text-secondary: light-dark(#3c3a35, #cbc6bc);
+    --text-muted: light-dark(#6c675d, #908c84);
+    --text-faint: light-dark(#777267, #8d8981);
+
+    /* Scrollbar colors (>= 3:1 contrast against surface/background) */
+    --scrollbar-thumb: light-dark(#8b8477, #6e7380);
+    --scrollbar-track: transparent;
+
+    /* Disciplined Editorial Accents */
+    --ink-btn: light-dark(#18181b, #f0ede6);
+    --ink-btn-hover: light-dark(#2c2c31, #ffffff);
+    --ink-btn-text: light-dark(#faf9f6, #121316);
+    --ink-btn-badge-bg: light-dark(rgb(255 255 255 / 0.2), rgb(18 19 22 / 0.16));
+
+    --primary: light-dark(#1f4168, #89b2df);
+    --primary-hover: light-dark(#16304d, #a7c8eb);
+    --primary-soft: light-dark(rgb(31 65 104 / 0.075), rgb(137 178 223 / 0.11));
+    --primary-border: light-dark(rgb(31 65 104 / 0.22), rgb(137 178 223 / 0.28));
+
+    --accent: light-dark(#b83227, #e05e52);
+    --accent-hover: light-dark(#96261d, #ec786d);
+    --accent-soft: light-dark(rgb(184 50 39 / 0.08), rgb(224 94 82 / 0.12));
+    --accent-border: light-dark(rgb(184 50 39 / 0.24), rgb(224 94 82 / 0.3));
+
+    --gold: light-dark(#8f6410, #e4b53e);
+    --gold-soft: light-dark(rgb(184 130 20 / 0.11), rgb(228 181 62 / 0.12));
+    --gold-border: light-dark(rgb(184 130 20 / 0.3), rgb(228 181 62 / 0.32));
+
+    --ok: light-dark(#1b6d4c, #55c493);
+    --ok-soft: light-dark(rgb(27 109 76 / 0.09), rgb(85 196 147 / 0.12));
+    --ok-border: light-dark(rgb(27 109 76 / 0.26), rgb(85 196 147 / 0.3));
+
+    /* Dual-Coding Case Colors */
+    --case-nom: light-dark(#2355a4, #7aaaf5);
+    --case-akk: light-dark(#b04e12, #f0a05c);
+    --case-dat: light-dark(#1b6f4e, #56c795);
+    --case-gen: light-dark(#6a3d9a, #be94f2);
+
+    /* Contrast Box Accents */
+    --c-pt-border: light-dark(#257a5d, #4ab38c);
+    --c-pt-bg: light-dark(rgb(37 122 93 / 0.05), rgb(74 179 140 / 0.075));
+    --c-es-border: light-dark(#bf5226, #e28252);
+    --c-es-bg: light-dark(rgb(191 82 38 / 0.05), rgb(226 130 82 / 0.075));
+    --c-fr-border: light-dark(#2f5999, #6f9be0);
+    --c-fr-bg: light-dark(rgb(47 89 153 / 0.05), rgb(111 155 224 / 0.075));
+    --c-en-border: light-dark(#694998, #a784db);
+    --c-en-bg: light-dark(rgb(105 73 152 / 0.05), rgb(167 132 219 / 0.075));
+
+    /* Code & Grammar Diagrams */
+    --code-bg: light-dark(#f0ede5, #20232b);
+    --code-text: light-dark(#1c324d, #d0e1f7);
+    --diagram-bg: light-dark(#f5f2ea, #17191e);
+    --diagram-border: light-dark(#e2dcd0, #262932);
+    --diagram-text: light-dark(#1b1a17, #ebe7de);
+
+    /* German Flag Editorial Band */
+    --de-black: light-dark(#18181b, #2b2e36);
+    --de-red: light-dark(#c92a2a, #cf3535);
+    --de-gold: #e6b322;
+
+    /* Typography */
+    --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+    /* Elevation & Layout */
+    --shadow-xs: 0 1px 2px light-dark(rgb(22 21 19 / 0.04), rgb(0 0 0 / 0.25));
+    --shadow-sm:
+      0 2px 10px light-dark(rgb(22 21 19 / 0.045), rgb(0 0 0 / 0.28)),
+      0 1px 2px light-dark(rgb(22 21 19 / 0.03), rgb(0 0 0 / 0.2));
+    --shadow-md:
+      0 10px 30px light-dark(rgb(22 21 19 / 0.08), rgb(0 0 0 / 0.42)),
+      0 2px 6px light-dark(rgb(22 21 19 / 0.04), rgb(0 0 0 / 0.28));
+    --shadow-lg: 0 20px 50px light-dark(rgb(22 21 19 / 0.16), rgb(0 0 0 / 0.65));
+    --sidebar-w: 292px;
+    --header-h: 58px;
+    --radius: 10px;
+    --scroll-shade: light-dark(rgb(22 21 19 / 0.12), rgb(0 0 0 / 0.55));
+  }
+}

@@ -1,13 +1,15 @@
-name: Check Practice Content
+name: Check Web App & Practice Content
 
 on:
   push:
     paths:
+      - 'app/**'
       - 'practice/**'
       - 'index.html'
       - '.github/workflows/practice.yml'
   pull_request:
     paths:
+      - 'app/**'
       - 'practice/**'
       - 'index.html'
       - '.github/workflows/practice.yml'
@@ -16,12 +18,16 @@ permissions:
   contents: read
 
 jobs:
-  practice:
+  checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node --check practice/view.js
-      - run: node --test practice/model.test.js
+      - name: Syntax check classic scripts
+        run: node --check practice/view.js
+      - name: Run unit and content tests
+        run: node --test practice/model.test.js app/tests/*.test.js
+      - name: Biome lint
+        run: npx -y @biomejs/biome lint --error-on-warnings index.html app

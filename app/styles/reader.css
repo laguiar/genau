@@ -1,0 +1,729 @@
+@layer views {
+  /* ==================== LESSON TOOLBAR ==================== */
+  .lesson-toolbar {
+    padding: 0 0 14px;
+    margin-block-end: 26px;
+    border-block-end: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    &.doc-print-bar {
+      justify-content: flex-end;
+    }
+  }
+
+  .status-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-inline-size: 0;
+  }
+
+  .status-label {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* ==================== LESSON MASTHEAD ==================== */
+  .lesson-masthead {
+    padding-block-end: 24px;
+    margin-block-end: 28px;
+    border-block-end: 1px solid var(--border);
+
+    & h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 600;
+      line-height: 1.18;
+      letter-spacing: -0.025em;
+      margin: 0 0 16px;
+      color: var(--text);
+      text-wrap: balance;
+    }
+  }
+
+  .masthead-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-block-end: 14px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+
+    & a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+  }
+
+  .meta-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    padding: 2.5px 8px;
+    border-radius: 5px;
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+
+    &.level-A1 {
+      background: var(--ok-soft);
+      color: var(--ok);
+      border-color: var(--ok-border);
+    }
+
+    &.level-A2 {
+      background: var(--primary-soft);
+      color: var(--primary);
+      border-color: var(--primary-border);
+    }
+
+    &.level-B1 {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-color: var(--accent-border);
+    }
+  }
+
+  .meta-sep {
+    color: var(--border-strong);
+  }
+
+  .cando-box {
+    border: 1px solid var(--ok-border);
+    background: var(--ok-soft);
+    padding: 11px 16px;
+    border-radius: 8px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    max-inline-size: 40em;
+  }
+
+  .cando-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ok);
+    margin-block-end: 3px;
+  }
+
+  /* ==================== EDITORIAL READING SHEET ==================== */
+  article.md {
+    color: var(--text);
+
+    & > h1:first-child {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 600;
+      line-height: 1.18;
+      letter-spacing: -0.025em;
+      margin: 0 0 18px;
+      color: var(--text);
+    }
+
+    & h2 {
+      font-family: var(--font-serif);
+      font-size: 22.5px;
+      font-weight: 600;
+      margin: 40px 0 15px;
+      padding-block-start: 22px;
+      border-block-start: 1px solid var(--border);
+      letter-spacing: -0.016em;
+      color: var(--text);
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      text-wrap: balance;
+    }
+
+    &.is-lesson .lesson-masthead + h2 {
+      margin-block-start: 4px;
+      padding-block-start: 0;
+      border-block-start: none;
+    }
+
+    & h2:first-of-type:not(.lesson-masthead + h2) {
+      margin-block-start: 24px;
+    }
+
+    & h3 {
+      font-family: var(--font-sans);
+      font-size: 15.5px;
+      font-weight: 700;
+      margin: 26px 0 9px;
+      color: var(--text);
+      letter-spacing: -0.008em;
+    }
+
+    & h4 {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin: 22px 0 8px;
+    }
+
+    & p {
+      margin: 0 0 15px;
+      color: var(--text-secondary);
+      text-wrap: pretty;
+
+      & strong {
+        color: var(--text);
+        font-weight: 650;
+      }
+    }
+
+    & :is(ul, ol) {
+      margin: 0 0 18px;
+      padding-inline-start: 22px;
+      color: var(--text-secondary);
+    }
+
+    & li {
+      margin-block-end: 7px;
+      padding-inline-start: 3px;
+      text-wrap: pretty;
+
+      &::marker {
+        color: var(--text-faint);
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+      }
+
+      & strong {
+        color: var(--text);
+      }
+    }
+
+    & blockquote {
+      margin: 18px 0 22px;
+      padding: 14px 18px;
+      border: 1px solid var(--gold-border);
+      background: var(--gold-soft);
+      border-radius: 8px;
+      color: var(--text-secondary);
+
+      & p {
+        margin-block-end: 8px;
+
+        &:last-child {
+          margin-block-end: 0;
+        }
+      }
+    }
+
+    & hr {
+      border: none;
+      border-block-start: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    & a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-decoration-color: var(--primary-border);
+      text-underline-offset: 3px;
+      font-weight: 500;
+      transition:
+        text-decoration-color 0.15s,
+        color 0.15s;
+
+      &:hover {
+        color: var(--accent);
+        text-decoration-color: var(--accent);
+      }
+    }
+
+    & del {
+      color: var(--text-faint);
+      text-decoration-color: var(--accent);
+    }
+
+    & code {
+      background: var(--code-bg);
+      color: var(--code-text);
+      padding: 1.5px 5.5px;
+      border-radius: 4.5px;
+      font-family: var(--font-mono);
+      font-size: 0.84em;
+      font-weight: 500;
+    }
+
+    & pre {
+      background: var(--diagram-bg);
+      color: var(--diagram-text);
+      border: 1px solid var(--diagram-border);
+      padding: 16px 18px;
+      border-radius: var(--radius);
+      overflow-x: auto;
+      margin: 18px 0 24px;
+      line-height: 1.66;
+      max-inline-size: 100%;
+
+      & code {
+        background: transparent;
+        padding: 0;
+        color: inherit;
+        font-size: 12px;
+        font-weight: 450;
+      }
+    }
+
+    /* Structured Multilingual Contrast Callouts */
+    & .contrast-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 20px 0 24px;
+      max-inline-size: 44em;
+    }
+
+    & .contrast-box {
+      border: 1px solid var(--border);
+      background: var(--primary-soft);
+      padding: 13px 16px;
+      border-radius: 9px;
+      font-size: 14.5px;
+      line-height: 1.65;
+      color: var(--text-secondary);
+
+      &[data-lang="pt-BR"] {
+        border-color: color-mix(in srgb, var(--c-pt-border) 30%, transparent);
+        background: var(--c-pt-bg);
+      }
+
+      &[data-lang="es"] {
+        border-color: color-mix(in srgb, var(--c-es-border) 30%, transparent);
+        background: var(--c-es-bg);
+      }
+
+      &[data-lang="fr"] {
+        border-color: color-mix(in srgb, var(--c-fr-border) 30%, transparent);
+        background: var(--c-fr-bg);
+      }
+
+      &[data-lang="en"] {
+        border-color: color-mix(in srgb, var(--c-en-border) 30%, transparent);
+        background: var(--c-en-bg);
+      }
+
+      & strong {
+        color: var(--text);
+      }
+
+      &.hidden-lang {
+        display: none;
+      }
+    }
+
+    /* Reading measure: ~70 characters of prose; diagrams & tables use full column */
+    & > :is(p, ul, ol, blockquote, h3),
+    & .details-body > :is(p, ul, ol) {
+      max-inline-size: 34em;
+    }
+
+    /* Book-like serif body prose */
+    &.is-lesson > :is(p, ul, ol, blockquote),
+    &:not(.is-lesson) > :is(p, ul, ol),
+    &.is-lesson .details-body > :is(p, ul, ol) {
+      font-family: var(--font-serif);
+      font-size: 18.5px;
+      line-height: 1.62;
+      font-optical-sizing: auto;
+      font-variant-numeric: oldstyle-nums proportional-nums;
+
+      & strong {
+        font-weight: 650;
+      }
+    }
+
+    & > :is(p, ul, ol) code,
+    & .details-body code {
+      font-size: 0.76em;
+    }
+
+    /* Swiss Book Typography Tables */
+    & .table-wrap {
+      overflow-x: auto;
+      margin: 18px 0 26px;
+      border-block: 1.5px solid var(--border-strong);
+    }
+
+    & table {
+      inline-size: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    & :is(th, td) {
+      padding: 10px 13px;
+      text-align: start;
+      vertical-align: top;
+    }
+
+    & tbody tr:not(:last-child) :is(th, td) {
+      border-block-end: 1px solid var(--border-subtle);
+    }
+
+    & th {
+      background: var(--bg);
+      font-family: var(--font-mono);
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-block-end: 1px solid var(--border);
+    }
+
+    & tbody tr:hover {
+      background: var(--bg);
+    }
+
+    /* Grammar diagrams: text panels, bracket grids (Satzklammer), paradigms */
+    & figure.diagram {
+      margin: 20px 0 28px;
+      max-inline-size: 100%;
+      background: var(--diagram-bg);
+      color: var(--diagram-text);
+      border: 1px solid var(--diagram-border);
+      border-radius: var(--radius);
+      overflow: hidden;
+
+      & > * + * {
+        border-block-start: 1px solid var(--diagram-border);
+      }
+
+      & .dia-text {
+        padding: 14px 18px;
+        font-family: var(--font-mono);
+        font-size: 12.5px;
+        line-height: 1.7;
+      }
+    }
+
+    & .dia-scroll table {
+      inline-size: auto;
+      min-inline-size: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    & .dia-scroll :is(th, td) {
+      border: 0;
+      padding: 7px 14px;
+      white-space: nowrap;
+      vertical-align: baseline;
+      background: transparent;
+    }
+
+    & .dia-scroll tbody tr:hover {
+      background: transparent;
+    }
+
+    & .dia-scroll thead th {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding-block: 16px 9px;
+    }
+
+    /* Satzklammer & Paradigm tables — base rules before modifiers for ascending specificity */
+    & .klammer td {
+      color: var(--text-secondary);
+    }
+
+    & .klammer thead th {
+      position: relative;
+    }
+
+    & .paradigm {
+      --case: var(--text-muted);
+
+      &.case-nom {
+        --case: var(--case-nom);
+      }
+      &.case-akk {
+        --case: var(--case-akk);
+      }
+      &.case-dat {
+        --case: var(--case-dat);
+      }
+      &.case-gen {
+        --case: var(--case-gen);
+      }
+
+      & tbody th {
+        font-family: var(--font-sans);
+        font-weight: 500;
+        font-size: 13px;
+        color: var(--text-muted);
+        text-align: start;
+        text-transform: none;
+        letter-spacing: 0;
+        white-space: normal;
+        min-inline-size: 12ch;
+      }
+
+      & thead th {
+        border-block-end: 1.5px solid var(--case);
+      }
+
+      & tbody td {
+        color: var(--text);
+        font-weight: 500;
+        white-space: normal;
+        min-inline-size: 8ch;
+      }
+
+      & tbody tr + tr > * {
+        border-block-start: 1px solid var(--diagram-border);
+      }
+
+      & thead th.p-title {
+        font-family: var(--font-sans);
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--text);
+      }
+
+      & thead th:not(.p-title) {
+        text-transform: none;
+        font-size: 12.5px;
+        color: var(--text);
+      }
+
+      & tr.p-span td {
+        color: var(--text-secondary);
+        font-weight: 450;
+      }
+
+      & tr.p-cont td {
+        color: var(--text-muted);
+        font-style: italic;
+        font-weight: 400;
+      }
+    }
+
+    & .klammer {
+      & :is(td, th).k-verb {
+        background: var(--accent-soft);
+      }
+
+      & td.k-verb {
+        color: var(--text);
+        font-weight: 650;
+      }
+
+      & td.k-note {
+        font-size: 12.5px;
+        color: var(--text-muted);
+        font-style: italic;
+      }
+
+      & thead th:is(.k-open, .k-mid, .k-close) {
+        border-block-start: 2px solid var(--accent);
+      }
+
+      & thead th.k-open {
+        border-inline-start: 2px solid var(--accent);
+        border-start-start-radius: 7px;
+      }
+
+      & thead th.k-close {
+        border-inline-end: 2px solid var(--accent);
+        border-start-end-radius: 7px;
+      }
+
+      & thead th.k-verb {
+        color: var(--accent);
+      }
+
+      & tr.k-gloss td {
+        font-family: var(--font-serif);
+        font-style: italic;
+        font-size: 14.5px;
+        color: var(--text-muted);
+        padding-block: 0 12px;
+        white-space: normal;
+      }
+
+      & tbody tr:last-child td {
+        padding-block-end: 14px;
+      }
+    }
+
+    /* Collapsible Answer Keys (with smooth intrinsic sizing) */
+    & details {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg);
+      margin: 16px 0 24px;
+      overflow: hidden;
+      transition: border-color 0.15s;
+
+      &:hover {
+        border-color: var(--border-strong);
+      }
+
+      & summary {
+        cursor: pointer;
+        padding: 12px 16px;
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--text);
+        list-style: none;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: var(--surface);
+        transition: background-color 0.15s;
+
+        &::marker,
+        &::-webkit-details-marker {
+          display: none;
+        }
+
+        &:hover {
+          background: var(--surface-2);
+        }
+      }
+
+      &::details-content {
+        block-size: 0;
+        overflow: hidden;
+        transition:
+          block-size 0.24s ease,
+          content-visibility 0.24s allow-discrete;
+      }
+
+      &[open] {
+        &::details-content {
+          block-size: auto;
+        }
+
+        & .summary-chev {
+          transform: rotate(90deg);
+          color: var(--accent);
+        }
+
+        & summary {
+          border-block-end: 1px solid var(--border);
+        }
+      }
+
+      & > .details-body {
+        padding: 18px 20px 6px;
+      }
+    }
+  }
+
+  .sec-num {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+    background: var(--accent-soft);
+    padding: 2px 7px;
+    border-radius: 5px;
+    transform: translateY(-2px);
+  }
+
+  .contrast-hdr {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-block-end: 5px;
+  }
+
+  .contrast-body {
+    display: block;
+  }
+
+  .dl {
+    display: block;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    padding-inline-start: calc(var(--in, 0ch) + 3ch);
+    text-indent: -3ch;
+  }
+
+  .dl-gap {
+    block-size: 0.85em;
+  }
+
+  .dia-label {
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.03em;
+  }
+
+  .dia-bad {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .dia-good {
+    color: var(--ok);
+    font-weight: 700;
+  }
+
+  .dia-scroll {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    background:
+      linear-gradient(90deg, var(--diagram-bg) 40%, transparent) left / 28px 100% no-repeat local,
+      linear-gradient(270deg, var(--diagram-bg) 40%, transparent) right / 28px 100% no-repeat local,
+      linear-gradient(90deg, var(--scroll-shade), transparent) left / 12px 100% no-repeat scroll,
+      linear-gradient(270deg, var(--scroll-shade), transparent) right / 12px 100% no-repeat scroll;
+  }
+
+  article.md .masthead-meta a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .lesson-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-block-start: 38px;
+    padding-block-start: 22px;
+    border-block-start: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+}

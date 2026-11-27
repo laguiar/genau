@@ -51,7 +51,8 @@ Pause for a week or a month whenever life gets busy — nothing breaks, and your
 
 ```
 genau/
-├── index.html         ← standalone web app (reader, flashcards, practice & progress tracker)
+├── index.html         ← web app entry point (reader, flashcards, practice & progress tracker)
+├── app/               ← modular web app source (ES modules, layered CSS & unit tests)
 ├── README.md          ← repository overview
 ├── PROMPT.md          ← copy-paste AI tutor prompt for ChatGPT, Claude, and Gemini
 ├── PLAN.md            ← full A1 → B1 syllabus (scope, order, rationale)
