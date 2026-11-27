@@ -9,13 +9,19 @@ export async function openPractice(page, { signal, isCurrent }) {
   renderSidebar("", document.getElementById("searchInput").value);
 
   const container = document.getElementById("mainContainer");
-  container.replaceChildren(Object.assign(document.createElement("div"), { className: "loading-state", textContent: "Loading practice…" }));
+  container.replaceChildren(
+    Object.assign(document.createElement("div"), { className: "loading-state", textContent: "Loading practice…" })
+  );
 
   try {
-    const raw = await fetchDoc("practice/content.json", { signal });
-    const bank = globalThis.GenauPracticeModel.validateCatalogue(JSON.parse(raw));
+    const [raw, { validateCatalogue }, { mount }] = await Promise.all([
+      fetchDoc("practice/content.json", { signal }),
+      import("../../practice/model.js"),
+      import("../../practice/view.js")
+    ]);
+    const bank = validateCatalogue(JSON.parse(raw));
     if (!isCurrent()) return () => {};
-    const cleanup = globalThis.GenauPracticeView.mount({
+    const cleanup = mount({
       container,
       page,
       bank,

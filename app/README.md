@@ -20,19 +20,20 @@ Run all unit and content checks with Node 22+:
 node --test practice/model.test.js app/tests/*.test.js
 ```
 
-Lint HTML, CSS, JS, and JSON with Biome:
+Lint HTML, CSS, JS, and JSON with Biome (configured in root `biome.json`):
 
 ```sh
-npx -y @biomejs/biome lint --error-on-warnings index.html app practice
+npx -y @biomejs/biome@2.6.9 lint --error-on-warnings index.html app practice
 ```
 
 ## Architecture map
 
 ```text
-index.html                  ← Semantic HTML shell, FOUC-free color-scheme init, stylesheet links
+index.html                  ← Semantic HTML shell, FOUC-free color-scheme/theme-color init, stylesheet links
+package.json                ← Zero-dependency { "type": "module" } for Node tests across app/ and practice/
+biome.json                  ← Shared Biome lint & format configuration
 app/
-├── package.json            ← Scopes "type": "module" to app/ for Node tests
-├── main.js                 ← Boot sequence, hash router, AbortController navigation, global listeners
+├── main.js                 ← Boot sequence, hash router, View Transitions, AbortController navigation
 ├── store.js                ← State schema, validation, localStorage persistence, theme & cross-tab sync
 ├── data/
 │   ├── assets.js           ← SVG icons, flags, contrast language metadata
@@ -44,19 +45,20 @@ app/
 │   ├── docs.js             ← Cached Markdown fetcher (AbortSignal.any + timeout) & card deck loader
 │   ├── flashcards-model.js ← Flashcard Markdown parser, SRS interval ladder, queue builders
 │   └── markdown.js         ← Editorial Markdown renderer, contrast boxes & lesson masthead
-├── ui/                     ← Shared app chrome
-│   ├── shell.js            ← Theme meta sync, toast, badges, language pills, popover helpers
+├── ui/                     ← Shared app chrome & widgets
+│   ├── german-keys.js      ← Shared German character keypad (ä ö ü ß) for diagnostics & practice
+│   ├── shell.js            ← Theme/theme-color meta sync, toast, badges, language pills, popovers
 │   └── sidebar.js          ← Collapsible course tree, search filter, mobile modal drawer
 ├── views/                  ← Route views
 │   ├── home.js             ← Overview dashboard & first-run language chooser
 │   ├── reader.js           ← Lesson & reference document view, toolbar, AI tutor prompt export
 │   ├── diagnostic.js       ← Interactive one-at-a-time lesson diagnostic widget
 │   ├── flashcards.js       ← Spaced-repetition & topic-practice flashcard studio
-│   └── practice.js         ← Adapter mounting practice/view.js
+│   └── practice.js         ← Lazy-loading adapter importing practice/model.js & practice/view.js
 ├── styles/                 ← Layered CSS (@layer tokens, base, layout, components, views, responsive, print)
 │   ├── tokens.css          ← color-scheme + light-dark() design tokens & typography variables
 │   ├── base.css            ← Base typography, buttons, popovers, badges, toast, reduced motion
-│   ├── layout.css          ← Topbar, CSS scroll-driven reading progress bar, sidebar & content grid
+│   ├── layout.css          ← Topbar, CSS scroll-driven reading progress bar, sidebar, View Transitions
 │   ├── home.css            ← Overview view styles
 │   ├── reader.css          ← Reading sheet, tables, diagrams, contrast boxes & animated <details>
 │   ├── diagnostic.css      ← Lesson diagnostic styles

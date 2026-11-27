@@ -5,9 +5,8 @@ import { escapeHtml } from "../lib/diagrams.js";
 import { queueTopicCards } from "../lib/docs.js";
 import { formatInline } from "../lib/markdown.js";
 import { getState, logActivity, saveState } from "../store.js";
+import { GERMAN_KEYS, insertGermanLetter } from "../ui/german-keys.js";
 import { showToast } from "../ui/shell.js";
-
-const GERMAN_KEYS = ["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"];
 
 export function mountDiagnostic(article, lesson, dx, baseFile, onStatus) {
   const h2 = [...article.querySelectorAll("h2")].find(h => /Diagnostic/i.test(h.textContent));
@@ -212,10 +211,7 @@ export function mountDiagnostic(article, lesson, dx, baseFile, onStatus) {
   root.addEventListener("click", async e => {
     const key = e.target.closest(".dx-key");
     if (key) {
-      const input = root.querySelector(".dx-input");
-      const at = input.selectionStart ?? input.value.length;
-      input.setRangeText(key.dataset.ch, at, input.selectionEnd ?? at, "end");
-      input.focus();
+      insertGermanLetter(root.querySelector(".dx-input"), key.dataset.ch);
       return;
     }
     const act = e.target.closest("[data-act]")?.dataset.act;

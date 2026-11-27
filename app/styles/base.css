@@ -516,6 +516,12 @@
       scroll-behavior: auto;
     }
 
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+      animation: none;
+    }
+
     .popover-panel[popover],
     .toast,
     .fc-a,

@@ -27,10 +27,29 @@ export function diaSegments(line) {
 
 export function assignToColumns(line, starts) {
   const cells = starts.map(() => []);
-  for (const seg of diaSegments(line)) {
+  const segs = diaSegments(line);
+  for (let i = 0; i < segs.length; i++) {
+    const seg = segs[i];
     let col = 0;
     for (let c = 0; c < starts.length; c++) {
       if (starts[c] <= seg.start + 3) col = c;
+    }
+    // Handle a long row label separated by a single space from a value aligned at starts[1]
+    // (e.g. " indefinite ein      ein      eine" where "ein" sits directly under column 1).
+    if (
+      col === 0 &&
+      cells[0].length === 0 &&
+      starts.length > 2 &&
+      i + 1 < segs.length &&
+      seg.start < starts[1] - 3 &&
+      seg.start + seg.text.length > starts[1] &&
+      line[starts[1] - 1] === " " &&
+      line[starts[1]] !== " "
+    ) {
+      const splitAt = starts[1] - seg.start;
+      cells[0].push(seg.text.slice(0, splitAt).trimEnd());
+      cells[1].push(seg.text.slice(splitAt).trimStart());
+      continue;
     }
     cells[col].push(seg.text);
   }

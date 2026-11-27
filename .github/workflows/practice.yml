@@ -6,12 +6,16 @@ on:
       - 'app/**'
       - 'practice/**'
       - 'index.html'
+      - 'biome.json'
+      - 'package.json'
       - '.github/workflows/practice.yml'
   pull_request:
     paths:
       - 'app/**'
       - 'practice/**'
       - 'index.html'
+      - 'biome.json'
+      - 'package.json'
       - '.github/workflows/practice.yml'
 
 permissions:
@@ -25,9 +29,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Syntax check classic scripts
-        run: node --check practice/view.js
       - name: Run unit and content tests
         run: node --test practice/model.test.js app/tests/*.test.js
       - name: Biome lint
-        run: npx -y @biomejs/biome lint --error-on-warnings index.html app
+        run: npx -y @biomejs/biome@2.6.9 lint --error-on-warnings index.html app practice

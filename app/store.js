@@ -1,3 +1,4 @@
+import { emptyPractice, normalizePractice } from "../practice/model.js";
 import { LANGUAGES } from "./data/assets.js";
 import { ALL_LESSONS, LESSON_BY_ID, LESSON_IDS, SIDEBAR_GROUPS, STATUSES } from "./data/course.js";
 import { addDaysISO, isValidISODate, todayISO } from "./lib/dates.js";
@@ -9,17 +10,6 @@ const THEMES = ["system", "light", "dark"];
 
 function isRecord(value) {
   return value !== null && typeof value === "object" && !Array.isArray(value);
-}
-
-function defaultEmptyPractice() {
-  return globalThis.GenauPracticeModel?.emptyPractice() ?? { version: 1, sessions: {}, drafts: {} };
-}
-
-function defaultNormalizePractice(value) {
-  if (globalThis.GenauPracticeModel?.normalizePractice) {
-    return globalThis.GenauPracticeModel.normalizePractice(value);
-  }
-  return isRecord(value) ? structuredClone(value) : defaultEmptyPractice();
 }
 
 export function detectLangs(browserLanguages) {
@@ -42,11 +32,11 @@ export function createDefaultState() {
     diagnostics: {},
     activity: {},
     langsChosen: false,
-    practice: defaultEmptyPractice()
+    practice: emptyPractice()
   };
 }
 
-export function normalizeState(candidate, fallback, strict = false, practiceNormalizer = defaultNormalizePractice) {
+export function normalizeState(candidate, fallback, strict = false, practiceNormalizer = normalizePractice) {
   if (!isRecord(candidate)) throw new Error("Invalid progress data");
   const next = structuredClone(fallback);
   const validators = {

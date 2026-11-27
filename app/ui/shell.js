@@ -14,6 +14,8 @@ export function showToast(msg) {
   toastTimer = setTimeout(() => el.classList.remove("show"), 2400);
 }
 
+const THEME_COLORS = { light: "#fdfcfa", dark: "#121316" };
+
 export function applyTheme() {
   const { theme } = getState();
   const meta = document.querySelector('meta[name="color-scheme"]');
@@ -21,6 +23,10 @@ export function applyTheme() {
     meta.content = theme === "light" || theme === "dark" ? theme : "light dark";
   }
   const resolved = getResolvedTheme(theme);
+  const themeColorMeta = document.getElementById("themeColorMeta");
+  if (themeColorMeta) {
+    themeColorMeta.content = THEME_COLORS[resolved];
+  }
   const btn = document.getElementById("themeBtn");
   if (btn) {
     btn.innerHTML = resolved === "dark" ? ICONS.sun : ICONS.moon;

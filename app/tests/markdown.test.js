@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import test from "node:test";
-import { LESSON_BY_ID } from "../data/course.js";
+import { COURSE, LESSON_BY_ID } from "../data/course.js";
 import { isParadigmHeader, renderDiagram } from "../lib/diagrams.js";
 import {
   detectContrastLang,
@@ -58,7 +58,7 @@ test("renderDiagram builds Satzklammer bracket tables and gender paradigms", () 
   assert.match(paradigmHtml, /data-g="m"/);
 });
 
-test("renderLessonMasthead parses real A1-05 lesson metadata", () => {
+test("renderLessonMasthead parses real A1-05 lesson metadata and paradigm alignment", () => {
   const lesson = LESSON_BY_ID["A1-05"];
   const md = readFileSync(resolve(import.meta.dirname, "../..", lesson.path), "utf8");
   const parsed = renderLessonMasthead(md, lesson, lesson.path);
@@ -66,4 +66,16 @@ test("renderLessonMasthead parses real A1-05 lesson metadata", () => {
   assert.match(parsed.mastheadHtml, /meta-pill level-A1">A1-05/);
   assert.match(parsed.mastheadHtml, /class="cando-box"/);
   assert.ok(parsed.restMd.includes("## 0. Diagnostic"));
+
+  const bodyHtml = renderMarkdown(parsed.restMd, lesson.path, ["en"]);
+  assert.match(bodyHtml, /<th scope="row">indefinite<\/th><td data-g="m">ein<\/td><td data-g="n">ein<\/td>/);
+});
+
+test("every COURSE path resolves to an existing file on disk", () => {
+  const repoRoot = resolve(import.meta.dirname, "../..");
+  const allEntries = Object.values(COURSE).flat();
+  assert.ok(allEntries.length >= 80);
+  for (const entry of allEntries) {
+    assert.equal(existsSync(resolve(repoRoot, entry.path)), true, `Missing course file: ${entry.path}`);
+  }
 });

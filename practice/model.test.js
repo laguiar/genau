@@ -1,10 +1,9 @@
-"use strict";
-const { readFileSync } = require("node:fs");
-const { resolve } = require("node:path");
-const test = require("node:test");
-const assert = require("node:assert/strict");
-const M = require("./model.js");
-const content = require("./content.json");
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import test from "node:test";
+import content from "./content.json" with { type: "json" };
+import * as M from "./model.js";
 
 const start = new Date(2026, 10, 25, 14).getTime();
 const [initial, follow] = content.grammar;
@@ -21,7 +20,7 @@ const withTestReview = set => ({
 test("the shipped bank has matching diagnostic and follow-up rules and playable assets", () => {
   assert.equal(M.validateCatalogue(content), content);
   for (const set of content.listening) {
-    const file = readFileSync(resolve(__dirname, "..", set.audio));
+    const file = readFileSync(resolve(import.meta.dirname, "..", set.audio));
     assert.ok(file.length > 1000);
     const id3 = file.subarray(0, 3).toString() === "ID3";
     const frameSync = file[0] === 255 && (file[1] & 224) === 224;
@@ -105,7 +104,7 @@ test("practice backup round-trips drafts, speaking feedback and first attempts",
   attempt.answers[question.id].retry = "seit";
   practice.writing["writing-id"] = { draft: "Hallo.", revision: "Guten Tag.", feedback: "Register" };
   practice.speaking["speaking-id"] = { at: start, ratings: [1, 2, 2, 1], notes: "A clear plan" };
-  assert.deepEqual(M.normalizePractice(JSON.parse(JSON.stringify(practice))), practice);
+  assert.deepEqual(M.normalizePractice(structuredClone(practice)), practice);
   assert.throws(() => M.normalizePractice({ ...practice, version: 2 }), /version/);
   practice.sessions[M.sessionKey(initial)].answers[question.id].at = start - 1;
   assert.throws(() => M.normalizePractice(practice), /Invalid first attempt/);

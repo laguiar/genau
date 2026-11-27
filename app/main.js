@@ -26,12 +26,28 @@ let navigationId = 0;
 let navAbort = null;
 let currentPath = "README.md";
 let closePractice = () => {};
+let hasBooted = false;
+
+const REDUCED_MOTION_MQ = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function isHomeHash() {
   return !location.hash || location.hash === "#" || location.hash === "#doc=README.md";
 }
 
-async function route() {
+function runWithViewTransition(updateDom, animate) {
+  if (!animate || !document.startViewTransition || REDUCED_MOTION_MQ.matches) {
+    return Promise.resolve(updateDom()).finally(() => {
+      if (animate) document.getElementById("mainContainer")?.focus({ preventScroll: true });
+    });
+  }
+  const transition = document.startViewTransition(updateDom);
+  transition.finished.finally(() => {
+    document.getElementById("mainContainer")?.focus({ preventScroll: true });
+  });
+  return transition.updateCallbackDone;
+}
+
+async function route({ animate = false } = {}) {
   closeOpenPopovers();
   closePractice();
   closePractice = () => {};
@@ -45,19 +61,24 @@ async function route() {
   const h = location.hash || "#doc=README.md";
   updatePrimaryNavActive();
 
-  if (h === "#flashcards") {
-    await openFlashcards({ signal, isCurrent, onRetry: route });
-  } else if (h.startsWith("#practice=")) {
-    closePractice = await openPractice(h.slice("#practice=".length), { signal, isCurrent });
-  } else if (h.startsWith("#doc=")) {
-    const path = decodeURIComponent(h.slice(5));
-    currentPath = path;
-    if (path === "README.md") renderHome();
-    else await openDoc(path, { signal, isCurrent });
-  } else {
-    currentPath = "README.md";
-    renderHome();
-  }
+  const renderView = async () => {
+    if (h === "#flashcards") {
+      await openFlashcards({ signal, isCurrent, onRetry: () => route() });
+    } else if (h.startsWith("#practice=")) {
+      closePractice = await openPractice(h.slice("#practice=".length), { signal, isCurrent });
+    } else if (h.startsWith("#doc=")) {
+      const path = decodeURIComponent(h.slice(5));
+      currentPath = path;
+      if (path === "README.md") renderHome();
+      else await openDoc(path, { signal, isCurrent });
+    } else {
+      currentPath = "README.md";
+      renderHome();
+    }
+  };
+
+  await runWithViewTransition(renderView, animate && hasBooted);
+  hasBooted = true;
 }
 
 // Store reactions
@@ -143,11 +164,11 @@ document.getElementById("importFileInput").addEventListener("change", async e =>
 
 // Sidebar & Router boot
 initSidebarControls(() => currentPath);
-window.addEventListener("hashchange", route);
+window.addEventListener("hashchange", () => route({ animate: true }));
 
 applyTheme();
 syncSidebarState();
 renderLangPills();
 updateBadges();
 renderSidebar(currentPath);
-route();
+route({ animate: false });

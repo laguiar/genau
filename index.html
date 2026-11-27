@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fdfcfa" id="themeColorMeta">
 <script>
 try {
   const scheme = localStorage.getItem("genau_color_scheme");
+  const isDark = scheme === "dark" || (scheme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   if (scheme === "light" || scheme === "dark") {
     document.querySelector('meta[name="color-scheme"]').content = scheme;
   }
+  document.getElementById("themeColorMeta").content = isDark ? "#121316" : "#fdfcfa";
 } catch {}
 </script>
 <title>Genau — Structured German Grammar A1 → B1</title>
 <meta name="description" content="A free, structured, science-based self-study German grammar course from A1 to B1 (telc Deutsch B1 focus) with multilingual contrast notes and spaced-repetition flashcards.">
-<meta name="theme-color" content="#fdfcfa" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Genau">
@@ -174,8 +175,6 @@ try {
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script defer src="practice/model.js"></script>
-<script defer src="practice/view.js"></script>
 <script type="module" src="app/main.js"></script>
 </body>
 </html>

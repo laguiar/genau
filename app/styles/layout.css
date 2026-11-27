@@ -8,6 +8,7 @@
     backdrop-filter: blur(14px);
     border-block-end: 1px solid var(--border);
     z-index: 40;
+    view-transition-name: topbar;
   }
 
   /* Subtle German tricolor hairline at top edge (physical direction intentional) */
@@ -191,6 +192,7 @@
     flex-direction: column;
     z-index: 30;
     transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+    view-transition-name: sidebar;
   }
 
   body.sidebar-collapsed aside.sidebar {
@@ -556,6 +558,13 @@
     flex: 1;
     padding: 36px 40px 104px;
     min-inline-size: 0;
+    view-transition-name: main-content;
+  }
+
+  ::view-transition-old(main-content),
+  ::view-transition-new(main-content) {
+    animation-duration: 160ms;
+    animation-timing-function: ease;
   }
 
   body.sidebar-collapsed main.content {
