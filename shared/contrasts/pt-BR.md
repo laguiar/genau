@@ -14,6 +14,28 @@ Master reference for Brazilian Portuguese speakers learning German up to telc B1
 | Plural: many patterns, umlaut | neither | neither | Learn plural with the noun: `der Mann, ¨-er`. |
 | Compound nouns | neither (PT uses *de*: *mesa de jantar*) | helps a little (*dinner table*) | Last part decides gender: *das Esszimmer* ← *das Zimmer*. |
 
+### Top 15 PT → DE Gender-Clash Traps (L1 interference)
+
+Bilingual research (the Gender Congruency Effect) shows your brain automatically activates the Portuguese gender first. Drill these high-frequency telc clashes as **fused chunks + agreement phrases**:
+
+| Portuguese (L1) | German chunk + plural | Live agreement phrase |
+|---|---|---|
+| *o sol* (m) | **die Sonne, -n** | Heute scheint **die warme Sonne**. |
+| *a lua* (f) | **der Mond, -e** | Man sieht **den vollen Mond**. |
+| *a mesa* (f) | **der Tisch, -e** | Stell das Buch auf **den Tisch**! |
+| *o trabalho* (m) | **die Arbeit, -en** | Nach **der Arbeit** bin ich müde. |
+| *o tempo* (m) | **die Zeit, -en** | Ich habe heute **keine Zeit**. |
+| *o problema* (m) | **das Problem, -e** | Wir haben **ein kleines Problem**. |
+| *o carro* (m) | **das Auto, -s** | Ich fahre mit **meinem Auto**. |
+| *a casa* (f) | **das Haus, ¨-er** | Wir wohnen in **einem alten Haus**. |
+| *o livro* (m) | **das Buch, ¨-er** | Ich lese **ein interessantes Buch**. |
+| *a carta* (f) | **der Brief, -e** | Ich habe **Ihren Brief** erhalten. |
+| *a cama* (f) | **das Bett, -en** | Das Kind liegt schon im **Bett**. |
+| *o leite* (m) | **die Milch** | Kaffee mit **warmer Milch** |
+| *o quarto* (m) | **das Zimmer, -** | Wir suchen **ein ruhiges Zimmer**. |
+| *a janela* (f) | **das Fenster, -** | Mach bitte **das Fenster** zu! |
+| *a chave* (f) | **der Schlüssel, -** | Wo ist **mein Schlüssel**? Hast du **ihn**? |
+
 ## Cases
 
 | German feature | Portuguese | English | Note |

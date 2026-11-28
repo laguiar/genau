@@ -12,6 +12,29 @@ Q: [🇧🇷] "Ich bin Lehrer", "Ich bin müde", "Ich bin in Berlin" — which P
 A: both ser and estar. There is no separate estar-verb.
 T: verbs contrast
 
+### A1-05-pt-BR-01
+Q: [🇧🇷] Gender clash (*o trabalho* m → DE): "Nach ___ Arbeit fahre ich nach Hause."
+A: Nach der Arbeit fahre ich nach Hause. (die Arbeit, -en — feminine, NOT masculine!)
+T: gender contrast
+G: f
+
+### A1-05-pt-BR-02
+Q: [🇧🇷] Gender clash (*o problema* m → DE): "Wir haben ___ klein___ Problem."
+A: Wir haben ein kleines Problem. (das Problem, -e — neuter, NOT masculine!)
+T: gender contrast
+G: n
+
+### A1-05-pt-BR-03
+Q: [🇧🇷] Gender clash (*a mesa* f → DE): "Stell die Tasse auf ___ (der/die/das) Tisch!" (wohin ▲)
+A: Stell die Tasse auf den Tisch! (der Tisch, -e — masculine ▲, NOT feminine!)
+T: gender contrast
+G: m
+
+### A1-05-pt-BR-04
+Q: [🇧🇷] Gender clash (*o sol* m / *a lua* f → DE): "Heute scheint ___ Sonne, heute Nacht sieht man ___ Mond."
+A: Heute scheint die Sonne, heute Nacht sieht man den Mond. (die Sonne, -n · der Mond, -e — reversed from PT!)
+T: gender contrast
+
 ### A1-07-pt-BR-01
 Q: [🇧🇷] Translate "Não vi ninguém." (one negative word)
 A: Ich habe niemanden gesehen. — no double negation

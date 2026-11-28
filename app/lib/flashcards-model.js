@@ -28,6 +28,12 @@ export function isScheduleRow(id, row) {
   );
 }
 
+export const GENDER_SLOTS = [
+  { key: "m", article: "der", label: "masculine" },
+  { key: "n", article: "das", label: "neuter" },
+  { key: "f", article: "die", label: "feminine" }
+];
+
 export function parseCardsMd(txt, langCode = null) {
   const out = [];
   let cur = null;
@@ -37,13 +43,17 @@ export function parseCardsMd(txt, langCode = null) {
       if (cur) out.push(cur);
       const id = m[1];
       const topic = id.split("-").slice(0, 2).join("-");
-      cur = { id, topic, Q: "", A: "", T: "", lang: langCode };
+      cur = { id, topic, Q: "", A: "", T: "", G: null, lang: langCode };
       continue;
     }
     if (cur) {
       if (line.startsWith("Q:")) cur.Q = `${cur.Q} ${line.slice(2).trim()}`.trim();
       else if (line.startsWith("A:")) cur.A = `${cur.A} ${line.slice(2).trim()}`.trim();
       else if (line.startsWith("T:")) cur.T = `${cur.T} ${line.slice(2).trim()}`.trim();
+      else if (line.startsWith("G:")) {
+        const g = line.slice(2).trim().toLowerCase();
+        if (g === "m" || g === "n" || g === "f") cur.G = g;
+      }
     }
   }
   if (cur) out.push(cur);

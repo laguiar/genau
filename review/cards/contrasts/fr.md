@@ -16,6 +16,30 @@ T: verbs contrast
 Q: [🇫🇷] What gender are French loanwords ending in *-age* (*le garage, l'étage*) in German?
 A: Feminine (die): die Garage, die Etage
 T: gender contrast
+G: f
+
+### A1-05-fr-02
+Q: [🇫🇷] Gender clash (*le travail* m → DE): "Nach ___ Arbeit gehe ich spazieren."
+A: Nach der Arbeit gehe ich spazieren. (die Arbeit, -en — feminine, NOT masculine!)
+T: gender contrast
+G: f
+
+### A1-05-fr-03
+Q: [🇫🇷] Gender clash (*la table* f → DE): "Ich stelle das Glas auf ___ Tisch." (wohin ▲)
+A: Ich stelle das Glas auf den Tisch. (der Tisch, -e — masculine ▲, NOT feminine!)
+T: gender contrast
+G: m
+
+### A1-05-fr-04
+Q: [🇫🇷] Gender clash (*la voiture* f → DE): "Ich fahre mit ___ (mein / neu) Auto." (■)
+A: Ich fahre mit meinem neuen Auto. (das Auto, -s — neuter, NOT feminine!)
+T: gender contrast
+G: n
+
+### A1-05-fr-05
+Q: [🇫🇷] Gender clash (*le soleil* m / *la lune* f → DE): "Heute scheint ___ Sonne, heute Nacht sieht man ___ Mond."
+A: Heute scheint die Sonne, heute Nacht sieht man den Mond. (die Sonne, -n · der Mond, -e — reversed from FR!)
+T: gender contrast
 
 ### A1-07-fr-01
 Q: [🇫🇷] French *"ne … pas de + nom"* (*Je n'ai pas de voiture / pas le temps*) → German? And French *"Si !"* to a negative question?

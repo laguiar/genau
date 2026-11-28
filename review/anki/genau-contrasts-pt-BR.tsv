@@ -3,6 +3,10 @@
 #tags column:3
 [🇧🇷] Can you drop the subject pronoun like in Portuguese ("Moro em Berlim")?	No. Ich wohne in Berlin. The pronoun is obligatory.	genau A1 A1-02 A1-02-pt-BR-01 contrast-pt-BR pronouns contrast
 [🇧🇷] "Ich bin Lehrer", "Ich bin müde", "Ich bin in Berlin" — which Portuguese verbs does sein cover?	both ser and estar. There is no separate estar-verb.	genau A1 A1-03 A1-03-pt-BR-01 contrast-pt-BR verbs contrast
+[🇧🇷] Gender clash (*o trabalho* m → DE): "Nach ___ Arbeit fahre ich nach Hause."	Nach der Arbeit fahre ich nach Hause. (die Arbeit, -en — feminine, NOT masculine!)	genau A1 A1-05 A1-05-pt-BR-01 contrast-pt-BR gender contrast
+[🇧🇷] Gender clash (*o problema* m → DE): "Wir haben ___ klein___ Problem."	Wir haben ein kleines Problem. (das Problem, -e — neuter, NOT masculine!)	genau A1 A1-05 A1-05-pt-BR-02 contrast-pt-BR gender contrast
+[🇧🇷] Gender clash (*a mesa* f → DE): "Stell die Tasse auf ___ (der/die/das) Tisch!" (wohin ▲)	Stell die Tasse auf den Tisch! (der Tisch, -e — masculine ▲, NOT feminine!)	genau A1 A1-05 A1-05-pt-BR-03 contrast-pt-BR gender contrast
+[🇧🇷] Gender clash (*o sol* m / *a lua* f → DE): "Heute scheint ___ Sonne, heute Nacht sieht man ___ Mond."	Heute scheint die Sonne, heute Nacht sieht man den Mond. (die Sonne, -n · der Mond, -e — reversed from PT!)	genau A1 A1-05 A1-05-pt-BR-04 contrast-pt-BR gender contrast
 [🇧🇷] Translate "Não vi ninguém." (one negative word)	Ich habe niemanden gesehen. — no double negation	genau A1 A1-07 A1-07-pt-BR-01 contrast-pt-BR negation contrast
 [🇧🇷] Translate: "o carro dela" / "o carro dele"	ihr Auto / sein Auto	genau A1 A1-09 A1-09-pt-BR-01 contrast-pt-BR possessives contrast
 [🇧🇷] Translate "Preciso comprar pão hoje."	Ich muss heute Brot kaufen. (infinitive at the end)	genau A1 A1-11 A1-11-pt-BR-01 contrast-pt-BR modals contrast

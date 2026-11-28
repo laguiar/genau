@@ -125,6 +125,7 @@ Profile deutsch B1 inventory covered: Partizip I, Präteritum in full, Plusquamp
 | File | Purpose |
 |------|---------|
 | [shared/cases.md](shared/cases.md) | Master declension tables: articles, pronouns, adjectives, nouns, with `● ▲ ■ ◆` |
+| [shared/gender.md](shared/gender.md) | 4-step gender triage algorithm, bidirectional gender ↔ plural schema, 3-anchor imagery toolkit, and ~60 telc core noun chunks |
 | [shared/verbs.md](shared/verbs.md) | The ~100 irregular verbs needed to B1 with Präsens/Präteritum/Partizip II; auxiliaries; modals |
 | [shared/word-order.md](shared/word-order.md) | The bracket model of the German sentence: positions, Satzklammer, Nebensatz, Te-Ka-Mo-Lo, pronoun order, `nicht` |
 | [shared/prepositions.md](shared/prepositions.md) | Prepositions by case and by meaning; two-way rules; verb + preposition list |

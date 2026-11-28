@@ -184,6 +184,50 @@
     animation: fadeUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
+  .fc-gender-strip {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    margin-block-start: 14px;
+    max-inline-size: 270px;
+    animation: fadeUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .fc-g-slot {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--bg);
+    color: var(--text-faint);
+    font-family: var(--font-mono);
+    font-size: 12px;
+
+    & .fc-g-art {
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 12.5px;
+    }
+
+    & .fc-g-key {
+      font-size: 10.5px;
+      text-transform: uppercase;
+    }
+
+    &.active {
+      background: var(--ink-btn);
+      border-color: var(--ink-btn);
+      color: var(--ink-btn-text);
+
+      & .fc-g-key {
+        opacity: 0.78;
+      }
+    }
+  }
+
   @keyframes fadeUp {
     from {
       opacity: 0.35;

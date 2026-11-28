@@ -20,6 +20,26 @@
       "id": "future-in",
       "topic": "A2-04",
       "label": "Time until a future event with in + dative"
+    },
+    {
+      "id": "gender-suffix-triage",
+      "topic": "A1-05",
+      "label": "Deterministic suffixes and compound last-word gender"
+    },
+    {
+      "id": "gender-plural-link",
+      "topic": "A1-05",
+      "label": "Bidirectional gender and plural schema"
+    },
+    {
+      "id": "gender-chunk-agreement",
+      "topic": "A1-05",
+      "label": "Article-noun chunk agreement in context"
+    },
+    {
+      "id": "gender-pronoun-binding",
+      "topic": "A1-05",
+      "label": "Cross-sentence pronoun gender agreement"
     }
   ],
   "grammar": [
@@ -377,6 +397,286 @@
           ],
           "hint": "Woche is feminine, and this time expression takes the dative.",
           "explanation": "The feminine dative of eine Woche is einer Woche.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-diagnostic",
+      "revision": 1,
+      "title": "Noun gender chunks & agreement · A1-05",
+      "kind": "diagnostic",
+      "topic": "A1-05",
+      "items": [
+        {
+          "id": "a1-05-d-01",
+          "rule": "gender-suffix-triage",
+          "prompt": "Auf dem Regal liegt ___ Haustürschlüssel. (der / die / das — check the compound's last part)",
+          "accepted": [
+            "der"
+          ],
+          "hint": "Compound nouns take the gender of the final word (der Schlüssel).",
+          "explanation": "The last part is der Schlüssel, so the whole compound is der Haustürschlüssel.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-02",
+          "rule": "gender-suffix-triage",
+          "prompt": "Vielen Dank für ___ (ein) Bestätigung! Write the indefinite article.",
+          "accepted": [
+            "eine"
+          ],
+          "hint": "Check Step 2 of gender triage: nouns ending in -ung are 100 % one gender.",
+          "explanation": "Every -ung noun is feminine (die Bestätigung), so the accusative indefinite article is eine.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-03",
+          "rule": "gender-plural-link",
+          "prompt": "Plural: die Häuser → Singular with definite article: ___ Haus",
+          "accepted": [
+            "das",
+            "das Haus"
+          ],
+          "hint": "A one-syllable noun with an ¨-er plural strongly points to neuter.",
+          "explanation": "One-syllable ¨-er plurals (Häuser, Bücher, Länder) map strongly to neuter: das Haus, ¨-er.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-04",
+          "rule": "gender-plural-link",
+          "prompt": "Plural: die Wohnungen → Singular with definite article: ___ Wohnung",
+          "accepted": [
+            "die",
+            "die Wohnung"
+          ],
+          "hint": "Both the -ung suffix and the -en plural point to the same gender.",
+          "explanation": "Nouns with -(e)n plurals (especially -ung nouns) are feminine: die Wohnung, -en.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-05",
+          "rule": "gender-chunk-agreement",
+          "prompt": "Ich habe morgen ___ Termin beim Arzt. (indefinite article, ▲)",
+          "accepted": [
+            "einen"
+          ],
+          "hint": "Recall the fused chunk der Termin, -e in the accusative.",
+          "explanation": "der Termin is masculine, so the accusative indefinite article changes to einen Termin.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-06",
+          "rule": "gender-chunk-agreement",
+          "prompt": "Wir suchen ___ ruhiges Zimmer. (indefinite article, ▲)",
+          "accepted": [
+            "ein"
+          ],
+          "hint": "Notice the -es signal on ruhiges — Zimmer is a common -er exception.",
+          "explanation": "das Zimmer is neuter (an exception to masculine -er), so the accusative indefinite article is ein.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-07",
+          "rule": "gender-pronoun-binding",
+          "prompt": "Wo ist mein Schlüssel? — Hast du ___ gesehen? (pronoun, ▲)",
+          "accepted": [
+            "ihn"
+          ],
+          "hint": "Match the masculine accusative pronoun to der Schlüssel.",
+          "explanation": "Because der Schlüssel is masculine, the accusative pronoun referring back to it is ihn.",
+          "review": null
+        },
+        {
+          "id": "a1-05-d-08",
+          "rule": "gender-pronoun-binding",
+          "prompt": "Ich habe das Angebot gelesen und finde ___ sehr gut. (pronoun, ▲)",
+          "accepted": [
+            "es"
+          ],
+          "hint": "Match the neuter accusative pronoun to das Angebot.",
+          "explanation": "Because das Angebot is neuter, the pronoun referring back to it is es.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-follow-up",
+      "revision": 1,
+      "title": "Noun gender chunks & agreement · seven-day follow-up",
+      "kind": "follow-up",
+      "topic": "A1-05",
+      "follows": "a1-05-diagnostic",
+      "items": [
+        {
+          "id": "a1-05-f-01",
+          "rule": "gender-suffix-triage",
+          "prompt": "In der neuen Wohnung ist ___ Kinderzimmer sehr hell. (der / die / das — check the compound's last part)",
+          "accepted": [
+            "das"
+          ],
+          "hint": "Read compounds from right to left: the last word is das Zimmer.",
+          "explanation": "The final part is das Zimmer, so the compound is das Kinderzimmer.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-02",
+          "rule": "gender-suffix-triage",
+          "prompt": "Ich habe ___ (ein) gute Möglichkeit gefunden. Write the indefinite article.",
+          "accepted": [
+            "eine"
+          ],
+          "hint": "Nouns ending in -keit or -heit are always feminine.",
+          "explanation": "Every -keit noun is feminine (die Möglichkeit), so the accusative indefinite article is eine.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-03",
+          "rule": "gender-plural-link",
+          "prompt": "Plural: die Bücher → Singular with definite article: ___ Buch",
+          "accepted": [
+            "das",
+            "das Buch"
+          ],
+          "hint": "The ¨-er plural pattern is the core signature of one-syllable neuter nouns.",
+          "explanation": "das Buch, ¨-er follows the neuter one-syllable ¨-er schema.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-04",
+          "rule": "gender-plural-link",
+          "prompt": "Plural: die Antworten → Singular with definite article: ___ Antwort",
+          "accepted": [
+            "die",
+            "die Antwort"
+          ],
+          "hint": "An -en plural strongly signals a feminine noun.",
+          "explanation": "die Antwort, -en follows the feminine -(e)n plural schema.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-05",
+          "rule": "gender-chunk-agreement",
+          "prompt": "Ich unterschreibe morgen ___ neuen Vertrag. (definite article, ▲)",
+          "accepted": [
+            "den"
+          ],
+          "hint": "Recall the fused chunk der Vertrag, ¨-e in the accusative.",
+          "explanation": "der Vertrag is masculine, so the accusative definite article changes to den Vertrag.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-06",
+          "rule": "gender-chunk-agreement",
+          "prompt": "Wir haben leider ___ kleines Problem. (indefinite article, ▲)",
+          "accepted": [
+            "ein"
+          ],
+          "hint": "Watch Romance L1 interference: das Problem is neuter, not masculine.",
+          "explanation": "das Problem is neuter, so the accusative indefinite article is ein (ein kleines Problem).",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-07",
+          "rule": "gender-pronoun-binding",
+          "prompt": "Hast du meinen Brief bekommen? — Ja, ich habe ___ gestern gelesen. (pronoun, ▲)",
+          "accepted": [
+            "ihn"
+          ],
+          "hint": "Match the accusative pronoun to der Brief.",
+          "explanation": "der Brief is masculine (even though carta/lettre are feminine), so the accusative pronoun is ihn.",
+          "review": null
+        },
+        {
+          "id": "a1-05-f-08",
+          "rule": "gender-pronoun-binding",
+          "prompt": "Ich mag diese neue Arbeit. Ich finde ___ sehr interessant. (pronoun, ▲)",
+          "accepted": [
+            "sie"
+          ],
+          "hint": "Match the accusative pronoun to die Arbeit.",
+          "explanation": "die Arbeit is feminine, so the pronoun referring back to it is sie.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-review-01",
+      "revision": 1,
+      "title": "Deterministic suffixes and compound last-word gender",
+      "kind": "rule-review",
+      "topic": "A1-05",
+      "items": [
+        {
+          "id": "a1-05-r-01",
+          "rule": "gender-suffix-triage",
+          "prompt": "Im neuen Büro ist ___ Arbeitsplatz sehr ruhig. (der / die / das — check the compound's last part)",
+          "accepted": [
+            "der"
+          ],
+          "hint": "Even though die Arbeit comes first, the last part is der Platz.",
+          "explanation": "Compounds take the gender of the final word: der Platz → der Arbeitsplatz.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-review-02",
+      "revision": 1,
+      "title": "Bidirectional gender and plural schema",
+      "kind": "rule-review",
+      "topic": "A1-05",
+      "items": [
+        {
+          "id": "a1-05-r-02",
+          "rule": "gender-plural-link",
+          "prompt": "Plural: die Länder → Singular with definite article: ___ Land",
+          "accepted": [
+            "das",
+            "das Land"
+          ],
+          "hint": "An ¨-er plural points strongly to neuter.",
+          "explanation": "das Land, ¨-er follows the neuter one-syllable ¨-er plural schema.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-review-03",
+      "revision": 1,
+      "title": "Article-noun chunk agreement in context",
+      "kind": "rule-review",
+      "topic": "A1-05",
+      "items": [
+        {
+          "id": "a1-05-r-03",
+          "rule": "gender-chunk-agreement",
+          "prompt": "Stell die Tasse bitte auf ___ Tisch! (definite article, wohin ▲)",
+          "accepted": [
+            "den"
+          ],
+          "hint": "Recall the fused chunk der Tisch, -e in the accusative.",
+          "explanation": "der Tisch is masculine (not feminine like mesa/table), so wohin ▲ takes den Tisch.",
+          "review": null
+        }
+      ]
+    },
+    {
+      "id": "a1-05-review-04",
+      "revision": 1,
+      "title": "Cross-sentence pronoun gender agreement",
+      "kind": "rule-review",
+      "topic": "A1-05",
+      "items": [
+        {
+          "id": "a1-05-r-04",
+          "rule": "gender-pronoun-binding",
+          "prompt": "Der neue Tisch ist groß. Wir stellen ___ ins Wohnzimmer. (pronoun, ▲)",
+          "accepted": [
+            "ihn"
+          ],
+          "hint": "Refer back to der Tisch in the accusative.",
+          "explanation": "der Tisch is masculine, so the accusative pronoun is ihn.",
           "review": null
         }
       ]

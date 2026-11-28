@@ -70,18 +70,18 @@ Fill in the ▲ form. ≥ 7/8 → `✔`.
 4. Den Kaffee trinke ich morgens.
 5. Wen suchst du?
 
-**4.2 Fill in the article**
+**4.2 Fill in the indefinite article (`einen / ein / eine`)** — Items 1–5 show the Nominativ chunk; items 6–10 fade the hint so you retrieve the gender from memory:
 
-1. Ich brauche ___ Stuhl (m).
-2. Wir kaufen ___ Auto (n).
-3. Er hat ___ Katze (f).
-4. Ich lese ___ Buch (n).
-5. Siehst du ___ Bus (m)?
-6. Sie sucht ___ Wohnung (f).
-7. Ich möchte ___ Kaffee (m).
-8. Das ist ___ Tisch (m).
-9. Ich habe ___ Bruder (m) und ___ Schwester (f).
-10. Es gibt hier ___ Bahnhof (m).
+1. Ich brauche ___ Stuhl *(der Stuhl)*.
+2. Wir kaufen ___ Auto *(das Auto)*.
+3. Er hat ___ Katze *(die Katze)*.
+4. Ich lese ___ Buch *(das Buch)*.
+5. Siehst du ___ Bus *(der Bus)*?
+6. Sie sucht ___ Wohnung.
+7. Ich möchte ___ Kaffee.
+8. Das ist ___ Tisch.
+9. Ich habe ___ Bruder und ___ Schwester.
+10. Es gibt hier ___ Bahnhof.
 
 **4.3 Pronouns** — Replace the object with a pronoun:
 

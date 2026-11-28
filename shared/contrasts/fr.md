@@ -15,6 +15,28 @@ Master reference for French speakers (or learners who know French as an L2/L3) l
 | Compound nouns | misleads (FR uses `N + de/à + N`: *salle à manger*) | German fuses compounds from right to left; the **last** word sets the gender (*das Esszimmer* ← *das Zimmer*). |
 | Zero article & professions | helps! (*Il est médecin*) | Like French (*Il est professeur*), German uses no article after `sein/werden` for professions and nationalities (*Er ist Lehrer*). Also no partitive article (*du pain / de l'eau* → bare *Brot / Wasser*!). |
 
+### Top 15 FR → DE Gender-Clash Traps (L1 interference)
+
+Bilingual research (the Gender Congruency Effect) shows your brain automatically activates the French gender first. Drill these high-frequency telc clashes as **fused chunks + agreement phrases**:
+
+| French (L1) | German chunk + plural | Live agreement phrase |
+|---|---|---|
+| *le soleil* (m) | **die Sonne, -n** | Heute scheint **die warme Sonne**. |
+| *la lune* (f) | **der Mond, -e** | Man sieht **den vollen Mond**. |
+| *la table* (f) | **der Tisch, -e** | Stell das Buch auf **den Tisch**! |
+| *le travail* (m) | **die Arbeit, -en** | Nach **der Arbeit** bin ich müde. |
+| *le temps* (m) | **die Zeit, -en** | Ich habe heute **keine Zeit**. |
+| *le problème* (m) | **das Problem, -e** | Wir haben **ein kleines Problem**. |
+| *le garage* (m) | **die Garage, -n** | Das Auto steht in **der Garage** (`-age` = `die`!). |
+| *la voiture* (f) | **das Auto, -s** | Ich fahre mit **meinem Auto**. |
+| *la maison* (f) | **das Haus, ¨-er** | Wir wohnen in **einem alten Haus**. |
+| *le livre* (m) | **das Buch, ¨-er** | Ich lese **ein interessantes Buch**. |
+| *la lettre* (f) | **der Brief, -e** | Ich habe **Ihren Brief** erhalten. |
+| *le pont* (m) | **die Brücke, -n** | Wir gehen über **die alte Brücke**. |
+| *le voyage* (m) | **die Reise, -n** | Wir wünschen Ihnen **eine gute Reise**. |
+| *la clé* (f) | **der Schlüssel, -** | Wo ist **mein Schlüssel**? Hast du **ihn**? |
+| *le lait* (m) | **die Milch** | Kaffee mit **warmer Milch** |
+
 ## 2. Cases (`● ▲ ■ ◆`)
 
 | German feature | French transfer | Contrast note & key traps |

@@ -3,13 +3,23 @@ import { ALL_LESSONS } from "../data/course.js";
 import { addDaysISO, todayISO } from "../lib/dates.js";
 import { escapeHtml } from "../lib/diagrams.js";
 import { loadAllCards, queueTopicCards } from "../lib/docs.js";
-import { buildDueQueue, buildPracticeQueue, computeNextScheduleRow } from "../lib/flashcards-model.js";
+import { buildDueQueue, buildPracticeQueue, computeNextScheduleRow, GENDER_SLOTS } from "../lib/flashcards-model.js";
 import { formatInline } from "../lib/markdown.js";
 import { getState, logActivity, resumeLesson, saveState, studyStreak } from "../store.js";
 import { showToast, updatePrimaryNavActive } from "../ui/shell.js";
 import { closeDrawerSidebar, renderSidebar } from "../ui/sidebar.js";
 
 const fcSession = { mode: "due", queue: [], idx: 0, revealed: false, reviewed: 0, practiceTopic: "A1-01" };
+
+function renderGenderStrip(genderKey) {
+  const active = GENDER_SLOTS.find(slot => slot.key === genderKey);
+  if (!active) return "";
+  const slots = GENDER_SLOTS.map(
+    slot =>
+      `<span class="fc-g-slot${slot.key === genderKey ? " active" : ""}" data-g="${slot.key}"><span class="fc-g-art">${slot.article}</span><span class="fc-g-key">${slot.key}</span></span>`
+  ).join("");
+  return `<div class="fc-gender-strip" role="note" aria-label="Gender slot: ${active.article} (${active.label})">${slots}</div>`;
+}
 
 export async function openFlashcards({ isCurrent, onRetry }) {
   updatePrimaryNavActive();
@@ -144,7 +154,11 @@ export async function openFlashcards({ isCurrent, onRetry }) {
                 <span>Card ${fcSession.idx + 1} of ${fcSession.queue.length}</span>
               </div>
               <div class="fc-q">${formatInline(curCard.Q, "README.md")}</div>
-              ${fcSession.revealed ? `<div class="fc-a" lang="de">${formatInline(curCard.A, "README.md")}</div>` : ""}
+              ${
+                fcSession.revealed
+                  ? `<div class="fc-a" lang="de">${formatInline(curCard.A, "README.md")}</div>${renderGenderStrip(curCard.G)}`
+                  : ""
+              }
             </div>
             <div>
               ${

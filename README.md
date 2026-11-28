@@ -2,7 +2,7 @@
 
 **Genau** is a free, self-study German grammar course from **A1 to B1**, built around cognitive science for one clear goal: **passing a B1 German exam** (modeled on **telc Deutsch B1**, and equally useful for Goethe, ÖSD, and DTZ) with a focus on **reading and writing**.
 
-All **65 lessons**, **533 spaced-repetition flashcards**, **multilingual contrast notes** (🇧🇷 Portuguese, 🇪🇸 Spanish, 🇫🇷 French, 🇬🇧 English), and **hidden answer keys** live as plain Markdown files — ready to study in the browser or offline.
+All **65 lessons**, **555 spaced-repetition flashcards**, **multilingual contrast notes** (🇧🇷 Portuguese, 🇪🇸 Spanish, 🇫🇷 French, 🇬🇧 English), and **hidden answer keys** live as plain Markdown files — ready to study in the browser or offline.
 
 > **Study in your browser:** [laguiar.github.io/genau](https://laguiar.github.io/genau/) — read all 65 lessons, filter contrast languages, track progress, practice diagnostics, and review flashcards with zero setup.
 
@@ -15,7 +15,7 @@ Open **[laguiar.github.io/genau](https://laguiar.github.io/genau/)** on desktop,
 - Study all **65 lessons** (`A1`, `A2`, `B1`) and exam reference sheets in a distraction-free editorial reader.
 - Toggle which **contrast languages** (`🇧🇷 BR`, `🇪🇸 ES`, `🇫🇷 FR`, `🇬🇧 EN`) appear in lessons with one click.
 - **Track your progress** across A1–B1 locally in your browser (with JSON backup & restore).
-- Use **Practice** for an A2-04 diagnostic with 7-day follow-up, timed B1 listening, paired speaking role cards, and writing revisions ([Practice guide](practice/README.md)).
+- Use **Practice** for A1-05 gender chunks & agreement and A2-04 temporal diagnostics with 7-day follow-ups, timed B1 listening, paired speaking role cards, and writing revisions ([Practice guide](practice/README.md)).
 - Review **spaced-repetition flashcards** right in the app, or add the site to your phone's Home Screen.
 - Click **Copy for AI Tutor** inside any lesson to drill interactively in ChatGPT, Claude, or Gemini, or **Print** cheat sheets and mock exams cleanly.
 
@@ -60,9 +60,9 @@ genau/
 ├── PROGRESS.md        ← personal Markdown progress tracker
 ├── AGENTS.md          ← session & onboarding protocol for AI tutors
 ├── A1/  A2/  B1/      ← 65 self-contained grammar lessons + consolidation tests
-├── shared/            ← reference sheets (cases, verbs, connectors, word order, prepositions,
+├── shared/            ← reference sheets (cases, gender, verbs, connectors, word order, prepositions,
 │                        telc B1 exam guide, timed practice mocks, writing templates, contrasts/)
-├── review/            ← 533 spaced-repetition flashcards, ready-to-import Anki decks (anki/),
+├── review/            ← 555 spaced-repetition flashcards, ready-to-import Anki decks (anki/),
 │                        error log, schedule, and optional review.py CLI
 ├── practice/          ← browser practice bank (diagnostics, listening audio, speaking & writing)
 └── writing/           ← your texts (submissions/) and their corrections (corrections/)

@@ -16,6 +16,31 @@ T: verbs contrast
 Q: [🇪🇸] What gender are Greek-origin words ending in *-ma* (*el problema, el tema, el clima*) in German?
 A: Neuter (das): das Problem, das Thema, das Klima
 T: gender contrast
+G: n
+
+### A1-05-es-02
+Q: [🇪🇸] Gender clash (*el trabajo* m → DE): "Nach ___ Arbeit bin ich müde."
+A: Nach der Arbeit bin ich müde. (die Arbeit, -en — feminine, NOT masculine!)
+T: gender contrast
+G: f
+
+### A1-05-es-03
+Q: [🇪🇸] Gender clash (*la mesa* f → DE): "Ich stelle die Lampe auf ___ Tisch." (wohin ▲)
+A: Ich stelle die Lampe auf den Tisch. (der Tisch, -e — masculine ▲, NOT feminine!)
+T: gender contrast
+G: m
+
+### A1-05-es-04
+Q: [🇪🇸] Gender clash (*el puente* m → DE): "Wir gehen über ___ alt___ Brücke." (▲)
+A: Wir gehen über die alte Brücke. (die Brücke, -n — feminine `-e` noun, NOT masculine!)
+T: gender contrast
+G: f
+
+### A1-05-es-05
+Q: [🇪🇸] Gender clash (*la carta* f → DE): "Ich habe ___ (Ihr) Brief gestern erhalten." (▲)
+A: Ich habe Ihren Brief gestern erhalten. (der Brief, -e — masculine ▲, NOT feminine!)
+T: gender contrast
+G: m
 
 ### A1-07-es-01
 Q: [🇪🇸] Translate *"No tengo coche"* vs *"No trabajo hoy"*, and *"No vi a nadie"* (single-negation rule!).

@@ -129,7 +129,7 @@ Describe a person you know: 6 sentences, every noun with *der/die/das* + adjecti
 
 ## 7. Cards
 
-`A2-08-01` … `A2-08-06` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-08`.
+`A2-08-01` … `A2-08-10` in [review/cards/A2.md](../review/cards/A2.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A2-08`.
 
 ## 8. Live drill prompt
 

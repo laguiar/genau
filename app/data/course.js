@@ -78,6 +78,7 @@ export const COURSE = {
   ],
   shared: [
     { id: "CASES", title: "Cases Master Tables (● ▲ ■ ◆)", path: "shared/cases.md" },
+    { id: "GENDER", title: "Noun Gender — Triage & Core Chunks", path: "shared/gender.md" },
     { id: "VERBS", title: "Irregular Verbs & Auxiliaries", path: "shared/verbs.md" },
     { id: "ORDER", title: "Word Order — Bracket Model", path: "shared/word-order.md" },
     { id: "PREPS", title: "Prepositions Reference", path: "shared/prepositions.md" },

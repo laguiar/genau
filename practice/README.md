@@ -1,6 +1,6 @@
 # Browser practice
 
-Open **Practice** in the web app sidebar. The current pilot includes an eight-item A2-04 diagnostic, a seven-day follow-up with fresh sentences, and next-day review of missed rules. The diagnostic and follow-up keep the first answer and track hints separately from retries. Lesson statuses remain self-reported.
+Open **Practice** in the web app sidebar. The current sets include eight-item diagnostics for **A1-05** (noun gender chunks, triage & agreement) and **A2-04** (temporal prepositions), each paired with a seven-day follow-up in fresh sentences and next-day review of missed rules. Diagnostics and follow-ups keep the first answer and track hints separately from retries. Lesson statuses remain self-reported.
 
 The B1 area has a four-minute selective-listening exercise, all three speaking tasks with paired role cards, and a four-point writing prompt. Transcripts and audio replay are available after the timed listening attempt. The speaking checklist is for partner feedback. Solo rehearsal audio is held only while the practice page is open. The browser's progress backup includes first attempts, writing drafts and revisions, and paired feedback.
 

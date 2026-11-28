@@ -40,7 +40,7 @@ There is no single plural ending. There are **five patterns**, and gender plus e
 4. **`-el, -en, -er, -chen, -lein` (masc./neut.) → no ending**, sometimes umlaut: *der Lehrer → Lehrer, das Zimmer → Zimmer, das Mädchen → Mädchen, der Apfel → Äpfel, der Vater → Väter, der Bruder → Brüder, der Garten → Gärten*.
 5. **Foreign / vowel-final → `-s`.** *das Auto → Autos, das Hotel → Hotels, das Handy → Handys, der Park → Parks, das Café → Cafés, die E-Mail → E-Mails*.
 
-Learn the plural **with** the noun: *das Kind, -er · die Frau, -en · der Apfel, ¨-*. Dictionaries write it exactly like this.
+Learn the plural **with** the article and noun as one coupled schema: *das Kind, -er · die Frau, -en · der Apfel, ¨-*. The link works **both ways** (see [shared/gender.md](../shared/gender.md)): a plural in `-(e)n` strongly signals `die`, a plural in `¨-er` signals `das`, and a zero-plural (`-el/-en/-er`) almost always excludes `die`. Dictionaries write plurals in this exact shorthand.
 
 **Plural has no `ein`.** *Ich habe ein Kind → Ich habe – Kinder.* Negation: *keine Kinder*. Quantity words: *viele, einige, zwei, alle + plural*.
 
@@ -78,7 +78,7 @@ Learn the plural **with** the noun: *das Kind, -er · die Frau, -en · der Apfel
 14. das Sofa
 15. die Tochter
 
-**4.3 Singular** — Give the singular with article:
+**4.3 Reverse-clue singular** — Use the plural pattern as a gender clue and give the singular with article (`der / die / das`):
 
 1. Bücher
 2. Männer

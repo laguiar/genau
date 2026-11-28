@@ -15,6 +15,28 @@ Master reference for Spanish speakers (or learners who know Spanish as an L1/L2/
 | Compound nouns | misleads (ES uses `N + de + N`: *mesa de comedor*) | German fuses compounds from right to left; the **last** word determines gender and plural (*das Esszimmer* ← *das Zimmer*). |
 | Zero article & professions | helps! (*Soy médico / Hablo español*) | Like Spanish (*Es profesor*), German uses no article after `sein/werden` for professions and nationalities (*Er ist Lehrer*), and no article for indefinite plurals (*Tengo amigos → Ich habe Freunde*). However, unlike Spanish (*Me gusta **la** música / **Los** niños juegan*), German drops the definite article for general uncountables/plurals (*Ich mag **—** Musik*)! |
 
+### Top 15 ES → DE Gender-Clash Traps (L1 interference)
+
+Bilingual research (the Gender Congruency Effect) shows your brain automatically activates the Spanish gender first. Drill these high-frequency telc clashes as **fused chunks + agreement phrases**:
+
+| Spanish (L1) | German chunk + plural | Live agreement phrase |
+|---|---|---|
+| *el sol* (m) | **die Sonne, -n** | Heute scheint **die warme Sonne**. |
+| *la luna* (f) | **der Mond, -e** | Man sieht **den vollen Mond**. |
+| *la mesa* (f) | **der Tisch, -e** | Stell das Buch auf **den Tisch**! |
+| *el trabajo* (m) | **die Arbeit, -en** | Nach **der Arbeit** bin ich müde. |
+| *el tiempo* (m) | **die Zeit, -en** | Ich habe heute **keine Zeit**. |
+| *el problema* (m) | **das Problem, -e** | Wir haben **ein kleines Problem**. |
+| *el tema* (m) | **das Thema, Themen** | Ich spreche über **ein spannendes Thema**. |
+| *el coche* (m) | **das Auto, -s** | Ich fahre mit **meinem Auto**. |
+| *la casa* (f) | **das Haus, ¨-er** | Wir wohnen in **einem alten Haus**. |
+| *el libro* (m) | **das Buch, ¨-er** | Ich lese **ein interessantes Buch**. |
+| *la carta* (f) | **der Brief, -e** | Ich habe **Ihren Brief** erhalten. |
+| *el puente* (m) | **die Brücke, -n** | Wir gehen über **die alte Brücke**. |
+| *el viaje* (m) | **die Reise, -n** | Wir wünschen Ihnen **eine gute Reise**. |
+| *la llave* (f) | **der Schlüssel, -** | Wo ist **mein Schlüssel**? Hast du **ihn**? |
+| *la ventana* (f) | **das Fenster, -** | Mach bitte **das Fenster** zu! |
+
 ## 2. Cases (`● ▲ ■ ◆`)
 
 | German feature | Spanish transfer | Contrast note & key traps |

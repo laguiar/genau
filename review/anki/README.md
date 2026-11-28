@@ -5,20 +5,20 @@ You do **not** need Python or a terminal to use Genau flashcards in [Anki](https
 ## Which file should I download?
 
 ### Core German Grammar Decks (start here)
-- **[genau-all-core.tsv](genau-all-core.tsv)** — All core grammar cards from A1 to B1 in one deck (434 cards).
-- **[genau-A1.tsv](genau-A1.tsv)** — A1 grammar cards only (146 cards).
-- **[genau-A2.tsv](genau-A2.tsv)** — A2 grammar cards only (147 cards).
+- **[genau-all-core.tsv](genau-all-core.tsv)** — All core grammar cards from A1 to B1 in one deck (444 cards).
+- **[genau-A1.tsv](genau-A1.tsv)** — A1 grammar cards only (152 cards).
+- **[genau-A2.tsv](genau-A2.tsv)** — A2 grammar cards only (151 cards).
 - **[genau-B1.tsv](genau-B1.tsv)** — B1 grammar cards only (141 cards).
 
 ### Optional Contrast Decks (transfer traps for your language)
 Import whichever language(s) you know alongside the core deck:
-- 🇧🇷 **[genau-contrasts-pt-BR.tsv](genau-contrasts-pt-BR.tsv)** — Brazilian Portuguese → German contrasts (30 cards).
-- 🇪🇸 **[genau-contrasts-es.tsv](genau-contrasts-es.tsv)** — Spanish → German contrasts (30 cards).
-- 🇫🇷 **[genau-contrasts-fr.tsv](genau-contrasts-fr.tsv)** — French → German contrasts (30 cards).
+- 🇧🇷 **[genau-contrasts-pt-BR.tsv](genau-contrasts-pt-BR.tsv)** — Brazilian Portuguese → German contrasts (34 cards).
+- 🇪🇸 **[genau-contrasts-es.tsv](genau-contrasts-es.tsv)** — Spanish → German contrasts (34 cards).
+- 🇫🇷 **[genau-contrasts-fr.tsv](genau-contrasts-fr.tsv)** — French → German contrasts (34 cards).
 - 🇬🇧 **[genau-contrasts-en.tsv](genau-contrasts-en.tsv)** — English → German contrasts (9 cards).
 
 ### Everything Combined
-- **[genau-complete-all-languages.tsv](genau-complete-all-languages.tsv)** — All 533 cards (A1–B1 core + all four contrast packs).
+- **[genau-complete-all-languages.tsv](genau-complete-all-languages.tsv)** — All 555 cards (A1–B1 core + all four contrast packs).
 
 ---
 

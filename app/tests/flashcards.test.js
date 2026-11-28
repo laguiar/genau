@@ -29,6 +29,25 @@ test("parseCardsMd parses all shipped flashcard decks cleanly", () => {
   assert.ok(total >= 500, `Expected >= 500 cards, got ${total}`);
 });
 
+test("parseCardsMd parses optional G gender slot metadata cleanly and ignores invalid values", () => {
+  const sample = [
+    "### A1-05-99",
+    "Q: Chunk test",
+    "A: der Termin",
+    "T: gender",
+    "G: M",
+    "",
+    "### A1-05-98",
+    "Q: Invalid gender tag",
+    "A: die Häuser",
+    "T: plural",
+    "G: pl"
+  ].join("\n");
+  const parsed = parseCardsMd(sample);
+  assert.equal(parsed[0].G, "m");
+  assert.equal(parsed[1].G, null);
+});
+
 test("computeNextScheduleRow advances and resets intervals without mutating input", () => {
   const now = new Date(2026, 10, 27, 10, 0, 0);
   const fresh = { id: "A1-01-01", topic: "A1-01", due: "2026-11-27", step: 0, reviews: 0, correct: 0 };

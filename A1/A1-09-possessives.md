@@ -84,10 +84,10 @@
 1. Ich rufe (mein) ___ Vater an.
 2. Kennst du (sein) ___ Freundin?
 3. Wir besuchen (unser) ___ Oma.
-4. Sie liebt (ihr) ___ Job (m).
-5. Habt ihr (euer) ___ Schlüssel (m)?
+4. Sie liebt (ihr) ___ Job *(der Job)*.
+5. Habt ihr (euer) ___ Schlüssel *(der Schlüssel)*?
 6. Ich verstehe (Ihr) ___ Frage nicht.
-7. Er sucht (sein) ___ Handy (n).
+7. Er sucht (sein) ___ Handy *(das Handy)*.
 8. Sie fragt (ihr) ___ Eltern.
 
 **4.4 Translate**

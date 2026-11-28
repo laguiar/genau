@@ -18,7 +18,8 @@ Article (der/die/das) or "–" for no article. ≥ 7/8 → `✔`.
 ## 1. The rule in one picture
 
 ```
- GENDER = the article. Learn every noun as a 3-word unit:  der Tisch · die Lampe · das Bett
+ GENDER = the article. Never learn bare nouns — fuse article + noun as ONE stress unit:
+   derTisch · dasBett · dieLampe     (fixed spatial order everywhere in Genau: m · n · f · pl)
 
  ●  Nominativ (subject / after "sein")
             m        n        f        pl
@@ -26,18 +27,20 @@ Article (der/die/das) or "–" for no article. ≥ 7/8 → `✔`.
  indefinite ein      ein      eine     —  (no plural of "ein": just the noun, or "keine")
  negative   kein     kein     keine    keine
 
- ENDINGS THAT GIVE THE GENDER AWAY (≈ 80 % reliable)
- der  ← -er (people/tools: Lehrer, Computer)  -ig  -ling  -ismus  -ant  -ist  -or
-        + male persons · days · months · seasons · weather (Regen, Schnee, Wind)
- die  ← -e (Lampe, Straße ~90 %)  -ung  -heit  -keit  -schaft  -ion  -tät  -ik  -ur  -ei  -in  -ie  -enz
-        + female persons · numbers as nouns (die Drei)
- das  ← -chen  -lein  -um  -ment  -o  -ma  -nis(mostly)  Ge-...(e)  verb-as-noun (das Essen)
-        + young beings (Kind, Baby) · letters · colours as nouns · most metals · cities/countries (das schöne Berlin)
+ 4-STEP GENDER TRIAGE (check in order — resolves ~80 % of nouns!)
+ 1. Compound?    → LAST part decides (100 %): das Zimmer + der Schlüssel = DER Zimmerschlüssel
+ 2. Suffix /     der  ← -er (people/tools: Lehrer, Computer)  -ig  -ling  -ismus  -ant  -ist  -or
+    nominalised  die  ← -ung  -heit  -keit  -schaft  -ion  -tät  -ik  -ur  -ei  -in  -ie  -enz  -age
+                 das  ← -chen  -lein  -um  -ment  -ma  verb-as-noun (das Essen, beim Lesen)
+ 3. Sound /      der  ← male persons · days · months · seasons · weather (Regen, Schnee, Wind)
+    meaning      die  ← -e (Lampe, Straße ~90 %) · female persons · numbers as nouns (die Drei)
+                 das  ← -o · Ge-…(e) · young beings (Kind, Baby) · letters · colours · metals · cities
+ 4. Exception?   → Bind as chunk + plural + agreement phrase (der Termin, -e · einen Termin)
 ```
 
 ## 2. The rule in words
 
-**Gender is arbitrary and attached to the word, not to the thing.** *Das Mädchen* (the girl) is neuter because of `-chen`; *die Sonne* is feminine, *der Mond* masculine. The only reliable method is to learn the article **with** the noun and its plural: *der Tisch, -e*. Say the three words as one word. Use the ending table above to make an educated guess for new nouns; it is right about four times in five, and the plural (A1-06) is a second clue.
+**Gender is attached to the word, not the object — and bare nouns block learning.** *Das Mädchen* (the girl) is neuter because of `-chen`; *die Sonne* is feminine, *der Mond* masculine. Psycholinguistic research shows that learning a bare noun first (`Tisch = table`) *blocks* the article from bonding to it in memory. Always encode and say the article **fused with** the noun and its plural — *der Tisch, -e* — and practise it inside a short agreement phrase (*ein alter Tisch → ich kaufe ihn*). Run new nouns through the **4-step triage** above (~80 % accurate), use the plural ([A1-06](A1-06-plural.md)) as a second clue, and save vivid imagery only for true rule-breakers (full triage, 3-anchor imagery guide, and ~60 telc core chunks in [shared/gender.md](../shared/gender.md)).
 
 **`der / die / das` (definite)** = the listener knows which one: already mentioned, unique, or obvious. *Ich habe ein Auto. **Das** Auto ist alt.*
 
@@ -138,8 +141,8 @@ Make a list of 15 nouns from your daily life as 3-word units (*der Tisch, -e*), 
 
 ## 7. Cards
 
-`A1-05-01` … `A1-05-08` in [review/cards/A1.md](../review/cards/A1.md). Practice them in the **Genau Web App** (**🃏 Queue Cards** above), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-05`.
+`A1-05-01` … `A1-05-14` in [review/cards/A1.md](../review/cards/A1.md) (plus L1 gender-clash agreement cards in your active contrast pack). Practice them in the **Genau Web App** (**🃏 Queue Cards** above or the **A1-05 Gender Chunks & Agreement** set in **Practice**), import the ready-made Anki deck in [review/anki/](../review/anki/README.md), or run `python3 review/review.py add A1-05`.
 
 ## 8. Live drill prompt
 
-> Drill me on A1-05: give me nouns without article (mix reliable endings and exceptions) and ask der/die/das; then sentences where I choose der / ein / no article; then compounds.
+> Drill me on A1-05: run the 4-step gender triage on new nouns and compounds, mix in predictive article-first cues (e.g. "Das ist ein… / eine…" or pronoun follow-ups "er / es / sie"), and test der / ein / no article in sentences. Always correct mistakes as fused chunks + plural (never bare nouns).
