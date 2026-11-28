@@ -127,7 +127,7 @@ export function renderHome() {
           ? ""
           : `<p class="home-lead">
         A free self-study course for the <strong>telc Deutsch B1</strong> exam, equally useful for Goethe, ÖSD and DTZ.
-        Each lesson opens with a short check, teaches the rule with case-coloured diagrams, and feeds spaced-repetition cards. Thirty minutes a day.
+        Each lesson opens with a short check, teaches the rule with case-coloured diagrams, and feeds spaced-repetition cards — built on retrieval practice, spacing, interleaving, and L2 acquisition research (<a class="home-text-link" href="#doc=METHOD.md">read the method and references</a>). Thirty minutes a day.
       </p>`
       }
       ${langChooser}
@@ -158,7 +158,7 @@ export function renderHome() {
       <h2 class="home-sec-title" id="alsoTitle">Also in Genau</h2>
       <ul class="also-list">
         <li><a href="#practice=home">B1 exam practice</a><span>Timed listening with audio, speaking role cards, and letter-writing with revision.</span></li>
-        <li><a href="#doc=shared%2Fcases.md">Reference sheets and mock exams</a><span>Case tables, irregular verbs, word-order charts, the Sprachbausteine bank, two timed B1 mocks.</span></li>
+        <li><a href="#doc=shared%2Fcases.md">Reference sheets and mock exams</a><span>Case tables, noun gender guide, irregular verbs, word-order charts, the Sprachbausteine bank, two timed B1 mocks.</span></li>
         <li><a href="#doc=review%2Fanki%2FREADME.md">Anki decks</a><span>Ready-made decks for A1, A2, B1 and each contrast language.</span></li>
         <li><a href="#doc=PROMPT.md">AI tutor prompt</a><span>Drill any lesson one item at a time with ChatGPT, Claude or Gemini.</span></li>
         <li><a href="https://github.com/laguiar/genau" target="_blank" rel="noopener noreferrer">Source on GitHub</a><span>Every lesson is plain Markdown. Download it for Obsidian or study offline.</span></li>

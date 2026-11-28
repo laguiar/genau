@@ -1,7 +1,6 @@
 @layer views {
   .home-hero {
     padding: 8px 0 34px;
-    border-block-end: 1px solid var(--border);
   }
 
   .home-title {
@@ -12,7 +11,6 @@
     letter-spacing: -0.03em;
     color: var(--text);
     margin: 6px 0 18px;
-    max-inline-size: 20ch;
     text-wrap: balance;
 
     & em {
@@ -27,7 +25,6 @@
     font-size: 17px;
     line-height: 1.65;
     color: var(--text-secondary);
-    max-inline-size: 36em;
     margin: 0 0 26px;
 
     & strong {
@@ -57,6 +54,10 @@
     }
   }
 
+  .home-lead .home-text-link {
+    font-size: inherit;
+  }
+
   .home-today-note {
     margin: 16px 0 0;
     font-size: 13.5px;
@@ -68,7 +69,6 @@
     margin: 0 0 26px;
     padding: 18px 0 2px;
     border-block-start: 1px solid var(--border);
-    max-inline-size: 38em;
   }
 
   .lang-first-title {
@@ -242,7 +242,6 @@
     font-size: 14px;
     line-height: 1.55;
     color: var(--text-muted);
-    max-inline-size: 38em;
 
     & a {
       color: var(--primary);
@@ -392,7 +391,6 @@
     font-size: 13px;
     line-height: 1.65;
     color: var(--text-muted);
-    max-inline-size: 44em;
 
     & a {
       color: var(--text-secondary);
