@@ -106,7 +106,6 @@
     font-size: 14.5px;
     line-height: 1.6;
     color: var(--text-secondary);
-    max-inline-size: 40em;
   }
 
   .cando-label {
@@ -291,7 +290,6 @@
       flex-direction: column;
       gap: 8px;
       margin: 20px 0 24px;
-      max-inline-size: 44em;
     }
 
     & .contrast-box {
@@ -332,13 +330,7 @@
       }
     }
 
-    /* Reading measure: ~70 characters of prose; diagrams & tables use full column */
-    & > :is(p, ul, ol, blockquote, h3),
-    & .details-body > :is(p, ul, ol) {
-      max-inline-size: 34em;
-    }
-
-    /* Book-like serif body prose */
+    /* Book-like serif body prose (column width is already capped by .container at 810px) */
     &.is-lesson > :is(p, ul, ol, blockquote),
     &:not(.is-lesson) > :is(p, ul, ol),
     &.is-lesson .details-body > :is(p, ul, ol) {

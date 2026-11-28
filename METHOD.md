@@ -4,11 +4,11 @@ This is the protocol. It is short on purpose. The evidence behind each rule is a
 
 ## 1. The daily 30 minutes
 
-| Minutes | Activity | Tool |
-|--------:|----------|------|
-| 0–5 | **Review queue.** Answer today's due cards from memory, grade yourself honestly. | `python3 review/review.py quiz` |
-| 5–25 | **Topic work.** Day A: read the explanation, do exercises 1–2, check the key. Day B: exercises 3+, then a live drill (see §4). | `A1/…`, `A2/…`, `B1/…` |
-| 25–30 | **Write.** 3–5 sentences using today's structure, or one paragraph of a letter. Save it in `writing/submissions/`. | `writing/` |
+| Minutes | Activity | Where in Genau |
+|--------:|----------|----------------|
+| 0–5 | **Review queue.** Answer today's due cards from memory and grade yourself honestly. | **Flashcards** (in the app) or [Anki decks](review/anki/README.md) |
+| 5–25 | **Topic work.** Day A: take the diagnostic, read the explanation, do exercises 1–2, check the key. Day B: finish the exercises, then run a live drill (see §4). | **Lessons** (`A1` → `B1`) & **Practice** |
+| 25–30 | **Write.** 3–5 sentences using today's structure, or one paragraph of a letter. | **Practice → Writing** (or AI tutor) |
 
 One topic takes two days on average. Some take one, some three. Nothing breaks if you skip a week: the queue simply has more due cards when you return, and the tracker tells you where you were.
 
@@ -18,13 +18,13 @@ One topic takes two days on average. Some take one, some three. Nothing breaks i
 2. **Explanation, dual-coded.** Every rule is presented twice: in words, and as a table, bracket diagram, or symbol code. The case code is used everywhere:
    `●` Nominativ · `▲` Akkusativ · `■` Dativ · `◆` Genitiv. Word order uses bracket diagrams: `[Pos 1] [VERB] [Mitte…] [VERB-END]`.
 3. **Retrieval before re-reading.** Do the exercises *without* looking back at the tables. Check with the key. Only then re-read the parts you got wrong.
-4. **Log errors.** Every mistake you make goes in `review/error-log.md` with the rule it violated. Errors become cards.
+4. **Log errors.** Keep track of repeated mistakes and the rule they violated so they come back for review (in **Practice**, missed rules automatically schedule a next-day review; with an AI tutor, errors are logged in `review/error-log.md` and turned into cards).
 5. **Produce.** Write 5 sentences (or the writing task in the lesson). The rule is only learned when you can use it in your own sentence.
-6. **Queue.** `python3 review/review.py add <topic-id>` puts the topic's cards into the schedule.
+6. **Queue cards.** Click **Queue Cards** in the lesson toolbar (or add the topic in **Flashcards** / Anki) to put the topic's cards into your spaced-repetition schedule.
 
 ## 3. Spaced repetition (the queue)
 
-The queue lives in `review/schedule.md`, a Markdown table the script reads and writes. Cards live in `review/cards/<level>.md` as `### id` blocks with `Q:` and `A:` lines.
+Review due cards directly in the **Flashcards** tab of the web app, or import the ready-made `.tsv` decks in [review/anki/](review/anki/README.md) into Anki. *(Optional for offline/terminal study: the Markdown queue lives in `review/schedule.md`, cards live in `review/cards/<level>.md`, and `python3 review/review.py` manages them from the command line.)*
 
 Intervals: **1 → 3 → 7 → 14 → 30 → 60 → 120 days**. Grade each answer 0–3:
 
